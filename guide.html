@@ -1,0 +1,3438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facilitator Guide · Data Analysis & Report Writing TOT</title>
+<meta name="description" content="Data Analysis and Report Writing Training of Trainers — Data for Health Initiative, Kigali, Rwanda, 22–26 March 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="index.html">📊 Data Analysis TOT</a>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+<li><a href="agenda.html" class="">Agenda</a></li>
+<li><a href="guide.html" class="active">Facilitator Guide</a></li>
+<li><a href="workbook.html" class="">Participant Workbook</a></li>
+<li><a href="materials.html" class="">Materials</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="page-header">
+  <h1>Facilitator Guide</h1>
+  <p>Session-by-session instructions, timings, trainer tips and annexes — 83 pages in print.</p>
+</header>
+<main>
+<div class="container"><div class="prose">
+<p><strong>Data for Health Initiative</strong></p>
+<p><strong>Data Analysis and Report Writing</strong></p>
+<p><strong>Training of Trainers (TOT)</strong></p>
+<p><strong>FACILITATOR GUIDE</strong></p>
+<p>Monday 22 – Friday 26 March 2027</p>
+<p>Kigali, Rwanda</p>
+<p><em>Saturday 27 March 2027 — Travel day</em></p>
+<p>Funded by Bloomberg Philanthropies</p>
+<p>Implemented with the CDC Foundation</p>
+<p><em>All exercises in this course use 100% synthetic demonstration data for the fictional country of Demoland. No real patient or vital-statistics records are used.</em></p>
+<p><strong>Table of Contents</strong></p>
+<p><em>Note: In Microsoft Word, right-click this field and choose "Update Field" to populate page numbers. In LibreOffice, choose Tools &gt; Update &gt; Indexes and Tables.</em></p>
+<h2>How to Use This Guide</h2>
+<p>This guide is the single reference for anyone facilitating the Data Analysis and Report Writing Training of Trainers (TOT). It is written for a lead facilitator and one co-facilitator working as a pair. Read it cover to cover at least two weeks before the course, then use the day tabs and session plans as your run-of-show during delivery.</p>
+<h3>Conventions used in this guide</h3>
+<ul>
+<li><strong>Session plans:</strong> every session on the authoritative agenda has a full plan — time block, session title (verbatim from the agenda), 3–4 learning objectives, key content with the actual substance you will teach, a minute-by-minute activity plan, materials, facilitator notes, and a TRAINER TIP box on how participants will teach this back home.</li>
+<li><strong>Facilitator notes:</strong> common pitfalls, pacing tips, and what to do when participants finish early or run late. Read the notes for the next session during every tea and lunch break.</li>
+<li><strong>TRAINER TIP boxes:</strong> explain how the 24 participants — who will become in-country trainers — can adapt and re-teach each topic in Bangladesh, Côte d'Ivoire, Rwanda, and Tanzania.</li>
+<li><strong>Demo data references:</strong> all examples use the fictional country "Demoland" and its 12 fictional districts. Patterns are described qualitatively (e.g., Westbrook's rising TB cases) — never quote exact numbers from memory; always say "as shown in the demo dataset" and read values live from the file so your numbers match the answer keys.</li>
+</ul>
+<h3>Facilitation team roles</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th><strong>Responsibilities</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead facilitator</td>
+<td>Owns the clock; delivers plenary sessions; runs debriefs; resolves content questions; approves any agenda adjustment.</td>
+</tr>
+<tr>
+<td>Co-facilitator</td>
+<td>Circulates during exercises and team time; troubleshoots Excel; runs the projector and demo-data files; collects daily evaluation forms; photographs flipcharts for the course record.</td>
+</tr>
+</tbody>
+</table>
+<h2>Course Overview</h2>
+<h3>Background: the Data for Health Initiative</h3>
+<p>The Data for Health (D4H) Initiative, funded by Bloomberg Philanthropies and implemented with the CDC Foundation, partners with governments to strengthen the systems that generate, analyze, and use public-health data — with a particular emphasis on civil registration and vital statistics (CRVS) and routine health information systems such as DHIS2. Better data on births, deaths, and causes of death is the foundation for better policy: governments cannot reduce what they cannot count.</p>
+<p>Within D4H, the Data Analysis Project builds national capacity to turn raw health data into accurate, equity-focused, decision-ready reports. Experience across D4H countries shows that data collection has often outpaced data use — registries and DHIS2 instances hold years of data that are rarely cleaned, rarely disaggregated, and rarely written up. This project closes that gap by training government analysts to clean data in Excel, compute standard indicators, visualize results honestly, and write reports that policymakers actually read.</p>
+<h3>Goal of the Data Analysis Project</h3>
+<p><em>To institutionalize sustainable, equity-focused data analysis and report-writing capacity inside ministries of health and national statistics offices, so that every country can routinely produce high-quality health reports from its own CRVS and routine data systems.</em></p>
+<h3>The eight project objectives</h3>
+<ol>
+<li>Strengthen national capacity in descriptive epidemiology using tools already available in government offices, principally Microsoft Excel.</li>
+<li>Improve the completeness, quality, and documented use of CRVS data, including cause-of-death information.</li>
+<li>Increase the routine analysis and use of DHIS2 and other routine health information system data for program monitoring.</li>
+<li>Embed health-equity analysis — disaggregation by sex, age, geography, and other PROGRESS-Plus dimensions — as standard practice in every report.</li>
+<li>Institutionalize standard operating procedures (SOPs), data dictionaries, and report templates for data access, cleaning, analysis, and writing.</li>
+<li>Build a cadre of certified national trainers able to cascade data-analysis training to subnational staff.</li>
+<li>Improve translation of analytic findings into clear, actionable recommendations for policymakers and program managers.</li>
+<li>Establish monitoring and evaluation of data-use practices so progress can be tracked and course-corrected.</li>
+</ol>
+<h3>The seven project phases</h3>
+<p>The Data Analysis Project runs in seven phases. This TOT course is Phase 1 — everything else builds on the trainers it produces.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Phase</strong></th>
+<th><strong>Name</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Training of Trainers (this course)</td>
+<td>24 mid-level government professionals (6 each from Bangladesh, Côte d'Ivoire, Rwanda, and Tanzania) master descriptive analysis in Excel, equity-focused reporting, and adult training methods.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Country adaptation &amp; cascade training</td>
+<td>National teams adapt the curriculum, translate materials where needed, and train subnational analysts in-country.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Supervised country data-analysis projects</td>
+<td>Country teams analyze their own national datasets with remote mentoring from the project technical team.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Report production &amp; technical review</td>
+<td>Teams draft full IMRAD-structured reports; drafts pass through structured technical review before release.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dissemination &amp; policy dialogue</td>
+<td>Findings are presented to ministry leadership and program managers; recommendations feed into planning cycles.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Institutionalization</td>
+<td>SOPs, data dictionaries, and report templates are formally adopted into ministry procedures and job descriptions.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Evaluation &amp; sustainability planning</td>
+<td>Outcomes are evaluated against the M&amp;E framework; countries plan how the capacity is maintained after project funding ends.</td>
+</tr>
+</tbody>
+</table>
+<h3>Participant profile</h3>
+<p>24 participants, organized as 4 country teams of 6 (Bangladesh, Côte d'Ivoire, Rwanda, Tanzania). They are mid-level government health professionals — typically holding a master's degree with 3+ years of experience — who already work with health data. Baseline skills: Excel fundamentals (SUM, AVERAGE, sort/filter); familiarity with CRVS and DHIS2 concepts. After this TOT they will become the in-country trainers for Phase 2 cascade trainings, so every session should be delivered with one eye on content mastery and the other on how they will re-teach it.</p>
+<h3>Course logistics at a glance</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Item</strong></th>
+<th><strong>Detail</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dates</td>
+<td>Monday 22 – Friday 26 March 2027 (Saturday 27 March = travel day)</td>
+</tr>
+<tr>
+<td>Venue</td>
+<td>Kigali, Rwanda (plenary room + 4 breakout tables)</td>
+</tr>
+<tr>
+<td>Daily rhythm</td>
+<td>9:00–17:00; tea 10:30–11:00; lunch 13:00–14:00</td>
+</tr>
+<tr>
+<td>Class size</td>
+<td>24 participants in 4 country teams of 6</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>English; francophone participants (Côte d'Ivoire) may discuss in French at tables but present in English</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>100% synthetic demo data for fictional Demoland; 12 fictional districts: Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, Pinehurst</td>
+</tr>
+</tbody>
+</table>
+<h2>Course Learning Objectives</h2>
+<p>By the end of the five days, participants will be able to:</p>
+<ol>
+<li>Explain the Data for Health Initiative, the Data Analysis Project's goal, objectives and phases, and their own role as national trainers in Phase 2 cascade trainings.</li>
+<li>Apply a health-equity lens to data analysis using the PROGRESS-Plus framework, identifying which dimensions of inequality their country's data can and cannot illuminate.</li>
+<li>Set precise, answerable data-analysis objectives that link a policy or program question to the right data, indicators, and disaggregations.</li>
+<li>Clean real-world-style messy datasets in Excel (Text-to-Columns, Remove Duplicates, TRIM, find-and-replace, validation) and combine datasets with VLOOKUP/XLOOKUP so analysis starts from trustworthy data.</li>
+<li>Calculate core descriptive indicators in Excel — counts, proportions, incidence and notification rates using census denominators, means, medians, and measures of spread — and choose the right summary for the data at hand.</li>
+<li>Use pivot tables to produce stratified analyses (by sex, age group, district, year) efficiently and reproducibly.</li>
+<li>Structure a technical report using IMRAD (Introduction, Methods, Results, and Discussion), and draft policy-ready recommendations.</li>
+<li>Design honest, publication-quality tables, figures, and district maps in Excel following best-practice rules for clarity and accessibility.</li>
+<li>Produce and present a 10-slide country-team mini analysis report from synthetic data, and defend its methods and conclusions under questioning.</li>
+<li>Plan and deliver a cascade training session back home using adult-learning training methodologies (demonstration, guided practice, feedback).</li>
+</ol>
+<h2>Monitoring &amp; Evaluation Framework</h2>
+<h3>Pre/post-test plan</h3>
+<p>A written knowledge test is administered twice: Monday 9:00 during welcome (pre-test, 30 minutes) and Friday 16:00 during wrap-up (post-test, 30 minutes). The two forms are parallel — same blueprint, different item wording — so score gains reflect learning, not memorization.</p>
+<ul>
+<li><strong>Format:</strong> 25 multiple-choice questions (1 point each) + 2 short-answer questions (5 points each) = 35 points total.</li>
+<li><strong>Blueprint:</strong> 5 items on D4H/project concepts and equity; 5 on data cleaning and combining datasets; 5 on rates, descriptive statistics, and pivot tables; 5 on IMRAD, tables, figures, maps, and recommendations; 5 on training methodologies. Short answers: (1) compute and interpret an incidence rate from a small table; (2) critique a flawed chart and rewrite its takeaway.</li>
+<li><strong>Pass standard:</strong> post-test score of 70% (24.5/35) plus demonstrated competence in the group project. The test measures knowledge; the group project measures applied skill.</li>
+<li><strong>Logistics:</strong> print 30 copies of each form; participants write a 4-digit anonymous code (last 4 digits of phone number) on both forms so pre/post can be matched without names. Co-facilitator scores within one week; aggregate results feed the course report.</li>
+<li><strong>Use of results:</strong> report mean gain and % reaching the pass standard overall and by country team. Items missed by &gt;50% of participants flag topics needing reinforcement in Phase 2 cascade trainings.</li>
+</ul>
+<h3>Daily evaluation forms</h3>
+<p>A one-page form is distributed at 16:45 each day and collected before participants leave. It asks: (1) the most useful thing learned today (free text); (2) one thing still unclear (free text); (3) pace rating (too slow / about right / too fast); (4) confidence to teach today's hardest topic back home (1–5 scale). The co-facilitator tallies responses each evening; the lead facilitator addresses the top 2–3 unclear items in the next morning's debrief. This is the course's early-warning system — use it.</p>
+<h3>Competency tracking matrix</h3>
+<p>The table below maps each core competency to the day(s) on which it is taught (T), practiced in an exercise (P), and assessed (A) via the pre/post-test, daily evaluations, or the group project rubric.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Competency</strong></th>
+<th><strong>Day 1</strong></th>
+<th><strong>Day 2</strong></th>
+<th><strong>Day 3</strong></th>
+<th><strong>Day 4</strong></th>
+<th><strong>Day 5</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D4H project knowledge &amp; trainer role</td>
+<td>T, A</td>
+<td></td>
+<td></td>
+<td></td>
+<td>T, A</td>
+</tr>
+<tr>
+<td>Health-equity analysis (PROGRESS-Plus)</td>
+<td>T, P</td>
+<td></td>
+<td>P</td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Data-analysis objectives</td>
+<td>T, P</td>
+<td></td>
+<td></td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Data cleaning in Excel</td>
+<td>T, P, A</td>
+<td>P</td>
+<td></td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>Combining datasets (VLOOKUP/XLOOKUP)</td>
+<td>T, P, A</td>
+<td></td>
+<td></td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>Rates with census denominators</td>
+<td></td>
+<td>T, P, A</td>
+<td></td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>Descriptive statistics</td>
+<td></td>
+<td>T, P, A</td>
+<td></td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>Pivot tables</td>
+<td></td>
+<td>T, P, A</td>
+<td></td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>IMRAD report structure</td>
+<td></td>
+<td></td>
+<td>T, P, A</td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Tables best practice</td>
+<td></td>
+<td></td>
+<td>T, P, A</td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Figures best practice</td>
+<td></td>
+<td></td>
+<td>T, P, A</td>
+<td>P</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Maps in Excel</td>
+<td></td>
+<td></td>
+<td>T, P</td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>Report templates &amp; recommendations</td>
+<td></td>
+<td></td>
+<td></td>
+<td>T, P, A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Training methodologies</td>
+<td></td>
+<td>T, A</td>
+<td></td>
+<td></td>
+<td>T, P, A</td>
+</tr>
+<tr>
+<td>Team analysis project &amp; presentation</td>
+<td>P</td>
+<td>P</td>
+<td>P</td>
+<td>T, P</td>
+<td>T, P, A</td>
+</tr>
+</tbody>
+</table>
+<h3>Group project rubric (summary)</h3>
+<p>Full rubric with performance descriptors is in Section 7 (Group Project Guidance). In brief, each country-team report is scored 0–4 on: analysis objectives; data cleaning and methods transparency; correct indicators and rates; equity disaggregation; table quality; figure quality; IMRAD structure; recommendations; presentation delivery; and response to questions. Maximum 40 points; 28+ = proficient.</p>
+<h2>Materials Checklist</h2>
+<p>Confirm every item no later than Friday 19 March 2027 (one full week before the course). Tick off with the co-facilitator during the venue walk-through.</p>
+<h3>Technology</h3>
+<ul>
+<li>24 participant laptops with Microsoft Excel 2016 or later installed and licensed; Power Pivot / 3D Maps not required. Test XLOOKUP availability — on Excel 2016/2019 machines, confirm INDEX/MATCH works as the fallback and note it in the session plan.</li>
+<li>2 facilitator laptops (primary + backup) with the full demo-data folder, answer keys, slide decks, and this guide.</li>
+<li>Projector + screen, HDMI and VGA cables, clicker with spare batteries, extension cords and a power strip per table.</li>
+<li>USB flash drives (30) pre-loaded with the Demoland demo-data folder as offline backup; also share the folder link in advance.</li>
+<li>Reliable Wi-Fi for 30 devices; a printed offline fallback for any web-dependent step (there are none in the core agenda, by design).</li>
+</ul>
+<h3>Printed materials (quantities for 24 participants + 4 facilitators/staff)</h3>
+<ul>
+<li>Participant workbooks (28): printed session handouts, exercise worksheets, and the Excel formula quick-reference (Annex B).</li>
+<li>Pre-test and post-test forms (30 each), anonymous-code slips, daily evaluation forms (30 × 5 days = 150).</li>
+<li>Group project assignment sheet and rubric (28).</li>
+<li>Tent cards with participant names, country flags for the 4 team tables.</li>
+<li>Completion certificates (24 + 2 facilitators), sign-in sheets (5 days).</li>
+</ul>
+<h3>Demo data files (Demoland, 100% synthetic)</h3>
+<ul>
+<li>DA-TOT_Demo_TB-Register_2021-2025.xlsx — TB case notifications by district, year, sex, age group. Baked-in patterns: gradual national decline 2021–2025; Westbrook district rising; ~60–65% male burden.</li>
+<li>DA-TOT_Demo_Mortality-CRVS_2021-2025.xlsx — death registrations by district, year, sex, age group; Riverside district visibly incomplete (use to teach data quality assessment, not to compute rates).</li>
+<li>DA-TOT_Demo_Census-Population.xlsx — district populations by sex and age group (denominators for rates).</li>
+<li>DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx — intentionally dirty file for the Day 1 cleaning exercise (duplicates, inconsistent district spellings, text-numbers, leading/trailing spaces, impossible dates).</li>
+<li>Answer keys (facilitators only): cleaned file, rate calculations, pivot outputs, model tables/figures. Never distribute before the exercise.</li>
+</ul>
+<h3>Room supplies</h3>
+<ul>
+<li>Flipchart stands (4, one per country team) + flipchart paper pads (8) + markers (4 sets, dark colors).</li>
+<li>Sticky notes (assorted), masking tape, scissors.</li>
+<li>Printed agenda (28), venue map, emergency contacts.</li>
+<li>Water, tea/coffee service aligned to the 10:30 tea break; lunch 13:00–14:00.<blockquote>
+<p><strong>TRAINER TIP</strong> — Ask each country team to bring one real (de-identified, aggregate-only) example of a national report or DHIS2 export on Day 1 for the SOP discussion. Seeing real SOPs next to the Demoland demo data makes the data-access conversation concrete — and gives teams material to adapt templates to in Phase 2.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Group Project Guidance</h2>
+<h3>The assignment</h3>
+<p>Working in their 4 country teams of 6, participants produce a 10-slide mini analysis report using the Demoland synthetic datasets, presented on Friday morning (Day 5, 9:30–11:30). Each team chooses one analytic focus from the menu below — first-come, first-served at the end of Day 1, so all four topics are covered across teams:</p>
+<ol>
+<li>TB trends and equity, 2021–2025: national trend, Westbrook's rise, sex and age patterns, district comparison.</li>
+<li>TB case notification rates using census denominators: which districts carry the highest burden once population size is accounted for?</li>
+<li>Mortality registration completeness: quantify and visualize Riverside's under-registration and discuss implications for interpreting mortality indicators.</li>
+<li>Subnational disparities in TB burden: rank districts, map the burden, and identify priority districts for intensified case finding.
+Each 10-slide report must contain: title slide; analysis objectives (1 slide); methods and data sources including cleaning steps (1–2 slides); results with at least 2 publication-quality tables and 2 figures (4–5 slides); equity interpretation (1 slide); recommendations (1 slide). Presentations are 15 minutes + 5 minutes of questions.</li>
+</ol>
+<h3>Milestones by day</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Day</strong></th>
+<th><strong>Milestone (due end of day)</strong></th>
+<th><strong>Facilitator check</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1 (Mon)</td>
+<td>Topic chosen; draft analysis objectives written on flipchart.</td>
+<td>Lead reviews objectives for precision during team time.</td>
+</tr>
+<tr>
+<td>Day 2 (Tue)</td>
+<td>Data cleaned; denominators merged; first pivot-table stratifications produced.</td>
+<td>Co-facilitator spot-checks one pivot per team for correct rate math.</td>
+</tr>
+<tr>
+<td>Day 3 (Wed)</td>
+<td>Draft tables and figures built to best-practice rules; IMRAD outline of the report drafted.</td>
+<td>Lead reviews one table and one figure per team against the checklists.</td>
+</tr>
+<tr>
+<td>Day 4 (Thu)</td>
+<td>Full 10-slide deck drafted; recommendations written; one full rehearsal completed.</td>
+<td>14:00 check-in: each team reports status; facilitators unblock.</td>
+</tr>
+<tr>
+<td>Day 5 (Fri)</td>
+<td>Final slides submitted by 9:00; presentations 9:30–11:30.</td>
+<td>Score with the rubric during presentations.</td>
+</tr>
+</tbody>
+</table>
+<h3>Assessment rubric</h3>
+<p>Score each criterion 0–4. 4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning, 0 = missing. Maximum 40 points; 28+ = proficient.</p>
+<table>
+<thead>
+<tr>
+<th><strong>#</strong></th>
+<th><strong>Criterion (weight ×1 each)</strong></th>
+<th><strong>What 'proficient (3)' looks like</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Analysis objectives</td>
+<td>Objectives are specific, answerable, and linked to indicators and disaggregations.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Data cleaning &amp; methods transparency</td>
+<td>Cleaning steps documented; messy-data issues in Demoland files identified and handled.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Correct indicators and rates</td>
+<td>Numerators/denominators correct; rates use census population; multipliers stated.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Equity disaggregation</td>
+<td>Results stratified by at least sex and district; PROGRESS-Plus gaps honestly noted.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Table quality</td>
+<td>Follows best-practice rules: clear titles, units, no gridline clutter, aligned decimals.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Figure quality</td>
+<td>Honest axes (zero baseline for bars), readable labels, color-blind-safe palette, takeaway title.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>IMRAD structure</td>
+<td>Report follows Introduction–Methods–Results–Discussion; no results in methods, no new data in discussion.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Recommendations</td>
+<td>Specific, actionable, audience-appropriate; linked to findings; no overclaiming beyond the data.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Presentation delivery</td>
+<td>Within 15 minutes; all members speak; slides support rather than duplicate speech.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Response to questions</td>
+<td>Answers accurately; admits limits of the data when appropriate.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — When teams present, require one slide titled 'What we cannot say from this data' — it trains the humility that separates trustworthy analysts from dangerous ones, and it previews the limitations section of IMRAD. Back home, make this slide mandatory in every cascade-training project.</p>
+</blockquote>
+<h2>Day 1 — Monday 22 March 2027: Foundations and Data Preparation</h2>
+<p><em>Theme: who we are, why equity comes first, and how trustworthy analysis begins with clean, well-combined data. By 17:00 every team has chosen its project topic and drafted analysis objectives.</em></p>
+<h3>Day 1 (Mon 22 Mar)  |  9:00–9:30</h3>
+<h4>Welcome and introductions</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Describe the week's working norms and the dual goal: master the content, learn to teach it.</li>
+<li>Complete the pre-test under standard conditions.</li>
+<li>Name every fellow participant and their country team.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Set the tone: this is a working course, not a lecture series. Participants will be on their laptops from the first hour, and by Friday they will present a real analysis. Three messages to land in the first 30 minutes:</p>
+<ul>
+<li><strong>You are becoming trainers.</strong> Everything this week is taught twice: once for your own mastery, once for how you will re-teach it in Phase 2 cascade trainings back home.</li>
+<li><strong>All data this week is synthetic.</strong> Demoland is fictional; its 12 districts are fictional. This frees us to make mistakes safely — and means no real records ever leave this room.</li>
+<li><strong>Equity is the lens, not a lecture.</strong> Every analysis this week is stratified; every report answers 'who is being left behind?'
+Run the pre-test (25 MCQs + 2 short-answer, 30 minutes, anonymous 4-digit code). Collect before introductions so the morning stays on schedule.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:05</td>
+<td>5</td>
+<td>Lead facilitator: welcome, course purpose in 3 sentences, housekeeping (venue, wifi, breaks, travel Saturday).</td>
+</tr>
+<tr>
+<td>9:05–9:10</td>
+<td>5</td>
+<td>Distribute pre-test; explain the anonymous 4-digit code (last 4 digits of phone number); stress it is diagnostic, not graded for certification.</td>
+</tr>
+<tr>
+<td>9:10–9:25</td>
+<td>15</td>
+<td>Pre-test in silence. Co-facilitator circulates, collects as participants finish.</td>
+</tr>
+<tr>
+<td>9:25–9:30</td>
+<td>5</td>
+<td>Rapid introductions: name, country, role, one sentence on the hardest data problem they face at work. Strict 20 seconds each — use the clicker timer visibly.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Pre-test forms (30), anonymous-code slips, pens</li>
+<li>Tent cards, sign-in sheet</li>
+<li>Timer visible on screen</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Protect the clock ruthlessly.</strong> Introductions overrun in every course ever run; the visible timer and 20-second rule keep 24 people inside 5 minutes. Anyone who needs more airtime gets it at tea.</li>
+<li><strong>If the pre-test runs long,</strong> collect at 9:25 regardless and let slow finishers complete it during the first tea break — never steal time from the D4H introduction.</li>
+<li><strong>Learn two names per table</strong> during circulation; using names from hour one builds the participatory culture the week depends on.<blockquote>
+<p><strong>TRAINER TIP</strong> — Back home, open your cascade training the same way: a diagnostic pre-test followed by 20-second introductions. It signals immediately that the training is about doing, and the pre-test gives you a baseline to prove impact to your ministry.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  9:30–10:00</h3>
+<h4>Introduction to the Data for Health Initiative Data Analysis Project</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Summarize the D4H Initiative's purpose, funder, and implementing partner.</li>
+<li>State the Data Analysis Project's goal and its 8 objectives.</li>
+<li>Locate this TOT as Phase 1 of 7 and describe the participant's trainer role in Phase 2.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Tell the story in this order: problem → initiative → project → phases → their role.</p>
+<ul>
+<li><strong>The problem:</strong> ministries collect more health data than ever — CRVS, DHIS2, surveys — but too little of it is cleaned, analyzed, and written up for decision-makers. Data collection has outpaced data use.</li>
+<li><strong>The Data for Health Initiative:</strong> funded by Bloomberg Philanthropies and implemented with the CDC Foundation, D4H partners with governments to strengthen CRVS and routine health information systems so policy rests on counted, not guessed, reality.</li>
+<li><strong>The Data Analysis Project:</strong> its goal is to institutionalize sustainable, equity-focused analysis and report-writing capacity inside ministries of health and statistics offices. Walk through the 8 objectives and 7 phases from the Course Overview — dwell on Phase 1 (this TOT) and Phase 2 (their cascade trainings), because those two are theirs to deliver.</li>
+<li><strong>Their role:</strong> they are not here as students collecting a certificate; they are the national trainer cadre. Everything they produce this week — slides, cleaning logs, report templates — is material they will reuse at home.
+Close with the week's arc: Monday–Tuesday we build analytic muscle in Excel; Wednesday we learn to communicate (IMRAD, tables, figures, maps); Thursday–Friday teams produce and defend a real mini-report. Friday afternoon they plan the cascade.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30–9:40</td>
+<td>10</td>
+<td>Lead presents: problem → D4H → project goal → 8 objectives (slides 1–6).</td>
+</tr>
+<tr>
+<td>9:40–9:50</td>
+<td>10</td>
+<td>Walk the 7 phases; emphasize Phase 1 → Phase 2 handoff. Show where each participating country sits.</td>
+</tr>
+<tr>
+<td>9:50–10:00</td>
+<td>10</td>
+<td>Q&amp;A. Seed one question if the room is quiet: 'What would success look like in your ministry one year from now?' Park answers on a flipchart titled 'Our vision' — revisit Friday.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: D4H-Data-Analysis-Project.pptx</li>
+<li>Flipchart: 'Our vision'</li>
+<li>Printed Course Overview (in workbook)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Do not read the 8 objectives off the slide.</strong> State each in one plain sentence and give a one-line country-flavored example (e.g., objective 4 on SOPs: 'so the next analyst inherits a method, not a mystery').</li>
+<li><strong>Watch for the misconception</strong> that D4H will analyze their data for them — correct it explicitly: the project builds their capacity; the analysis is theirs.</li>
+<li><strong>If Q&amp;A runs hot,</strong> promise a 5-minute parking lot at 10:25 and move on; energy is high and the schedule session needs its full 30 minutes.<blockquote>
+<p><strong>TRAINER TIP</strong> — Re-teach this as a 10-minute story, not a 30-minute lecture: problem → initiative → project → 'and that is why you are in this room.' Adult learners remember narratives; they forget objective lists. Keep the printed overview as the take-home reference.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  10:00–10:30</h3>
+<h4>Review the TOT schedule and team project</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Navigate the 5-day agenda and state each day's tangible output.</li>
+<li>Describe the group project deliverable, milestones, and rubric.</li>
+<li>Claim a project topic as a country team.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Walk the full 5-day agenda day by day, naming the tangible output of each day. Then detail the group project: the 4 topic choices, the 10-slide structure, the day-by-day milestones, and the rubric. Emphasize the assessment logic: pre/post-test measures knowledge, the project measures applied skill, daily forms steer the course.</p>
+<p>Run topic selection now: each country team confers for 5 minutes and claims one of the four topics (first-come, first-served). Record claims on the flipchart so there are no duplicates.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10:00–10:12</td>
+<td>12</td>
+<td>Lead walks the agenda wall-chart day by day; participants follow in workbooks. Name each day's output.</td>
+</tr>
+<tr>
+<td>10:12–10:22</td>
+<td>10</td>
+<td>Group project briefing: deliverable, 10-slide structure, milestones, rubric (1 page in workbook).</td>
+</tr>
+<tr>
+<td>10:22–10:30</td>
+<td>8</td>
+<td>Teams huddle, choose topics, report to plenary; facilitator records on flipchart. Questions.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Agenda wall-chart (large print)</li>
+<li>Group project assignment sheet + rubric (in workbook)</li>
+<li>Flipchart for topic claims</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Get the topic claims in writing on the flipchart</strong> before tea — disputes after the break waste time.</li>
+<li><strong>If two teams want the same topic,</strong> let the team that speaks first keep it; the 'loser' almost always discovers their second choice was richer once they open the data.</li>
+<li><strong>End with the Friday picture:</strong> 'On Friday morning you present to this room as if we are your ministry leadership.' It focuses the week.<blockquote>
+<p><strong>TRAINER TIP</strong> — In cascade trainings, do topic selection on day 1 as well — even a 3-day course benefits. Early ownership converts participants from audience to analysts, and the milestone table gives you a built-in progress check each morning.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  10:30–11:00</h3>
+<h4>Tea</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Use tea breaks to read the room: which table finished the pre-test fastest (likely your Excel-strong table), who is quiet, who needs the francophone glossary. Adjust examples accordingly.</p>
+</blockquote>
+<h3>Day 1 (Mon 22 Mar)  |  11:00–12:00</h3>
+<h4>Principles of Equity</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Define health equity and distinguish it from equality.</li>
+<li>List the PROGRESS-Plus dimensions and apply them to a health dataset.</li>
+<li>Explain why disaggregation is the core analytic habit of equity.</li>
+<li>Identify what a dataset cannot reveal about equity and state it honestly.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Open with the definition. Health equity means everyone has a fair and just opportunity to be as healthy as possible — which requires removing obstacles such as poverty, discrimination, and unequal access to care. Equity is not equality: equality gives everyone the same thing; equity gives people what they need to reach the same outcome. Draw the classic three-panels graphic (boxes/fence) on the flipchart — it lands in every culture.</p>
+<p>Introduce PROGRESS-Plus as the standard checklist for asking 'who might be left behind?' in any dataset:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Dimension</strong></th>
+<th><strong>What it captures</strong></th>
+<th><strong>Example in health data</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P — Place of residence</td>
+<td>Urban/rural, district, distance to facility</td>
+<td>Westbrook vs. national TB trend in Demoland</td>
+</tr>
+<tr>
+<td>R — Race / ethnicity</td>
+<td>Ethnic or racial group</td>
+<td>Often unrecorded — note the gap honestly</td>
+</tr>
+<tr>
+<td>O — Occupation</td>
+<td>Job type, informal labor, health workers</td>
+<td>Miners and TB risk</td>
+</tr>
+<tr>
+<td>G — Gender / sex</td>
+<td>Sex and gender</td>
+<td>~60–65% male TB burden in Demoland</td>
+</tr>
+<tr>
+<td>R — Religion</td>
+<td>Religious affiliation</td>
+<td>Affects care-seeking in some settings</td>
+</tr>
+<tr>
+<td>E — Education</td>
+<td>Literacy, schooling</td>
+<td>Treatment adherence gradients</td>
+</tr>
+<tr>
+<td>S — Socioeconomic status</td>
+<td>Wealth, income, insurance</td>
+<td>Catastrophic TB costs</td>
+</tr>
+<tr>
+<td>S — Social capital</td>
+<td>Networks, support, marginalization</td>
+<td>Migrants' access to DOT</td>
+</tr>
+<tr>
+<td>Plus: age</td>
+<td>Age groups</td>
+<td>TB concentration in working ages</td>
+</tr>
+<tr>
+<td>Plus: disability</td>
+<td>Disability status</td>
+<td>Barriers to facility access</td>
+</tr>
+</tbody>
+</table>
+<p>Three analytic habits to drill all week:</p>
+<ol>
+<li>Disaggregate by default — never present only a national average. In Demoland, the national TB decline hides Westbrook's rise; the average is the lie that equity analysis corrects.</li>
+<li>Name what the data cannot show — if ethnicity or wealth is not recorded, say so in Methods and Limitations rather than pretending the analysis is complete.</li>
+<li>Interpret gaps as signals, not noise — Riverside's incomplete mortality registration is a finding about the system, and the recommendation writes itself (strengthen registration there).
+Close with the week's equity rule: every table, every figure, every report this week is stratified by at least sex and district, and every discussion section names who might be missing from the data.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00–11:10</td>
+<td>10</td>
+<td>Hook: show Demoland national TB trend (declining) then overlay Westbrook (rising). 'Who does the national average hide?' Pair discussion.</td>
+</tr>
+<tr>
+<td>11:10–11:25</td>
+<td>15</td>
+<td>Mini-lecture: equity vs. equality (fence graphic), PROGRESS-Plus walkthrough with the table above.</td>
+</tr>
+<tr>
+<td>11:25–11:45</td>
+<td>20</td>
+<td>Table exercise: each country team takes the Demoland TB file's available variables and maps them onto PROGRESS-Plus — which dimensions can we analyze, which are missing, and what would we add? Flipchart per team.</td>
+</tr>
+<tr>
+<td>11:45–12:00</td>
+<td>15</td>
+<td>Gallery walk + plenary: 2 minutes per team. Facilitator synthesizes: the three analytic habits.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Equity-Principles.pptx</li>
+<li>Flipcharts (4) + markers</li>
+<li>DA-TOT_Demo_TB-Register_2021-2025.xlsx open on laptops</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The fence graphic is non-negotiable —</strong> draw it even if the slides fail. Participants photograph it and reuse it for years.</li>
+<li><strong>Push back gently</strong> when teams claim their data 'has no equity issues' — ask which PROGRESS-Plus dimensions are simply unmeasured.</li>
+<li><strong>If the exercise runs long,</strong> cut the gallery walk to 1 minute per team; protect the 12:00 SOP session start.<blockquote>
+<p><strong>TRAINER TIP</strong> — Teach PROGRESS-Plus as a checklist taped inside every analyst's notebook: before any analysis, run down the letters and tick what the dataset covers. In cascade trainings this 60-minute session becomes the moral compass for everything after — never compress it below 45 minutes.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  12:00–12:30</h3>
+<h4>Group Projects: Country teams report on SOPs and challenges accessing data</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Define SOP and its role in reliable data access.</li>
+<li>Report their country's SOP landscape and top data-access barrier.</li>
+<li>Compare barriers and enablers across the four countries.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Frame: the best analysis in the world cannot happen if analysts cannot get the data. A Standard Operating Procedure (SOP) is a written, step-by-step instruction for a routine task — here: requesting, accessing, cleaning, storing, and sharing health data. Good SOPs name the data owner, the request route, the approval timeline, the format delivered, and the confidentiality rules.</p>
+<p>Each country team reports (5 minutes each): Do you have written SOPs for data access? Who owns CRVS/DHIS2 data in your setting? What is the single biggest barrier — legal, bureaucratic, technical, or trust? One scribe per team captures barriers on flipchart.</p>
+<p>Facilitator synthesizes across the four countries: common barriers (unclear ownership, paper-to-digital gaps, no data dictionaries, fear of blame when data look bad) and common enablers (a named data focal point, MOUs between agencies, scheduled data-release calendars). Link forward: project objective 5 is institutionalizing SOPs, and Thursday's report-template session returns to documentation.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12:00–12:05</td>
+<td>5</td>
+<td>Lead frames: SOP definition, why access precedes analysis. Pose the three report questions.</td>
+</tr>
+<tr>
+<td>12:05–12:25</td>
+<td>20</td>
+<td>Country reports: 5 minutes each, timed. Scribe captures barriers on team flipchart.</td>
+</tr>
+<tr>
+<td>12:25–12:30</td>
+<td>5</td>
+<td>Lead synthesizes: common barriers vs. enablers; link to objective 5 and Thursday.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Flipcharts (4) + markers</li>
+<li>Timer</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Keep each country to 5 minutes —</strong> this session bleeds into lunch if you let war stories run. Promise a longer exchange at a later tea break.</li>
+<li><strong>Draw out the quiet country</strong> with a direct question; otherwise the most vocal health system dominates.</li>
+<li><strong>Photograph all four flipcharts —</strong> they become an annex in the course report and baseline material for Phase 2 SOP work.<blockquote>
+<p><strong>TRAINER TIP</strong> — Back home, run this as the opening of your cascade training too: it surfaces the real constraints your trainees face and lets you tailor every later session. Collect the barriers in writing — they are your needs assessment.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  13:00–14:00</h3>
+<h4>Lunch</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Sit with a different country team each day. Lunch is where you learn which participants are already Excel-strong (recruit them as table helpers) and who may need extra support.</p>
+</blockquote>
+<h3>Day 1 (Mon 22 Mar)  |  14:00–15:00</h3>
+<h4>Establish data analysis objectives</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Distinguish weak from strong analysis objectives using the five-part anatomy.</li>
+<li>Rewrite a vague objective into a precise, answerable one.</li>
+<li>Draft 2–3 analysis objectives for their team project topic.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>A data-analysis objective is a precise, answerable question that links a policy or program concern to data, indicators, and disaggregations. Vague objectives produce vague analyses. Teach the anatomy of a strong objective — Population, Indicator, Disaggregation, Timeframe, Comparison:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Weak objective</strong></th>
+<th><strong>Strong objective</strong></th>
+<th><strong>Why it is stronger</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Analyze TB data.</td>
+<td>Describe TB case notification trends by district, sex, and age group in Demoland, 2021–2025, and identify districts deviating from the national trend.</td>
+<td>Names indicator, disaggregations, timeframe, and the analytic task (identify deviating districts).</td>
+</tr>
+<tr>
+<td>Look at mortality.</td>
+<td>Assess completeness of death registration by district in Demoland, 2021–2025, by comparing registered deaths against expected levels, to prioritize registration strengthening.</td>
+<td>Defines the measure (completeness), method (vs. expected), and use (prioritization).</td>
+</tr>
+<tr>
+<td>Study equity.</td>
+<td>Compare TB notification rates between males and females and across districts in Demoland in 2024 using census denominators, to quantify sex and geographic inequities.</td>
+<td>Specifies rate (needs denominator), comparison groups, year.</td>
+</tr>
+</tbody>
+</table>
+<p>Rules to drill: one objective = one question; name the indicator and its numerator/denominator; name every disaggregation up front (it dictates how you clean and structure the data); state the timeframe; say what decision the answer will inform. If an objective cannot be answered with the available data, rewrite the objective — do not torture the data.</p>
+<p>Demonstrate live: take a participant-suggested vague objective and rewrite it on the flipchart using the five-part anatomy. Then teams draft 2–3 objectives for their chosen project topic — these become slide 2 of Friday's deck.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:00–14:15</td>
+<td>15</td>
+<td>Mini-lecture: why objectives come before data; the five-part anatomy (Population, Indicator, Disaggregation, Timeframe, Comparison).</td>
+</tr>
+<tr>
+<td>14:15–14:30</td>
+<td>15</td>
+<td>Live rewrite demo: take 2–3 vague objectives from the room and rebuild them on flipchart.</td>
+</tr>
+<tr>
+<td>14:30–14:55</td>
+<td>25</td>
+<td>Team exercise: draft 2–3 objectives for the team's project topic on flipchart. Facilitators circulate and sharpen wording.</td>
+</tr>
+<tr>
+<td>14:55–15:00</td>
+<td>5</td>
+<td>Lead spot-checks 2 teams' objectives aloud; corrections as teaching moments.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Analysis-Objectives.pptx</li>
+<li>Flipcharts (4)</li>
+<li>Workbook: objective-writing worksheet</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The most common flaw</strong> is objectives without denominators ('compare TB burden across districts' using counts). Catch it now — it foreshadows Tuesday's rates session.</li>
+<li><strong>Circulate with a red pen mentality:</strong> every objective must name its disaggregations, or the team will discover on Wednesday they never structured the data for it.</li>
+<li><strong>If teams finish early,</strong> have them rank their objectives by policy urgency — it previews Thursday's recommendations session.<blockquote>
+<p><strong>TRAINER TIP</strong> — Make objective-writing the first exercise of every cascade training, using trainees' own program questions. Analysts who can write a sharp objective rarely produce a fuzzy report — it is the highest-leverage hour you will teach.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  15:00–16:00</h3>
+<h4>Cleaning data in Excel</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Execute the standard 8-step cleaning sequence on a messy dataset.</li>
+<li>Use Text-to-Columns, TRIM, Remove Duplicates, and Find &amp; Replace correctly.</li>
+<li>Apply Data Validation to prevent future entry errors.</li>
+<li>Maintain a cleaning log suitable for a Methods section.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Frame with the rule: every hour of cleaning saves three hours of arguing about wrong results. Dirty data is not a moral failing — the Demoland messy file is typical of real DHIS2/CRVS extracts. Teach the standard cleaning sequence, demonstrating each step live on DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx before participants replicate:</p>
+<ol>
+<li>Inspect first: sort each column, scan for blanks, odd values, and inconsistent spellings (e.g., 'Westbrook' vs 'westbrook ' vs 'West brook'). Never clean what you have not looked at.</li>
+<li>TRIM leading/trailing spaces: =TRIM(A2), then Paste Special → Values over the original. Spaces are the commonest cause of failed lookups.</li>
+<li>Text-to-Columns (Data tab): split combined fields (e.g., 'Westbrook_2024' or 'M;25-34') using delimiters; also converts text-numbers to numbers (choose General format on the last wizard step).</li>
+<li>Remove Duplicates (Data tab): select the full table first, then tick only the columns that define a true duplicate (e.g., district + year + sex + age group) — removing on all columns can delete valid rows.</li>
+<li>Standardize categories with Find &amp; Replace (Ctrl+H): unify district spellings and sex codes ('M'/'Male'/'m'). Replace in a copy, verify counts before/after with COUNTIF.</li>
+<li>Fix dates: ensure Excel recognizes them as dates (they right-align); use Text-to-Columns with Date format or =DATEVALUE for text dates; flag impossible dates (e.g., 32/13/2024) for the source team.</li>
+<li>Validate: Data → Data Validation to lock categorical columns to a list (district names, sex), preventing future typos at entry.</li>
+<li>Document everything in a cleaning log: file name, date, each step, rows before/after. The log goes into the report's Methods section.
+Key cautions: always work on a copy (never the raw extract); keep the raw file untouched so cleaning is reproducible; check row counts before and after each destructive step; and treat Riverside-style incompleteness as a data-quality finding to report, not missing cells to silently fill.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15:00–15:20</td>
+<td>20</td>
+<td>Live demo: lead cleans DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx on the projector, narrating each of the 8 steps and the cautions.</td>
+</tr>
+<tr>
+<td>15:20–15:50</td>
+<td>30</td>
+<td>Guided practice: participants replicate on their own copy; co-facilitator troubleshoots. Fast finishers start the cleaning log.</td>
+</tr>
+<tr>
+<td>15:50–16:00</td>
+<td>10</td>
+<td>Plenary: compare row counts before/after; each table names the dirtiest issue they found. Lead links to SOPs (validation at entry beats cleaning later).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx (participants) + answer key (facilitators)</li>
+<li>Workbook: cleaning-log template</li>
+<li>Projector</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The #1 pitfall:</strong> participants cleaning the original instead of a copy. Say it three times; check screens during circulation.</li>
+<li><strong>Remove Duplicates on the wrong columns</strong> deletes valid data — demo the mistake deliberately so they feel the danger before doing it live.</li>
+<li><strong>If half the room finishes early,</strong> set the stretch task: build the Data Validation dropdowns. If the room is slow, drop the validation step to homework and protect the 16:00 start.<blockquote>
+<p><strong>TRAINER TIP</strong> — Cleaning is the easiest session to re-teach because the mess is visible and the fix is satisfying. Build your own country's 'messy file' from a real de-identified extract — trainees engage twice as hard when the dirt is theirs. Always teach the cleaning log; it is what makes the work auditable.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  16:00–16:30</h3>
+<h4>Combining data sets in Excel</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Merge a numerator file with a denominator file using a shared key.</li>
+<li>Write correct VLOOKUP (exact match), XLOOKUP, and INDEX/MATCH formulas.</li>
+<li>Diagnose and fix failed matches (spaces, spelling, missing keys).</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Analysis needs numerators and denominators in one table: TB cases from the notification file, populations from the census file. Teach lookup functions as 'asking one table a question using a shared key' (here: district, or district + sex).</p>
+<p>VLOOKUP — the classic. Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]). Demo: pull district population next to TB cases. Non-negotiable rules: the lookup column must be the leftmost column of table_array; always use FALSE (exact match) for merging datasets — TRUE sorts-and-approximates and silently returns wrong neighbors; wrap in IFERROR for missing keys: =IFERROR(VLOOKUP(...),"check").</p>
+<p>XLOOKUP — the modern replacement (Excel 2021+/Microsoft 365). Syntax: =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found]). Advantages: looks left or right, defaults to exact match, built-in not-found handling. Demo the same merge in one cleaner formula.</p>
+<p>INDEX/MATCH — the fallback for Excel 2016/2019 without XLOOKUP: =INDEX(return_array, MATCH(lookup_value, lookup_array, 0)). More flexible than VLOOKUP and immune to inserted columns.</p>
+<p>Join hygiene: confirm keys match exactly (recall the TRIM lesson — 'Westbrook ' will not match 'Westbrook'); check for unmatched keys with COUNTIF/IFERROR flags; verify totals before and after the merge; never merge on names alone when codes exist.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:00–16:12</td>
+<td>12</td>
+<td>Demo: merge TB cases with census population three ways (VLOOKUP, XLOOKUP, INDEX/MATCH); show the exact-match rule and the TRIM failure case.</td>
+</tr>
+<tr>
+<td>16:12–16:27</td>
+<td>15</td>
+<td>Paired practice: participants merge the two files; one partner reads the formula aloud while the other types (catches syntax errors).</td>
+</tr>
+<tr>
+<td>16:27–16:30</td>
+<td>3</td>
+<td>Plenary check: 'Who got #N/A? Why?' — normalize errors as diagnostic information.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>DA-TOT_Demo_TB-Register_2021-2025.xlsx</li>
+<li>DA-TOT_Demo_Census-Population.xlsx</li>
+<li>Workbook: lookup cheat-sheet</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Check Excel versions at the start:</strong> if XLOOKUP is missing on some laptops, teach INDEX/MATCH as the primary and XLOOKUP as 'when you upgrade'. Never leave half the room with a formula that returns #NAME?.</li>
+<li><strong>The most common error</strong> is relative references shifting the table array — teach $ locking (F4) the moment you see #N/A cascades.</li>
+<li><strong>Keep this session tight at 30 minutes;</strong> mastery comes from repeated use during team time, not from more demo.<blockquote>
+<p><strong>TRAINER TIP</strong> — Teach lookups with your country's real files: 'bring your DHIS2 extract and your census file; leave with them merged.' The shared-key hygiene lesson (TRIM, exact spelling) is the part trainees will thank you for months later.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 1 (Mon 22 Mar)  |  16:30–17:00</h3>
+<h4>Teams analyze data</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Finalize the team project topic and polished analysis objectives.</li>
+<li>Clean and merge the Demoland TB and census files as a team.</li>
+<li>Surface blocking issues for facilitator support.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>First structured team work block. Deliverable by 17:00: project topic confirmed, 2–3 polished analysis objectives on flipchart, and the TB dataset cleaned and merged with census denominators (or a written list of blocking issues). Facilitators circulate with a coaching — not doing — stance: ask 'what is your objective asking for?' before touching anyone's keyboard.</p>
+<p>End-of-day close (last 5 minutes): each team states its topic and reads one objective aloud. Lead affirms and corrects. Preview Tuesday: 'Tomorrow we turn clean data into rates and summaries — bring your merged file.'</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:30–16:55</td>
+<td>25</td>
+<td>Team work at tables; facilitators circulate, coach, unblock Excel issues.</td>
+</tr>
+<tr>
+<td>16:55–17:00</td>
+<td>5</td>
+<td>Plenary close: topic + one objective per team; preview Tuesday.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>All Demoland files</li>
+<li>Flipcharts</li>
+<li>Cleaning-log template</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Resist doing it for them.</strong> The instinct to grab the keyboard is strongest in the first team session — narrate your thinking aloud instead, so they learn the diagnostic path.</li>
+<li><strong>Note which teams are stuck on merges —</strong> they need the first 10 minutes of Tuesday's team time protected for catch-up.</li>
+<li><strong>End on time.</strong> Day 1 is long; a crisp 17:00 close builds trust that the week's clock can be believed.<blockquote>
+<p><strong>TRAINER TIP</strong> — Protect daily team time fiercely in cascade trainings — it is where transfer happens. Circulate with questions, not answers, and always close by having teams state their deliverable aloud: public commitment drives completion.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Day 2 — Tuesday 23 March 2027: Rates, Descriptive Statistics, and How to Teach</h2>
+<p><em>Theme: from counts to meaning — rates with real denominators, honest summaries of distributions, and pivot tables as the analyst's engine. Plus the first training-methodologies session, because these participants are trainers from today onward.</em></p>
+<h3>Day 2 (Tue 23 Mar)  |  9:00–9:30</h3>
+<h4>Day 1 debrief</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Resolve the previous day's unclear items surfaced by evaluations.</li>
+<li>Report team project status and unblock shared problems.</li>
+<li>Preview Day 2's outputs.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Standard debrief structure used every morning (9:00–9:30):</p>
+<ol>
+<li>Address the top 2–3 'still unclear' items from yesterday's daily evaluation forms — today's are likely VLOOKUP exact-match and the five-part objective anatomy. Re-teach each in under 5 minutes with a fresh example.</li>
+<li>Report pace/confidence scores honestly ('yesterday's pace rating averaged 'about right'; confidence to teach cleaning averaged 3.4/5'). Transparency builds trust in the feedback loop.</li>
+<li>Each team gives a 60-second status: topic, objectives final?, data merged? Unblock as a group where one team's solution helps another.</li>
+<li>Preview the day: 'By 17:00 you will compute real TB notification rates and summarize any distribution five ways.'</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:12</td>
+<td>12</td>
+<td>Lead re-teaches top unclear items from daily forms.</td>
+</tr>
+<tr>
+<td>9:12–9:22</td>
+<td>10</td>
+<td>Team stand-ups: 60 seconds each + group unblocking.</td>
+</tr>
+<tr>
+<td>9:22–9:30</td>
+<td>8</td>
+<td>Day 2 preview; Q&amp;A.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Tallied daily evaluation forms</li>
+<li>Flipchart: parking lot</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Never skip the re-teach —</strong> it is the visible proof that feedback changes the course, which keeps the forms honest all week.</li>
+<li><strong>Timebox each unclear item to 5 minutes;</strong> deeper confusion becomes a lunchtime clinic, not a debrief derailment.<blockquote>
+<p><strong>TRAINER TIP</strong> — Run the identical debrief structure in cascade trainings. Trainees who see their feedback acted on within 24 hours will give you the honest signals you need to steer.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  9:30–10:30</h3>
+<h4>Training Methodologies</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>State four adult-learning principles and their implications for training design.</li>
+<li>Describe the demonstrate → deconstruct → guided practice → feedback cycle.</li>
+<li>Use the session-design template to plan a training segment.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Frame: 'From this session on, you are learning everything twice — once as analysts, once as trainers.' Adult-learning foundations:</p>
+<ul>
+<li><strong>Adults learn by doing.</strong> Lecture retention after 24 hours is poor; guided practice retention is high. Hence this week's ratio: short demos, long practice.</li>
+<li><strong>Respect experience.</strong> Participants bring years of ministry work — start sessions by surfacing what they know (pair discussions, flipcharts) before adding new content.</li>
+<li><strong>Immediate relevance.</strong> Every method session ties to their Phase 2 task: 'You will teach this exact skill to district analysts.'</li>
+<li><strong>Safety to fail.</strong> Synthetic data, no shaming of errors, '#N/A is diagnostic information' — the climate you set is the climate they will replicate.
+The core TOT teaching cycle — demonstrate, deconstruct, guided practice, feedback:</li>
+</ul>
+<ol>
+<li>Demonstrate: perform the skill live at normal speed while narrating decisions (yesterday's cleaning demo was the model).</li>
+<li>Deconstruct: replay the tricky step slowly; name the rule ('exact match = FALSE').</li>
+<li>Guided practice: learners replicate immediately with the facilitator circulating — errors caught within minutes, not days.</li>
+<li>Feedback: specific, prompt, and kind — 'your denominator is right; check the multiplier' beats 'good job'.
+Introduce the session-design template they will use Friday and at home: objective → hook → demo → practice → debrief → take-home job aid. Distribute the blank template; they will fill one in on Day 5.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30–9:45</td>
+<td>15</td>
+<td>Mini-lecture: adult-learning principles; link each to something already experienced this week ('yesterday's cleaning demo...').</td>
+</tr>
+<tr>
+<td>9:45–10:00</td>
+<td>15</td>
+<td>Deconstruct the cycle using yesterday's VLOOKUP demo as the worked example — participants label each phase.</td>
+</tr>
+<tr>
+<td>10:00–10:20</td>
+<td>20</td>
+<td>Pairs: take one Day 1 skill (e.g., Remove Duplicates) and sketch a 20-minute teach-back using the template.</td>
+</tr>
+<tr>
+<td>10:20–10:30</td>
+<td>10</td>
+<td>Two pairs share; facilitator feedback models the 'specific, prompt, kind' standard.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Training-Methodologies-1.pptx</li>
+<li>Blank session-design template (workbook)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Keep the theory tight —</strong> participants are impatient for Excel; the principles land better when anchored to sessions they have just lived through.</li>
+<li><strong>Model the feedback standard visibly:</strong> when a pair shares, praise one specific choice before suggesting one improvement. They will copy your tone at home.<blockquote>
+<p><strong>TRAINER TIP</strong> — This session is the seed of Phase 2. In cascade trainings, open day 1 with a 30-minute version of it — trainees who understand<em>why</em> you teach in demos-plus-practice will tolerate (and later copy) the format instead of demanding lectures.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  10:30–11:00</h3>
+<h4>Tea</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Check in with the team that struggled with merges yesterday — confirm they are unblocked before the rates session, which builds directly on merged files.</p>
+</blockquote>
+<h3>Day 2 (Tue 23 Mar)  |  11:00–12:00</h3>
+<h4>Accessing and using census data to calculate rates in Excel</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Explain why counts must be converted to rates for fair comparison.</li>
+<li>Distinguish incidence rate, case notification rate, and proportion.</li>
+<li>Compute a case notification rate in Excel from the merged Demoland files.</li>
+<li>State the rules for matching numerators to denominators.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>The central epidemiologic idea of the morning: a count without a denominator is just a number; a rate is information. Comparing raw TB case counts across Demoland's districts misleads — a big district will always 'lead'. Rates divide by the population at risk so districts can be compared fairly.</p>
+<p>Teach the three related measures precisely:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Measure</strong></th>
+<th><strong>Formula</strong></th>
+<th><strong>When to use it</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Incidence rate</td>
+<td>(new cases ÷ population at risk) × multiplier (e.g., 100,000)</td>
+<td>New TB cases arising in a defined population over a period — the true risk measure.</td>
+</tr>
+<tr>
+<td>Case notification rate</td>
+<td>(notified cases ÷ population) × 100,000</td>
+<td>What surveillance actually captures; the workhorse indicator when, as in Demoland, we count notifications.</td>
+</tr>
+<tr>
+<td>Proportion / percentage</td>
+<td>(part ÷ whole) × 100</td>
+<td>Share of a whole — e.g., % of TB cases that are male (~60–65% in Demoland). Not a rate: no population at risk, no time.</td>
+</tr>
+</tbody>
+</table>
+<p>Worked mini-example (do this live on the flipchart, then in Excel): Suppose a district notifies 240 new TB cases in 2024 and its census population is 300,000. Case notification rate = (240 ÷ 300,000) × 100,000 = 80 per 100,000 population. Then ask: a second district notifies 200 cases in a population of 100,000 → (200 ÷ 100,000) × 100,000 = 200 per 100,000. Fewer cases, far higher burden — this is why rates exist. Have participants replicate with Demoland districts from the merged file, reading values live from the dataset.</p>
+<ul>
+<li><strong>Choose the multiplier</strong> to avoid tiny decimals: per 100,000 for TB, per 1,000 for common vital events. Always state it ('per 100,000 population').</li>
+<li><strong>Match numerator to denominator in person, place, and time:</strong> 2024 cases over the 2024 census population, same district, same sex/age strata when stratifying.</li>
+<li><strong>Never compute mortality rates from Riverside's data</strong> without flagging incompleteness — a rate built on under-registered deaths understates mortality. Teach the integrity check first, the rate second.</li>
+<li><strong>Excel mechanics:</strong> rate column = (cases_cell / pop_cell)* 100000; lock the multiplier in a named cell; format to 1 decimal; label the column 'TB notification rate per 100,000 (2024)'.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00–11:15</td>
+<td>15</td>
+<td>Hook + mini-lecture: the two-district paradox (200 vs 240 cases); definitions table.</td>
+</tr>
+<tr>
+<td>11:15–11:30</td>
+<td>15</td>
+<td>Worked example live: flipchart math → Excel formula on the merged file; participants follow.</td>
+</tr>
+<tr>
+<td>11:30–11:55</td>
+<td>25</td>
+<td>Exercise: compute 2024 TB notification rates for all 12 districts, then rank them. 'Which district has the most cases? Which has the highest rate? Are they the same?'</td>
+</tr>
+<tr>
+<td>11:55–12:00</td>
+<td>5</td>
+<td>Plenary: the answers differ — land the moral: funding by counts alone misallocates resources.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>DA-TOT_Demo_TB-Register_2021-2025.xlsx + DA-TOT_Demo_Census-Population.xlsx (merged)</li>
+<li>Slides: Rates-and-Denominators.pptx</li>
+<li>Flipchart for worked example</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Watch for the classic error:</strong> rates computed on the wrong year's population or on district totals mismatched to sex-stratified cases. Circulate and check one formula per table early.</li>
+<li><strong>Do not let anyone invent census numbers —</strong> all denominators come from DA-TOT_Demo_Census-Population.xlsx; describe Demoland patterns qualitatively, values read live from the file.</li>
+<li><strong>If the exercise finishes early,</strong> stretch: sex-specific rates for 2024 — it previews the equity stratification habit.<blockquote>
+<p><strong>TRAINER TIP</strong> — Back home, replace Demoland with your country's census and DHIS2 data — the two-district paradox works with any real numbers and instantly convinces managers why denominators matter. Teach the multiplier as 'choose it so the rate is a readable number, then always state it.'</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  12:00–13:00</h3>
+<h4>Descriptive statistics review</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Define mean, median, mode, range, IQR, and standard deviation.</li>
+<li>Select the appropriate summary for symmetric vs. skewed vs. categorical data.</li>
+<li>Explain why the mean alone can mislead when outliers are present.</li>
+<li>State the limits of descriptive statistics.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Conceptual session — no laptops open. Descriptive statistics summarize data; they do not explain causes. Teach the two families:</p>
+<h4>Measures of central tendency — 'what is typical?'</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Measure</strong></th>
+<th><strong>Definition</strong></th>
+<th><strong>When to use it</strong></th>
+<th><strong>Caution</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mean</td>
+<td>Sum of values ÷ number of values</td>
+<td>Symmetric, continuous data (e.g., average age of TB cases when roughly normal)</td>
+<td>Pulled by outliers — one very old case shifts it</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>Middle value when sorted</td>
+<td>Skewed data or data with outliers (e.g., district rates when one district spikes)</td>
+<td>Hides the shape of the distribution</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>Most frequent value</td>
+<td>Categorical data (most common age group, most affected district)</td>
+<td>A dataset can have two modes or none</td>
+</tr>
+</tbody>
+</table>
+<h4>Measures of spread — 'how much does it vary?'</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Measure</strong></th>
+<th><strong>Definition</strong></th>
+<th><strong>When to use it</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>Maximum − minimum</td>
+<td>Quick sense of span; very sensitive to extremes</td>
+</tr>
+<tr>
+<td>Interquartile range (IQR)</td>
+<td>75th percentile − 25th percentile</td>
+<td>Spread of the middle half; robust partner to the median</td>
+</tr>
+<tr>
+<td>Standard deviation (SD)</td>
+<td>Typical distance of values from the mean</td>
+<td>With the mean for symmetric data; ~68% of values fall within ±1 SD when roughly normal</td>
+</tr>
+</tbody>
+</table>
+<p>The decision rule to drill: plot or at least sort the data first; if symmetric → mean + SD; if skewed or with outliers → median + IQR; if categorical → mode and proportions. Choosing mean + SD for everything is the commonest beginner error — demonstrate with Demoland district rates: Westbrook's rise skews the picture, so the median district rate tells a truer 'typical district' story than the mean.</p>
+<p>Close with intellectual honesty: descriptive statistics describe; they do not test hypotheses or prove cause. That boundary is what keeps reports credible.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12:00–12:20</td>
+<td>20</td>
+<td>Mini-lecture: central tendency table; the Westbrook-skew demonstration.</td>
+</tr>
+<tr>
+<td>12:20–12:40</td>
+<td>20</td>
+<td>Mini-lecture: spread table; the decision rule; descriptive vs. inferential boundary.</td>
+</tr>
+<tr>
+<td>12:40–13:00</td>
+<td>20</td>
+<td>Paper exercise: 6 small datasets on the worksheet — for each, choose mean/median/mode and justify in one sentence. Peer-check in pairs, then plenary.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Descriptive-Statistics.pptx</li>
+<li>Worksheet: choosing-summaries (in workbook)</li>
+<li>Flipchart</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>No laptops this hour —</strong> the concepts must live in words before they live in formulas, or participants will compute without choosing.</li>
+<li><strong>The SD intuition ('typical distance from the mean')</strong> matters more than the formula; save the formula for the Excel session.</li>
+<li><strong>If energy dips before lunch,</strong> run the paper exercise as a table-vs-table competition — small stakes, big revival.<blockquote>
+<p><strong>TRAINER TIP</strong> — Re-teach this session with zero technology first, exactly as done here: paper, discussion, decision rules. Trainees who can justify 'median, because Westbrook skews the mean' in words will use the right Excel function without prompting.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  13:00–14:00</h3>
+<h4>Lunch</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Lunchtime clinic option: invite anyone still shaky on merges or rates to a 20-minute table session. Keep it voluntary and small — no stigma.</p>
+</blockquote>
+<h3>Day 2 (Tue 23 Mar)  |  14:00–15:00</h3>
+<h4>Descriptive statistics using Excel</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Compute mean, median, mode, SD, quartiles, and n for Demoland district rates.</li>
+<li>Choose the appropriate summary and justify the choice in one sentence.</li>
+<li>Apply conditional formatting color scales for exploratory outlier detection.</li>
+<li>Sort multi-column tables without scrambling row integrity.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Now the morning's concepts become formulas. Participants work with district-level TB notification rates they computed at 11:00. Teach each function with the decision rule attached — never a naked formula:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Excel function</strong></th>
+<th><strong>Syntax</strong></th>
+<th><strong>Use when</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AVERAGE</td>
+<td>=AVERAGE(range)</td>
+<td>Symmetric continuous data</td>
+</tr>
+<tr>
+<td>MEDIAN</td>
+<td>=MEDIAN(range)</td>
+<td>Skewed data / outliers present</td>
+</tr>
+<tr>
+<td>MODE.SNGL</td>
+<td>=MODE.SNGL(range)</td>
+<td>Most common value</td>
+</tr>
+<tr>
+<td>STDEV.S</td>
+<td>=STDEV.S(range)</td>
+<td>Sample SD (our districts are a sample of possible years/places)</td>
+</tr>
+<tr>
+<td>STDEV.P</td>
+<td>=STDEV.P(range)</td>
+<td>Only when the range is the entire population of interest</td>
+</tr>
+<tr>
+<td>MIN / MAX</td>
+<td>=MIN(range) / =MAX(range)</td>
+<td>Range endpoints</td>
+</tr>
+<tr>
+<td>QUARTILE.INC</td>
+<td>=QUARTILE.INC(range,1) and (...,3)</td>
+<td>Q1 and Q3 for the IQR</td>
+</tr>
+<tr>
+<td>COUNT / COUNTA</td>
+<td>=COUNT(range)</td>
+<td>How many numeric values — always report n alongside any summary</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Build a summary-statistics block:</strong> one row per district-rate indicator, columns for n, mean, median, SD, min, max. Label every cell — a future reader (or their ministry successor) must understand it without them present.</li>
+<li><strong>Compare mean vs. median aloud:</strong> 'Our mean district rate is X, our median is Y — the gap tells us the distribution is skewed by high-burden districts.' That one sentence is the interpretation habit.</li>
+<li><strong>Conditional formatting (Home → Conditional Formatting → Color Scales):</strong> apply a 2-color scale to the district-rate column so outliers glow. Steps: select the rate cells → Color Scales → choose a color-blind-safe scale → the highest-burden districts are instantly visible. Use it for exploration, never as the final presentation graphic.</li>
+<li><strong>Sorting caution:</strong> sort the full table (select all columns) or use Data → Sort with 'expand the selection' — sorting one column alone scrambles district labels from their values, the classic Excel catastrophe. Undo (Ctrl+Z) is the emergency exit.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:00–14:15</td>
+<td>15</td>
+<td>Demo: build the summary-statistics block on the district-rate table; narrate each function choice.</td>
+</tr>
+<tr>
+<td>14:15–14:40</td>
+<td>25</td>
+<td>Guided practice: participants replicate, then add sex-stratified summaries. Circulate; check STDEV.S vs STDEV.P choices.</td>
+</tr>
+<tr>
+<td>14:40–14:55</td>
+<td>15</td>
+<td>Conditional formatting + safe-sorting demo and practice; deliberately demo the one-column-sort catastrophe on a copy, then Ctrl+Z.</td>
+</tr>
+<tr>
+<td>14:55–15:00</td>
+<td>5</td>
+<td>Plenary: one table reads its mean-vs-median interpretation sentence aloud.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>District-rate tables from the morning</li>
+<li>Slides: Stats-in-Excel.pptx</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>STDEV.S vs STDEV.P confuses everyone —</strong> give the one-line rule (sample → .S) and move on; it rarely changes decisions at this level.</li>
+<li><strong>The deliberate sort catastrophe</strong> is the most-remembered 60 seconds of the week. Do it on a copy, gasp with them, Ctrl+Z, then teach 'expand the selection'.</li>
+<li><strong>If participants race ahead,</strong> stretch: IQR via QUARTILE.INC and a one-sentence comparison of IQR vs SD for these data.<blockquote>
+<p><strong>TRAINER TIP</strong> — In cascade trainings, teach this session on trainees' own district data — the mean-vs-median sentence about their own districts is the moment descriptive statistics becomes theirs. Keep the deliberate sorting catastrophe; it is unforgettable pedagogy.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  15:00–16:00</h3>
+<h4>Data analysis using pivot tables</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Build a pivot table from clean tabular data with correct field placement.</li>
+<li>Use Value Field Settings and 'Show Values As' for counts and percentages.</li>
+<li>Add slicers to re-stratify analyses by year and sex.</li>
+<li>Refresh pivot tables after source-data changes.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Position pivot tables as the analyst's engine: 'Everything you did with COUNTIF/SUMIF this morning, a pivot table does in 30 seconds — and redoes instantly when the question changes.' Requirements: clean tabular data with one header row, no merged cells, no blank header cells (recall Monday's cleaning — this is the payoff).</p>
+<p>Live build, step by step (participants mirror each step):</p>
+<ol>
+<li>Click any cell in the TB table → Insert → PivotTable → New Worksheet → OK.</li>
+<li>Drag Year to Rows, District to Rows (below Year), Sex to Columns, Cases to Values.</li>
+<li>Click the Cases field in Values → Value Field Settings → change 'Sum of Cases' as needed; for rates work keep sums, then compute rates beside the pivot with GetPivotData-free cell references or by copy-pasting values.</li>
+<li>Show Values As: right-click a value → Show Values As → '% of Row Total' to get the sex distribution (~60–65% male) instantly; '% of Column Total' for district share of national burden.</li>
+<li>Group dates/ages: right-click an age-group or year field → Group, to collapse into broader bands.</li>
+<li>Add slicers (PivotTable Analyze → Insert Slicer) for Year and Sex — one click re-stratifies the whole table. This is the equity disaggregation machine.</li>
+<li>Refresh discipline: right-click → Refresh after source data changes; a stale pivot is a wrong report.
+Exercise: 'Answer in under 3 minutes each: (1) Which district had the highest male TB notifications in 2024? (2) What % of each district's cases are female? (3) Show the national trend 2021–2025 by sex.' The point is speed and flexibility, not just correctness.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15:00–15:20</td>
+<td>20</td>
+<td>Live build: lead constructs the TB pivot step by step; participants mirror. Narrate every click.</td>
+</tr>
+<tr>
+<td>15:20–15:45</td>
+<td>25</td>
+<td>Speed exercise: three questions, 3 minutes each; first table to answer correctly explains their field layout.</td>
+</tr>
+<tr>
+<td>15:45–16:00</td>
+<td>15</td>
+<td>Slicers + refresh discipline; plenary: 'What did the pivot reveal that the flat table hid?'</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Cleaned DA-TOT_Demo_TB-Register_2021-2025.xlsx</li>
+<li>Slides: Pivot-Tables.pptx</li>
+<li>Workbook: pivot exercise questions</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Blank header cells and merged cells</strong> break pivot tables — when a pivot misbehaves, the source table is guilty 90% of the time. Teach the diagnosis, not just the clicks.</li>
+<li><strong>Participants will drag fields to wrong areas;</strong> the fix is instant (drag back), so keep energy high and errors light.</li>
+<li><strong>If the room is fast,</strong> stretch: computed rates beside the pivot. If slow, drop slicers to team time and protect the core build.<blockquote>
+<p><strong>TRAINER TIP</strong> — Pivot tables are the single highest-ROI skill in a cascade training — district analysts who pivot stop fearing their own DHIS2 exports. Teach it exactly as a speed tool ('answer in under 3 minutes'), and always on clean data, so the cleaning lesson gets its payoff.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 2 (Tue 23 Mar)  |  16:00–17:00</h3>
+<h4>Teams analyze data</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Compute district TB notification rates (total and sex-stratified).</li>
+<li>Produce stratified pivot-table outputs for the team project.</li>
+<li>Draft the summary-statistics block for the project dataset.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Milestone by 17:00: every team has computed TB notification rates for all districts (2024, total and by sex), built at least one stratified pivot table, and drafted the summary-statistics block. Facilitators verify one rate calculation per team by hand — this is the competency check for the rates session.</p>
+<p>Close: 5-minute plenary. Each team states its highest-rate district and its male share of TB — values read from their files. Preview Wednesday: 'Tomorrow we learn to show these findings honestly — IMRAD, tables, figures, maps.' Distribute the Day 2 evaluation form at 16:50; collect at the door.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:00–16:50</td>
+<td>50</td>
+<td>Team work; facilitators circulate and hand-verify one rate per team.</td>
+</tr>
+<tr>
+<td>16:50–17:00</td>
+<td>10</td>
+<td>Plenary close: highest-rate district + male share per team; evaluation forms; preview Wednesday.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Merged Demoland files</li>
+<li>Evaluation forms (Day 2)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Hand-verify the rates —</strong> a team building Wednesday's figures on a wrong denominator wastes a full day. Ten seconds per team now saves hours later.</li>
+<li><strong>Collect evaluation forms at the door,</strong> not 'tomorrow morning' — overnight completion rates collapse.<blockquote>
+<p><strong>TRAINER TIP</strong> — End every cascade-training day the same way: teams state one finding aloud from their own data. Public findings create momentum that carries into the next morning, and the hand-verification habit keeps standards high without shaming.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Day 3 — Wednesday 24 March 2027: Communicating Findings</h2>
+<p><em>Theme: analysis is only half the job — findings must be structured (IMRAD), tabulated, visualized, and mapped so honestly that a busy policymaker cannot misunderstand them. Teams leave today with draft tables, figures, and an IMRAD outline.</em></p>
+<h3>Day 3 (Wed 24 Mar)  |  9:00–9:30</h3>
+<h4>Day 2 debrief</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Resolve Day 2's unclear items.</li>
+<li>Confirm every team has verified rates and pivots.</li>
+<li>Preview Day 3's communication outputs.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<ol>
+<li>Re-teach top unclear items from Day 2 forms — typically pivot-table field placement and STDEV.S vs STDEV.P. Fresh 5-minute demos each.</li>
+<li>Team stand-ups (60 seconds): rates done? pivots done? Any team still without sex-stratified rates gets facilitator help in the first team block today.</li>
+<li>Preview: 'Today your numbers become a story — structure, tables, figures, maps.'</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:12</td>
+<td>12</td>
+<td>Re-teach unclear items with fresh demos.</td>
+</tr>
+<tr>
+<td>9:12–9:22</td>
+<td>10</td>
+<td>Team stand-ups + unblocking.</td>
+</tr>
+<tr>
+<td>9:22–9:30</td>
+<td>8</td>
+<td>Day 3 preview; Q&amp;A.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Tallied Day 2 evaluation forms</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>If any team lacks verified rates,</strong> assign the co-facilitator to them during the first exercise block — do not let it slide another day.<blockquote>
+<p><strong>TRAINER TIP</strong> — Same debrief ritual as yesterday. Consistency is the point: trainees learn that feedback loops are daily, not end-of-course.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  9:30–10:30</h3>
+<h4>IMRAD Structure</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>State the purpose of each IMRAD section.</li>
+<li>Sort content correctly across the four sections (border policy).</li>
+<li>Explain why Methods must be reproducible.</li>
+<li>Draft an IMRAD outline for the team project.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>IMRAD — Introduction, Methods, Results, and Discussion — is the international standard skeleton of a technical report. Teach it as four rooms, each with one job and a strict border policy:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Section</strong></th>
+<th><strong>Purpose — answers...</strong></th>
+<th><strong>Contains</strong></th>
+<th><strong>Never contains</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Introduction</td>
+<td>Why does this analysis matter?</td>
+<td>Background, policy context, and the analysis objectives. Ends with the objectives verbatim.</td>
+<td>Results or methods detail.</td>
+</tr>
+<tr>
+<td>Methods</td>
+<td>What did you do, exactly?</td>
+<td>Data sources (Demoland files, years), cleaning steps (the cleaning log!), indicator definitions and formulas, denominators, stratifications, software (Excel version), limitations of the data.</td>
+<td>Any finding — no numbers that belong in Results.</td>
+</tr>
+<tr>
+<td>Results</td>
+<td>What did you find?</td>
+<td>Text + tables + figures, ordered by the objectives. Every table/figure is introduced in text and has a takeaway sentence. No interpretation beyond describing.</td>
+<td>Interpretation, recommendations, or new data.</td>
+</tr>
+<tr>
+<td>(and) Discussion</td>
+<td>What does it mean, and what should we do?</td>
+<td>Interpretation of key findings, comparison with expectations, equity implications (who is left behind?), limitations, and recommendations.</td>
+<td>New results that were never shown in Results.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>The border policy is the lesson:</strong> results in Methods confuse; new data in Discussion destroys credibility. Reviewers check the borders first.</li>
+<li><strong>Methods must be reproducible:</strong> a competent analyst reading only the Methods should be able to rebuild the analysis — that is why Monday's cleaning log and the exact rate formulas live here.</li>
+<li><strong>The Discussion earns its keep with two moves:</strong> 'so what?' (interpretation for policy) and 'what now?' (recommendations). Thursday's sessions deepen both.</li>
+<li><strong>Abstract/executive summary comes last in writing,</strong> first in reading — one paragraph per IMRAD section, written after the body is final.
+Exercise (last 20 min): teams take yesterday's rate findings and sort pre-written finding/method/interpretation strips into the four IMRAD rooms on flipchart — fast, physical, and it exposes border violations instantly.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30–9:50</td>
+<td>20</td>
+<td>Mini-lecture: the four rooms + border policy; the table above as handout.</td>
+</tr>
+<tr>
+<td>9:50–10:10</td>
+<td>20</td>
+<td>Sorting exercise: strips → four flipchart rooms; facilitators circulate.</td>
+</tr>
+<tr>
+<td>10:10–10:30</td>
+<td>20</td>
+<td>Plenary: border violations found and fixed; teams draft their project's IMRAD outline (headings + 1 line each).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: IMRAD-Structure.pptx</li>
+<li>Sorting strips (prepared)</li>
+<li>Flipcharts (4)</li>
+<li>Workbook: IMRAD outline template</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The sorting exercise is the session —</strong> do not let the lecture eat it. Border violations discovered by hand stick forever.</li>
+<li><strong>Common confusion:</strong> participants put recommendations in Results. Catch it in the exercise; it foreshadows Thursday.</li>
+<li><strong>Collect the IMRAD outlines at tea —</strong> skim them during the break so afternoon feedback is specific.<blockquote>
+<p><strong>TRAINER TIP</strong> — Teach IMRAD with the 'four rooms' metaphor and the physical sorting exercise — it works even with low-literacy audiences and needs no technology. In cascade trainings, make trainees sort their own draft sentences; self-found border violations are never repeated.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  10:30–11:00</h3>
+<h4>Tea</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Skim the IMRAD outlines collected at 10:30. Note the two weakest for targeted coaching in the tables exercise.</p>
+</blockquote>
+<h3>Day 3 (Wed 24 Mar)  |  11:00–12:00</h3>
+<h4>Best practices for creating tables</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>State the 10 table best-practice rules.</li>
+<li>Write a self-contained table title with units.</li>
+<li>Rebuild a default Excel output into a publication-quality table.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Tables carry precise values; figures carry patterns. A table's job is to let a reader find any number in seconds and trust all of them. Teach the rules as a checklist — participants will apply it within the hour:</p>
+<ol>
+<li>Title above the table, self-contained: 'Table 1. TB case notification rate per 100,000 population by district, Demoland, 2024.' A reader should understand it without the text.</li>
+<li>One idea per table. If it needs two titles, it needs two tables.</li>
+<li>Columns: variables across the top, categories down the rows; order rows meaningfully (highest to lowest rate, or chronological) — never alphabetical by default.</li>
+<li>Units in the title or column header ('per 100,000'), never buried in a footnote the reader must hunt for.</li>
+<li>Align numbers right (or on the decimal point); align text left. Same decimals throughout a column (e.g., 80.4, 112.0 — never 80.43 next to 112).</li>
+<li>No vertical gridlines; minimal horizontal lines (top, under header, bottom). In Excel: strip the default gridlines, add borders only where the rule requires.</li>
+<li>Totals where they aid interpretation — and label whether a total row is a sum or a weighted rate (a 'total' of rates is meaningless; show the national rate computed from national totals).</li>
+<li>Footnotes for: data source, definitions, missing data (e.g., 'Riverside mortality data incomplete — see Methods'), and any suppression of small numbers.</li>
+<li>Round sensibly: rates to 1 decimal, percentages to whole numbers in text. False precision (4 decimals) signals innumeracy, not rigor.</li>
+<li>In Excel: build the table as values (Paste Special → Values) once calculations are final, so sorting and formatting cannot break formulas; keep the formula version on a separate 'working' sheet.
+Demonstrate live: take an ugly default Excel dump of district rates and rebuild it rule by rule on the projector — participants audibly react when the same numbers become twice as readable. Before/after is the pedagogy.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00–11:20</td>
+<td>20</td>
+<td>Mini-lecture: the 10 rules with before/after examples in slides.</td>
+</tr>
+<tr>
+<td>11:20–11:40</td>
+<td>20</td>
+<td>Live rebuild demo: ugly district-rate dump → clean Table 1, narrating each rule applied.</td>
+</tr>
+<tr>
+<td>11:40–12:00</td>
+<td>20</td>
+<td>Q&amp;A + teams pull up their own rate tables and self-score against the checklist (no rebuilding yet — that is next).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Tables-Best-Practice.pptx</li>
+<li>Workbook: table checklist (1 page)</li>
+<li>District-rate tables from Day 2</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The live rebuild is non-negotiable —</strong> rules without the demo feel abstract; the demo makes them obvious.</li>
+<li><strong>Emphasize rule 10 (values vs. formulas)</strong> before the exercise hour — it prevents the afternoon's most common catastrophe.</li>
+<li><strong>Keep 5 minutes spare:</strong> the next session starts building immediately.<blockquote>
+<p><strong>TRAINER TIP</strong> — The before/after rebuild is your most reusable teaching asset: record your screen while doing it once, and you have a 10-minute video for cascade trainings and for analysts who missed the session. The 1-page checklist becomes a permanent desk reference — print it on card stock.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  12:00–13:00</h3>
+<h4>Tables exercise</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Apply the 10 table rules to real project outputs.</li>
+<li>Critique a peer table constructively against the checklist.</li>
+<li>Produce two draft publication-quality tables for the team report.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Teams rebuild two tables for their Friday deck from their own Day 2 outputs, applying all 10 rules: (1) the district-rate table (their 'Table 1'), and (2) a second table of their choice (e.g., sex/age stratification or yearly trend). Facilitators circulate with the checklist, scoring each table against the 10 rules and giving one correction at a time.</p>
+<p>Mid-exercise (12:30): 5-minute plenary pause — show one team's in-progress table anonymously on the projector and let the room apply the checklist aloud. Peer critique in plenary teaches faster than facilitator correction at tables.</p>
+<p>Deliverable by 13:00: two titled, formatted tables pasted into the team's draft slide deck, plus the checklist self-score.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12:00–12:30</td>
+<td>30</td>
+<td>Team build: two tables per team; facilitators circulate with checklists.</td>
+</tr>
+<tr>
+<td>12:30–12:35</td>
+<td>5</td>
+<td>Plenary peer critique of one in-progress table.</td>
+</tr>
+<tr>
+<td>12:35–12:55</td>
+<td>20</td>
+<td>Continue building; finalize titles, footnotes, rounding.</td>
+</tr>
+<tr>
+<td>12:55–13:00</td>
+<td>5</td>
+<td>Deliverable check: tables in draft deck; self-scores recorded.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Table checklist (1 page per participant)</li>
+<li>Draft slide decks</li>
+<li>Projector for peer critique</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>One correction at a time —</strong> listing all 10 violations crushes morale; fix the title first, then alignment, then the rest.</li>
+<li><strong>Watch for alphabetical district ordering —</strong> the commonest leftover default; ask 'what story does this order tell?'</li>
+<li><strong>If a team has no rates yet (behind from Day 2),</strong> the co-facilitator sits with them for 15 minutes while the lead covers the room — escalate, don't abandon.<blockquote>
+<p><strong>TRAINER TIP</strong> — Peer critique of one anonymous table in plenary is the highest-leverage 15 minutes of a cascade training: everyone learns the checklist by applying it, and the presenting team gets 24 editors for free. Always ask permission before projecting a team's work.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  13:00–14:00</h3>
+<h4>Lunch</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Review the two weakest IMRAD outlines over lunch; prepare one targeted question for each team for the afternoon.</p>
+</blockquote>
+<h3>Day 3 (Wed 24 Mar)  |  14:00–15:00</h3>
+<h4>Best practices for creating figures</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Match chart type to the message using the message→chart table.</li>
+<li>Write takeaway titles and honest axes (zero baseline for bars).</li>
+<li>Apply decluttering and color-blind-safe design in Excel.</li>
+<li>State the accessibility requirements for figures.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Figures show patterns; tables show values. Choose the chart from the message, not from habit:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Message</strong></th>
+<th><strong>Chart type</strong></th>
+<th><strong>Rule</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trend over time</td>
+<td>Line chart</td>
+<td>One line per group max 3–4; label lines directly (no legend hunt); y-axis labeled with units</td>
+</tr>
+<tr>
+<td>Compare categories</td>
+<td>Bar chart (or column)</td>
+<td>Y-axis starts at ZERO — truncated bars lie about differences; order bars meaningfully</td>
+</tr>
+<tr>
+<td>Part of a whole</td>
+<td>Bar chart (avoid pie)</td>
+<td>Pies fail beyond 2–3 slices; a sorted bar shows the ~60–65% male share more honestly</td>
+</tr>
+<tr>
+<td>Distribution/shape</td>
+<td>Histogram</td>
+<td>Bin sensibly; label axes; never a 3D effect</td>
+</tr>
+<tr>
+<td>Two variables' relationship</td>
+<td>Scatter plot</td>
+<td>No connecting lines unless time-ordered</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Title as takeaway: 'Figure 1. TB notification rates declined nationally but rose in Westbrook, Demoland, 2021–2025.' The title states the finding; the subtitle or footnote carries the method detail.</li>
+<li>Zero baseline for bars; labeled, unbroken axes for lines. Truncation is the commonest visual lie — demonstrate with Westbrook vs. national bars at y=0 vs. y=50 and let the room feel the deception.</li>
+<li>Direct labeling beats legends; data labels only where they add information (endpoints of lines, not every bar).</li>
+<li>Color with purpose: one accent color for the finding (Westbrook's line), grey for context; color-blind-safe palettes (blue/orange, not red/green); every figure must survive black-and-white printing.</li>
+<li>Declutter: remove gridlines or fade them, kill 3D effects, no chart junk. In Excel: Chart Design → Add Chart Element sparingly; set gridlines to light grey or none.</li>
+<li>Source footnote on every figure: 'Source: Demoland synthetic TB notifications, 2021–2025.'</li>
+<li>Excel mechanics: select the data → Insert → chart type; right-click axis → Format Axis to set bounds (force 0 for bars); Chart Title → type the takeaway; use Paste Special → Picture into slides so the figure cannot shift.
+Accessibility is non-negotiable: sufficient color contrast, never color as the only encoding (add labels or patterns), minimum 10pt axis text. A figure a policymaker cannot read is a finding that does not exist.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:00–14:20</td>
+<td>20</td>
+<td>Mini-lecture: message→chart table; the 7 rules.</td>
+</tr>
+<tr>
+<td>14:20–14:35</td>
+<td>15</td>
+<td>Live demo: build the Westbrook-vs-national trend line (takeaway title, direct labels, grey context) + the truncated-bar deception demo.</td>
+</tr>
+<tr>
+<td>14:35–14:55</td>
+<td>20</td>
+<td>Spot-the-violation: 6 flawed charts on slides; tables call out violations rapid-fire.</td>
+</tr>
+<tr>
+<td>14:55–15:00</td>
+<td>5</td>
+<td>Q&A; preview of the figures exercise.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Figures-Best-Practice.pptx (incl. 6 flawed charts)</li>
+<li>Workbook: figure checklist (1 page)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The truncated-bar demo</strong> produces the week's biggest gasp — do not skip it. It inoculates against the commonest visual lie.</li>
+<li><strong>Limit the demo to two charts;</strong> the exercise hour is for building, not watching.</li>
+<li><strong>Remind: values read live from files —</strong> describe the Westbrook rise qualitatively; never quote numbers from memory.<blockquote>
+<p><strong>TRAINER TIP</strong> — The 'spot-the-violation' rapid-fire game ports directly to cascade trainings and needs no computers — collect bad charts from real national reports (anonymized) and your trainees will never make those mistakes. Keep the truncated-bar demo; it converts skeptics instantly.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  15:00–16:00</h3>
+<h4>Figures exercise</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Build two project figures that pass the figure checklist.</li>
+<li>Critique peer figures for honesty and clarity.</li>
+<li>Draft takeaway sentences linking each figure to Results text.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Teams build two figures for Friday from their own outputs: (1) a trend figure (e.g., national vs. Westbrook TB notifications 2021–2025, or their topic's core trend), and (2) a comparison figure (e.g., district rate bar chart or sex-distribution bars). Both must pass the figure checklist: takeaway title, honest axes, direct labels, color-blind-safe, source footnote.</p>
+<p>Same pedagogy as the tables hour: circulate with the checklist, one correction at a time; mid-exercise plenary peer critique of one anonymous figure (15:30). Deliverable by 16:00: two figures pasted as pictures into the draft deck.</p>
+<p>Stretch for fast teams: draft the one-sentence Results-text takeaway that will accompany each figure ('Figure 1 shows...').</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15:00–15:30</td>
+<td>30</td>
+<td>Team build; facilitators circulate with checklists.</td>
+</tr>
+<tr>
+<td>15:30–15:35</td>
+<td>5</td>
+<td>Plenary peer critique of one anonymous figure.</td>
+</tr>
+<tr>
+<td>15:35–15:55</td>
+<td>20</td>
+<td>Finish figures; paste as pictures into deck; draft takeaway sentences.</td>
+</tr>
+<tr>
+<td>15:55–16:00</td>
+<td>5</td>
+<td>Deliverable check.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Figure checklist (1 page)</li>
+<li>Draft decks</li>
+<li>Projector</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Pasting as pictures</strong> prevents the #1 slide-deck catastrophe: linked charts that reflow or vanish on another laptop. Insist on it.</li>
+<li><strong>Watch axis bounds obsessively this hour —</strong> one truncated bar chart in Friday's presentations undermines the week's credibility.</li>
+<li><strong>Slow teams:</strong> one excellent figure beats two mediocre ones; grant permission to drop the second.<blockquote>
+<p><strong>TRAINER TIP</strong> — Insist on 'paste as picture' in cascade trainings too — it is a 10-second habit that prevents the most embarrassing presentation failures. And keep the rule: no figure enters a deck without its takeaway sentence written first.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 3 (Wed 24 Mar)  |  16:00–17:00</h3>
+<h4>Creating maps in Excel</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Build a Filled Map chart from a district-rate table.</li>
+<li>Build an offline choropleth-style grid using conditional formatting.</li>
+<li>Apply map honesty rules (rates not counts, sequential scale, legend, source).</li>
+<li>Annotate data-quality caveats (Riverside) on maps.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Maps answer 'where?' — and for district-level health data, 'where' drives resource allocation. Two Excel routes, taught in order:</p>
+<h4>Route 1 — Filled Map chart (Excel 2019 / Microsoft 365)</h4>
+<ol>
+<li>Prepare a two-column table: district name | value (e.g., TB notification rate per 100,000, 2024). Names must match Bing's geography recognition — verify each district resolves.</li>
+<li>Select the table → Insert → Charts → Maps → Filled Map.</li>
+<li>Right-click the map → Format Data Series → Map projection and color scale: choose a sequential single-hue scale (light→dark blue), never rainbow; set the scale to the data range.</li>
+<li>Add a takeaway title ('Figure 3. TB burden concentrates in western districts, Demoland, 2024'), a legend with units, and the source footnote.</li>
+<li>Caveat: Filled Map needs internet (Bing geocoding) and only knows real geographies — Demoland's fictional districts may not resolve, in which case use Route 2. Test this before the course!</li>
+</ol>
+<h4>Route 2 — Choropleth-style grid with conditional formatting (works everywhere, offline)</h4>
+<ol>
+<li>Arrange district names in a rough geographic grid on a worksheet (provide the template grid in the workbook — facilitator pre-arranges the 12 districts approximately).</li>
+<li>Enter each district's rate in its cell; select the grid → Home → Conditional Formatting → Color Scales (3-color, light→dark blue).</li>
+<li>Format cells large, centered, with district name above the value (use Alt+Enter line breaks).</li>
+<li>Screenshot/paste as picture into the deck with title, legend ('darker = higher rate per 100,000'), and source footnote.
+- <strong>Map honesty rules:</strong> same rules as figures — sequential color scale, no rainbow, legend with units, and never map raw counts when rates are the question (big pale districts mislead).
+- <strong>Equity use:</strong> a district map of TB rates makes geographic inequity instantly visible to non-technical leaders — it is often the slide that moves a budget.
+- <strong>Riverside caution:</strong> do not map mortality rates for Riverside without a visual 'data incomplete' annotation — mapping under-registered deaths as low mortality is exactly how bad maps kill good policy.</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:00–16:20</td>
+<td>20</td>
+<td>Demo: Route 1 Filled Map on district rates; show the geocoding check.</td>
+</tr>
+<tr>
+<td>16:20–16:35</td>
+<td>15</td>
+<td>Demo + practice: Route 2 conditional-formatting grid using the template.</td>
+</tr>
+<tr>
+<td>16:35–16:55</td>
+<td>20</td>
+<td>Team build: each team produces its map figure for the deck.</td>
+</tr>
+<tr>
+<td>16:55–17:00</td>
+<td>5</td>
+<td>Close: maps pasted into decks; evaluation forms; preview Thursday (templates + recommendations).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>District-rate tables</li>
+<li>Workbook: 12-district map grid template</li>
+<li>Slides: Maps-in-Excel.pptx</li>
+<li>Evaluation forms (Day 3)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>TEST Filled Map with Demoland names before the course.</strong> Fictional districts often fail Bing geocoding — know in advance whether you are teaching Route 1, Route 2, or both, and say so upfront.</li>
+<li><strong>Internet dependence:</strong> if venue Wi-Fi is unreliable, teach Route 2 as primary without apology — it works offline forever.</li>
+<li><strong>End-of-day energy is low;</strong> keep demos snappy and get teams building within 20 minutes.<blockquote>
+<p><strong>TRAINER TIP</strong> — In countries with real district shapefiles, graduate trainees to QGIS later — but teach the Excel grid-map first. An analyst who can make an honest map in Excel this week will make an honest map in GIS next quarter; the honesty rules transfer, the software doesn't teach them.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Day 4 — Thursday 25 March 2027: Templates, Recommendations, and Project Build</h2>
+<p><em>Theme: from one-off analysis to institutional routine — standard report templates that outlive any single analyst, recommendations that policymakers can act on, and a full build day so Friday's presentations are genuinely ready.</em></p>
+<h3>Day 4 (Thu 25 Mar)  |  9:00–9:30</h3>
+<h4>Day 3 debrief</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Resolve Day 3's unclear items.</li>
+<li>Verify every team's communication outputs.</li>
+<li>Preview Day 4's build-day structure.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<ol>
+<li>Re-teach top unclear items from Day 3 forms — typically takeaway titles and the values-vs-formulas table rule.</li>
+<li>Team stand-ups: tables done? figures done? map done? IMRAD outline approved? Identify any team needing rescue time today.</li>
+<li>Preview: 'This morning we build the machinery — templates and recommendations. Then the day is yours to build the report.'</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:12</td>
+<td>12</td>
+<td>Re-teach unclear items.</td>
+</tr>
+<tr>
+<td>9:12–9:22</td>
+<td>10</td>
+<td>Team stand-ups + rescue triage.</td>
+</tr>
+<tr>
+<td>9:22–9:30</td>
+<td>8</td>
+<td>Day 4 preview; Q&amp;A.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Tallied Day 3 evaluation forms</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Triage honestly:</strong> a team missing both figures needs co-facilitator time today — schedule it now, publicly, without stigma.<blockquote>
+<p><strong>TRAINER TIP</strong> — By day 4 the debrief runs itself — let a participant lead the stand-ups. Handing over the ritual models the trainer handover they will do at home.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 4 (Thu 25 Mar)  |  9:30–10:30</h3>
+<h4>Guidelines for creating report templates</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>List the six components of an institutional report template.</li>
+<li>Explain template ownership and version control.</li>
+<li>Identify country-specific adaptations for Phase 2.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Frame: a report template is project objective 5 made tangible — institutional memory in a file. When the analyst leaves, the template stays, and the next report starts at 70% instead of 0%. A good ministry template contains:</p>
+<ol>
+<li>Cover page shell: report title, program/topic, date, version number, authoring unit, disclaimer on data sources ('synthetic demo data' in training; real source in production).</li>
+<li>Fixed IMRAD skeleton with section prompts: Introduction ends with 'Analysis objectives:'; Methods contains subheads for Data sources, Cleaning steps, Indicator definitions (with formula), Denominators, Stratifications, Software, Limitations.</li>
+<li>Table and figure shells: pre-formatted Table 1/Figure 1 placeholders with the week's best-practice rules baked into styles (title style, no-gridline table style, footnote style). Analysts fill shells; they do not redesign.</li>
+<li>Indicator definition annex: every standard indicator with numerator, denominator, multiplier, and disaggregation — the single source of truth that stops two units publishing two different 'TB rates'.</li>
+<li>Version control block: date, author, changes since last version. Filename convention: Topic_YYYY-MM-DD_v1.2.</li>
+<li>Word styles, not manual formatting: Heading 1/2, Normal, Caption — so the table of contents builds itself and formatting survives editing.
+Demonstrate: open the provided Demoland report template (.docx) and walk it in 15 minutes — cover, IMRAD prompts, shells, indicator annex. Then the governance talk: who owns the template (a named unit, not a person), how it is updated annually, and where it lives (shared drive + printed SOP binder). A template nobody owns dies in a year.</li>
+</ol>
+<p>Exercise (last 15 min): teams list three adaptations their country's template would need (language, extra indicators, approval signatures) on flipchart — this is Phase 2 homework taking shape.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30–9:45</td>
+<td>15</td>
+<td>Mini-lecture: why templates = institutional memory; the six components.</td>
+</tr>
+<tr>
+<td>9:45–10:00</td>
+<td>15</td>
+<td>Live walkthrough of the Demoland .docx template; governance talk (ownership, updates, storage).</td>
+</tr>
+<tr>
+<td>10:00–10:15</td>
+<td>15</td>
+<td>Team exercise: three country adaptations on flipchart.</td>
+</tr>
+<tr>
+<td>10:15–10:30</td>
+<td>15</td>
+<td>Plenary: share adaptations; facilitator links to objective 5 and the SOP discussion from Day 1.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Report-Templates.pptx</li>
+<li>04-Templates/Report-Template_IMRAD.docx (USB + link)</li>
+<li>Flipcharts (4)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Do not let the walkthrough become a Word-formatting class —</strong> stay at the governance level; formatting help happens at tables.</li>
+<li><strong>Name a template owner explicitly:</strong> 'the M&amp;E unit', never 'someone'. Unowned templates are the reason ministries reformat from scratch every year.</li>
+<li><strong>Photograph the adaptation flipcharts —</strong> they are Phase 2 planning inputs.<blockquote>
+<p><strong>TRAINER TIP</strong> — Give every cascade trainee the .docx file on day 1 of their training and make them build inside it all week. Templates learned by filling beat templates learned by lecture — and trainees leave with a file, not just notes.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 4 (Thu 25 Mar)  |  10:30–11:00</h3>
+<h4>Tea</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Confirm the 11:30 team-work logistics: which tables need the co-facilitator first, and that projectors are free for rehearsals later.</p>
+</blockquote>
+<h3>Day 4 (Thu 25 Mar)  |  11:00–11:30</h3>
+<h4>Drafting appropriate recommendations</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Apply the four tests (linked, specific, feasible, honest) to draft recommendations.</li>
+<li>Tailor recommendations to the decision-maker's mandate.</li>
+<li>Prioritize recommendations by impact and feasibility.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Recommendations are the Discussion section's payoff — and the most abused part of technical reports. Teach the four tests every recommendation must pass:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Test</strong></th>
+<th><strong>Question to ask</strong></th>
+<th><strong>Fail example → Pass example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linked</td>
+<td>Does it follow directly from a finding in Results?</td>
+<td>Fail: 'Improve TB services.' (linked to nothing) → Pass: 'Intensify case finding in Westbrook, where notifications rose against the national decline (Fig. 1).'</td>
+</tr>
+<tr>
+<td>Specific</td>
+<td>Who does what, where, by when?</td>
+<td>Fail: 'Strengthen registration.' → Pass: 'Deploy two mobile registration teams to Riverside in Q3 2027; target: reduce unregistered deaths, re-measured in Q1 2028.'</td>
+</tr>
+<tr>
+<td>Feasible</td>
+<td>Can the audience actually do it with available resources and authority?</td>
+<td>Fail: recommending a new national survey to a district manager → Pass: actions within the reader's mandate.</td>
+</tr>
+<tr>
+<td>Honest</td>
+<td>Does it stay inside what the data can support?</td>
+<td>Fail: 'Screening caused the decline' (no causal data) → Pass: 'The decline coincided with X; evaluate X's contribution before scaling.'</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Write for the reader's desk:</strong> a minister needs 3 prioritized actions with costs; a program manager needs operational detail. One report can carry both — executive summary for the former, Discussion for the latter.</li>
+<li><strong>Prioritize ruthlessly:</strong> no more than 3–5 recommendations; rank by impact × feasibility. Twelve recommendations = zero recommendations.</li>
+<li><strong>Name the evidence gap:</strong> 'We cannot recommend Y until Z is measured' is itself a valuable recommendation — it commissions the next analysis.</li>
+<li><strong>Equity test:</strong> each recommendation should state who benefits — '...reducing the male–female gap in case detection' — or it risks widening inequity by helping the already-reached.
+Exercise (last 10 min): teams take one of their findings and draft one recommendation passing all four tests; read aloud; room applies the tests rapid-fire.</li>
+</ul>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00–11:15</td>
+<td>15</td>
+<td>Mini-lecture: the four tests with fail→pass examples; writing for the reader's desk.</td>
+</tr>
+<tr>
+<td>11:15–11:25</td>
+<td>10</td>
+<td>Team exercise: draft one recommendation from a real project finding.</td>
+</tr>
+<tr>
+<td>11:25–11:30</td>
+<td>5</td>
+<td>Rapid-fire plenary: room tests each recommendation against the four tests.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Slides: Recommendations.pptx</li>
+<li>Workbook: recommendation worksheet</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>The fail→pass examples do the teaching —</strong> linger on them; participants will quote them on Friday.</li>
+<li><strong>Kill 'improve/strengthen/enhance' on sight:</strong> make teams replace every vague verb with who-does-what-where-by-when before they sit down.</li>
+<li><strong>This session must end at 11:30 sharp —</strong> teams need the full build block.<blockquote>
+<p><strong>TRAINER TIP</strong> — The four-tests table is a permanent job aid — print it as a laminated card for cascade trainings. Trainees who test recommendations aloud in plenary ('linked? specific? feasible? honest?') internalize the standard in a single session.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 4 (Thu 25 Mar)  |  11:30–12:30</h3>
+<h4>Teams work on group projects</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Lock the 10-slide outline.</li>
+<li>Populate Results slides with finalized tables and figures.</li>
+<li>Draft recommendations passing the four tests.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Build block 1 of 3. Target by 12:30: full slide outline locked (all 10 slides titled), Results slides populated with tables and figures, recommendations drafted. Facilitators run targeted coaching rounds: lead takes IMRAD/methods slides, co-facilitator takes tables/figures/recommendations. The triage list from the morning debrief dictates who gets help first.</p>
+<p>Insist on the 'what we cannot say' slide (see Group Project Guidance) — check each team has it before lunch.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:30–12:25</td>
+<td>55</td>
+<td>Team build; facilitators coach in rounds per the triage list.</td>
+</tr>
+<tr>
+<td>11:55–12:00</td>
+<td>5</td>
+<td>Mid-block pulse: lead calls 'slide count?' — each team reports slides drafted (public accountability).</td>
+</tr>
+<tr>
+<td>12:25–12:30</td>
+<td>5</td>
+<td>Lead: confirm 'what we cannot say' slide exists in every deck; set the afternoon target (full draft + rehearsal).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Draft decks</li>
+<li>Checklists (table, figure)</li>
+<li>Recommendation worksheet</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Protect the builders from perfectionism:</strong> 'Friday-ready, not journal-ready' — a finished honest deck beats a half-polished one.</li>
+<li><strong>Do not let one team monopolize a facilitator;</strong> set a 10-minute timer per coaching visit and move on.</li>
+<li><strong>Note rehearsal order for tomorrow —</strong> draw lots at lunch to keep it fair.<blockquote>
+<p><strong>TRAINER TIP</strong> — In cascade trainings, this build-block rhythm (55 min build → public pulse → 5 min reset) sustains energy across long project days. The public slide-count pulse is gentle pressure that works.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 4 (Thu 25 Mar)  |  13:00–14:00</h3>
+<h4>Lunch</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Draw lots for Friday's presentation order over lunch; post the order on the wall. Confirm the projector and timer setup for tomorrow.</p>
+</blockquote>
+<h3>Day 4 (Thu 25 Mar)  |  14:00–14:30</h3>
+<h4>Check in on the progress of group projects</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Report project status honestly against milestones.</li>
+<li>Request and receive targeted unblocking help.</li>
+<li>Commit to a rehearsal before end of day.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Structured status check, not a work block. Each team gets 5 minutes: 2 minutes to present status against the milestone table (slides drafted / in progress / missing), 3 minutes of facilitator and peer unblocking. Use the traffic-light frame: green = on track for Friday, amber = needs today's block to land, red = needs facilitator rescue now.</p>
+<p>Facilitator records reds and assigns rescue: co-facilitator takes reds during the next block; ambers get a 10-minute check at 15:00. End with the rehearsal requirement: every team rehearses aloud at least once today — 'a presentation never rehearsed is a presentation never given.'</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:00–14:05</td>
+<td>5</td>
+<td>Lead frames: traffic lights, 5 min per team, rehearsal requirement.</td>
+</tr>
+<tr>
+<td>14:05–14:25</td>
+<td>20</td>
+<td>4 × 5 min team check-ins.</td>
+</tr>
+<tr>
+<td>14:25–14:30</td>
+<td>5</td>
+<td>Rescue assignments; confirm 15:30 deliverable: full draft deck + rehearsal done.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Milestone table (workbook)</li>
+<li>Flipchart: traffic-light board</li>
+<li>Presentation order (posted)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Keep check-ins brutally on time —</strong> this session exists to create focus, not to become another work block.</li>
+<li><strong>Name reds without shame:</strong> 'Red means you get help first — it's the best color to be today.'</li>
+<li><strong>Write rescue assignments visibly;</strong> accountability survives the afternoon only if it is written down.<blockquote>
+<p><strong>TRAINER TIP</strong> — The traffic-light check-in ports directly to cascade trainings and to managing real ministry analysis projects: 5 minutes per team, status against milestones, help assigned in writing. It is project management in its simplest honest form.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 4 (Thu 25 Mar)  |  14:30–15:30</h3>
+<h4>Teams continue working on group projects</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Complete the full 10-slide draft deck.</li>
+<li>Assign speaking parts and rehearse aloud with timing.</li>
+<li>Submit readiness for Friday presentations.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Final build block. Deliverable by 15:30: complete 10-slide draft deck, every member with a speaking part assigned, at least one full aloud rehearsal completed with timing (15 min + 5 min questions). Facilitators: co-facilitator covers reds first, then circulates; lead does 5-minute rehearsal audits (listen to 3 minutes of each rehearsal, give one delivery note).</p>
+<p>Close the day at 15:30 sharp with the Friday briefing: submit final slides by 9:00 Friday (USB + email to lead), presentation order posted, scoring rubric reminder, and the evening's only homework — sleep. Distribute Day 4 evaluation forms at 15:20.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:30–15:15</td>
+<td>45</td>
+<td>Build + rehearsals; facilitators coach and audit.</td>
+</tr>
+<tr>
+<td>15:15–15:25</td>
+<td>10</td>
+<td>Final rehearsal window; evaluation forms distributed.</td>
+</tr>
+<tr>
+<td>15:25–15:30</td>
+<td>5</td>
+<td>Day close: Friday logistics, rubric reminder, collect forms. End on time — rest is part of readiness.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Draft decks</li>
+<li>Timer</li>
+<li>Evaluation forms (Day 4)</li>
+<li>Rubric (1 page)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>A rehearsal audit of 3 minutes per team</strong> catches 90% of delivery problems (racing, reading slides, uneven parts) at trivial cost.</li>
+<li><strong>Collect evaluation forms before anyone leaves —</strong> Day 4 feedback sets up the final morning.</li>
+<li><strong>End at 15:30 even if a team begs for more time —</strong> fatigue compounds; Friday morning has buffer built in.<blockquote>
+<p><strong>TRAINER TIP</strong> — Never let a cascade-training team present without an aloud rehearsal — make it a rule, not a suggestion. The 3-minute audit ('I'll listen to your opening, one note, back to work') scales to any class size.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Day 5 — Friday 26 March 2027: Present, Plan the Cascade, Close</h2>
+<p><em>Theme: show the work, then turn trainers loose — presentations in the morning, cascade planning and honest evaluation in the afternoon. Participants leave with a plan, a template, and a network.</em></p>
+<h3>Day 5 (Fri 26 Mar)  |  9:00–9:30</h3>
+<h4>Day 4 debrief</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Resolve final unclear items.</li>
+<li>Confirm presentation logistics and scoring.</li>
+<li>Establish the audience questioning contract.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<ol>
+<li>Final re-teach: top unclear items from Day 4 forms (usually recommendation specificity and template version control).</li>
+<li>Logistics lock: presentation order (drawn Thursday), 15 + 5 minute timing with visible timer, rubric scoring during talks, slides already submitted by 9:00.</li>
+<li>Set the audience contract: every non-presenting team asks at least one question across the morning — questioning is a skill being assessed too (rubric criterion 10 models it).</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:10</td>
+<td>10</td>
+<td>Re-teach unclear items.</td>
+</tr>
+<tr>
+<td>9:10–9:20</td>
+<td>10</td>
+<td>Logistics: order, timing, rubric, submitted slides check.</td>
+</tr>
+<tr>
+<td>9:20–9:30</td>
+<td>10</td>
+<td>Audience contract; room reset for presentations.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Posted presentation order</li>
+<li>Timer</li>
+<li>Rubric scoring sheets</li>
+<li>Tallied Day 4 forms</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Verify slides are actually submitted by 9:00 —</strong> chase missing decks during the debrief, not during presentation 1.</li>
+<li><strong>Seat teams together;</strong> transitions between teams must take under 2 minutes.<blockquote>
+<p><strong>TRAINER TIP</strong> — In cascade trainings, make the audience contract explicit too — questioning is a trainable skill, and shy trainees need permission to practice it.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5 (Fri 26 Mar)  |  9:30–10:30</h3>
+<h4>Group report presentations</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Deliver a 15-minute team analysis presentation within time.</li>
+<li>Defend methods and conclusions under questioning.</li>
+<li>Give specific, kind, rubric-tied feedback to peer teams.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Presentations 1 and 2 (15 minutes each + 5 minutes questions). Facilitators score silently against the 10-criterion rubric during each talk; the lead keeps time with a visible timer and stops overtime firmly but kindly ('Thank you — let's hold questions for what we heard').</p>
+<p>Feedback protocol after each presentation (during the 5-minute question window + 2-minute facilitator close): one strength named specifically, one improvement tied to the rubric, then audience questions. Model the 'specific, prompt, kind' feedback standard from Tuesday — participants will copy it at home.</p>
+<p>What to listen for as an assessor: correct rate math, honest axes, the equity slide, the 'what we cannot say' humility, and recommendations that pass the four tests.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30–9:50</td>
+<td>20</td>
+<td>Team 1: 15 min presentation + 5 min questions.</td>
+</tr>
+<tr>
+<td>9:50–9:52</td>
+<td>2</td>
+<td>Transition.</td>
+</tr>
+<tr>
+<td>9:52–10:12</td>
+<td>20</td>
+<td>Team 2: 15 min presentation + 5 min questions.</td>
+</tr>
+<tr>
+<td>10:12–10:30</td>
+<td>18</td>
+<td>Facilitator feedback closes (strength + rubric-tied improvement per team); buffer for overruns.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Projector + timer</li>
+<li>Rubric scoring sheets (facilitators)</li>
+<li>Submitted slide decks</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Stop overtime kindly but firmly —</strong> overruns steal the next team's time and teach that the clock is negotiable. It is not.</li>
+<li><strong>Score during the talk,</strong> not after — memory of detail fades within minutes.</li>
+<li><strong>Protect the question window:</strong> if the audience is shy, the lead asks the first question to break the ice.<blockquote>
+<p><strong>TRAINER TIP</strong> — Run cascade-training final presentations with the same 15+5 discipline and the same feedback protocol. Trainees who have been assessed fairly assess fairly — the culture replicates.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5 (Fri 26 Mar)  |  10:30–11:00</h3>
+<h4>Tea</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Tally rubric scores for teams 1–2 during tea so feedback is complete before the afternoon. Check the remaining teams are ready.</p>
+</blockquote>
+<h3>Day 5 (Fri 26 Mar)  |  11:00–11:30</h3>
+<h4>Group report presentations (continued)</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Deliver and defend the remaining team presentations.</li>
+<li>Synthesize cohort-level findings and skill gaps.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Presentations 3 and 4, same protocol: 15 + 5 minutes, silent rubric scoring, strength + improvement feedback, audience questions.</p>
+<p>After team 4, give the morning's synthesis (5 minutes): patterns across all four reports — what the cohort as a whole found in Demoland (national TB decline, Westbrook's rise, the male burden, Riverside's registration gap), and which rubric criteria the cohort mastered vs. which need reinforcement in Phase 2. This synthesis becomes the headline of the course report.</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00–11:20</td>
+<td>20</td>
+<td>Team 3: 15 min + 5 min questions.</td>
+</tr>
+<tr>
+<td>11:20–11:22</td>
+<td>2</td>
+<td>Transition.</td>
+</tr>
+<tr>
+<td>11:22–11:30</td>
+<td>8</td>
+<td>Team 4: condensed slot — 5 min lightning + 3 min questions (buffer protection; full 15 min if morning ran on time).</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Projector + timer</li>
+<li>Rubric scoring sheets</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>If the morning ran long,</strong> use the lightning format for team 4 without apology — and say why aloud: 'protecting the afternoon matters more than 10 more minutes.' It models prioritization.</li>
+<li><strong>Capture the synthesis on flipchart —</strong> it is the course report's headline.<blockquote>
+<p><strong>TRAINER TIP</strong> — The cohort synthesis ('here is what we collectively found, here is what we collectively still need') is a powerful cascade-training ritual too — it turns individual presentations into shared knowledge.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5  |  11:30–13:00</h3>
+<h4>Unstructured team working time (no formal session)</h4>
+<p>The source agenda schedules no formal session in this block. It is protected, unstructured team working time — for finalizing presentation slides, incorporating morning feedback into decks, rehearsing, and informal facilitator consultations. Do not program it: the value is the absence of programming.</p>
+<ul>
+<li>Facilitators remain available at tables for questions; no plenary, no new content.</li>
+<li>Teams that presented in the morning use the time to note feedback for their Phase 2 cascade decks.</li>
+<li>Co-facilitator finalizes rubric tallies and prepares score summaries.<blockquote>
+<p><strong>TRAINER TIP</strong> — Unstructured time is a feature, not a gap — defend it against the urge to 'fill' it. In cascade trainings, protect at least one such block: it is where struggling trainees catch up without stigma.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5 (Fri 26 Mar)  |  13:00–14:00</h3>
+<h4>Lunch</h4>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Final lunch together — sit with the team you have spent the least time with. Finalize rubric tallies.</p>
+</blockquote>
+<h3>Day 5 (Fri 26 Mar)  |  14:00–15:00</h3>
+<h4>Training Methodologies</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Draft a 1-page Phase 2 cascade-training plan (audience, objectives, adaptation, materials, risks).</li>
+<li>Present and defend the plan under peer questioning.</li>
+<li>State the trainer's creed and its practical meaning.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>The second methodologies session turns participants from practitioners into planners. Each country team drafts a 1-page cascade-training plan for Phase 2 using the session-design template from Tuesday:</p>
+<ol>
+<li>Audience: who exactly (cadre, numbers, baseline skills), where, when (proposed dates within 6 months).</li>
+<li>Objectives: 3–4 learning objectives for a 3-day in-country course, adapted from this week's list.</li>
+<li>Content adaptation: which sessions to keep, shorten, or replace; what local data replaces Demoland; language needs (French materials for Côte d'Ivoire).</li>
+<li>Materials: what exists (this guide, .docx template, checklists) vs. what must be built or translated.</li>
+<li>Risks and mitigations: the top 3 things that could derail the cascade (e.g., laptop shortages, approval delays) and the plan for each.
+Teams present their 1-page plan in 5 minutes each (14:40–15:00); plenary pressure-tests one risk per team. Facilitators collect the plans — they are the Phase 2 baseline documents.</li>
+</ol>
+<p>Close with the trainer's creed: 'Teach the skill, not the slides. Demo, deconstruct, practice, feedback. Protect team time. End on time.'</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:00–14:10</td>
+<td>10</td>
+<td>Lead frames: from practitioner to planner; the 5-part 1-page plan.</td>
+</tr>
+<tr>
+<td>14:10–14:40</td>
+<td>30</td>
+<td>Country teams draft the plan (use Tuesday's template + adaptation flipcharts from Thursday).</td>
+</tr>
+<tr>
+<td>14:40–15:00</td>
+<td>20</td>
+<td>4 × 5 min plan pitches + risk pressure-test. Collect plans.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Session-design template</li>
+<li>Thursday adaptation flipcharts (photos)</li>
+<li>1-page plan worksheet</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Keep pitches to 5 minutes —</strong> the evaluation session must start at 15:00.</li>
+<li><strong>Push on risks:</strong> vague risks ('funding') get the follow-up 'and what specifically will you do in April about it?'</li>
+<li><strong>These plans are deliverables —</strong> collect every copy; they anchor Phase 2 follow-up calls.<blockquote>
+<p><strong>TRAINER TIP</strong> — The 1-page cascade plan is the single most important take-home document: a plan that fits on one page gets executed; a 20-page plan gets filed. Require the same 1-page discipline in every training you commission.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5 (Fri 26 Mar)  |  15:00–16:00</h3>
+<h4>Preparing for country-specific data analysis projects</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Inventory national datasets, owners, and access routes.</li>
+<li>Draft candidate analysis questions with five-part objectives.</li>
+<li>Complete the 1-page Country Project Charter.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Bridge from synthetic Demoland to real national data. For each country team, work through the readiness checklist:</p>
+<ol>
+<li>Data inventory: which datasets exist (CRVS, DHIS2, census/survey), who owns each, what the access route and timeline is (recall Day 1's SOP session).</li>
+<li>Question shortlist: 2–3 candidate analysis questions per country, each with a draft five-part objective.</li>
+<li>Denominator check: is a usable census or projection available at the needed disaggregation? If not, that is the first work package.</li>
+<li>Equity check: which PROGRESS-Plus dimensions can the national data actually support? Name the gaps now.</li>
+<li>Team and timeline: named analysts, a 90-day milestone sketch (data access → cleaning → analysis → draft report → review).</li>
+<li>Support needed: what mentoring the project technical team should provide, and when.
+Teams capture this on the Country Project Charter (1 page, in workbook); each team reads its question shortlist aloud (5 min each, 14:50–15:10 within this hour's flow below). Facilitators reality-check one objective per team against the five-part anatomy.</li>
+</ol>
+<p>End with the handoff: 'Demoland was practice. Your country's data is the performance. The project team will contact your focal point within two weeks to schedule the first mentoring call.'</p>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15:00–15:15</td>
+<td>15</td>
+<td>Lead: the readiness checklist; Demoland → real data handoff.</td>
+</tr>
+<tr>
+<td>15:15–15:45</td>
+<td>30</td>
+<td>Teams complete the Country Project Charter.</td>
+</tr>
+<tr>
+<td>15:45–16:00</td>
+<td>15</td>
+<td>Plenary: question shortlists read aloud (3–4 min each); facilitator reality-checks one objective per team.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Country Project Charter worksheet</li>
+<li>Day 1 SOP flipchart photos</li>
+<li>Five-part objective anatomy (wall reference)</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Guard against over-ambition:</strong> a charter with six questions will deliver none — force the shortlist to 2–3.</li>
+<li><strong>Name the focal point for mentoring contact</strong> before the session ends; 'someone will follow up' evaporates.</li>
+<li><strong>Collect the charters —</strong> like the cascade plans, they are Phase 2/3 baseline documents.<blockquote>
+<p><strong>TRAINER TIP</strong> — The Country Project Charter ritual — inventory, questions, denominators, equity, team, timeline, support — is reusable for any technical-assistance kickoff. Run it at the start of every country engagement, not just trainings.</p>
+</blockquote>
+</li>
+</ul>
+<h3>Day 5 (Fri 26 Mar)  |  16:00–17:00</h3>
+<h4>Workshop evaluation and wrap-up</h4>
+<h4>Learning objectives</h4>
+<ol>
+<li>Complete the post-test under standard conditions.</li>
+<li>Evaluate the course honestly across all dimensions.</li>
+<li>State personal next steps as a national trainer.</li>
+</ol>
+<h4>Key content and talking points</h4>
+<p>Close the week with the same rigor it opened with:</p>
+<ol>
+<li>Post-test (16:00–16:30): same conditions as Monday — 30 minutes, same anonymous 4-digit code, parallel form. Collect at 16:30 sharp.</li>
+<li>Course evaluation (16:30–16:45): the overall evaluation form (objectives met? most/least useful session? facilitator feedback? venue? confidence as a future trainer, 1–5). Collect before certificates — response rates collapse otherwise.</li>
+<li>Results preview (16:45–16:55): lead shares the week's arc — pre-test mean (from Monday), project highlights, the 'Our vision' flipchart revisited: 'Which of these did we move toward this week?' Promise the full M&amp;E summary (pre/post gains, rubric scores) by email within two weeks.</li>
+<li>Certificates and close (16:55–17:00): certificates to all 24 participants; group photo; travel briefing for Saturday 27 March; final words — 'You arrived as analysts. You leave as trainers.'
+Facilitator back-office (after 17:00): score post-tests within one week; finalize rubric tallies; write the course report within three weeks (agenda, attendance, pre/post analysis, rubric summary, daily evaluation themes, cascade plans and charters annexed, recommendations for Phase 2).</li>
+</ol>
+<h4>Activity plan (minute-by-minute)</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Clock</strong></th>
+<th><strong>Min</strong></th>
+<th><strong>What happens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:00–16:30</td>
+<td>30</td>
+<td>Post-test in silence; collect at 16:30.</td>
+</tr>
+<tr>
+<td>16:30–16:45</td>
+<td>15</td>
+<td>Overall course evaluation form; collect before certificates.</td>
+</tr>
+<tr>
+<td>16:45–16:55</td>
+<td>10</td>
+<td>Week's arc: vision flipchart revisited; M&amp;E summary promised.</td>
+</tr>
+<tr>
+<td>16:55–17:00</td>
+<td>5</td>
+<td>Certificates, group photo, Saturday travel briefing, closing words.</td>
+</tr>
+</tbody>
+</table>
+<h4>Materials needed</h4>
+<ul>
+<li>Post-test forms (30)</li>
+<li>Course evaluation forms (30)</li>
+<li>Certificates (24)</li>
+<li>'Our vision' flipchart from Day 1</li>
+</ul>
+<h4>Facilitator notes — pitfalls, pacing, contingencies</h4>
+<ul>
+<li><strong>Collect the evaluation BEFORE certificates —</strong> say it plainly: 'Forms first, then certificates.' It works.</li>
+<li><strong>Keep the closing words under 60 seconds —</strong> the week should speak for itself; brevity is the final modeling of the clock discipline you preached.</li>
+<li><strong>Do not promise post-test scores on the spot;</strong> promise the summary by email within two weeks, and deliver it.<blockquote>
+<p><strong>TRAINER TIP</strong> — The evaluation-before-certificates sequence is a portable trick for any training: it routinely doubles response rates. And always close by revisiting the vision set on day 1 — it turns a course into a story with an ending, which is what trainers remember when they teach.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Annex A — Glossary</h2>
+<p>Key terms used in this course, in alphabetical order. Facilitators: point participants here rather than defining terms from memory — consistent definitions across the four country teams matter.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Term</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bloomberg Philanthropies</td>
+<td>Funder of the Data for Health Initiative; supports government partnerships to strengthen public-health data systems.</td>
+</tr>
+<tr>
+<td>Case notification rate</td>
+<td>Number of notified cases (e.g., TB) divided by the population, multiplied by 100,000. Reflects what surveillance captures, not necessarily true incidence.</td>
+</tr>
+<tr>
+<td>Categorical data</td>
+<td>Data in named groups (sex, district, age group) rather than numbers; summarized with counts, proportions, and the mode.</td>
+</tr>
+<tr>
+<td>Cause of death</td>
+<td>The disease or injury that initiated the chain of events leading to death; recorded on the death certificate and coded (e.g., ICD) for statistics.</td>
+</tr>
+<tr>
+<td>CDC Foundation</td>
+<td>Implementing partner of the Data for Health Initiative alongside Bloomberg Philanthropies.</td>
+</tr>
+<tr>
+<td>Census</td>
+<td>Complete enumeration of a population, typically every 10 years; provides denominators for rates at fine geographic and demographic detail.</td>
+</tr>
+<tr>
+<td>Cleaning log</td>
+<td>Written record of every data-cleaning step (file, date, action, rows before/after); belongs in a report's Methods section for reproducibility.</td>
+</tr>
+<tr>
+<td>Choropleth map</td>
+<td>Thematic map shading areas by value (darker = higher); in this course built in Excel via Filled Map charts or conditional-formatting grids.</td>
+</tr>
+<tr>
+<td>Civil registration</td>
+<td>Continuous, compulsory government recording of vital events (births, deaths, marriages, divorces).</td>
+</tr>
+<tr>
+<td>Completeness (of registration)</td>
+<td>Proportion of actual vital events captured by the civil registration system; e.g., Riverside district's visibly incomplete mortality registration in Demoland.</td>
+</tr>
+<tr>
+<td>Conditional formatting</td>
+<td>Excel feature that formats cells by their values (e.g., color scales); used here for exploratory outlier detection and offline district maps.</td>
+</tr>
+<tr>
+<td>Confidence interval</td>
+<td>Range of values likely to contain the true population value; quantifies uncertainty around an estimate (beyond this course's descriptive scope, but analysts should know the term).</td>
+</tr>
+<tr>
+<td>Continuous data</td>
+<td>Numeric data that can take any value in a range (age, rate); summarized with means/medians and SD/IQR.</td>
+</tr>
+<tr>
+<td>CRVS</td>
+<td>Civil Registration and Vital Statistics — the system recording births/deaths and producing vital statistics; a core D4H focus area.</td>
+</tr>
+<tr>
+<td>Data dictionary</td>
+<td>Document defining every variable in a dataset: name, definition, format, allowed values, source. Essential companion to any shared file.</td>
+</tr>
+<tr>
+<td>Data for Health (D4H) Initiative</td>
+<td>Bloomberg Philanthropies–funded, CDC Foundation–implemented partnership strengthening government health-data systems, especially CRVS and routine health information.</td>
+</tr>
+<tr>
+<td>Data validation (Excel)</td>
+<td>Data-tab feature restricting cell entries to a defined list or rule; prevents typos at the point of entry.</td>
+</tr>
+<tr>
+<td>Denominator</td>
+<td>The population at risk (or total) divided into; must match the numerator in person, place, and time. Wrong denominators are the commonest rate error.</td>
+</tr>
+<tr>
+<td>Descriptive statistics</td>
+<td>Numbers summarizing data (mean, median, SD, counts, percentages); they describe but do not test hypotheses or prove cause.</td>
+</tr>
+<tr>
+<td>DHIS2</td>
+<td>District Health Information Software 2 — open-source routine health information system used in 70+ countries for aggregate facility data.</td>
+</tr>
+<tr>
+<td>Disaggregation</td>
+<td>Splitting results into subgroups (sex, age, district); the core analytic habit of equity analysis.</td>
+</tr>
+<tr>
+<td>Distribution</td>
+<td>How values spread across their range; its shape (symmetric vs. skewed) determines whether to use mean or median.</td>
+</tr>
+<tr>
+<td>Equity (health)</td>
+<td>Everyone having a fair and just opportunity to be as healthy as possible; requires removing obstacles such as poverty and discrimination. Distinct from equality (same for all).</td>
+</tr>
+<tr>
+<td>Filled Map (Excel)</td>
+<td>Excel chart type shading geographic areas by value; requires internet (Bing geocoding) and recognized place names.</td>
+</tr>
+<tr>
+<td>IMRAD</td>
+<td>Introduction, Methods, Results, and Discussion — the standard structure of a technical report, each section with a strict border policy.</td>
+</tr>
+<tr>
+<td>Incidence rate</td>
+<td>(New cases ÷ population at risk) × multiplier (e.g., 100,000). Measures the risk of developing a condition over a period.</td>
+</tr>
+<tr>
+<td>Indicator</td>
+<td>Standardized measure (with defined numerator, denominator, and disaggregation) used to track a health phenomenon over time or across groups.</td>
+</tr>
+<tr>
+<td>Interquartile range (IQR)</td>
+<td>75th percentile minus 25th percentile; spread of the middle half of the data; robust partner to the median.</td>
+</tr>
+<tr>
+<td>Mean</td>
+<td>Sum of values ÷ number of values; use for symmetric continuous data; pulled by outliers.</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>Middle value when sorted; use for skewed data or data with outliers.</td>
+</tr>
+<tr>
+<td>Metadata</td>
+<td>Data about data: source, collection date, definitions, known limitations. A dataset without metadata is a rumor.</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>Most frequent value; the summary for categorical data.</td>
+</tr>
+<tr>
+<td>Morbidity</td>
+<td>Burden of disease/illness in a population (as distinct from mortality).</td>
+</tr>
+<tr>
+<td>Mortality rate</td>
+<td>(Deaths ÷ population) × multiplier; only interpretable where death registration is reasonably complete (cf. Riverside).</td>
+</tr>
+<tr>
+<td>Multiplier</td>
+<td>Scaling factor in a rate (100; 1,000; 100,000) chosen so the result is a readable number; always stated with the rate.</td>
+</tr>
+<tr>
+<td>Numerator</td>
+<td>The count of events (cases, deaths) placed over the denominator in an indicator.</td>
+</tr>
+<tr>
+<td>Outlier</td>
+<td>Value far from the rest; investigate (error? real extreme?) rather than silently deleting.</td>
+</tr>
+<tr>
+<td>Pivot table</td>
+<td>Excel engine for rapid stratified summaries: drag fields to rows/columns/values; with slicers it re-stratifies in one click.</td>
+</tr>
+<tr>
+<td>Prevalence</td>
+<td>Proportion of a population with a condition at a given time; distinct from incidence (new cases over a period).</td>
+</tr>
+<tr>
+<td>PROGRESS-Plus</td>
+<td>Equity checklist: Place, Race/ethnicity, Occupation, Gender/sex, Religion, Education, Socioeconomic status, Social capital, plus age, disability, and other context-specific dimensions.</td>
+</tr>
+<tr>
+<td>Proportion</td>
+<td>(Part ÷ whole) × 100; a share of a whole — not a rate (no population at risk, no time element).</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>Maximum minus minimum; quickest but crudest measure of spread.</td>
+</tr>
+<tr>
+<td>Rate</td>
+<td>Events divided by population at risk over a period, scaled by a multiplier; enables fair comparison across differently sized populations.</td>
+</tr>
+<tr>
+<td>Remove Duplicates (Excel)</td>
+<td>Data-tab tool deleting repeated rows; select the full table first and tick only the columns defining a true duplicate.</td>
+</tr>
+<tr>
+<td>Skewed data</td>
+<td>Distribution with a long tail on one side (e.g., district rates pulled up by Westbrook); summarize with median + IQR, not mean + SD.</td>
+</tr>
+<tr>
+<td>Slicer (Excel)</td>
+<td>Clickable filter buttons for a pivot table; one click re-stratifies the analysis.</td>
+</tr>
+<tr>
+<td>SOP (Standard Operating Procedure)</td>
+<td>Written step-by-step instruction for a routine task — e.g., requesting, accessing, cleaning, and sharing health data.</td>
+</tr>
+<tr>
+<td>Standard deviation (SD)</td>
+<td>Typical distance of values from the mean; reported with the mean for symmetric data.</td>
+</tr>
+<tr>
+<td>Stratification</td>
+<td>See disaggregation: analysis within subgroups to reveal differences hidden by averages.</td>
+</tr>
+<tr>
+<td>Synthetic data</td>
+<td>Artificially generated data mimicking real patterns without real records; all Demoland datasets are 100% synthetic.</td>
+</tr>
+<tr>
+<td>Text-to-Columns (Excel)</td>
+<td>Data-tab wizard splitting combined text into columns by delimiters; also converts text-numbers to numbers.</td>
+</tr>
+<tr>
+<td>Training of Trainers (TOT)</td>
+<td>Course preparing participants to train others; this week's 24 participants become national trainers for Phase 2 cascade trainings.</td>
+</tr>
+<tr>
+<td>Treatment success rate</td>
+<td>(TB patients cured + treatment completed ÷ all registered for treatment) × 100; core TB program indicator.</td>
+</tr>
+<tr>
+<td>TRIM (Excel)</td>
+<td>Function removing leading/trailing spaces: =TRIM(A2); paste as values over the original. Spaces are the commonest cause of failed lookups.</td>
+</tr>
+<tr>
+<td>Value Field Settings (Excel)</td>
+<td>Pivot-table dialog controlling how a value field summarizes (sum, count, average) and displays (% of row/column total).</td>
+</tr>
+<tr>
+<td>Vital statistics</td>
+<td>Statistics on vital events (births, deaths, causes of death) derived from civil registration.</td>
+</tr>
+<tr>
+<td>XLOOKUP (Excel)</td>
+<td>Modern lookup: =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found]); searches in any direction, exact match by default.</td>
+</tr>
+</tbody>
+</table>
+<h2>Annex B — Excel Formula Quick-Reference</h2>
+<p>One-page-per-topic reference for participants' desks. All syntax verified for Excel 2016 and later; XLOOKUP notes where it requires Excel 2021 / Microsoft 365 (use INDEX/MATCH on older versions). Absolute references ($A$2) lock ranges when filling down — press F4 to toggle.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Formula / feature</strong></th>
+<th><strong>Syntax</strong></th>
+<th><strong>Example</strong></th>
+<th><strong>Use case</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SUM</td>
+<td>=SUM(B2:B13)</td>
+<td>=SUM(Jan:Dec!B2) across sheets</td>
+<td>Total cases, deaths, or any additive measure.</td>
+</tr>
+<tr>
+<td>AVERAGE</td>
+<td>=AVERAGE(B2:B13)</td>
+<td>=AVERAGE(rate_range)</td>
+<td>Mean of symmetric continuous data.</td>
+</tr>
+<tr>
+<td>MEDIAN</td>
+<td>=MEDIAN(B2:B13)</td>
+<td>=MEDIAN(district_rates)</td>
+<td>Typical value for skewed data (e.g., district rates with Westbrook high).</td>
+</tr>
+<tr>
+<td>MODE.SNGL</td>
+<td>=MODE.SNGL(B2:B13)</td>
+<td>=MODE.SNGL(age_group_codes)</td>
+<td>Most frequent value; categorical data.</td>
+</tr>
+<tr>
+<td>STDEV.S</td>
+<td>=STDEV.S(B2:B13)</td>
+<td>=STDEV.S(rate_range)</td>
+<td>Sample standard deviation; partner to the mean.</td>
+</tr>
+<tr>
+<td>STDEV.P</td>
+<td>=STDEV.P(B2:B13)</td>
+<td>=STDEV.P(full_pop_range)</td>
+<td>Population SD; only when the range is the entire population.</td>
+</tr>
+<tr>
+<td>MIN / MAX</td>
+<td>=MIN(B2:B13)</td>
+<td>=MAX(B2:B13)-MIN(B2:B13) for range</td>
+<td>Endpoints and range of a distribution.</td>
+</tr>
+<tr>
+<td>QUARTILE.INC</td>
+<td>=QUARTILE.INC(B2:B13,1)</td>
+<td>=QUARTILE.INC(r,3)-QUARTILE.INC(r,1) for IQR</td>
+<td>Q1/Q3; IQR = robust spread with the median.</td>
+</tr>
+<tr>
+<td>COUNT / COUNTA</td>
+<td>=COUNT(B2:B13)</td>
+<td>=COUNTA(A2:A100)</td>
+<td>COUNT: numeric cells (report n); COUNTA: non-empty cells.</td>
+</tr>
+<tr>
+<td>COUNTIF</td>
+<td>=COUNTIF(C2:C100,"Male")</td>
+<td>=COUNTIF(district_range,"Westbrook")</td>
+<td>Count rows meeting one criterion.</td>
+</tr>
+<tr>
+<td>COUNTIFS</td>
+<td>=COUNTIFS(C2:C100,"Male",D2:D100,2024)</td>
+<td>—</td>
+<td>Count rows meeting multiple criteria.</td>
+</tr>
+<tr>
+<td>SUMIF</td>
+<td>=SUMIF(C2:C100,"Male",B2:B100)</td>
+<td>—</td>
+<td>Sum values where a criterion holds.</td>
+</tr>
+<tr>
+<td>SUMIFS</td>
+<td>=SUMIFS(B2:B100,C2:C100,"Male",D2:D100,2024)</td>
+<td>—</td>
+<td>Sum with multiple criteria.</td>
+</tr>
+<tr>
+<td>AVERAGEIF(S)</td>
+<td>=AVERAGEIF(C2:C100,"Female",B2:B100)</td>
+<td>—</td>
+<td>Mean within a subgroup.</td>
+</tr>
+<tr>
+<td>IF</td>
+<td>=IF(B2&gt;100,"High","Low")</td>
+<td>=IF(B2="","Missing","OK")</td>
+<td>Conditional logic; flagging thresholds and missing data.</td>
+</tr>
+<tr>
+<td>IFERROR</td>
+<td>=IFERROR(VLOOKUP(...),"Check key")</td>
+<td>=IFERROR(A2/B2,"No data")</td>
+<td>Trap errors gracefully during merges and rate math.</td>
+</tr>
+<tr>
+<td>VLOOKUP</td>
+<td>=VLOOKUP(A2,Pop!$A$2:$B$13,2,FALSE)</td>
+<td>—</td>
+<td>Pull denominator by key; FALSE = exact match (always for merges); key must be leftmost column.</td>
+</tr>
+<tr>
+<td>XLOOKUP</td>
+<td>=XLOOKUP(A2,Pop!$A$2:$A$13,Pop!$B$2:$B$13,"Missing")</td>
+<td>—</td>
+<td>Modern lookup; any direction; exact by default; built-in not-found value. Excel 2021+/365.</td>
+</tr>
+<tr>
+<td>INDEX/MATCH</td>
+<td>=INDEX(Pop!$B$2:$B$13,MATCH(A2,Pop!$A$2:$A$13,0))</td>
+<td>—</td>
+<td>Flexible lookup for Excel 2016/2019 without XLOOKUP; immune to inserted columns.</td>
+</tr>
+<tr>
+<td>CONCAT / TEXTJOIN</td>
+<td>=CONCAT(A2,"_",B2)</td>
+<td>=TEXTJOIN("_",TRUE,A2:C2)</td>
+<td>Build composite keys (district_year) for merging.</td>
+</tr>
+<tr>
+<td>TEXT</td>
+<td>=TEXT(A2,"000")</td>
+<td>=TEXT(B2,"mmm-yyyy")</td>
+<td>Format numbers/dates as text with fixed patterns.</td>
+</tr>
+<tr>
+<td>DATE / YEAR / MONTH</td>
+<td>=DATE(2024,3,22)</td>
+<td>=YEAR(A2)</td>
+<td>Build or extract date parts; validate date columns.</td>
+</tr>
+<tr>
+<td>DATEVALUE</td>
+<td>=DATEVALUE(A2)</td>
+<td>—</td>
+<td>Convert text-dates to real dates (then format as Date).</td>
+</tr>
+<tr>
+<td>TRIM</td>
+<td>=TRIM(A2)</td>
+<td>Paste Special → Values over original</td>
+<td>Strip leading/trailing spaces before merges.</td>
+</tr>
+<tr>
+<td>UPPER / LOWER / PROPER</td>
+<td>=PROPER(A2)</td>
+<td>—</td>
+<td>Standardize text case ('westbrook' → 'Westbrook').</td>
+</tr>
+<tr>
+<td>LEFT / RIGHT / MID</td>
+<td>=LEFT(A2,4)</td>
+<td>=MID(A2,6,4)</td>
+<td>Extract parts of coded fields before Text-to-Columns.</td>
+</tr>
+<tr>
+<td>LEN</td>
+<td>=LEN(A2)</td>
+<td>=IF(LEN(A2)&lt;&gt;12,"Check ID","")</td>
+<td>Length checks for ID/code validation.</td>
+</tr>
+<tr>
+<td>ROUND</td>
+<td>=ROUND(B2/C2*100000,1)</td>
+<td>—</td>
+<td>Rates to 1 decimal; percentages sensibly rounded.</td>
+</tr>
+<tr>
+<td>Pivot: Value Field Settings</td>
+<td>Right-click value → Value Field Settings</td>
+<td>Summarize by Sum/Count/Average</td>
+<td>Control how the pivot aggregates each field.</td>
+</tr>
+<tr>
+<td>Pivot: Show Values As</td>
+<td>Right-click → Show Values As → % of Row Total</td>
+<td>—</td>
+<td>Instant sex distributions and district shares.</td>
+</tr>
+<tr>
+<td>Pivot: Slicer</td>
+<td>PivotTable Analyze → Insert Slicer → Year, Sex</td>
+<td>—</td>
+<td>One-click re-stratification for equity analysis.</td>
+</tr>
+<tr>
+<td>Pivot: Refresh</td>
+<td>Right-click pivot → Refresh</td>
+<td>Alt+F5</td>
+<td>Update after source data changes; a stale pivot is a wrong report.</td>
+</tr>
+<tr>
+<td>Conditional Formatting</td>
+<td>Home → Conditional Formatting → Color Scales</td>
+<td>—</td>
+<td>Exploratory outlier detection; offline district grid-maps.</td>
+</tr>
+<tr>
+<td>Sort safely</td>
+<td>Data → Sort (expand selection)</td>
+<td>—</td>
+<td>Sort whole tables; never one column alone.</td>
+</tr>
+<tr>
+<td>Remove Duplicates</td>
+<td>Data → Remove Duplicates</td>
+<td>Tick key columns only</td>
+<td>Deduplicate on district+year+sex+age-group, not all columns.</td>
+</tr>
+<tr>
+<td>Data Validation</td>
+<td>Data → Data Validation → List</td>
+<td>—</td>
+<td>Lock categorical columns to allowed values at entry.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>TRAINER TIP</strong> — Print Annex B on card stock and hand it out on Monday morning — participants reach for it all week, and it becomes the most-used page of their cascade-training workbook back home.</p>
+</blockquote>
+</div></div>
+</main>
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-text">
+      <p><strong style="color:#FBD9B0">Data Analysis &amp; Report Writing TOT</strong> · Data for Health Initiative · Bloomberg Philanthropies · CDC Foundation</p>
+      <p>Kigali, Rwanda · 22–26 March 2027 · All datasets on this site are 100% synthetic demo data for training only.</p>
+      <p><a href="https://github.com/datatopolicy/Data_Analysis_TOT">View source on GitHub</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Participant Workbook · Data Analysis & Report Writing TOT</title>
+<meta name="description" content="Data Analysis and Report Writing Training of Trainers — Data for Health Initiative, Kigali, Rwanda, 22–26 March 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="index.html">📊 Data Analysis TOT</a>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="">Home</a></li>
+<li><a href="agenda.html" class="">Agenda</a></li>
+<li><a href="guide.html" class="">Facilitator Guide</a></li>
+<li><a href="workbook.html" class="active">Participant Workbook</a></li>
+<li><a href="materials.html" class="">Materials</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="page-header">
+  <h1>Participant Workbook</h1>
+  <p>Exercises, worksheets and reference sheets for all five days — 57 pages in print.</p>
+</header>
+<main>
+<div class="container"><div class="prose">
+<blockquote>
+<p><strong>DATA FOR HEALTH (D4H) INITIATIVE</strong> — Funded by Bloomberg Philanthropies  ·  Implemented by the CDC Foundation</p>
+</blockquote>
+<p><strong>Data Analysis and Report Writing</strong></p>
+<p><strong>Training of Trainers (TOT)</strong></p>
+<p><strong>PARTICIPANT WORKBOOK</strong></p>
+<p>Kigali, Rwanda  ·  Monday 22 – Friday 26 March 2027</p>
+<p><em>Saturday 27 March 2027: travel day</em></p>
+<blockquote>
+<p><strong>A NOTE ON THE DATA</strong> — Every exercise in this workbook uses 100% synthetic demonstration data for the fictional country of “Demoland”. No real patient, facility, or country data is used at any point.
+Demoland has 12 districts: Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, and Pinehurst.
+Because the data are synthetic, describe patterns qualitatively (for example, “notifications are rising in Westbrook”) and always compute exact values yourself from the files — do not copy numbers from anyone else’s screen.</p>
+</blockquote>
+<p>24 participants  ·  4 country teams: Bangladesh · Côte d’Ivoire · Rwanda · Tanzania</p>
+<h2>How to Use This Workbook</h2>
+<p>This workbook is your day-by-day companion for the five-day Training of Trainers. Bring it — and your laptop — to every session.</p>
+<ul>
+<li><strong>Follow the day tabs.</strong> Each day opens with the day’s agenda, then concise key-point summaries of every taught session, then the full hands-on exercises for that day.</li>
+<li><strong>Exercises are fully specified.</strong> Every exercise names the exact file and worksheet to open, gives numbered steps you can follow on your own, describes the expected output, and ends with reflection questions. File and sheet names are shown in monospace, for example</li>
+<li><strong>Work in your country team.</strong> Afternoon “teams analyze data” slots and Days 4–5 are for your team project: an analytical report and presentation on Demoland data, presented on Friday morning.</li>
+<li><strong>Worksheets are yours to keep.</strong> Fill-in worksheets (objectives, equity lens, checklists, planning templates) are designed to be reused when you train others back home.</li>
+<li><strong>Check your work.</strong> The Day 2 and Day 3 exercise workbooks contain an Answer_Key sheet. Attempt every task first, then compare and discuss differences with your team.</li>
+<li><strong>Use the back matter.</strong> The glossary defines key terms; the one-page formula quick-reference is meant to live next to your keyboard all week.
+Example file reference: DA-TOT_Demo_TB-Register_2021-2025.xlsx  → sheet Data</li>
+</ul>
+<h3>Your data and exercise files</h3>
+<p>All files are provided on your USB drive / shared folder. Open the README sheet of each file first — it describes the file’s contents and conventions.</p>
+<table>
+<thead>
+<tr>
+<th><strong>File name</strong></th>
+<th><strong>What it contains</strong></th>
+<th><strong>Used on</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DA-TOT_Demo_TB-Register_2021-2025.xlsx</td>
+<td>TB notifications by district × sex × age group × year (2021–2025), with treatment success counts. Sheets: README, Data, Data_Dictionary.</td>
+<td>Days 1–2, team project</td>
+</tr>
+<tr>
+<td>DA-TOT_Demo_Mortality-CRVS_2021-2025.xlsx</td>
+<td>Deaths by district × sex × age group × cause (TB, HIV, malaria, maternal, road traffic injuries, other NCDs). Sheets: README, Data, Data_Dictionary.</td>
+<td>Team project</td>
+</tr>
+<tr>
+<td>DA-TOT_Demo_Census-Population.xlsx</td>
+<td>Population by district × sex × year (2021–2025), plus age-group shares. Sheets: README, Population, Age_Structure.</td>
+<td>Days 1–2, team project</td>
+</tr>
+<tr>
+<td>DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx</td>
+<td>Messy monthly malaria extract: 6 facilities, 2024–2025, ~300 rows, 12+ planted data-quality issues. Sheets: README, Messy_Data, Cleaning_Log.</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>DA-TOT_Exercise-Workbook_Day2.xlsx</td>
+<td>Structured exercises on rates, descriptive statistics, and pivot tables. Sheets: README, TB_Data, Census_Data, Tasks, Answer_Key.</td>
+<td>Day 2</td>
+</tr>
+<tr>
+<td>DA-TOT_Exercise-Workbook_Day3.xlsx</td>
+<td>Table, figure, and map exercises. Sheets: README, Bad_Table_1, Bad_Table_2, Bad_Table_3, Figure_Tasks, Map_Task, Answer_Key.</td>
+<td>Day 3</td>
+</tr>
+</tbody>
+</table>
+<h3>A note on numbers in this workbook</h3>
+<p>The Demoland datasets are built around a few deliberate patterns you will discover: a gradual national decline in TB notifications from 2021 to 2025, rising TB notifications in Westbrook district, a higher TB burden among males (roughly 60–65% of notifications), and visibly incomplete mortality registration in Riverside district. This workbook describes these patterns qualitatively. It never states exact counts or rates as fact — you must compute every number yourself from the demo files. If a number you calculate differs from a colleague’s, check your formulas and denominators before assuming the file is wrong.</p>
+<h2>Course Objectives</h2>
+<p>By the end of this Training of Trainers, you will be able to:</p>
+<ol>
+<li>Write clear, policy-relevant data analysis objectives linked to a defined audience and decision.</li>
+<li>Apply an equity lens (PROGRESS-Plus) at every stage of an analysis, from objective-setting to recommendations.</li>
+<li>Systematically clean and document messy health data in Excel, and combine datasets using lookup functions.</li>
+<li>Calculate and interpret rates using census denominators, and summarize data with appropriate descriptive statistics.</li>
+<li>Use Excel pivot tables to explore large health datasets efficiently and reproducibly.</li>
+<li>Structure an analytical report using the IMRAD framework and design publication-quality tables, figures, and maps.</li>
+<li>Draft specific, actionable, evidence-linked recommendations for decision-makers.</li>
+<li>Produce, as a country team, a short analytical report and slide presentation on real-style demo data.</li>
+<li>Plan and deliver cascade training in your home country using adult-learning methodologies.</li>
+<li>Develop a 90-day country action plan for applying and teaching these skills after the workshop.</li>
+</ol>
+<h2>Agenda at a Glance</h2>
+<p><em>Kigali, Rwanda · Monday 22 – Friday 26 March 2027 · Saturday 27 March: travel day</em></p>
+<h4>Day 1 — Mon 22 Mar</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Time</strong></th>
+<th><strong>Session</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:30</td>
+<td>Welcome and introductions</td>
+</tr>
+<tr>
+<td>9:30–10:00</td>
+<td>Introduction to the Data for Health Initiative Data Analysis Project</td>
+</tr>
+<tr>
+<td>10:00–10:30</td>
+<td>Review the TOT schedule and team project</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Tea</td>
+</tr>
+<tr>
+<td>11:00–12:00</td>
+<td>Principles of Equity</td>
+</tr>
+<tr>
+<td>12:00–12:30</td>
+<td>Group Projects: Country teams report on SOPs and challenges accessing data</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>14:00–15:00</td>
+<td>Establish data analysis objectives</td>
+</tr>
+<tr>
+<td>15:00–16:00</td>
+<td>Cleaning data in Excel</td>
+</tr>
+<tr>
+<td>16:00–16:30</td>
+<td>Combining data sets in Excel</td>
+</tr>
+<tr>
+<td>16:30–17:00</td>
+<td>Teams analyze data</td>
+</tr>
+</tbody>
+</table>
+<h4>Day 2 — Tue 23 Mar</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Time</strong></th>
+<th><strong>Session</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:30</td>
+<td>Day 1 debrief</td>
+</tr>
+<tr>
+<td>9:30–10:30</td>
+<td>Training Methodologies</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Tea</td>
+</tr>
+<tr>
+<td>11:00–12:00</td>
+<td>Accessing and using census data to calculate rates in Excel</td>
+</tr>
+<tr>
+<td>12:00–13:00</td>
+<td>Descriptive statistics review</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>14:00–15:00</td>
+<td>Descriptive statistics using Excel</td>
+</tr>
+<tr>
+<td>15:00–16:00</td>
+<td>Data analysis using pivot tables</td>
+</tr>
+<tr>
+<td>16:00–17:00</td>
+<td>Teams analyze data</td>
+</tr>
+</tbody>
+</table>
+<h4>Day 3 — Wed 24 Mar</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Time</strong></th>
+<th><strong>Session</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:30</td>
+<td>Day 2 debrief</td>
+</tr>
+<tr>
+<td>9:30–10:30</td>
+<td>IMRAD Structure</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Tea</td>
+</tr>
+<tr>
+<td>11:00–12:00</td>
+<td>Best practices for creating tables</td>
+</tr>
+<tr>
+<td>12:00–13:00</td>
+<td>Tables exercise</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>14:00–15:00</td>
+<td>Best practices for creating figures</td>
+</tr>
+<tr>
+<td>15:00–16:00</td>
+<td>Figures exercise</td>
+</tr>
+<tr>
+<td>16:00–17:00</td>
+<td>Creating maps in Excel</td>
+</tr>
+</tbody>
+</table>
+<h4>Day 4 — Thu 25 Mar</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Time</strong></th>
+<th><strong>Session</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:30</td>
+<td>Day 3 debrief</td>
+</tr>
+<tr>
+<td>9:30–10:30</td>
+<td>Guidelines for creating report templates</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Tea</td>
+</tr>
+<tr>
+<td>11:00–11:30</td>
+<td>Drafting appropriate recommendations</td>
+</tr>
+<tr>
+<td>11:30–12:30</td>
+<td>Teams work on group projects</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>14:00–14:30</td>
+<td>Check in on the progress of group projects</td>
+</tr>
+<tr>
+<td>14:30–15:30</td>
+<td>Teams continue working on group projects</td>
+</tr>
+</tbody>
+</table>
+<h4>Day 5 — Fri 26 Mar</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Time</strong></th>
+<th><strong>Session</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00–9:30</td>
+<td>Day 4 debrief</td>
+</tr>
+<tr>
+<td>9:30–10:30</td>
+<td>Group report presentations</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Tea</td>
+</tr>
+<tr>
+<td>11:00–11:30</td>
+<td>Group report presentations (continued)</td>
+</tr>
+<tr>
+<td>11:30–13:00</td>
+<td>Team working time: finalize presentations</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>14:00–15:00</td>
+<td>Training Methodologies</td>
+</tr>
+<tr>
+<td>15:00–16:00</td>
+<td>Preparing for country-specific data analysis projects</td>
+</tr>
+<tr>
+<td>16:00–17:00</td>
+<td>Workshop evaluation and wrap-up</td>
+</tr>
+</tbody>
+</table>
+<h2>Day 1 — Monday 22 March</h2>
+<p><strong>Foundations, Equity &amp; Data Cleaning</strong></p>
+<h3>9:00–9:30 · Welcome and introductions</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Meet your facilitators, the 24 participants, and your country team (Bangladesh, Côte d’Ivoire, Rwanda, or Tanzania — six members each).
+Course norms: punctuality, phones on silent, one conversation at a time, and “no question is too basic” — you will soon be answering these same questions as trainers.
+Logistics: venue map, Wi-Fi, tea/lunch times, and where to find help with laptops and files.
+Orient yourself to this workbook and the six Excel files listed in “Your data and exercise files” — you will open at least one every day.</p>
+</blockquote>
+<h3>9:30–10:00 · Introduction to the Data for Health Initiative Data Analysis Project</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — The Data for Health (D4H) Initiative, funded by Bloomberg Philanthropies and implemented by the CDC Foundation, partners with governments to strengthen public-health data systems — especially civil registration and vital statistics (CRVS), cancer registries, and NCD risk-factor surveillance.
+Good data only matters if it is used. This project’s goal is sustainable, in-country capacity to analyse routine health data and turn it into reports that decision-makers actually read.
+That is why this is a Training of Trainers: you are not just learning analysis skills, you are learning to teach them. Everything this week — the exercises, the checklists, the templates — is designed to be reused in your home country.
+Your team project (see next session) is the rehearsal: by Friday your team will have produced and presented a complete mini-analysis, exactly as you will later guide others to do.</p>
+</blockquote>
+<h3>10:00–10:30 · Review the TOT schedule and team project</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — The week builds in order: clean and combine data (Day 1) → calculate rates and summarise (Day 2) → present with tables, figures, and maps (Day 3) → write the report and recommendations (Day 4) → present and plan your cascade training (Day 5).
+Team project brief: in your country team of six, analyse the Demoland demo datasets and produce (a) a short analytical report of 4–6 pages using the IMRAD structure, and (b) a 12-minute slide presentation delivered on Friday morning.
+Milestones: analysis objectives fixed by end of Day 1; core results and rates by end of Day 2; draft tables/figures/maps by end of Day 3; full draft report by end of Day 4.
+Roles rotate, but every team needs at minimum: a coordinator, a data lead, a visuals lead, and a writing lead. Agree yours today.</p>
+</blockquote>
+<h3>11:00–12:00 · Principles of Equity</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Equality vs equity: equality gives everyone the same; equity gives people what they need to reach the same outcome. In health data work, equity means asking who is being left behind — and designing the analysis so the answer is visible.
+PROGRESS-Plus is the standard lens: Place of residence, Race/ethnicity/culture, Occupation, Gender/sex, Religion, Education, Socioeconomic status, Social capital — Plus age, disability, and other context-specific factors.
+Apply the lens at every stage: objectives (whose health are we measuring?), data (who is missing from the register?), analysis (disaggregate, don’t just average), reporting (show the gaps plainly), and recommendations (target the underserved).
+Averages hide inequity. A national TB decline can coexist with a district where cases are rising — you will see exactly this in Demoland with Westbrook district.
+Demoland worked example: males account for roughly 60–65% of TB notifications. An equity lens turns that statistic into questions: Are men less likely to seek care early? Are services reaching workplaces and transport hubs where men cluster? Your recommendations should answer those questions, not just report the share.</p>
+</blockquote>
+<h3>12:00–12:30 · Group Projects: Country teams report on SOPs and challenges accessing data</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Each country team gives a 5-minute report: What SOPs govern data access and sharing in your setting? What are the biggest practical challenges (permissions, timeliness, data quality, linkage)?
+Listen for patterns across the four countries — common challenges become design constraints for the cascade trainings you will run.
+Capture one challenge per team on a flipchart: you will revisit these on Day 5 when planning country-specific projects.</p>
+</blockquote>
+<h3>14:00–15:00 · Establish data analysis objectives</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Every analysis starts before the data: with a written objective. Analyses that start with “let’s see what the data says” produce unfocused reports nobody uses.
+A strong objective names the health issue, the population, the place, the time period, and the measure: “Estimate annual TB notification rates per 100,000 by district and sex, Demoland, 2021–2025.”
+Work backwards from the decision: What policy question must this answer? Who will act on the answer? Write those down first (Worksheet 1A), then the objective almost writes itself.
+Limit yourself: three to five objectives per report. Each objective should map to one results section and at least one recommendation.
+Revisit objectives after first exploring the data — Riverside’s incomplete mortality registration, for example, may force you to narrow a mortality objective or add a data-quality objective.</p>
+</blockquote>
+<h4>Exercise 1.1: Clean the messy DHIS2 malaria extract  (60 minutes)</h4>
+<p><strong>Purpose:</strong> Practise a systematic, documented data-cleaning workflow on a realistic messy extract, so that every downstream rate, table, and map rests on data you can defend.</p>
+<p><strong>Open:</strong> DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx — start with the README sheet, then work in Messy_Data.</p>
+<p><strong>Log sheet:</strong> DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx — sheet Cleaning_Log (template provided).</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Read the README sheet.</strong> Note the file’s grain: monthly malaria reports from 6 facilities, 2024–2025, about 300 rows. The columns are Facility, District, Month, Year, Sex, Age_Group, Malaria_Cases, and Malaria_Tests (row 1 is a banner — the headers are in row 2). Note which columns are required and which must be numeric.</li>
+<li><strong>2. Protect the original.</strong> Right-click the Messy_Data tab → Move or Copy → tick “Create a copy” → rename the copy Messy_Data_ORIGINAL. Do all cleaning on Messy_Data, never on the original.</li>
+<li><strong>3. Set up your Cleaning_Log.</strong> The template has columns Step_No | Issue_Found | Rows_Affected | Fix_Applied | Excel_Feature_Used, and Step 1 (duplicate rows) is already completed as an example. You will add at least 11 more rows — 12 documented fixes minimum, one per issue type below.</li>
+<li><strong>4. Hunt down and fix each of the 12 planted issue types:</strong> (a) Duplicate rows — select the data → Data → Remove Duplicates; record how many rows were removed. (b) Inconsistent district spelling and capitalization (e.g. “westbrook”, “WestBrook ”, “WESTBROOK”) — standardize every value to the 12 official district names (Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, Pinehurst) using Find &amp; Replace or PROPER() plus manual checks. (c) Leading/trailing spaces in text fields — apply =TRIM() in a helper column, paste back as values. (d) Mixed date formats (text dates, dd/mm/yyyy vs mm/dd/yyyy confusion) — convert the whole column to true Excel dates (yyyy-mm-dd); use DATEVALUE() or Text to Columns for text dates, and verify century/month-day order row by row. (e) Missing (blank) values in required fields — filter for blanks, decide a rule (e.g. exclude from numerators, never silently fill), and document the rule. (c–e are the classic trio: fix them before anything else.) (f) Text strings in numeric fields (“N/A”, “unknown”, “-”) — replace with blank (missing) or a documented code, never with zero unless zero is truly meant. (g) Negative counts in fields that cannot be negative — filter for &lt;0, investigate, and recode as missing with a log note. (h) Inconsistent sex labels (M, F, Male, Female, m, f) — standardize the whole column to “Male”/“Female”. (i) Inconsistent facility names (spelling variants of the same 6 facilities) — standardize; check with a pivot table count per facility afterwards. (j) Implausible out-of-range values (e.g. a monthly case count far beyond any plausible value for one facility) — flag as “verify with source” rather than deleting. (k) Merged header cells and stray blank rows/columns — unmerge all, give every column a single-row header, delete fully blank rows/columns. (l) Numbers stored as text (green triangle in the cell corner) — convert to values (Text to Columns → Finish, or Paste Special × 1).</li>
+<li><strong>5. Verify with a pivot table.</strong> Insert → PivotTable on the cleaned data: count rows by facility and by month. Totals should look plausible and complete for 2024–2025 — no facility should vanish.</li>
+<li><strong>6. Complete the Cleaning_Log.</strong> Every fix gets a row: where, what the issue was, and exactly what you did. A log someone else could audit is the pass mark.</li>
+<li><strong>7. Save a cleaned copy.</strong> File → Save As → DA-TOT_Exercise_Messy-DHIS2-Extract_CLEANED.xlsx in the same folder. Keep the original file untouched.
+<strong>Expected output:</strong> A cleaned Messy_Data sheet (single-row headers, no merged cells, consistent districts/facilities/sex labels, true dates, numeric fields numeric, no duplicates, no negatives) plus a Cleaning_Log with at least 12 documented fixes, and a verification pivot table.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Which of the 12 issue types would most distort a trend chart of malaria cases over time — and why?</p>
+</li>
+<li>When is it acceptable to delete a suspicious value, and when must you flag it instead? Who decides?</li>
+<li>How does poor cleaning in this small file scale into risk when the file has 300,000 rows instead of 300?</li>
+</ul>
+<h3>16:00–16:30 · Combining data sets in Excel</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Counts alone mislead: a district with more cases may simply have more people. Combining case data with population denominators is what turns counts into comparable rates.
+XLOOKUP is the modern Excel lookup: =XLOOKUP(lookup_value, lookup_array, return_array). It searches left-to-right or right-to-left, defaults to exact match, and lets you specify what to return when there is no match.
+Build a single lookup key on both sides (e.g. District &amp; “|” &amp; Year &amp; “|” &amp; Sex) so one formula matches district, year, and sex together — this avoids the classic error of attaching the wrong year’s population.
+Wrap lookups in IFERROR to handle missing combinations explicitly, e.g. =IFERROR(XLOOKUP(...), “CHECK”), then investigate every “CHECK” instead of letting a silent zero through.
+District names must match character-for-character between files — which is exactly why you standardized spellings in Exercise 1.1.</p>
+</blockquote>
+<h4>Exercise 1.2: Combine TB notifications with census denominators (XLOOKUP)  (30 minutes)</h4>
+<p><strong>Purpose:</strong> Attach the correct population denominator to every TB notification record, producing an analysis-ready file for Day 2’s rate calculations.</p>
+<p><strong>Cases:</strong> DA-TOT_Demo_TB-Register_2021-2025.xlsx — sheet Data (read README and Data_Dictionary first).</p>
+<p><strong>Denominators:</strong> DA-TOT_Demo_Census-Population.xlsx — sheet Population.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Open both files and inspect.</strong> In the TB register’s Data sheet, identify the District, Year, Sex, and Age_Group columns — and note the built-in Population column (age-group populations, useful later for validation). In the census file’s Population sheet, confirm it holds official population by district × sex × year for 2021–2025 (columns District, Year, Sex, Population).</li>
+<li><strong>2. Add a lookup key in the TB file.</strong> Insert a column “Key_TB” with =District&amp;“|”&amp;Year&amp;“|”&amp;Sex (adjust to your actual column letters). Fill down.</li>
+<li><strong>3. Add the same key in the census file.</strong> Insert a column “Key_Pop” built identically: district, year, sex in the same order with the same separator.</li>
+<li><strong>4. Pull the census population across.</strong> In the TB file add a column “Census_Pop” with =IFERROR(XLOOKUP(Key_TB, Key_Pop_range, Population_range), “CHECK”). Fill down.</li>
+<li><strong>5. Investigate every “CHECK”.</strong> A missing match means a spelling mismatch or a genuinely absent combination — fix the cause, don’t overwrite the formula.</li>
+<li><strong>6. Spot-check five rows by hand.</strong> Pick five diverse rows (different districts, years, sexes) and confirm the Census_Pop value matches the census sheet manually.</li>
+<li><strong>7. Validate against the built-in figures.</strong> In a quick pivot, sum the TB file’s built-in age-group Population by district × year × sex and compare with Census_Pop: the two should agree closely. Investigate any district-year-sex where they don’t — that disagreement is exactly the kind of denominator problem this exercise trains you to catch.</li>
+<li><strong>8. Save your work.</strong> Save the TB file under a new name, e.g. DA-TOT_Demo_TB-Register_2021-2025_WITH-POP.xlsx, so the distributed original stays pristine.
+<strong>Expected output:</strong> A TB dataset in which every notification record carries its matching official census population (Census_Pop), with zero unresolved “CHECK” values, a validation note comparing Census_Pop against the summed age-group populations, and a short note of your five spot-checks.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Why is a combined district+year+sex key safer than looking up district alone?</p>
+</li>
+<li>What would happen to your Day 2 rates if one district’s name were misspelled in only one of the two files?</li>
+</ul>
+<h3>16:30–17:00 · Teams analyze data</h3>
+<p>Team time. Today’s deliverable: agree your team’s 3–5 analysis objectives (Worksheet 1A below), assign team roles (coordinator, data lead, visuals lead, writing lead), and confirm every member can open all six files. Facilitators circulate to review draft objectives before you leave.</p>
+<h3>Day 1 Worksheets</h3>
+<h3>Worksheet 1A: Analysis Objectives Worksheet</h3>
+<p><em>For each analysis objective, state the policy question it answers, who will act on the answer, and what data it needs. The first row is a completed worked example for the Demoland TB analysis — use it as your model.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>#</strong></th>
+<th><strong>Analysis objective (issue + population + place + period + measure)</strong></th>
+<th><strong>Policy question it answers</strong></th>
+<th><strong>Intended audience</strong></th>
+<th><strong>Data needed</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ex.</td>
+<td>Estimate annual TB notification rates per 100,000 population by district, sex, and year, Demoland 2021–2025.</td>
+<td>Is TB declining nationally, and which districts and sex groups are being left behind?</td>
+<td>National TB Programme managers; D4H country team.</td>
+<td>TB register notifications (DA-TOT_Demo_TB-Register_2021-2025.xlsx, Data) + census denominators (DA-TOT_Demo_Census-Population.xlsx, Population).</td>
+</tr>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Worksheet 1B: Health Equity Lens Checklist (PROGRESS-Plus)</h3>
+<p><em>Work through each domain for your team’s analysis topic. The TB column shows completed example answers — your team completes the right-hand column for its own topic.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>PROGRESS-Plus domain</strong></th>
+<th><strong>Equity question to ask</strong></th>
+<th><strong>Example answer: Demoland TB analysis</strong></th>
+<th><strong>Your team’s answer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Place of residence</td>
+<td>Do rates differ by district or urban/rural?</td>
+<td>Westbrook’s notifications are rising while the national trend declines — plan a district-disaggregated analysis, not a national average.</td>
+<td></td>
+</tr>
+<tr>
+<td>Race / ethnicity / culture</td>
+<td>Are any ethnic or cultural groups over- or under-represented?</td>
+<td>Demoland demo files do not record ethnicity — note this as a data gap and avoid conclusions about groups you cannot see.</td>
+<td></td>
+</tr>
+<tr>
+<td>Occupation</td>
+<td>Do occupational exposures or access barriers differ?</td>
+<td>Mining and transport corridors cluster in specific districts — cross-check district patterns against known occupational hubs.</td>
+<td></td>
+</tr>
+<tr>
+<td>Gender / sex</td>
+<td>Do males and females differ in burden or care-seeking?</td>
+<td>Males carry roughly 60–65% of notifications — disaggregate every rate by sex and ask whether services reach men.</td>
+<td></td>
+</tr>
+<tr>
+<td>Religion</td>
+<td>Do beliefs affect care-seeking or registration?</td>
+<td>No religion variable in the demo data — consider qualitative follow-up rather than assuming no effect.</td>
+<td></td>
+</tr>
+<tr>
+<td>Education</td>
+<td>Does health literacy shape early care-seeking?</td>
+<td>Not in the demo files — flag for the recommendations section as a likely driver of late presentation.</td>
+<td></td>
+</tr>
+<tr>
+<td>Socioeconomic status</td>
+<td>Are poorer districts or groups worse affected?</td>
+<td>Compare district rates against district poverty proxies where available; never rank districts without context.</td>
+<td></td>
+</tr>
+<tr>
+<td>Social capital</td>
+<td>Do marginalized groups face stigma or exclusion?</td>
+<td>TB stigma may suppress care-seeking — interpret low notifications as possible under-detection, not low burden.</td>
+<td></td>
+</tr>
+<tr>
+<td>Plus: age</td>
+<td>Which age groups carry the burden?</td>
+<td>Use the 0–14 / 15–24 / 25–44 / 45–64 / 65+ groups in the TB file — do not collapse into “adult”.</td>
+<td></td>
+</tr>
+<tr>
+<td>Plus: disability</td>
+<td>Are people with disabilities counted and reached?</td>
+<td>Not recorded — list as a limitation and a future data-collection recommendation.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Day 1 Daily Reflection</h3>
+<p><em>Take five minutes before you leave. Honest answers here become your personal study guide for the week.</em></p>
+<p><strong>The most important thing I learned today was …</strong></p>
+<p><strong>One thing I am still unsure about (I will ask tomorrow) …</strong></p>
+<p><strong>One idea from today I can already use in my home country …</strong></p>
+<p><strong>My team’s analysis objectives after today’s discussion …</strong></p>
+<blockquote>
+<p><strong>DAY KEY TAKEAWAYS</strong> — Start every analysis with written objectives tied to a policy question and a named audience — never with “let’s see what the data says”.
+Equity is a method, not a topic: apply the PROGRESS-Plus lens at objective-setting, data review, analysis, reporting, and recommendations.
+National averages hide inequity — always disaggregate by place, sex, and age before drawing conclusions.
+Clean data systematically and log every fix: the Cleaning_Log is your audit trail and your credibility.
+Standardize text fields (districts, facilities, sex labels) before combining files — lookups only match character-for-character.
+Combine case counts with census denominators via XLOOKUP on a composite key (district + year + sex); investigate every non-match.
+Your team project runs all week: objectives today, results by Tuesday, visuals by Wednesday, draft report by Thursday, presentation Friday.</p>
+</blockquote>
+<h3>Notes</h3>
+<p><em>Use this space for your own notes, questions for the facilitators, and ideas to take home.</em></p>
+<h2>Day 2 — Tuesday 23 March</h2>
+<p><strong>Rates, Descriptive Statistics &amp; Pivot Tables</strong></p>
+<h3>9:00–9:30 · Day 1 debrief</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Teams share one analysis objective each for facilitator feedback — clarity and measurability are the tests.
+Common Day 1 pitfalls reviewed: objectives without a time period, objectives nobody would act on, and “CHECK” values left unresolved in the XLOOKUP exercise.
+Questions from yesterday’s reflection sheets answered before new material begins.</p>
+</blockquote>
+<h3>9:30–10:30 · Training Methodologies</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Adults learn differently: they need relevance (“why does this matter for my job?”), respect for their experience, and practice — not lectures. Every session you later deliver should be at least one-third hands-on.
+The TOT cascade: you learn it here → you teach it at home → your trainees teach others. Fidelity matters: use the same exercises, checklists, and answer keys so quality survives each cascade level.
+Facilitation beats presentation. Ask before you tell: “What would distort this chart?” produces deeper learning than listing chart rules. Use think-pair-share, live demos with mistakes left in, and frequent micro-exercises.
+Plan backwards from objectives: write the learning objectives first, then choose activities that produce them, then list materials. Worksheet 2A gives you the template — you will use it again on Day 5 for your country training plan.
+Manage energy deliberately: alternate input and activity every 20–30 minutes, use energizers after lunch, and never let one voice dominate — structured turn-taking (e.g. round-robins) protects quieter participants.</p>
+</blockquote>
+<h3>11:00–12:00 · Accessing and using census data to calculate rates in Excel</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Counts vs rates: a district with 500 TB notifications is not necessarily worse off than one with 200 — it may simply have more people. Rates divide by the population at risk so places become comparable.
+The rate formula: Rate = (Number of events ÷ Population at risk) × Multiplier. For TB notifications the standard multiplier is 100,000: “TB notification rate per 100,000 population”.
+Match numerator to denominator exactly: same place, same period, same sex and age breakdown. A 2025 district rate needs the district’s 2025 population — not the national total, not last year’s figure.
+Census files give you denominators: the Population sheet of DA-TOT_Demo_Census-Population.xlsx holds population by district × sex × year (2021–2025); Age_Structure gives age-group shares for age-specific rates.
+Small populations produce jumpy rates: a single extra case in a tiny district swings the rate wildly — flag uncertainty rather than ranking small districts precisely.
+Rates reveal what counts hide: compute Demoland’s district rates and the Westbrook story becomes sharper — is its rise just population growth, or a true increase in risk?</p>
+</blockquote>
+<h4>Exercise 2.1: Calculate TB notification rates per 100,000 (Tasks 1–5)  (60 minutes)</h4>
+<p><strong>Purpose:</strong> Turn raw TB notification counts into comparable district, sex, and yearly rates using census denominators — the core analytical move of the week.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day2.xlsx — start with the README sheet; data are in TB_Data (district × year × sex, 120 rows) and Census_Data; complete Tasks 1–5 on the Tasks sheet; check yourself afterwards in Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Read the README sheet end-to-end.</strong> Note the learning objectives and the instruction to build formulas that reference TB_Data and Census_Data — never type values by hand. Do not peek at Answer_Key until you have attempted every task.</li>
+<li><strong>2. Inspect TB_Data and Census_Data.</strong> Confirm the shared keys: District, Year, Sex. TB_Data holds TB_Cases_Notified (and Treatment_Success counts for later); Census_Data holds the matching populations.</li>
+<li><strong>3. Task 1 — district rates, 2025.</strong> For each of the 12 districts compute =SUMIFS(TB_Data cases, district, 2025) ÷ SUMIFS(Census_Data population, district, 2025) × 100000. Format with one decimal place.</li>
+<li><strong>4. Task 2 — rates by sex, 2025.</strong> Same formula with a Sex criterion (Male, then Female). Compare the two: does the male rate exceed the female rate, consistent with the documented higher male burden?</li>
+<li><strong>5. Task 3 — national trend, 2021–2025.</strong> SUMIFS on the Year column only (all districts, both sexes) for each year, divided by the matching national population. Describe the trend in one sentence on the Tasks sheet.</li>
+<li><strong>6. Task 4 — highest district, 2025.</strong> Use MAX on your Task 1 rates and return the district name (INDEX/MATCH). Record it.</li>
+<li><strong>7. Task 5 — the rising district.</strong> For each district compute percent change = (2025 rate − 2021 rate) ÷ 2021 rate. One district rises while all others fall — name it, and write two sentences on whether its rising case counts reflect a rising rate or just population change.</li>
+<li><strong>8. Check against Answer_Key.</strong> For every mismatch, find the cause (wrong denominator year? counts instead of rates? sex not disaggregated?) and correct your method, not just the number.
+<strong>Expected output:</strong> Tasks 1–5 completed: 2025 district rates, 2025 sex-specific rates, national yearly rates with a one-sentence trend description, the highest-rate district in 2025, and the identified rising district with a two-sentence verdict.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>For which policy question would raw counts be more useful than rates — and for which are rates essential?</p>
+</li>
+<li>A district health officer asks why her district’s rate fell while its case count stayed flat. How do you explain it?</li>
+<li>Riverside’s mortality registration is visibly incomplete. What does that imply for any mortality rate you calculate there?</li>
+</ul>
+<h3>12:00–13:00 · Descriptive statistics review</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Central tendency: the mean (average) uses every value but is dragged by outliers; the median (middle value) resists outliers; the mode (most common) suits categories. Report the median alongside the mean whenever data are skewed.
+Spread matters as much as centre: range (max−min) is quick but fragile; the standard deviation (SD) measures typical distance from the mean; percentiles (e.g. the 25th and 75th) show where the bulk of values sit.
+Shape: in right-skewed data (a few very high districts) the mean exceeds the median — a signal to investigate the high outliers rather than report the mean alone.
+Choose deliberately: summarize symmetric data with mean ± SD; skewed data with median and interquartile range; categorical data with counts and percentages (always with denominators).
+Descriptive statistics describe — they do not explain. “Westbrook’s rate is the highest” is a description; “why” needs further analysis.</p>
+</blockquote>
+<h3>14:00–15:00 · Descriptive statistics using Excel</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Excel’s core functions: AVERAGE, MEDIAN, MODE.SNGL, STDEV.S (sample) vs STDEV.P (full population), MIN, MAX, QUARTILE.INC, PERCENTILE.INC, COUNT.
+Guard against text-that-looks-like-numbers and blanks: AVERAGE ignores blanks and text, which silently changes your n — check COUNT alongside every average.
+Use absolute references ($A$1) when a denominator or multiplier is reused across rows; use structured, labeled formula columns so a colleague can audit your logic.
+Document assumptions next to results (e.g. “SD computed with STDEV.S; n=12 districts”) — a number without its method is not reproducible.</p>
+</blockquote>
+<h4>Exercise 2.2: Summarize district TB rates with descriptive statistics (Tasks 6–8)  (45 minutes)</h4>
+<p><strong>Purpose:</strong> Practise choosing and computing the right summary statistics for a real-style indicator, and interpreting what skew tells you about equity.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day2.xlsx — use your Task 1 district rates; complete Tasks 6–8 on the Tasks sheet; verify in Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Take the 12 district TB notification rates for 2025 from Task 1.</strong> These 12 values are your dataset (n=12).</li>
+<li><strong>2. Task 6 — mean district rate.</strong> Compute =AVERAGE over your 12 district rates in a labelled cell.</li>
+<li><strong>3. Task 7 — median and standard deviation.</strong> Compute =MEDIAN and =STDEV.S over the same 12 rates, each in a labelled cell with a note of the function used.</li>
+<li><strong>4. Compare mean and median.</strong> Which is larger? What does the gap tell you about the shape of district rates — and which single district is pulling the mean upward? Write one sentence of interpretation on the Tasks sheet.</li>
+<li><strong>5. Task 8 — male-to-female rate ratio, 2025.</strong> Divide your Task 2 male rate by the female rate. A ratio above 1 confirms the documented higher male burden — express it in words (e.g. “the male rate is about X times the female rate”).</li>
+<li><strong>6. Spread check (stretch).</strong> Compute the range (=MAX−MIN) and the 25th/75th percentiles (=QUARTILE.INC) of the 12 district rates. Has the spread across districts widened or narrowed since 2021? (Compute the 2021 equivalents to find out.)</li>
+<li><strong>7. Check Answer_Key,</strong> then write a three-line “statistical summary” paragraph as it might appear in a report’s Results section — centre, spread, and one equity-relevant observation.
+<strong>Expected output:</strong> Tasks 6–8 completed: mean, median, and SD of the 12 district rates for 2025, the male-to-female rate ratio, plus a three-line results paragraph written in report language.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Why is reporting only the national mean rate potentially misleading for equity?</p>
+</li>
+<li>A journalist asks for “the average TB rate”. What do you give them, and what do you add?</li>
+</ul>
+<h3>15:00–16:00 · Data analysis using pivot tables</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — A pivot table is a drag-and-drop summary engine: rows, columns, values, and filters replace dozens of SUMIFS formulas — and rebuild instantly when the question changes.
+Workflow: clean data first (Day 1), then Insert → PivotTable → drag fields. Put categorical fields (district, year, sex) in Rows/Columns and numeric fields in Values (as Sum, Average, or Count — check the aggregation, Excel often defaults to Count).
+Slicers add one-click filtering by year or sex — ideal for live exploration and for presentations.
+Pivot tables don’t calculate rates across rows automatically: compute rates from pivot outputs (or add a calculated field), keeping numerator and denominator visible.
+Refresh discipline: pivot tables snapshot the data — right-click → Refresh after any data change, and rebuild before finalizing a report.</p>
+</blockquote>
+<h4>Exercise 2.3: Explore TB data with pivot tables (Tasks 9–10)  (45 minutes)</h4>
+<p><strong>Purpose:</strong> Answer policy questions in minutes by pivoting the TB dataset — and confirm the headline patterns in the demo data yourself.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day2.xlsx — sheets TB_Data and Census_Data; complete Tasks 9–10 on the Tasks sheet; verify in Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Task 9 — pivot district trends.</strong> Insert → PivotTable from TB_Data: Rows = District, Columns = Year, Values = Sum of TB_Cases_Notified. (Check the aggregation is Sum, not Count.) Sort 2025 descending, add a Year slicer, and confirm the rising district you identified in Task 5.</li>
+<li><strong>2. Pivot the sex burden (stretch).</strong> Rows = Sex, Columns = Year, Values = Sum of TB_Cases_Notified. Compute the 2025 male share (male ÷ total) and compare with the documented roughly 60–65% pattern.</li>
+<li><strong>3. Task 10 — treatment success rate by district, 2025.</strong> Values = Sum of Treatment_Success and Sum of TB_Cases_Notified; beside the pivot add =successes/notified formatted as % with one decimal. Also compute the national rate. Which districts lag, and what equity question does that raise?</li>
+<li><strong>4. Turn the Task 9 pivot into rates.</strong> Copy its values beside it, attach each district-year population from Census_Data (SUMIFS or XLOOKUP), and compute rates per 100,000. Confirm your Tasks 1–5 results match — two methods, one answer.</li>
+<li><strong>5. Record all findings on the Tasks sheet,</strong> then verify against Answer_Key and note any pivot-aggregation mistakes (e.g. Count instead of Sum) you caught.
+<strong>Expected output:</strong> Tasks 9–10 completed: a district × year pivot of TB cases (with slicer), treatment success rates by district and nationally for 2025, and a rates cross-check matching Tasks 1–5.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>What can a pivot table answer in two minutes that would take twenty with formulas — and what can it not do?</p>
+</li>
+<li>Why must you still check whether Excel summed or counted your Values field?</li>
+</ul>
+<h3>16:00–17:00 · Teams analyze data</h3>
+<p>Team time. Deliverable: core results for your team’s objectives — district/year/sex rates, key descriptive statistics, and answers to your policy questions, all computed from the demo files and ready to become tables tomorrow.</p>
+<h3>Day 2 Worksheets</h3>
+<h3>Worksheet 2A: Training Session Planning Template</h3>
+<p><em>Use this template for every session you will deliver back home. The first row shows a completed example — a 60-minute “Cleaning data in Excel” session — then plan your own session in the blank rows.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Completed example</strong></th>
+<th><strong>Your session plan</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Session title &amp; duration</td>
+<td>Cleaning data in Excel — 60 minutes</td>
+<td></td>
+</tr>
+<tr>
+<td>Learning objectives (by the end, participants will be able to…)</td>
+<td>1) Name 6 common data-quality issues; 2) clean a messy extract using filters, TRIM, and Remove Duplicates; 3) document fixes in a cleaning log.</td>
+<td></td>
+</tr>
+<tr>
+<td>Content outline (timed)</td>
+<td>0–10 min: why cleaning matters (war story); 10–20: demo of 3 fixes; 20–50: guided exercise in pairs; 50–60: debrief + log review.</td>
+<td></td>
+</tr>
+<tr>
+<td>Methods / activities (adult learning)</td>
+<td>Think-pair-share on “worst dataset you’ve met”; live demo with deliberate mistakes; paired hands-on exercise; gallery walk of cleaning logs.</td>
+<td></td>
+</tr>
+<tr>
+<td>Materials needed</td>
+<td>Laptop per pair; DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx; printed Cleaning_Log template; projector.</td>
+<td></td>
+</tr>
+<tr>
+<td>How you will assess learning</td>
+<td>Exit ticket: each pair submits its Cleaning_Log with ≥12 documented fixes; facilitator spot-checks two logs per table.</td>
+<td></td>
+</tr>
+<tr>
+<td>Equity &amp; inclusion notes</td>
+<td>Pair stronger/weaker Excel users; invite quieter participants to demo one fix; use local district names in examples.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Day 2 Daily Reflection</h3>
+<p><em>Five minutes before you leave.</em></p>
+<p><strong>One rate I calculated today that changed how I see the data …</strong></p>
+<p><strong>A statistic I now understand better than yesterday …</strong></p>
+<p><strong>Something about pivot tables I want to practise more …</strong></p>
+<p><strong>Status of my team’s core results (what’s done, what’s stuck) …</strong></p>
+<blockquote>
+<p><strong>DAY KEY TAKEAWAYS</strong> — Always compare with rates, not raw counts — Rate = (Events ÷ Population at risk) × 100,000, with numerator and denominator matched on place, period, sex, and age.
+Attach denominators with XLOOKUP on a composite key; a wrong year’s population silently corrupts every rate.
+Summarize with the right statistic: mean ± SD for symmetric data, median + interquartile range for skewed data, counts + denominators for categories.
+When mean and median disagree, investigate the outliers — the gap itself is often the equity story.
+Pivot tables answer new questions in minutes: check the Values aggregation (Sum vs Count), refresh after data changes, and compute rates from pivot outputs.
+Small populations make jumpy rates — flag uncertainty instead of over-ranking small districts.
+Incomplete registration (as in Riverside) corrupts mortality rates: name the limitation in the report, don’t bury it.</p>
+</blockquote>
+<h3>Notes</h3>
+<p><em>Use this space for your own notes, questions for the facilitators, and ideas to take home.</em></p>
+<h2>Day 3 — Wednesday 24 March</h2>
+<p><strong>Tables, Figures &amp; Maps</strong></p>
+<h3>9:00–9:30 · Day 2 debrief</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Teams share one computed rate and one interpretation each — facilitators check that denominators match numerators.
+Recurring errors reviewed: rates computed from counts without population, sex not disaggregated, and pivot Values set to Count instead of Sum.
+Preview: today’s outputs (tables, figures, maps) become the Results section your team drafts tomorrow.</p>
+</blockquote>
+<h3>9:30–10:30 · IMRAD Structure</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — IMRAD = Introduction, Methods, Results, and Discussion — the international standard skeleton for analytical reports. Readers know exactly where to look for each kind of information.
+Introduction: why this analysis was done — background, the policy problem, and the 3–5 analysis objectives. Ends where the data begins.
+Methods: what you did, in enough detail to reproduce — data sources (file names, periods, coverage), cleaning steps (cite your Cleaning_Log approach), how rates and statistics were calculated, and limitations (e.g. Riverside’s incomplete mortality registration).
+Results: what you found — text plus tables, figures, and maps. No interpretation here, just findings in logical order (national picture first, then disaggregated). Every table/figure is numbered, titled, and referenced in the text.
+Discussion: what it means — interpret findings, compare with expectations, acknowledge limitations, and lead into recommendations. This is where the equity lens speaks loudest.
+Front matter: a one-page executive summary (objectives, key findings, recommendations — written last) and a table of contents. Back matter: annexes with detailed tables and the data dictionary.
+Your team report (4–6 pages) will follow IMRAD exactly — assign each section an owner today.</p>
+</blockquote>
+<h3>11:00–12:00 · Best practices for creating tables</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — One table, one message. If you need two messages, you need two tables.
+Every table needs: a number (Table 1, 2, 3…), a self-contained title stating what, where, and when (“TB notification rate per 100,000 by district, Demoland, 2025”), and units in the column headers — never buried in a footnote hunt.
+Numbers: right-align, use consistent decimal places (one decimal for rates, whole numbers for counts), and use thousands separators. Never show four decimals on a count of people.
+Structure: no vertical text, no merged header cells, minimal gridlines (header rule + bottom rule is enough), zebra shading only if it aids reading — never rainbow fills.
+Sort with intent: by magnitude (highest rate first) when ranking matters, chronologically for trends, alphabetically only when readers must find one row fast.
+Footnotes explain: definitions (e.g. “treatment success = cured + treatment completed”), data sources, and symbols. Denominators belong in the table or its notes — a percentage without its denominator is unverifiable.
+Design for the reader who photocopies in black and white: if the table only works in colour, it doesn’t work.</p>
+</blockquote>
+<h4>Exercise 3.1: Rebuild three bad tables  (60 minutes)</h4>
+<p><strong>Purpose:</strong> Diagnose real table-design flaws and rebuild each table to publication standard — the tables you fix here are prototypes for your team report’s Results section.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day3.xlsx — read the README sheet first, then sheets Bad_Table_1, Bad_Table_2, Bad_Table_3; rebuild each on a new sheet named Table_1_Fixed, Table_2_Fixed, Table_3_Fixed; verify against Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Open Bad_Table_1 without fixing anything yet.</strong> List every flaw you can see against the “Best practices” rules above, then check your list against this one: the title is just “TB” — not self-contained (notifications or rates? which country? units?); there is no table number; whole-number counts are displayed with six decimal places; districts sit in arbitrary order; and there is no source note. (Ignore the red-on-yellow synthetic-data banner in row 1 — it is a file-level disclaimer, not part of the table.)</li>
+<li><strong>2. Rebuild it as Table_1_Fixed:</strong> add a table number and a self-contained title (what, where, when — e.g. “TB notifications by district, Demoland, 2021–2025”); show whole-number counts with no decimals, right-aligned; use a single horizontal header row; sort districts by 2025 notifications descending; add a source footnote naming the file and sheet.</li>
+<li><strong>3. Diagnose Bad_Table_2.</strong> Flaws to find: an unprofessional merged title (“fancy chart-style view”) in large red type; rainbow header fills that carry no meaning; values shown as proportions with up to 15 decimal places (0.870527…) instead of percentages; cryptic row labels “M”/“F”; no numerators or denominators anywhere; no definition of “treatment success”; no table number; a stray “Legend:” row; no source note.</li>
+<li><strong>4. Rebuild it as Table_2_Fixed:</strong> proper title and number; one-decimal percentages with the n/N beside each value; “Male”/“Female” row labels; a single-row header with no decorative fills; a footnote defining treatment success; a total row; a source note.</li>
+<li><strong>5. Diagnose Bad_Table_3 (“Deaths by cause, 2025”).</strong> Flaws to find: no table number and no place in the title (which country?); causes in arbitrary order instead of sorted by magnitude; deaths shown with four decimal places and no thousands separators; no share-of-total column; no source or coverage note.</li>
+<li><strong>6. Rebuild it as Table_3_Fixed:</strong> numbered, self-contained title including “Demoland”; causes sorted by descending deaths; whole numbers with thousands separators, right-aligned; an added “Share of all deaths (%)” column with one decimal; explicit headers; a source footnote.</li>
+<li><strong>7. Apply the Table Critique Checklist (Worksheet 3A) to each rebuilt table.</strong> Every box should be ticked before you move on.</li>
+<li><strong>8. Compare with Answer_Key.</strong> Note any flaw you missed and add it to your personal checklist for the team report.
+<strong>Expected output:</strong> Three rebuilt tables (Table_1_Fixed, Table_2_Fixed, Table_3_Fixed), each with number, self-contained title, units, consistent formatting, sorted rows, and footnotes — all passing the Table Critique Checklist.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Which single flaw, in your view, most misleads a busy decision-maker — and why?</p>
+</li>
+<li>Bad_Table_2’s 15-decimal proportions are technically precise. Why does that precision make the table worse, not better?</li>
+</ul>
+<h3>14:00–15:00 · Best practices for creating figures</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Choose the chart for the message: trends over time → line chart; comparisons across districts → horizontal bar chart; composition of a whole → stacked bar (use pie only for 2–3 slices, never 3D); distribution → histogram.
+Bar and column charts must start the value axis at zero — truncating the axis exaggerates differences and is the commonest form of visual dishonesty.
+Write the takeaway in the title: “TB notifications fell nationally but rose in Westbrook, 2021–2025” beats “TB notifications by district”. A reader skimming titles should get the story.
+Label directly where possible (data labels on the line/bar ends) instead of forcing readers to bounce between legend and chart. Keep legends only when direct labelling clutters.
+Colour with restraint: one accent colour for the story’s focus (e.g. Westbrook’s line), grey for context; avoid red-green pairings (colour blindness); ensure the figure survives black-and-white printing.
+Declutter ruthlessly: remove gridlines or fade them, delete chartjunk (3D effects, shadows, background images), and put the data-ink ratio to work — every pixel should carry information.
+Every figure needs: a number (Figure 1, 2…), the takeaway title, axis labels with units, and a source note. Reference each figure in the results text (“Figure 2 shows…”).</p>
+</blockquote>
+<h4>Exercise 3.2: Build correct charts and fix a misleading one (Tasks 1–4)  (60 minutes)</h4>
+<p><strong>Purpose:</strong> Practise matching chart types to messages and repairing a dishonest visual — skills your team report’s figures depend on.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day3.xlsx — read the README sheet first, then sheet Figure_Tasks (Data tables A, B, C and Tasks 1–4); build your charts on the same sheet or new sheets; verify against Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Task 1 — trend.</strong> Using Data table B (national TB notification rate per 100,000, 2021–2025), build the correct chart for a trend over time: a line chart with years on the horizontal axis, a labelled vertical axis (rate per 100,000), and a takeaway title stating what the trend actually shows.</li>
+<li><strong>2. Task 2 — comparison.</strong> Using Data table A (2025 TB notification rates for the 12 districts), build the correct comparison chart: a horizontal bar chart sorted by rate, value axis starting at zero, districts labelled directly, and a takeaway title naming the standout district.</li>
+<li><strong>3. Task 3 — composition.</strong> Using Data table C (deaths by cause, Demoland, 2025), build the correct composition chart: a single stacked bar (or a pie only if you can defend it for six causes) with each segment labelled by cause and share, plus a takeaway title. Never use 3D.</li>
+<li><strong>4. Task 4 — fix the misleading chart.</strong> Below the data tables sits a deliberately misleading line chart: it uses dual y-axes (TB rate per 100,000 on one side, treatment success on the other) and a truncated y-axis, and it plots treatment success as raw proportions (0.872) against a “%” label. First, list EVERYTHING that is wrong with it — axes, scales, units, titles, labels. Then rebuild it honestly: express treatment success as true percentages, give each measure its own properly scaled and labelled chart (or a single chart with one coherent measure), start bar axes at zero, add takeaway titles, axis labels with units, and a source note.</li>
+<li><strong>5. Run the Figure Critique Checklist (Worksheet 3B) on every figure you built.</strong> Fix any failures now.</li>
+<li><strong>6. Compare with Answer_Key,</strong> paying special attention to chart-type choices you got differently — discuss with your neighbour which choice communicates better and why.
+<strong>Expected output:</strong> Three publication-standard figures (trend line, district comparison bars, cause-composition), a written list of every flaw in the misleading dual-axis chart, and an honestly rebuilt version — all passing the Figure Critique Checklist.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Dual axes are sometimes defended as “space-saving”. What exactly makes them misleading here, and what is the honest alternative?</p>
+</li>
+<li>Which misleads more: a bad chart, or a good chart of a bad (uncleaned, wrong-denominator) number?</li>
+</ul>
+<h3>16:00–17:00 · Creating maps in Excel</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Maps answer “where” at a glance: a district choropleth (areas shaded by value) makes geographic inequity instantly visible — Westbrook’s rise and Riverside’s gaps literally stand out.
+Excel’s Filled Map chart needs real geography data types, which do not exist for fictional Demoland — so the reliable method is a tile-grid map: 12 labelled cells arranged in a grid, coloured by value band with conditional formatting.
+Design rules carry over from figures: 3–5 colour bands (not 12 shades), a clear legend with the band ranges, district names on the tiles, a takeaway title, and a source note.
+Classify honestly: use equal-interval or quantile bands and state the method; never let default breaks hide the story or manufacture one. Always show the underlying rates table beside or beneath the map.
+Maps show pattern, not cause: a dark Westbrook invites investigation (transmission? better detection? migration?) — it does not diagnose.</p>
+</blockquote>
+<h4>Exercise 3.3: Build a district choropleth-style map in Excel  (45 minutes)</h4>
+<p><strong>Purpose:</strong> Produce a map-quality visual of district TB rates that a decision-maker can read in five seconds.</p>
+<p><strong>Workbook:</strong> DA-TOT_Exercise-Workbook_Day3.xlsx — read the README sheet first, then sheet Map_Task (it already contains the 2025 district rate table, build instructions for Option A/B, and a starter choropleth grid); verify against Answer_Key.</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Cross-check the provided rate table.</strong> Map_Task lists each district’s 2025 TB notification rate per 100,000. Verify at least two values against your own Task 1 calculations from Day 2 — trust, but verify.</li>
+<li><strong>2. Define 4 colour bands.</strong> Choose equal-interval bands across the min–max range (or quartiles), write the band limits in a small legend table, and note the classification method beside it — the method is part of the figure’s honesty.</li>
+<li><strong>3. Build the tile grid (Option B).</strong> The sheet offers two routes: Option A, Excel’s Filled Map (note why it may fail — Demoland’s districts are fictional and have no geography data type), and Option B, the recommended conditional-formatting choropleth grid. Complete or rebuild the 12-tile starter grid so each tile shows its district name and is linked to that district’s rate (e.g. =VLOOKUP on the rate table), then apply 4 conditional-formatting rules mapping your bands to a single-hue light-to-dark progression. Place the legend beside the grid.</li>
+<li><strong>4. Finish like a publication figure.</strong> Add a takeaway title (e.g. a Figure number plus what the map shows: district TB notification rates per 100,000, Demoland, 2025 — or your sharper takeaway), a source note naming the files, and the band-classification method.</li>
+<li><strong>5. Interpret in two sentences:</strong> which district stands out, and what are two competing explanations for its shading? Record your answer on the sheet and check Answer_Key.
+<strong>Expected output:</strong> A 12-tile conditional-formatting map with labelled districts, a 4-band legend with your computed breaks, a takeaway title, a source note, and a two-sentence interpretation.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Why can a map persuade faster than a table — and what important information does the map hide that the table keeps?</p>
+</li>
+<li>How would you adapt this tile-grid technique for your own country’s districts or provinces?</li>
+</ul>
+<h3>Day 3 Worksheets</h3>
+<h3>Worksheet 3A: Table Critique Checklist</h3>
+<p><em>Apply to every table before it enters your report. All boxes must be ticked.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Check</strong></th>
+<th><strong>Table 1</strong></th>
+<th><strong>Table 2</strong></th>
+<th><strong>Table 3</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Table number and self-contained title (what, where, when)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Units stated in column headers</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Numbers right-aligned; consistent decimal places</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Counts as whole numbers; rates with one decimal</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>No vertical text; no merged header cells</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Minimal gridlines; no decorative fills</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Rows sorted with intent (magnitude / time / lookup)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Percentages shown with numerators and denominators</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Footnotes define terms, symbols, and abbreviations</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Source note names the file, sheet, and coverage</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Readable in black and white</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Referenced in the results text (“Table 1 shows…”)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<h3>Worksheet 3B: Figure Critique Checklist</h3>
+<p><em>Apply to every figure before it enters your report. All boxes must be ticked.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Check</strong></th>
+<th><strong>Figure 1</strong></th>
+<th><strong>Figure 2</strong></th>
+<th><strong>Figure 3</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Figure number and takeaway-message title</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Chart type matches the message (trend / comparison / composition)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Bar/column value axis starts at zero</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Axes labelled with units</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Data labelled directly where possible; legend only if needed</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>No chartjunk (3D, shadows, backgrounds)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Colour restrained; focus colour on the story; colour-blind safe</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Source note present</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Figure works in black and white</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Referenced in the results text (“Figure 1 shows…”)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<h3>Day 3 Daily Reflection</h3>
+<p><em>Five minutes before you leave.</em></p>
+<p><strong>The table or figure I am proudest of today …</strong></p>
+<p><strong>A design habit I need to unlearn (e.g. default Excel styling) …</strong></p>
+<p><strong>How today’s visuals change my team’s Results section …</strong></p>
+<p><strong>One question about IMRAD I want answered tomorrow …</strong></p>
+<blockquote>
+<p><strong>DAY KEY TAKEAWAYS</strong> — IMRAD (Introduction, Methods, Results, Discussion) is the skeleton of your team report — plus an executive summary written last and annexes for detail.
+One table, one message: numbered, self-contained title (what/where/when), units in headers, right-aligned numbers, consistent decimals, sorted rows, footnotes, source note.
+Percentages without visible denominators are unverifiable — always show n/N.
+Match chart to message (line = trend, bar = comparison, stacked bar = composition); bar axes start at zero; titles state the takeaway, not the topic.
+Declutter every figure: no 3D, no chartjunk, restrained colour, direct labels, black-and-white safe.
+Tile-grid maps with conditional formatting give Excel a publication-quality district map without geography data types — always pair the map with its data table.
+Run both critique checklists on every table and figure before it enters the report.</p>
+</blockquote>
+<h3>Notes</h3>
+<p><em>Use this space for your own notes, questions for the facilitators, and ideas to take home.</em></p>
+<h2>Day 4 — Thursday 25 March</h2>
+<p><strong>Report Templates, Recommendations &amp; Team Projects</strong></p>
+<h3>9:00–9:30 · Day 3 debrief</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Teams show one rebuilt table and one figure each; facilitators run the critique checklists live on a volunteer example.
+Most common misses: titles that describe the topic instead of the takeaway, missing source notes, and percentages without denominators.
+Today’s goal: turn your tables and figures into a complete draft report with recommendations.</p>
+</blockquote>
+<h3>9:30–10:30 · Guidelines for creating report templates</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — A report template is a reusable shell: fixed structure, fixed styles, fixed numbering — so every report your programme produces looks professional and nothing gets forgotten.
+Anatomy of the template: cover page (title, date, authors, disclaimer) · table of contents · executive summary (one page, written last) · Introduction · Methods · Results · Discussion · Recommendations · References · Annexes (detailed tables, data dictionary, cleaning summary).
+Style rules to lock in: Heading 1/2/3 styles for all headings; automatic table of contents; tables numbered “Table 1, 2…” and figures “Figure 1, 2…” in order of appearance; every table/figure referenced in the text before it appears.
+The executive summary is a standalone document: objectives, 3–5 key findings (with the headline numbers), and the recommendations — many decision-makers read only this page, so it must survive alone.
+Methods must name data sources precisely (file names, periods, coverage), summarize cleaning (referencing the cleaning-log approach from Day 1), state every formula (rate definitions, multipliers), and list limitations honestly — including Riverside’s incomplete mortality registration if your report touches mortality.
+Build the template once in Word with real styles, then reuse it for every future report and teach it in your cascade training.</p>
+</blockquote>
+<h3>11:00–11:30 · Drafting appropriate recommendations</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — A recommendation is a bridge from a finding to an action. Every recommendation must trace back to a specific finding in your Results — if you can’t point to the table or figure, it doesn’t belong.
+The five tests: Specific (who does what, where?), Actionable (is it within someone’s power?), Evidence-linked (which finding?), Feasible (with what resources?), and Time-bound (by when?).
+Write for the audience that acts: a recommendation to the National TB Programme differs from one to district health officers or to the D4H country team — name the owner explicitly.
+Prioritize: 3–5 recommendations per report, ordered by impact and urgency. Ten vague recommendations are read as zero.
+Avoid the classic failures: “Improve TB control in Westbrook” (who? how?), “More research is needed” (as the only recommendation), and recommendations your data cannot support (don’t prescribe causes you didn’t analyse).</p>
+</blockquote>
+<h4>Exercise 4.1: Draft evidence-based recommendations from Demoland findings  (45 minutes)</h4>
+<p><strong>Purpose:</strong> Turn this week’s analytical findings into recommendations a decision-maker could actually act on — the final section of your team report.</p>
+<p><strong>Evidence:</strong> DA-TOT_Demo_TB-Register_2021-2025.xlsx — sheet Data (your computed rates and pivots from Days 1–2).</p>
+<p><strong>Evidence:</strong> DA-TOT_Demo_Mortality-CRVS_2021-2025.xlsx — sheet Data (mortality completeness patterns).</p>
+<p><strong>Evidence:</strong> DA-TOT_Demo_Census-Population.xlsx — sheet Population (denominators behind your rates).</p>
+<p><strong>Steps</strong></p>
+<ol>
+<li><strong>1. Study the weak-vs-strong examples.</strong> Weak: “Improve TB control in Westbrook district.” (no owner, no action, no timeline). Strong: “The National TB Programme should commission a rapid assessment in Westbrook district by Q3 2027 to determine whether rising TB notifications reflect increased transmission or improved case detection; if transmission is confirmed, fund targeted active case-finding in the district’s high-burden sub-areas.” Weak: “Address the male TB burden.” Strong: “District health teams should pilot male-friendly TB screening (extended clinic hours and workplace outreach) in the three highest male-rate districts by Q4 2027, given that males account for roughly 60–65% of notifications nationally.” Weak: “Improve death registration.” Strong: “The CRVS unit should audit death-registration completeness in Riverside district by Q2 2027 — where recorded mortality is visibly incomplete — and deploy registrar training plus community sensitization before any district mortality comparison is published.”</li>
+<li><strong>2. In your team, list your 3 strongest findings so far</strong> (e.g. Westbrook’s rising notifications against the national decline; the male share of burden; Riverside’s incomplete mortality registration; treatment-success gaps by district). One finding per row in the table below (Worksheet 4A is your work plan — use the recommendation table here).</li>
+<li><strong>3. Draft one recommendation per finding.</strong> For each, name the owner (who acts), the action (what), the place, and the timeframe (by when). Apply the five tests from the key points above.</li>
+<li><strong>4. Equity-check each recommendation:</strong> does it direct resources or attention toward the group or district being left behind — or does it accidentally reward the already well-served? Revise accordingly.</li>
+<li><strong>5. Prioritize and order your three recommendations</strong> by expected impact, then copy the final versions into your team report’s Recommendations section tonight.
+<strong>Expected output:</strong> Three recommendations, each linked to a specific computed finding, each naming an owner, action, place, and timeframe — ready to paste into the team report.</li>
+</ol>
+<ul>
+<li>
+<p><strong>Reflection questions:</strong> *</p>
+</li>
+<li>
+<p>Whose job is it to implement your top recommendation — and what happens if that owner was not in the room?</p>
+</li>
+<li>What is the risk of recommending an intervention for Westbrook before knowing whether its rise is real transmission or better detection?
+<strong>Recommendation drafting table (complete in your team; then transfer finals to your report):</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>#</strong></th>
+<th><strong>Finding (cite your table/figure)</strong></th>
+<th><strong>Recommendation (owner + action + place + timeframe)</strong></th>
+<th><strong>Priority (1–3)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>11:30–12:30 · Teams work on group projects</h3>
+<p>Team time. Target: complete drafts of the Introduction, Methods, and Results sections (with finished tables, figures, and map) plus the three recommendations from Exercise 4.1. Use Worksheet 4A to divide the remaining work.</p>
+<h3>14:00–14:30 · Check in on the progress of group projects</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Each team reports status against its work plan: which IMRAD sections are drafted, which visuals are final, what is blocked.
+Facilitators troubleshoot the two classic Day 4 blockers: Results text that interprets instead of reporting (move interpretation to Discussion), and recommendations disconnected from findings.
+Agree tonight’s homework split so Friday’s presentation is rehearsed, not improvised.</p>
+</blockquote>
+<h3>14:30–15:30 · Teams continue working on group projects</h3>
+<p>Team time. Deliverable by end of day: a complete draft report (4–6 pages, IMRAD, executive summary drafted) and a slide deck outline for Friday’s 12-minute presentation. Rehearse timings — 12 minutes means about 10 slides maximum.</p>
+<h3>Day 4 Worksheets</h3>
+<h3>Worksheet 4A: Group Project Work Plan</h3>
+<p><em>Divide tonight’s and tomorrow morning’s work explicitly. Every row needs an owner and a deadline — “everyone” owns nothing.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Task</strong></th>
+<th><strong>Owner</strong></th>
+<th><strong>Deadline</strong></th>
+<th><strong>Status / notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Finalize Results tables (Tables 1–__)</td>
+<td></td>
+<td>Thu 25 Mar, 17:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Finalize figures + district map</td>
+<td></td>
+<td>Thu 25 Mar, 17:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Draft Introduction + Methods</td>
+<td></td>
+<td>Thu 25 Mar, 18:30</td>
+<td></td>
+</tr>
+<tr>
+<td>Draft Results text (no interpretation)</td>
+<td></td>
+<td>Thu 25 Mar, 18:30</td>
+<td></td>
+</tr>
+<tr>
+<td>Draft Discussion + limitations</td>
+<td></td>
+<td>Thu 25 Mar, 20:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Finalize 3 recommendations (from Ex. 4.1)</td>
+<td></td>
+<td>Thu 25 Mar, 20:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Draft executive summary (one page)</td>
+<td></td>
+<td>Thu 25 Mar, 21:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Build slide deck (max ~10 slides)</td>
+<td></td>
+<td>Fri 26 Mar, 08:30</td>
+<td></td>
+</tr>
+<tr>
+<td>Rehearse 12-minute presentation</td>
+<td></td>
+<td>Fri 26 Mar, 09:00</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Day 4 Daily Reflection</h3>
+<p><em>Five minutes before you leave.</em></p>
+<p><strong>The recommendation I am most confident defending …</strong></p>
+<p><strong>The weakest part of my team’s draft report right now …</strong></p>
+<p><strong>One thing I will do differently when I write a real report back home …</strong></p>
+<p><strong>My role in tomorrow’s presentation …</strong></p>
+<blockquote>
+<p><strong>DAY KEY TAKEAWAYS</strong> — A report template (fixed IMRAD structure, styles, numbering) makes every future report faster and more professional — build it once, reuse it always.
+The executive summary is written last and must stand alone: objectives, headline findings with numbers, recommendations.
+Methods must be reproducible: name files and periods, summarize cleaning, state every formula, and list limitations honestly (including Riverside-style completeness gaps).
+Every recommendation traces to a specific finding and passes five tests: specific, actionable, evidence-linked, feasible, time-bound — with a named owner.
+Prioritize 3–5 recommendations; vague or ownerless recommendations are read as zero.
+Equity-check each recommendation: direct attention and resources toward those being left behind.
+Results report, Discussion interprets — never mix the two.</p>
+</blockquote>
+<h3>Notes</h3>
+<p><em>Use this space for your own notes, questions for the facilitators, and ideas to take home.</em></p>
+<h2>Day 5 — Friday 26 March</h2>
+<p><strong>Presentations, Cascade Planning &amp; Wrap-Up</strong></p>
+<h3>9:00–9:30 · Day 4 debrief</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Final logistics for presentation morning: running order, 12-minute limit with 3 minutes of questions, peer-feedback forms (Worksheet 5A) for every presenting team.
+Last-minute report triage: facilitators review executive summaries for the “stand-alone” test.
+Remember you are presenting twice over: once as analysts today, and — starting next month — as trainers teaching others to do this.</p>
+</blockquote>
+<h3>9:30–10:30 &amp; 11:00–11:30 · Group report presentations</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Each country team presents its analytical report in 12 minutes: objectives, methods in brief, key results (tables/figures/map), and recommendations — then 3 minutes of questions.
+Present the story, not the spreadsheet: one takeaway per slide, figures large enough to read from the back row, no reading paragraphs aloud.
+While each team presents, every other participant completes a Peer-Feedback Form (Worksheet 5A) for that team — specific, kind, and honest.
+After all four presentations, teams receive their feedback forms: keep them — they are your rehearsal notes for presenting real analyses to real decision-makers.</p>
+</blockquote>
+<h3>11:30–13:00 · Team working time: finalize presentations</h3>
+<p>No formal session. Use this protected time to finalize slide decks, rehearse timings with a stopwatch, and assign speaking parts. A 12-minute presentation needs at most ~10 slides and at least one full timed rehearsal. Test the projector with your actual file — fonts, colours, and map tiles must survive the big screen.</p>
+<h3>14:00–15:00 · Training Methodologies</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — From participant to trainer: your cascade training back home should reproduce this week’s arc — objectives → cleaning → rates → visuals → report → recommendations — compressed to what your audience needs (a 3-day version works; a 1-day version does not).
+Adapt, don’t just translate: swap Demoland for your country’s districts and real-style extracts, keep the exercise structure and answer keys, and adjust examples to local data systems (DHIS2, CRVS) your trainees actually use.
+Co-facilitate your first cascade with a fellow participant: one teaches while the other troubleshoots Excel — then swap. Debrief every day using the Daily Reflection habit from this workbook.
+Protect quality at scale: cap hands-on sessions at ~24 participants, require one laptop per pair, and use the same checklists (Tables, Figures) and worksheets (Objectives, Equity Lens) so standards survive the cascade.
+Measure your training: a pre/post skills check (e.g. “compute a district rate from these two sheets”), completed cleaning logs and critique checklists as evidence, and a 30-day follow-up on whether trainees produced a real report.</p>
+</blockquote>
+<h3>15:00–16:00 · Preparing for country-specific data analysis projects</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — The workshop ends; the work begins. Each country team now defines its first real post-workshop analysis project — a concrete analysis, on real country data, producing a real report within 90 days.
+Choose a winnable first project: a clear policy question, data you can actually access (see your Day 1 SOPs discussion), and a decision-maker waiting for the answer. Scope it to one health topic and one report.
+Name the data-access steps explicitly: who signs, which SOP applies, what the realistic timeline is — the Day 1 challenge lists become your risk register.
+Plan the cascade alongside the analysis: the same team members who clean and analyse should co-deliver the in-country training, so teaching stays grounded in real work.
+Complete Worksheet 5B now, while all six team members are in the room — this is your team’s contract for the next 90 days.</p>
+</blockquote>
+<h3>16:00–17:00 · Workshop evaluation and wrap-up</h3>
+<blockquote>
+<p><strong>KEY POINTS</strong> — Complete the workshop evaluation honestly — what to keep, what to change, and what support you need from the D4H team in the next 90 days.
+Collect your take-homes: this workbook, all six Excel files, your team’s report and slides, and your peer-feedback forms.
+Certificates and group photo; travel day is tomorrow, Saturday 27 March — confirm your transfer times before leaving the venue.
+The D4H country team remains your point of contact for technical questions during your 90-day projects. Use them.</p>
+</blockquote>
+<h3>Day 5 Worksheets</h3>
+<h3>Worksheet 5A: Presentation Peer-Feedback Form</h3>
+<p><em>Complete one form per presenting team. Be specific: quote the slide, table, or sentence you mean. Tick the rating, then write at least one strength and one suggestion.</em></p>
+<p><strong>Feedback for: Bangladesh team</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Criterion</strong></th>
+<th><strong>Strong ☐</strong></th>
+<th><strong>Adequate ☐</strong></th>
+<th><strong>Needs work ☐</strong></th>
+<th><strong>Comment (be specific)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objectives clear &amp; policy-relevant</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Methods reproducible (sources, formulas, limitations)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Tables/figures/maps clear &amp; honest</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Equity lens visible in analysis</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Recommendations specific, actionable, evidence-linked</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Delivery: timing, clarity, teamwork</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strongest part of this presentation:</strong></p>
+<p><strong>One suggestion that would most improve it:</strong></p>
+<p><strong>Your name (optional):</strong></p>
+<p><strong>Feedback for: Côte d’Ivoire team</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Criterion</strong></th>
+<th><strong>Strong ☐</strong></th>
+<th><strong>Adequate ☐</strong></th>
+<th><strong>Needs work ☐</strong></th>
+<th><strong>Comment (be specific)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objectives clear &amp; policy-relevant</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Methods reproducible (sources, formulas, limitations)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Tables/figures/maps clear &amp; honest</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Equity lens visible in analysis</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Recommendations specific, actionable, evidence-linked</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Delivery: timing, clarity, teamwork</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strongest part of this presentation:</strong></p>
+<p><strong>One suggestion that would most improve it:</strong></p>
+<p><strong>Your name (optional):</strong></p>
+<p><strong>Feedback for: Rwanda team</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Criterion</strong></th>
+<th><strong>Strong ☐</strong></th>
+<th><strong>Adequate ☐</strong></th>
+<th><strong>Needs work ☐</strong></th>
+<th><strong>Comment (be specific)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objectives clear &amp; policy-relevant</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Methods reproducible (sources, formulas, limitations)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Tables/figures/maps clear &amp; honest</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Equity lens visible in analysis</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Recommendations specific, actionable, evidence-linked</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Delivery: timing, clarity, teamwork</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strongest part of this presentation:</strong></p>
+<p><strong>One suggestion that would most improve it:</strong></p>
+<p><strong>Your name (optional):</strong></p>
+<p><strong>Feedback for: Tanzania team</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Criterion</strong></th>
+<th><strong>Strong ☐</strong></th>
+<th><strong>Adequate ☐</strong></th>
+<th><strong>Needs work ☐</strong></th>
+<th><strong>Comment (be specific)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objectives clear &amp; policy-relevant</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Methods reproducible (sources, formulas, limitations)</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Tables/figures/maps clear &amp; honest</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Equity lens visible in analysis</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Recommendations specific, actionable, evidence-linked</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+<tr>
+<td>Delivery: timing, clarity, teamwork</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strongest part of this presentation:</strong></p>
+<p><strong>One suggestion that would most improve it:</strong></p>
+<p><strong>Your name (optional):</strong></p>
+<h3>Worksheet 5B: Country Action Planning Worksheet</h3>
+<p><em>Complete as a country team — all six members present. This is your 90-day contract.</em></p>
+<p><strong>Country team:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____</p>
+<table>
+<thead>
+<tr>
+<th><strong>Planning element</strong></th>
+<th><strong>Your team’s plan</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First real analysis project (topic + policy question)</td>
+<td></td>
+</tr>
+<tr>
+<td>Decision-maker / audience waiting for the answer</td>
+<td></td>
+</tr>
+<tr>
+<td>Data sources needed (registers, DHIS2, CRVS, census…)</td>
+<td></td>
+</tr>
+<tr>
+<td>Data-access steps: who signs, which SOP, realistic timeline</td>
+<td></td>
+</tr>
+<tr>
+<td>Biggest risks (from Day 1 challenge lists) + mitigations</td>
+<td></td>
+</tr>
+<tr>
+<td>Team roles for the project (coordinator, data, visuals, writing)</td>
+<td></td>
+</tr>
+<tr>
+<td>Cascade training: topic, audience, dates, co-facilitators</td>
+<td></td>
+</tr>
+<tr>
+<td>Materials to adapt from this week (exercises, checklists, templates)</td>
+<td></td>
+</tr>
+<tr>
+<td>Support needed from the D4H country team</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>90-day milestones</h4>
+<table>
+<thead>
+<tr>
+<th><strong>By when</strong></th>
+<th><strong>Milestone</strong></th>
+<th><strong>Owner</strong></th>
+<th><strong>Done ☐</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 30</td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Day 60</td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Day 90</td>
+<td></td>
+<td></td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<h3>Day 5 Daily Reflection — and the week in review</h3>
+<p><em>Final reflection. Keep this page — reread it the night before your first cascade training.</em></p>
+<p><strong>The single most valuable skill I take home …</strong></p>
+<p><strong>The moment this week I felt most like a trainer (not a trainee) …</strong></p>
+<p><strong>My biggest remaining worry about the 90-day project — and my plan for it …</strong></p>
+<p><strong>One commitment I make to my country team before we part …</strong></p>
+<blockquote>
+<p><strong>DAY KEY TAKEAWAYS</strong> — Present the story, not the spreadsheet: one takeaway per slide, 12 minutes, ~10 slides, every visual readable from the back row.
+Peer feedback is a trainer’s tool: specific, kind, honest — quote the slide you mean.
+Cascade with fidelity: reproduce this week’s arc (objectives → cleaning → rates → visuals → report → recommendations), adapt the data to your country, keep the exercises and checklists.
+Co-facilitate your first in-country training; cap hands-on groups at ~24 with one laptop per pair.
+Choose a winnable first 90-day project: one policy question, accessible data, a waiting decision-maker.
+Name data-access steps, owners, and risks explicitly — your Day 1 SOPs discussion is now your risk register.
+Measure your cascade: pre/post skills checks, completed logs and checklists as evidence, 30-day follow-up on real reports produced.</p>
+</blockquote>
+<h3>Notes</h3>
+<p><em>Use this space for your own notes, questions for the facilitators, and ideas to take home.</em></p>
+<h2>Glossary of Key Terms</h2>
+<p><em>The working vocabulary of the week. Starred terms (</em>) appear in the Formula Quick-Reference.*</p>
+<table>
+<thead>
+<tr>
+<th><strong>Term</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Age group</td>
+<td>Population band used for disaggregation (here: 0–14, 15–24, 25–44, 45–64, 65+). Never collapse into “adult” without justification.</td>
+</tr>
+<tr>
+<td>Cascade training</td>
+<td>TOT model in which trainees become trainers, passing skills to successive cohorts. Fidelity to the original materials protects quality.</td>
+</tr>
+<tr>
+<td>Cell reference (absolute vs relative)</td>
+<td>A1 adjusts when filled down; $A$1 stays fixed. Use absolute references for multipliers and denominator cells reused across rows.</td>
+</tr>
+<tr>
+<td>Choropleth map</td>
+<td>Map in which areas are shaded by value bands. In this course, built as a tile-grid map with conditional formatting.</td>
+</tr>
+<tr>
+<td>Cleaning log</td>
+<td>Row-by-row record of data-quality issues found and fixes applied — the audit trail of Exercise 1.1 and of any real analysis.</td>
+</tr>
+<tr>
+<td>Completeness</td>
+<td>Data-quality dimension: are all expected records present? (Riverside’s mortality file is the course’s deliberately incomplete example.)</td>
+</tr>
+<tr>
+<td>Consistency</td>
+<td>Data-quality dimension: do values follow the same codes, spellings, and formats throughout?</td>
+</tr>
+<tr>
+<td>CRVS</td>
+<td>Civil registration and vital statistics — the system recording births, deaths, marriages, and divorces; the backbone of mortality statistics.</td>
+</tr>
+<tr>
+<td>Data dictionary</td>
+<td>Document defining every variable: name, definition, codes, units, missing-value conventions. Read it before touching the data.</td>
+</tr>
+<tr>
+<td>Denominator</td>
+<td>The population at risk that a count is divided by to form a rate. Must match the numerator on place, period, sex, and age.</td>
+</tr>
+<tr>
+<td>Descriptive statistics</td>
+<td>Numbers that summarize data: centre (mean, median, mode), spread (range, SD, percentiles), and shape (skew).</td>
+</tr>
+<tr>
+<td>DHIS2</td>
+<td>District Health Information Software 2 — the open-source platform many countries use for routine health facility reporting.</td>
+</tr>
+<tr>
+<td>Disaggregation</td>
+<td>Splitting results into subgroups (district, sex, age). Averages hide inequity; disaggregation reveals it.</td>
+</tr>
+<tr>
+<td>Equity (health)</td>
+<td>Everyone having a fair opportunity to attain full health — which may require unequal effort and resources. Contrast equality (the same for all).</td>
+</tr>
+<tr>
+<td>Executive summary</td>
+<td>One-page standalone synopsis: objectives, headline findings with numbers, recommendations. Written last, read first.</td>
+</tr>
+<tr>
+<td>IMRAD</td>
+<td>Introduction, Methods, Results, and Discussion — the standard structure for analytical reports.</td>
+</tr>
+<tr>
+<td>Incidence</td>
+<td>New cases occurring in a population over a period. (TB notification rates approximate incidence as captured by the system.)</td>
+</tr>
+<tr>
+<td>Interquartile range</td>
+<td>The range from the 25th to the 75th percentile — the spread of the middle half of the data; robust to outliers.</td>
+</tr>
+<tr>
+<td>Mean</td>
+<td>Arithmetic average: sum ÷ n. Sensitive to outliers and skew.</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>The middle value when data are ordered. Resists outliers; preferred for skewed distributions.</td>
+</tr>
+<tr>
+<td>Metadata</td>
+<td>Data about data: source, coverage, collection method, definitions, known limitations.</td>
+</tr>
+<tr>
+<td>Mortality rate</td>
+<td>Deaths ÷ population at risk × multiplier, for a defined cause, place, and period. Meaningless where registration is incomplete.</td>
+</tr>
+<tr>
+<td>Numerator</td>
+<td>The count of events (cases, deaths) that forms the top half of a rate.</td>
+</tr>
+<tr>
+<td>Percent change</td>
+<td>((New − Old) ÷ Old) × 100. Use for trends; always state the baseline.</td>
+</tr>
+<tr>
+<td>Pivot table</td>
+<td>Excel’s drag-and-drop summarization tool: rows, columns, values, and filters that rebuild instantly as questions change.</td>
+</tr>
+<tr>
+<td>PROGRESS-Plus</td>
+<td>Equity lens: Place, Race/ethnicity, Occupation, Gender/sex, Religion, Education, Socioeconomic status, Social capital — Plus age, disability, and context-specific factors.</td>
+</tr>
+<tr>
+<td>Rate</td>
+<td>(Events ÷ population at risk) × multiplier (e.g. per 100,000). Makes places and periods comparable.</td>
+</tr>
+<tr>
+<td>Recommendation</td>
+<td>Evidence-linked, actionable statement of who should do what, where, by when — derived from a specific finding.</td>
+</tr>
+<tr>
+<td>SOP</td>
+<td>Standard operating procedure — the documented rules governing data access, sharing, and handling in each country.</td>
+</tr>
+<tr>
+<td>Standard deviation (SD)</td>
+<td>Typical distance of values from the mean. Report as mean ± SD for symmetric data.</td>
+</tr>
+<tr>
+<td>Synthetic data</td>
+<td>Artificially generated data mimicking real structure without real records. All Demoland data are 100% synthetic.</td>
+</tr>
+<tr>
+<td>TB notification rate</td>
+<td>Notified TB cases ÷ population × 100,000, per year. The course’s core indicator.</td>
+</tr>
+<tr>
+<td>Timeliness</td>
+<td>Data-quality dimension: are data available soon enough to act on?</td>
+</tr>
+<tr>
+<td>Treatment success rate</td>
+<td>(Cured + treatment completed) ÷ all notified TB cases × 100, per cohort.</td>
+</tr>
+<tr>
+<td>Validity</td>
+<td>Data-quality dimension: do values fall within plausible ranges and formats (no negatives where impossible, no text in numeric fields)?</td>
+</tr>
+<tr>
+<td>XLOOKUP*</td>
+<td>Modern Excel lookup: =XLOOKUP(lookup_value, lookup_array, return_array). Exact match by default; searches in any direction.</td>
+</tr>
+</tbody>
+</table>
+<h2>Excel Formula Quick-Reference</h2>
+<p><em>Keep this page beside your keyboard. All formulas use Excel’s standard English function names.</em></p>
+<h4>Summarizing data</h4>
+<table>
+<thead>
+<tr>
+<th><strong>What you want</strong></th>
+<th><strong>Formula</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sum</td>
+<td>=SUM(range)</td>
+<td>=SUM(C2:C301)</td>
+</tr>
+<tr>
+<td>Average (mean)</td>
+<td>=AVERAGE(range)</td>
+<td>=AVERAGE(C2:C301)</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>=MEDIAN(range)</td>
+<td>=MEDIAN(C2:C13)</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>=MODE.SNGL(range)</td>
+<td>=MODE.SNGL(C2:C301)</td>
+</tr>
+<tr>
+<td>Standard deviation (sample)</td>
+<td>=STDEV.S(range)</td>
+<td>=STDEV.S(C2:C13)</td>
+</tr>
+<tr>
+<td>Minimum / maximum</td>
+<td>=MIN / =MAX</td>
+<td>=MAX(C2:C13)-MIN(C2:C13)  → range</td>
+</tr>
+<tr>
+<td>25th / 75th percentile</td>
+<td>=QUARTILE.INC(range,1 or 3)</td>
+<td>=QUARTILE.INC(C2:C13,1)</td>
+</tr>
+<tr>
+<td>Count of numbers</td>
+<td>=COUNT(range)</td>
+<td>=COUNT(C2:C301)</td>
+</tr>
+</tbody>
+</table>
+<h4>Conditional sums and counts</h4>
+<table>
+<thead>
+<tr>
+<th><strong>What you want</strong></th>
+<th><strong>Formula</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Count matching a criterion</td>
+<td>=COUNTIF(range,criterion)</td>
+<td>=COUNTIF(B2:B301,“Westbrook”)</td>
+</tr>
+<tr>
+<td>Count matching several criteria</td>
+<td>=COUNTIFS(r1,c1,r2,c2…)</td>
+<td>=COUNTIFS(B2:B301,“Westbrook”,D2:D301,“Female”)</td>
+</tr>
+<tr>
+<td>Sum matching criteria</td>
+<td>=SUMIFS(sum_range,r1,c1…)</td>
+<td>=SUMIFS(C2:C301,B2:B301,“Westbrook”)</td>
+</tr>
+<tr>
+<td>Average matching criteria</td>
+<td>=AVERAGEIFS(avg_range,r1,c1…)</td>
+<td>=AVERAGEIFS(C2:C301,B2:B301,“Westbrook”)</td>
+</tr>
+</tbody>
+</table>
+<h4>Combining datasets &amp; cleaning text</h4>
+<table>
+<thead>
+<tr>
+<th><strong>What you want</strong></th>
+<th><strong>Formula / tool</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Look up a value</td>
+<td>=XLOOKUP(key, lookup_array, return_array)</td>
+<td>=XLOOKUP(A2,Pop!$A:$A,Pop!$D:$D)</td>
+</tr>
+<tr>
+<td>Safe lookup (flag misses)</td>
+<td>=IFERROR(XLOOKUP(…),“CHECK”)</td>
+<td>=IFERROR(XLOOKUP(A2,Pop!$A:$A,Pop!$D:$D),“CHECK”)</td>
+</tr>
+<tr>
+<td>Remove extra spaces</td>
+<td>=TRIM(text)</td>
+<td>=TRIM(B2) → paste as values</td>
+</tr>
+<tr>
+<td>Standardize case</td>
+<td>=UPPER / =LOWER / =PROPER</td>
+<td>=PROPER(B2) → “Westbrook”</td>
+</tr>
+<tr>
+<td>Build a composite key</td>
+<td>=A2&amp;“|”&amp;B2&amp;“|”&amp;C2</td>
+<td>=B2&amp;“|”&amp;C2&amp;“|”&amp;D2</td>
+</tr>
+<tr>
+<td>Branch on a condition</td>
+<td>=IF(test, if_true, if_false)</td>
+<td>=IF(C2&lt;0,“CHECK”,C2)</td>
+</tr>
+<tr>
+<td>Remove duplicates</td>
+<td>Data → Remove Duplicates</td>
+<td>Select data first; record rows removed</td>
+</tr>
+<tr>
+<td>Text to true dates/numbers</td>
+<td>Data → Text to Columns → Finish</td>
+<td>Fixes dates &amp; numbers stored as text</td>
+</tr>
+</tbody>
+</table>
+<h4>Rates and change</h4>
+<table>
+<thead>
+<tr>
+<th><strong>What you want</strong></th>
+<th><strong>Formula</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rate per 100,000</td>
+<td>=events/population*100000</td>
+<td>=B2/C2*100000 → 1 decimal</td>
+</tr>
+<tr>
+<td>Percentage share</td>
+<td>=part/total*100</td>
+<td>=B2/B$14*100 → 1 decimal</td>
+</tr>
+<tr>
+<td>Percent change over time</td>
+<td>=(new-old)/old*100</td>
+<td>=(C6-C2)/C2*100</td>
+</tr>
+<tr>
+<td>Treatment success rate (%)</td>
+<td>=successes/notified*100</td>
+<td>=D2/B2*100</td>
+</tr>
+</tbody>
+</table>
+<h4>Presenting</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Task</strong></th>
+<th><strong>How</strong></th>
+<th><strong>Tip</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pivot table</td>
+<td>Insert → PivotTable</td>
+<td>Check Values = Sum (not Count); Refresh after edits</td>
+</tr>
+<tr>
+<td>Slicer</td>
+<td>PivotTable Analyze → Insert Slicer</td>
+<td>One-click filtering for exploration &amp; demos</td>
+</tr>
+<tr>
+<td>Conditional formatting</td>
+<td>Home → Conditional Formatting</td>
+<td>3–4 bands, single-hue progression for maps</td>
+</tr>
+<tr>
+<td>Freeze panes</td>
+<td>View → Freeze Panes</td>
+<td>Keep headers visible while scrolling</td>
+</tr>
+<tr>
+<td>Thousands separator</td>
+<td>Number format “#,##0”</td>
+<td>Counts readable at a glance</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+</main>
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-text">
+      <p><strong style="color:#FBD9B0">Data Analysis &amp; Report Writing TOT</strong> · Data for Health Initiative · Bloomberg Philanthropies · CDC Foundation</p>
+      <p>Kigali, Rwanda · 22–26 March 2027 · All datasets on this site are 100% synthetic demo data for training only.</p>
+      <p><a href="https://github.com/datatopolicy/Data_Analysis_TOT">View source on GitHub</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
