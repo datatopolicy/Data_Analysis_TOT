@@ -105,6 +105,5 @@ One-page-per-topic reference for participants' desks. All syntax verified for Ex
 | Remove Duplicates | Data → Remove Duplicates | Tick key columns only | Deduplicate on district+year+sex+age-group, not all columns. |
 | Data Validation | Data → Data Validation → List | — | Lock categorical columns to allowed values at entry. |
 
-{% hint style="info" %}
-**TRAINER TIP**— Print Annex B on card stock and hand it out on Monday morning — participants reach for it all week, and it becomes the most-used page of their cascade-training workbook back home.
-{% endhint %}
+> **TRAINER TIP**— Print Annex B on card stock and hand it out on Monday morning — participants reach for it all week, and it becomes the most-used page of their cascade-training workbook back home.
+

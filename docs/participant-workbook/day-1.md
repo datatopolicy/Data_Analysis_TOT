@@ -4,58 +4,52 @@
 
 ## 9:00–9:30 · Welcome and introductions
 
-{% hint style="success" %}
-**KEY POINTS**— Meet your facilitators, the 24 participants, and your country team (Bangladesh, Côte d’Ivoire, Rwanda, or Tanzania — six members each).
-Course norms: punctuality, phones on silent, one conversation at a time, and “no question is too basic” — you will soon be answering these same questions as trainers.
-Logistics: venue map, Wi-Fi, tea/lunch times, and where to find help with laptops and files.
-Orient yourself to this workbook and the six Excel files listed in “Your data and exercise files” — you will open at least one every day.
-{% endhint %}
+> **KEY POINTS**— Meet your facilitators, the 24 participants, and your country team (Bangladesh, Côte d’Ivoire, Rwanda, or Tanzania — six members each).
+> Course norms: punctuality, phones on silent, one conversation at a time, and “no question is too basic” — you will soon be answering these same questions as trainers.
+> Logistics: venue map, Wi-Fi, tea/lunch times, and where to find help with laptops and files.
+> Orient yourself to this workbook and the six Excel files listed in “Your data and exercise files” — you will open at least one every day.
+
 
 ## 9:30–10:00 · Introduction to the Data for Health Initiative Data Analysis Project
 
-{% hint style="success" %}
-**KEY POINTS**— The Data for Health (D4H) Initiative, funded by Bloomberg Philanthropies and implemented by the CDC Foundation, partners with governments to strengthen public-health data systems — especially civil registration and vital statistics (CRVS), cancer registries, and NCD risk-factor surveillance.
-Good data only matters if it is used. This project’s goal is sustainable, in-country capacity to analyse routine health data and turn it into reports that decision-makers actually read.
-That is why this is a Training of Trainers: you are not just learning analysis skills, you are learning to teach them. Everything this week — the exercises, the checklists, the templates — is designed to be reused in your home country.
-Your team project (see next session) is the rehearsal: by Friday your team will have produced and presented a complete mini-analysis, exactly as you will later guide others to do.
-{% endhint %}
+> **KEY POINTS**— The Data for Health (D4H) Initiative, funded by Bloomberg Philanthropies and implemented by the CDC Foundation, partners with governments to strengthen public-health data systems — especially civil registration and vital statistics (CRVS), cancer registries, and NCD risk-factor surveillance.
+> Good data only matters if it is used. This project’s goal is sustainable, in-country capacity to analyse routine health data and turn it into reports that decision-makers actually read.
+> That is why this is a Training of Trainers: you are not just learning analysis skills, you are learning to teach them. Everything this week — the exercises, the checklists, the templates — is designed to be reused in your home country.
+> Your team project (see next session) is the rehearsal: by Friday your team will have produced and presented a complete mini-analysis, exactly as you will later guide others to do.
+
 
 ## 10:00–10:30 · Review the TOT schedule and team project
 
-{% hint style="success" %}
-**KEY POINTS**— The week builds in order: clean and combine data (Day 1) → calculate rates and summarise (Day 2) → present with tables, figures, and maps (Day 3) → write the report and recommendations (Day 4) → present and plan your cascade training (Day 5).
-Team project brief: in your country team of six, analyse the Demoland demo datasets and produce (a) a short analytical report of 4–6 pages using the IMRAD structure, and (b) a 12-minute slide presentation delivered on Friday morning.
-Milestones: analysis objectives fixed by end of Day 1; core results and rates by end of Day 2; draft tables/figures/maps by end of Day 3; full draft report by end of Day 4.
-Roles rotate, but every team needs at minimum: a coordinator, a data lead, a visuals lead, and a writing lead. Agree yours today.
-{% endhint %}
+> **KEY POINTS**— The week builds in order: clean and combine data (Day 1) → calculate rates and summarise (Day 2) → present with tables, figures, and maps (Day 3) → write the report and recommendations (Day 4) → present and plan your cascade training (Day 5).
+> Team project brief: in your country team of six, analyse the Demoland demo datasets and produce (a) a short analytical report of 4–6 pages using the IMRAD structure, and (b) a 12-minute slide presentation delivered on Friday morning.
+> Milestones: analysis objectives fixed by end of Day 1; core results and rates by end of Day 2; draft tables/figures/maps by end of Day 3; full draft report by end of Day 4.
+> Roles rotate, but every team needs at minimum: a coordinator, a data lead, a visuals lead, and a writing lead. Agree yours today.
+
 
 ## 11:00–12:00 · Principles of Equity
 
-{% hint style="success" %}
-**KEY POINTS**— Equality vs equity: equality gives everyone the same; equity gives people what they need to reach the same outcome. In health data work, equity means asking who is being left behind — and designing the analysis so the answer is visible.
-PROGRESS-Plus is the standard lens: Place of residence, Race/ethnicity/culture, Occupation, Gender/sex, Religion, Education, Socioeconomic status, Social capital — Plus age, disability, and other context-specific factors.
-Apply the lens at every stage: objectives (whose health are we measuring?), data (who is missing from the register?), analysis (disaggregate, don’t just average), reporting (show the gaps plainly), and recommendations (target the underserved).
-Averages hide inequity. A national TB decline can coexist with a district where cases are rising — you will see exactly this in Demoland with Westbrook district.
-Demoland worked example: males account for roughly 60–65% of TB notifications. An equity lens turns that statistic into questions: Are men less likely to seek care early? Are services reaching workplaces and transport hubs where men cluster? Your recommendations should answer those questions, not just report the share.
-{% endhint %}
+> **KEY POINTS**— Equality vs equity: equality gives everyone the same; equity gives people what they need to reach the same outcome. In health data work, equity means asking who is being left behind — and designing the analysis so the answer is visible.
+> PROGRESS-Plus is the standard lens: Place of residence, Race/ethnicity/culture, Occupation, Gender/sex, Religion, Education, Socioeconomic status, Social capital — Plus age, disability, and other context-specific factors.
+> Apply the lens at every stage: objectives (whose health are we measuring?), data (who is missing from the register?), analysis (disaggregate, don’t just average), reporting (show the gaps plainly), and recommendations (target the underserved).
+> Averages hide inequity. A national TB decline can coexist with a district where cases are rising — you will see exactly this in Demoland with Westbrook district.
+> Demoland worked example: males account for roughly 60–65% of TB notifications. An equity lens turns that statistic into questions: Are men less likely to seek care early? Are services reaching workplaces and transport hubs where men cluster? Your recommendations should answer those questions, not just report the share.
+
 
 ## 12:00–12:30 · Group Projects: Country teams report on SOPs and challenges accessing data
 
-{% hint style="success" %}
-**KEY POINTS**— Each country team gives a 5-minute report: What SOPs govern data access and sharing in your setting? What are the biggest practical challenges (permissions, timeliness, data quality, linkage)?
-Listen for patterns across the four countries — common challenges become design constraints for the cascade trainings you will run.
-Capture one challenge per team on a flipchart: you will revisit these on Day 5 when planning country-specific projects.
-{% endhint %}
+> **KEY POINTS**— Each country team gives a 5-minute report: What SOPs govern data access and sharing in your setting? What are the biggest practical challenges (permissions, timeliness, data quality, linkage)?
+> Listen for patterns across the four countries — common challenges become design constraints for the cascade trainings you will run.
+> Capture one challenge per team on a flipchart: you will revisit these on Day 5 when planning country-specific projects.
+
 
 ## 14:00–15:00 · Establish data analysis objectives
 
-{% hint style="success" %}
-**KEY POINTS**— Every analysis starts before the data: with a written objective. Analyses that start with “let’s see what the data says” produce unfocused reports nobody uses.
-A strong objective names the health issue, the population, the place, the time period, and the measure: “Estimate annual TB notification rates per 100,000 by district and sex, Demoland, 2021–2025.”
-Work backwards from the decision: What policy question must this answer? Who will act on the answer? Write those down first (Worksheet 1A), then the objective almost writes itself.
-Limit yourself: three to five objectives per report. Each objective should map to one results section and at least one recommendation.
-Revisit objectives after first exploring the data — Riverside’s incomplete mortality registration, for example, may force you to narrow a mortality objective or add a data-quality objective.
-{% endhint %}
+> **KEY POINTS**— Every analysis starts before the data: with a written objective. Analyses that start with “let’s see what the data says” produce unfocused reports nobody uses.
+> A strong objective names the health issue, the population, the place, the time period, and the measure: “Estimate annual TB notification rates per 100,000 by district and sex, Demoland, 2021–2025.”
+> Work backwards from the decision: What policy question must this answer? Who will act on the answer? Write those down first (Worksheet 1A), then the objective almost writes itself.
+> Limit yourself: three to five objectives per report. Each objective should map to one results section and at least one recommendation.
+> Revisit objectives after first exploring the data — Riverside’s incomplete mortality registration, for example, may force you to narrow a mortality objective or add a data-quality objective.
+
 
 ### Exercise 1.1: Clean the messy DHIS2 malaria extract  (60 minutes)
 
@@ -83,13 +77,12 @@ Revisit objectives after first exploring the data — Riverside’s incomplete m
 - How does poor cleaning in this small file scale into risk when the file has 300,000 rows instead of 300?
 ## 16:00–16:30 · Combining data sets in Excel
 
-{% hint style="success" %}
-**KEY POINTS**— Counts alone mislead: a district with more cases may simply have more people. Combining case data with population denominators is what turns counts into comparable rates.
-XLOOKUP is the modern Excel lookup: =XLOOKUP(lookup_value, lookup_array, return_array). It searches left-to-right or right-to-left, defaults to exact match, and lets you specify what to return when there is no match.
-Build a single lookup key on both sides (e.g. District & “|” & Year & “|” & Sex) so one formula matches district, year, and sex together — this avoids the classic error of attaching the wrong year’s population.
-Wrap lookups in IFERROR to handle missing combinations explicitly, e.g. =IFERROR(XLOOKUP(...), “CHECK”), then investigate every “CHECK” instead of letting a silent zero through.
-District names must match character-for-character between files — which is exactly why you standardized spellings in Exercise 1.1.
-{% endhint %}
+> **KEY POINTS**— Counts alone mislead: a district with more cases may simply have more people. Combining case data with population denominators is what turns counts into comparable rates.
+> XLOOKUP is the modern Excel lookup: =XLOOKUP(lookup_value, lookup_array, return_array). It searches left-to-right or right-to-left, defaults to exact match, and lets you specify what to return when there is no match.
+> Build a single lookup key on both sides (e.g. District & “|” & Year & “|” & Sex) so one formula matches district, year, and sex together — this avoids the classic error of attaching the wrong year’s population.
+> Wrap lookups in IFERROR to handle missing combinations explicitly, e.g. =IFERROR(XLOOKUP(...), “CHECK”), then investigate every “CHECK” instead of letting a silent zero through.
+> District names must match character-for-character between files — which is exactly why you standardized spellings in Exercise 1.1.
+
 
 ### Exercise 1.2: Combine TB notifications with census denominators (XLOOKUP)  (30 minutes)
 
@@ -162,15 +155,14 @@ Team time. Today’s deliverable: agree your team’s 3–5 analysis objectives 
 
 **My team’s analysis objectives after today’s discussion …**
 
-{% hint style="success" %}
-**DAY KEY TAKEAWAYS**— Start every analysis with written objectives tied to a policy question and a named audience — never with “let’s see what the data says”.
-Equity is a method, not a topic: apply the PROGRESS-Plus lens at objective-setting, data review, analysis, reporting, and recommendations.
-National averages hide inequity — always disaggregate by place, sex, and age before drawing conclusions.
-Clean data systematically and log every fix: the Cleaning_Log is your audit trail and your credibility.
-Standardize text fields (districts, facilities, sex labels) before combining files — lookups only match character-for-character.
-Combine case counts with census denominators via XLOOKUP on a composite key (district + year + sex); investigate every non-match.
-Your team project runs all week: objectives today, results by Tuesday, visuals by Wednesday, draft report by Thursday, presentation Friday.
-{% endhint %}
+> **DAY KEY TAKEAWAYS**— Start every analysis with written objectives tied to a policy question and a named audience — never with “let’s see what the data says”.
+> Equity is a method, not a topic: apply the PROGRESS-Plus lens at objective-setting, data review, analysis, reporting, and recommendations.
+> National averages hide inequity — always disaggregate by place, sex, and age before drawing conclusions.
+> Clean data systematically and log every fix: the Cleaning_Log is your audit trail and your credibility.
+> Standardize text fields (districts, facilities, sex labels) before combining files — lookups only match character-for-character.
+> Combine case counts with census denominators via XLOOKUP on a composite key (district + year + sex); investigate every non-match.
+> Your team project runs all week: objectives today, results by Tuesday, visuals by Wednesday, draft report by Thursday, presentation Friday.
+
 
 ## Notes
 

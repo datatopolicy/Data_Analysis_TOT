@@ -39,9 +39,8 @@ Run the pre-test (25 MCQs + 2 short-answer, 30 minutes, anonymous 4-digit code).
 -**Protect the clock ruthlessly.**Introductions overrun in every course ever run; the visible timer and 20-second rule keep 24 people inside 5 minutes. Anyone who needs more airtime gets it at tea.
 -**If the pre-test runs long,**collect at 9:25 regardless and let slow finishers complete it during the first tea break — never steal time from the D4H introduction.
 -**Learn two names per table**during circulation; using names from hour one builds the participatory culture the week depends on.
-{% hint style="info" %}
-**TRAINER TIP**— Back home, open your cascade training the same way: a diagnostic pre-test followed by 20-second introductions. It signals immediately that the training is about doing, and the pre-test gives you a baseline to prove impact to your ministry.
-{% endhint %}
+> **TRAINER TIP**— Back home, open your cascade training the same way: a diagnostic pre-test followed by 20-second introductions. It signals immediately that the training is about doing, and the pre-test gives you a baseline to prove impact to your ministry.
+
 
 ## Day 1 (Mon 22 Mar)  |  9:30–10:00
 
@@ -80,9 +79,8 @@ Close with the week's arc: Monday–Tuesday we build analytic muscle in Excel; W
 -**Do not read the 8 objectives off the slide.**State each in one plain sentence and give a one-line country-flavored example (e.g., objective 4 on SOPs: 'so the next analyst inherits a method, not a mystery').
 -**Watch for the misconception**that D4H will analyze their data for them — correct it explicitly: the project builds their capacity; the analysis is theirs.
 -**If Q&A runs hot,**promise a 5-minute parking lot at 10:25 and move on; energy is high and the schedule session needs its full 30 minutes.
-{% hint style="info" %}
-**TRAINER TIP**— Re-teach this as a 10-minute story, not a 30-minute lecture: problem → initiative → project → 'and that is why you are in this room.' Adult learners remember narratives; they forget objective lists. Keep the printed overview as the take-home reference.
-{% endhint %}
+> **TRAINER TIP**— Re-teach this as a 10-minute story, not a 30-minute lecture: problem → initiative → project → 'and that is why you are in this room.' Adult learners remember narratives; they forget objective lists. Keep the printed overview as the take-home reference.
+
 
 ## Day 1 (Mon 22 Mar)  |  10:00–10:30
 
@@ -117,17 +115,15 @@ Run topic selection now: each country team confers for 5 minutes and claims one 
 -**Get the topic claims in writing on the flipchart**before tea — disputes after the break waste time.
 -**If two teams want the same topic,**let the team that speaks first keep it; the 'loser' almost always discovers their second choice was richer once they open the data.
 -**End with the Friday picture:**'On Friday morning you present to this room as if we are your ministry leadership.' It focuses the week.
-{% hint style="info" %}
-**TRAINER TIP**— In cascade trainings, do topic selection on day 1 as well — even a 3-day course benefits. Early ownership converts participants from audience to analysts, and the milestone table gives you a built-in progress check each morning.
-{% endhint %}
+> **TRAINER TIP**— In cascade trainings, do topic selection on day 1 as well — even a 3-day course benefits. Early ownership converts participants from audience to analysts, and the milestone table gives you a built-in progress check each morning.
+
 
 ## Day 1 (Mon 22 Mar)  |  10:30–11:00
 
 ### Tea
 
-{% hint style="info" %}
-**TRAINER TIP**— Use tea breaks to read the room: which table finished the pre-test fastest (likely your Excel-strong table), who is quiet, who needs the francophone glossary. Adjust examples accordingly.
-{% endhint %}
+> **TRAINER TIP**— Use tea breaks to read the room: which table finished the pre-test fastest (likely your Excel-strong table), who is quiet, who needs the francophone glossary. Adjust examples accordingly.
+
 
 ## Day 1 (Mon 22 Mar)  |  11:00–12:00
 
@@ -184,9 +180,8 @@ Close with the week's equity rule: every table, every figure, every report this 
 -**The fence graphic is non-negotiable —**draw it even if the slides fail. Participants photograph it and reuse it for years.
 -**Push back gently**when teams claim their data 'has no equity issues' — ask which PROGRESS-Plus dimensions are simply unmeasured.
 -**If the exercise runs long,**cut the gallery walk to 1 minute per team; protect the 12:00 SOP session start.
-{% hint style="info" %}
-**TRAINER TIP**— Teach PROGRESS-Plus as a checklist taped inside every analyst's notebook: before any analysis, run down the letters and tick what the dataset covers. In cascade trainings this 60-minute session becomes the moral compass for everything after — never compress it below 45 minutes.
-{% endhint %}
+> **TRAINER TIP**— Teach PROGRESS-Plus as a checklist taped inside every analyst's notebook: before any analysis, run down the letters and tick what the dataset covers. In cascade trainings this 60-minute session becomes the moral compass for everything after — never compress it below 45 minutes.
+
 
 ## Day 1 (Mon 22 Mar)  |  12:00–12:30
 
@@ -222,17 +217,15 @@ Facilitator synthesizes across the four countries: common barriers (unclear owne
 -**Keep each country to 5 minutes —**this session bleeds into lunch if you let war stories run. Promise a longer exchange at a later tea break.
 -**Draw out the quiet country**with a direct question; otherwise the most vocal health system dominates.
 -**Photograph all four flipcharts —**they become an annex in the course report and baseline material for Phase 2 SOP work.
-{% hint style="info" %}
-**TRAINER TIP**— Back home, run this as the opening of your cascade training too: it surfaces the real constraints your trainees face and lets you tailor every later session. Collect the barriers in writing — they are your needs assessment.
-{% endhint %}
+> **TRAINER TIP**— Back home, run this as the opening of your cascade training too: it surfaces the real constraints your trainees face and lets you tailor every later session. Collect the barriers in writing — they are your needs assessment.
+
 
 ## Day 1 (Mon 22 Mar)  |  13:00–14:00
 
 ### Lunch
 
-{% hint style="info" %}
-**TRAINER TIP**— Sit with a different country team each day. Lunch is where you learn which participants are already Excel-strong (recruit them as table helpers) and who may need extra support.
-{% endhint %}
+> **TRAINER TIP**— Sit with a different country team each day. Lunch is where you learn which participants are already Excel-strong (recruit them as table helpers) and who may need extra support.
+
 
 ## Day 1 (Mon 22 Mar)  |  14:00–15:00
 
@@ -276,9 +269,8 @@ Demonstrate live: take a participant-suggested vague objective and rewrite it on
 -**The most common flaw**is objectives without denominators ('compare TB burden across districts' using counts). Catch it now — it foreshadows Tuesday's rates session.
 -**Circulate with a red pen mentality:**every objective must name its disaggregations, or the team will discover on Wednesday they never structured the data for it.
 -**If teams finish early,**have them rank their objectives by policy urgency — it previews Thursday's recommendations session.
-{% hint style="info" %}
-**TRAINER TIP**— Make objective-writing the first exercise of every cascade training, using trainees' own program questions. Analysts who can write a sharp objective rarely produce a fuzzy report — it is the highest-leverage hour you will teach.
-{% endhint %}
+> **TRAINER TIP**— Make objective-writing the first exercise of every cascade training, using trainees' own program questions. Analysts who can write a sharp objective rarely produce a fuzzy report — it is the highest-leverage hour you will teach.
+
 
 ## Day 1 (Mon 22 Mar)  |  15:00–16:00
 
@@ -322,9 +314,8 @@ Key cautions: always work on a copy (never the raw extract); keep the raw file u
 -**The #1 pitfall:**participants cleaning the original instead of a copy. Say it three times; check screens during circulation.
 -**Remove Duplicates on the wrong columns**deletes valid data — demo the mistake deliberately so they feel the danger before doing it live.
 -**If half the room finishes early,**set the stretch task: build the Data Validation dropdowns. If the room is slow, drop the validation step to homework and protect the 16:00 start.
-{% hint style="info" %}
-**TRAINER TIP**— Cleaning is the easiest session to re-teach because the mess is visible and the fix is satisfying. Build your own country's 'messy file' from a real de-identified extract — trainees engage twice as hard when the dirt is theirs. Always teach the cleaning log; it is what makes the work auditable.
-{% endhint %}
+> **TRAINER TIP**— Cleaning is the easiest session to re-teach because the mess is visible and the fix is satisfying. Build your own country's 'messy file' from a real de-identified extract — trainees engage twice as hard when the dirt is theirs. Always teach the cleaning log; it is what makes the work auditable.
+
 
 ## Day 1 (Mon 22 Mar)  |  16:00–16:30
 
@@ -365,9 +356,8 @@ Join hygiene: confirm keys match exactly (recall the TRIM lesson — 'Westbrook 
 -**Check Excel versions at the start:**if XLOOKUP is missing on some laptops, teach INDEX/MATCH as the primary and XLOOKUP as 'when you upgrade'. Never leave half the room with a formula that returns #NAME?.
 -**The most common error**is relative references shifting the table array — teach $ locking (F4) the moment you see #N/A cascades.
 -**Keep this session tight at 30 minutes;**mastery comes from repeated use during team time, not from more demo.
-{% hint style="info" %}
-**TRAINER TIP**— Teach lookups with your country's real files: 'bring your DHIS2 extract and your census file; leave with them merged.' The shared-key hygiene lesson (TRIM, exact spelling) is the part trainees will thank you for months later.
-{% endhint %}
+> **TRAINER TIP**— Teach lookups with your country's real files: 'bring your DHIS2 extract and your census file; leave with them merged.' The shared-key hygiene lesson (TRIM, exact spelling) is the part trainees will thank you for months later.
+
 
 ## Day 1 (Mon 22 Mar)  |  16:30–17:00
 
@@ -401,6 +391,5 @@ End-of-day close (last 5 minutes): each team states its topic and reads one obje
 -**Resist doing it for them.**The instinct to grab the keyboard is strongest in the first team session — narrate your thinking aloud instead, so they learn the diagnostic path.
 -**Note which teams are stuck on merges —**they need the first 10 minutes of Tuesday's team time protected for catch-up.
 -**End on time.**Day 1 is long; a crisp 17:00 close builds trust that the week's clock can be believed.
-{% hint style="info" %}
-**TRAINER TIP**— Protect daily team time fiercely in cascade trainings — it is where transfer happens. Circulate with questions, not answers, and always close by having teams state their deliverable aloud: public commitment drives completion.
-{% endhint %}
+> **TRAINER TIP**— Protect daily team time fiercely in cascade trainings — it is where transfer happens. Circulate with questions, not answers, and always close by having teams state their deliverable aloud: public commitment drives completion.
+

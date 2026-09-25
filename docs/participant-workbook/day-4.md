@@ -4,32 +4,29 @@
 
 ## 9:00–9:30 · Day 3 debrief
 
-{% hint style="success" %}
-**KEY POINTS**— Teams show one rebuilt table and one figure each; facilitators run the critique checklists live on a volunteer example.
-Most common misses: titles that describe the topic instead of the takeaway, missing source notes, and percentages without denominators.
-Today’s goal: turn your tables and figures into a complete draft report with recommendations.
-{% endhint %}
+> **KEY POINTS**— Teams show one rebuilt table and one figure each; facilitators run the critique checklists live on a volunteer example.
+> Most common misses: titles that describe the topic instead of the takeaway, missing source notes, and percentages without denominators.
+> Today’s goal: turn your tables and figures into a complete draft report with recommendations.
+
 
 ## 9:30–10:30 · Guidelines for creating report templates
 
-{% hint style="success" %}
-**KEY POINTS**— A report template is a reusable shell: fixed structure, fixed styles, fixed numbering — so every report your programme produces looks professional and nothing gets forgotten.
-Anatomy of the template: cover page (title, date, authors, disclaimer) · table of contents · executive summary (one page, written last) · Introduction · Methods · Results · Discussion · Recommendations · References · Annexes (detailed tables, data dictionary, cleaning summary).
-Style rules to lock in: Heading 1/2/3 styles for all headings; automatic table of contents; tables numbered “Table 1, 2…” and figures “Figure 1, 2…” in order of appearance; every table/figure referenced in the text before it appears.
-The executive summary is a standalone document: objectives, 3–5 key findings (with the headline numbers), and the recommendations — many decision-makers read only this page, so it must survive alone.
-Methods must name data sources precisely (file names, periods, coverage), summarize cleaning (referencing the cleaning-log approach from Day 1), state every formula (rate definitions, multipliers), and list limitations honestly — including Riverside’s incomplete mortality registration if your report touches mortality.
-Build the template once in Word with real styles, then reuse it for every future report and teach it in your cascade training.
-{% endhint %}
+> **KEY POINTS**— A report template is a reusable shell: fixed structure, fixed styles, fixed numbering — so every report your programme produces looks professional and nothing gets forgotten.
+> Anatomy of the template: cover page (title, date, authors, disclaimer) · table of contents · executive summary (one page, written last) · Introduction · Methods · Results · Discussion · Recommendations · References · Annexes (detailed tables, data dictionary, cleaning summary).
+> Style rules to lock in: Heading 1/2/3 styles for all headings; automatic table of contents; tables numbered “Table 1, 2…” and figures “Figure 1, 2…” in order of appearance; every table/figure referenced in the text before it appears.
+> The executive summary is a standalone document: objectives, 3–5 key findings (with the headline numbers), and the recommendations — many decision-makers read only this page, so it must survive alone.
+> Methods must name data sources precisely (file names, periods, coverage), summarize cleaning (referencing the cleaning-log approach from Day 1), state every formula (rate definitions, multipliers), and list limitations honestly — including Riverside’s incomplete mortality registration if your report touches mortality.
+> Build the template once in Word with real styles, then reuse it for every future report and teach it in your cascade training.
+
 
 ## 11:00–11:30 · Drafting appropriate recommendations
 
-{% hint style="success" %}
-**KEY POINTS**— A recommendation is a bridge from a finding to an action. Every recommendation must trace back to a specific finding in your Results — if you can’t point to the table or figure, it doesn’t belong.
-The five tests: Specific (who does what, where?), Actionable (is it within someone’s power?), Evidence-linked (which finding?), Feasible (with what resources?), and Time-bound (by when?).
-Write for the audience that acts: a recommendation to the National TB Programme differs from one to district health officers or to the D4H country team — name the owner explicitly.
-Prioritize: 3–5 recommendations per report, ordered by impact and urgency. Ten vague recommendations are read as zero.
-Avoid the classic failures: “Improve TB control in Westbrook” (who? how?), “More research is needed” (as the only recommendation), and recommendations your data cannot support (don’t prescribe causes you didn’t analyse).
-{% endhint %}
+> **KEY POINTS**— A recommendation is a bridge from a finding to an action. Every recommendation must trace back to a specific finding in your Results — if you can’t point to the table or figure, it doesn’t belong.
+> The five tests: Specific (who does what, where?), Actionable (is it within someone’s power?), Evidence-linked (which finding?), Feasible (with what resources?), and Time-bound (by when?).
+> Write for the audience that acts: a recommendation to the National TB Programme differs from one to district health officers or to the D4H country team — name the owner explicitly.
+> Prioritize: 3–5 recommendations per report, ordered by impact and urgency. Ten vague recommendations are read as zero.
+> Avoid the classic failures: “Improve TB control in Westbrook” (who? how?), “More research is needed” (as the only recommendation), and recommendations your data cannot support (don’t prescribe causes you didn’t analyse).
+
 
 ### Exercise 4.1: Draft evidence-based recommendations from Demoland findings  (45 minutes)
 
@@ -68,11 +65,10 @@ Team time. Target: complete drafts of the Introduction, Methods, and Results sec
 
 ## 14:00–14:30 · Check in on the progress of group projects
 
-{% hint style="success" %}
-**KEY POINTS**— Each team reports status against its work plan: which IMRAD sections are drafted, which visuals are final, what is blocked.
-Facilitators troubleshoot the two classic Day 4 blockers: Results text that interprets instead of reporting (move interpretation to Discussion), and recommendations disconnected from findings.
-Agree tonight’s homework split so Friday’s presentation is rehearsed, not improvised.
-{% endhint %}
+> **KEY POINTS**— Each team reports status against its work plan: which IMRAD sections are drafted, which visuals are final, what is blocked.
+> Facilitators troubleshoot the two classic Day 4 blockers: Results text that interprets instead of reporting (move interpretation to Discussion), and recommendations disconnected from findings.
+> Agree tonight’s homework split so Friday’s presentation is rehearsed, not improvised.
+
 
 ## 14:30–15:30 · Teams continue working on group projects
 
@@ -108,15 +104,14 @@ Team time. Deliverable by end of day: a complete draft report (4–6 pages, IMRA
 
 **My role in tomorrow’s presentation …**
 
-{% hint style="success" %}
-**DAY KEY TAKEAWAYS**— A report template (fixed IMRAD structure, styles, numbering) makes every future report faster and more professional — build it once, reuse it always.
-The executive summary is written last and must stand alone: objectives, headline findings with numbers, recommendations.
-Methods must be reproducible: name files and periods, summarize cleaning, state every formula, and list limitations honestly (including Riverside-style completeness gaps).
-Every recommendation traces to a specific finding and passes five tests: specific, actionable, evidence-linked, feasible, time-bound — with a named owner.
-Prioritize 3–5 recommendations; vague or ownerless recommendations are read as zero.
-Equity-check each recommendation: direct attention and resources toward those being left behind.
-Results report, Discussion interprets — never mix the two.
-{% endhint %}
+> **DAY KEY TAKEAWAYS**— A report template (fixed IMRAD structure, styles, numbering) makes every future report faster and more professional — build it once, reuse it always.
+> The executive summary is written last and must stand alone: objectives, headline findings with numbers, recommendations.
+> Methods must be reproducible: name files and periods, summarize cleaning, state every formula, and list limitations honestly (including Riverside-style completeness gaps).
+> Every recommendation traces to a specific finding and passes five tests: specific, actionable, evidence-linked, feasible, time-bound — with a named owner.
+> Prioritize 3–5 recommendations; vague or ownerless recommendations are read as zero.
+> Equity-check each recommendation: direct attention and resources toward those being left behind.
+> Results report, Discussion interprets — never mix the two.
+
 
 ## Notes
 

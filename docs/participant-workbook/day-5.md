@@ -4,20 +4,18 @@
 
 ## 9:00–9:30 · Day 4 debrief
 
-{% hint style="success" %}
-**KEY POINTS**— Final logistics for presentation morning: running order, 12-minute limit with 3 minutes of questions, peer-feedback forms (Worksheet 5A) for every presenting team.
-Last-minute report triage: facilitators review executive summaries for the “stand-alone” test.
-Remember you are presenting twice over: once as analysts today, and — starting next month — as trainers teaching others to do this.
-{% endhint %}
+> **KEY POINTS**— Final logistics for presentation morning: running order, 12-minute limit with 3 minutes of questions, peer-feedback forms (Worksheet 5A) for every presenting team.
+> Last-minute report triage: facilitators review executive summaries for the “stand-alone” test.
+> Remember you are presenting twice over: once as analysts today, and — starting next month — as trainers teaching others to do this.
+
 
 ## 9:30–10:30 & 11:00–11:30 · Group report presentations
 
-{% hint style="success" %}
-**KEY POINTS**— Each country team presents its analytical report in 12 minutes: objectives, methods in brief, key results (tables/figures/map), and recommendations — then 3 minutes of questions.
-Present the story, not the spreadsheet: one takeaway per slide, figures large enough to read from the back row, no reading paragraphs aloud.
-While each team presents, every other participant completes a Peer-Feedback Form (Worksheet 5A) for that team — specific, kind, and honest.
-After all four presentations, teams receive their feedback forms: keep them — they are your rehearsal notes for presenting real analyses to real decision-makers.
-{% endhint %}
+> **KEY POINTS**— Each country team presents its analytical report in 12 minutes: objectives, methods in brief, key results (tables/figures/map), and recommendations — then 3 minutes of questions.
+> Present the story, not the spreadsheet: one takeaway per slide, figures large enough to read from the back row, no reading paragraphs aloud.
+> While each team presents, every other participant completes a Peer-Feedback Form (Worksheet 5A) for that team — specific, kind, and honest.
+> After all four presentations, teams receive their feedback forms: keep them — they are your rehearsal notes for presenting real analyses to real decision-makers.
+
 
 ## 11:30–13:00 · Team working time: finalize presentations
 
@@ -25,32 +23,29 @@ No formal session. Use this protected time to finalize slide decks, rehearse tim
 
 ## 14:00–15:00 · Training Methodologies
 
-{% hint style="success" %}
-**KEY POINTS**— From participant to trainer: your cascade training back home should reproduce this week’s arc — objectives → cleaning → rates → visuals → report → recommendations — compressed to what your audience needs (a 3-day version works; a 1-day version does not).
-Adapt, don’t just translate: swap Demoland for your country’s districts and real-style extracts, keep the exercise structure and answer keys, and adjust examples to local data systems (DHIS2, CRVS) your trainees actually use.
-Co-facilitate your first cascade with a fellow participant: one teaches while the other troubleshoots Excel — then swap. Debrief every day using the Daily Reflection habit from this workbook.
-Protect quality at scale: cap hands-on sessions at ~24 participants, require one laptop per pair, and use the same checklists (Tables, Figures) and worksheets (Objectives, Equity Lens) so standards survive the cascade.
-Measure your training: a pre/post skills check (e.g. “compute a district rate from these two sheets”), completed cleaning logs and critique checklists as evidence, and a 30-day follow-up on whether trainees produced a real report.
-{% endhint %}
+> **KEY POINTS**— From participant to trainer: your cascade training back home should reproduce this week’s arc — objectives → cleaning → rates → visuals → report → recommendations — compressed to what your audience needs (a 3-day version works; a 1-day version does not).
+> Adapt, don’t just translate: swap Demoland for your country’s districts and real-style extracts, keep the exercise structure and answer keys, and adjust examples to local data systems (DHIS2, CRVS) your trainees actually use.
+> Co-facilitate your first cascade with a fellow participant: one teaches while the other troubleshoots Excel — then swap. Debrief every day using the Daily Reflection habit from this workbook.
+> Protect quality at scale: cap hands-on sessions at ~24 participants, require one laptop per pair, and use the same checklists (Tables, Figures) and worksheets (Objectives, Equity Lens) so standards survive the cascade.
+> Measure your training: a pre/post skills check (e.g. “compute a district rate from these two sheets”), completed cleaning logs and critique checklists as evidence, and a 30-day follow-up on whether trainees produced a real report.
+
 
 ## 15:00–16:00 · Preparing for country-specific data analysis projects
 
-{% hint style="success" %}
-**KEY POINTS**— The workshop ends; the work begins. Each country team now defines its first real post-workshop analysis project — a concrete analysis, on real country data, producing a real report within 90 days.
-Choose a winnable first project: a clear policy question, data you can actually access (see your Day 1 SOPs discussion), and a decision-maker waiting for the answer. Scope it to one health topic and one report.
-Name the data-access steps explicitly: who signs, which SOP applies, what the realistic timeline is — the Day 1 challenge lists become your risk register.
-Plan the cascade alongside the analysis: the same team members who clean and analyse should co-deliver the in-country training, so teaching stays grounded in real work.
-Complete Worksheet 5B now, while all six team members are in the room — this is your team’s contract for the next 90 days.
-{% endhint %}
+> **KEY POINTS**— The workshop ends; the work begins. Each country team now defines its first real post-workshop analysis project — a concrete analysis, on real country data, producing a real report within 90 days.
+> Choose a winnable first project: a clear policy question, data you can actually access (see your Day 1 SOPs discussion), and a decision-maker waiting for the answer. Scope it to one health topic and one report.
+> Name the data-access steps explicitly: who signs, which SOP applies, what the realistic timeline is — the Day 1 challenge lists become your risk register.
+> Plan the cascade alongside the analysis: the same team members who clean and analyse should co-deliver the in-country training, so teaching stays grounded in real work.
+> Complete Worksheet 5B now, while all six team members are in the room — this is your team’s contract for the next 90 days.
+
 
 ## 16:00–17:00 · Workshop evaluation and wrap-up
 
-{% hint style="success" %}
-**KEY POINTS**— Complete the workshop evaluation honestly — what to keep, what to change, and what support you need from the D4H team in the next 90 days.
-Collect your take-homes: this workbook, all six Excel files, your team’s report and slides, and your peer-feedback forms.
-Certificates and group photo; travel day is tomorrow, Saturday 27 March — confirm your transfer times before leaving the venue.
-The D4H country team remains your point of contact for technical questions during your 90-day projects. Use them.
-{% endhint %}
+> **KEY POINTS**— Complete the workshop evaluation honestly — what to keep, what to change, and what support you need from the D4H team in the next 90 days.
+> Collect your take-homes: this workbook, all six Excel files, your team’s report and slides, and your peer-feedback forms.
+> Certificates and group photo; travel day is tomorrow, Saturday 27 March — confirm your transfer times before leaving the venue.
+> The D4H country team remains your point of contact for technical questions during your 90-day projects. Use them.
+
 
 ## Day 5 Worksheets
 
@@ -164,15 +159,14 @@ The D4H country team remains your point of contact for technical questions durin
 
 **One commitment I make to my country team before we part …**
 
-{% hint style="success" %}
-**DAY KEY TAKEAWAYS**— Present the story, not the spreadsheet: one takeaway per slide, 12 minutes, ~10 slides, every visual readable from the back row.
-Peer feedback is a trainer’s tool: specific, kind, honest — quote the slide you mean.
-Cascade with fidelity: reproduce this week’s arc (objectives → cleaning → rates → visuals → report → recommendations), adapt the data to your country, keep the exercises and checklists.
-Co-facilitate your first in-country training; cap hands-on groups at ~24 with one laptop per pair.
-Choose a winnable first 90-day project: one policy question, accessible data, a waiting decision-maker.
-Name data-access steps, owners, and risks explicitly — your Day 1 SOPs discussion is now your risk register.
-Measure your cascade: pre/post skills checks, completed logs and checklists as evidence, 30-day follow-up on real reports produced.
-{% endhint %}
+> **DAY KEY TAKEAWAYS**— Present the story, not the spreadsheet: one takeaway per slide, 12 minutes, ~10 slides, every visual readable from the back row.
+> Peer feedback is a trainer’s tool: specific, kind, honest — quote the slide you mean.
+> Cascade with fidelity: reproduce this week’s arc (objectives → cleaning → rates → visuals → report → recommendations), adapt the data to your country, keep the exercises and checklists.
+> Co-facilitate your first in-country training; cap hands-on groups at ~24 with one laptop per pair.
+> Choose a winnable first 90-day project: one policy question, accessible data, a waiting decision-maker.
+> Name data-access steps, owners, and risks explicitly — your Day 1 SOPs discussion is now your risk register.
+> Measure your cascade: pre/post skills checks, completed logs and checklists as evidence, 30-day follow-up on real reports produced.
+
 
 ## Notes
 

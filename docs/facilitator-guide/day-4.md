@@ -30,9 +30,8 @@
 ### Facilitator notes — pitfalls, pacing, contingencies
 
 -**Triage honestly:**a team missing both figures needs co-facilitator time today — schedule it now, publicly, without stigma.
-{% hint style="info" %}
-**TRAINER TIP**— By day 4 the debrief runs itself — let a participant lead the stand-ups. Handing over the ritual models the trainer handover they will do at home.
-{% endhint %}
+> **TRAINER TIP**— By day 4 the debrief runs itself — let a participant lead the stand-ups. Handing over the ritual models the trainer handover they will do at home.
+
 
 ## Day 4 (Thu 25 Mar)  |  9:30–10:30
 
@@ -76,17 +75,15 @@ Exercise (last 15 min): teams list three adaptations their country's template wo
 -**Do not let the walkthrough become a Word-formatting class —**stay at the governance level; formatting help happens at tables.
 -**Name a template owner explicitly:**'the M&E unit', never 'someone'. Unowned templates are the reason ministries reformat from scratch every year.
 -**Photograph the adaptation flipcharts —**they are Phase 2 planning inputs.
-{% hint style="info" %}
-**TRAINER TIP**— Give every cascade trainee the .docx file on day 1 of their training and make them build inside it all week. Templates learned by filling beat templates learned by lecture — and trainees leave with a file, not just notes.
-{% endhint %}
+> **TRAINER TIP**— Give every cascade trainee the .docx file on day 1 of their training and make them build inside it all week. Templates learned by filling beat templates learned by lecture — and trainees leave with a file, not just notes.
+
 
 ## Day 4 (Thu 25 Mar)  |  10:30–11:00
 
 ### Tea
 
-{% hint style="info" %}
-**TRAINER TIP**— Confirm the 11:30 team-work logistics: which tables need the co-facilitator first, and that projectors are free for rehearsals later.
-{% endhint %}
+> **TRAINER TIP**— Confirm the 11:30 team-work logistics: which tables need the co-facilitator first, and that projectors are free for rehearsals later.
+
 
 ## Day 4 (Thu 25 Mar)  |  11:00–11:30
 
@@ -131,9 +128,8 @@ Exercise (last 10 min): teams take one of their findings and draft one recommend
 -**The fail→pass examples do the teaching —**linger on them; participants will quote them on Friday.
 -**Kill 'improve/strengthen/enhance' on sight:**make teams replace every vague verb with who-does-what-where-by-when before they sit down.
 -**This session must end at 11:30 sharp —**teams need the full build block.
-{% hint style="info" %}
-**TRAINER TIP**— The four-tests table is a permanent job aid — print it as a laminated card for cascade trainings. Trainees who test recommendations aloud in plenary ('linked? specific? feasible? honest?') internalize the standard in a single session.
-{% endhint %}
+> **TRAINER TIP**— The four-tests table is a permanent job aid — print it as a laminated card for cascade trainings. Trainees who test recommendations aloud in plenary ('linked? specific? feasible? honest?') internalize the standard in a single session.
+
 
 ## Day 4 (Thu 25 Mar)  |  11:30–12:30
 
@@ -168,17 +164,15 @@ Insist on the 'what we cannot say' slide (see Group Project Guidance) — check 
 -**Protect the builders from perfectionism:**'Friday-ready, not journal-ready' — a finished honest deck beats a half-polished one.
 -**Do not let one team monopolize a facilitator;**set a 10-minute timer per coaching visit and move on.
 -**Note rehearsal order for tomorrow —**draw lots at lunch to keep it fair.
-{% hint style="info" %}
-**TRAINER TIP**— In cascade trainings, this build-block rhythm (55 min build → public pulse → 5 min reset) sustains energy across long project days. The public slide-count pulse is gentle pressure that works.
-{% endhint %}
+> **TRAINER TIP**— In cascade trainings, this build-block rhythm (55 min build → public pulse → 5 min reset) sustains energy across long project days. The public slide-count pulse is gentle pressure that works.
+
 
 ## Day 4 (Thu 25 Mar)  |  13:00–14:00
 
 ### Lunch
 
-{% hint style="info" %}
-**TRAINER TIP**— Draw lots for Friday's presentation order over lunch; post the order on the wall. Confirm the projector and timer setup for tomorrow.
-{% endhint %}
+> **TRAINER TIP**— Draw lots for Friday's presentation order over lunch; post the order on the wall. Confirm the projector and timer setup for tomorrow.
+
 
 ## Day 4 (Thu 25 Mar)  |  14:00–14:30
 
@@ -213,9 +207,8 @@ Facilitator records reds and assigns rescue: co-facilitator takes reds during th
 -**Keep check-ins brutally on time —**this session exists to create focus, not to become another work block.
 -**Name reds without shame:**'Red means you get help first — it's the best color to be today.'
 -**Write rescue assignments visibly;**accountability survives the afternoon only if it is written down.
-{% hint style="info" %}
-**TRAINER TIP**— The traffic-light check-in ports directly to cascade trainings and to managing real ministry analysis projects: 5 minutes per team, status against milestones, help assigned in writing. It is project management in its simplest honest form.
-{% endhint %}
+> **TRAINER TIP**— The traffic-light check-in ports directly to cascade trainings and to managing real ministry analysis projects: 5 minutes per team, status against milestones, help assigned in writing. It is project management in its simplest honest form.
+
 
 ## Day 4 (Thu 25 Mar)  |  14:30–15:30
 
@@ -251,6 +244,5 @@ Close the day at 15:30 sharp with the Friday briefing: submit final slides by 9:
 -**A rehearsal audit of 3 minutes per team**catches 90% of delivery problems (racing, reading slides, uneven parts) at trivial cost.
 -**Collect evaluation forms before anyone leaves —**Day 4 feedback sets up the final morning.
 -**End at 15:30 even if a team begs for more time —**fatigue compounds; Friday morning has buffer built in.
-{% hint style="info" %}
-**TRAINER TIP**— Never let a cascade-training team present without an aloud rehearsal — make it a rule, not a suggestion. The 3-minute audit ('I'll listen to your opening, one note, back to work') scales to any class size.
-{% endhint %}
+> **TRAINER TIP**— Never let a cascade-training team present without an aloud rehearsal — make it a rule, not a suggestion. The 3-minute audit ('I'll listen to your opening, one note, back to work') scales to any class size.
+

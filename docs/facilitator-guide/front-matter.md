@@ -176,9 +176,8 @@ Confirm every item no later than Friday 19 March 2027 (one full week before the 
 - Sticky notes (assorted), masking tape, scissors.
 - Printed agenda (28), venue map, emergency contacts.
 - Water, tea/coffee service aligned to the 10:30 tea break; lunch 13:00–14:00.
-{% hint style="info" %}
-**TRAINER TIP**— Ask each country team to bring one real (de-identified, aggregate-only) example of a national report or DHIS2 export on Day 1 for the SOP discussion. Seeing real SOPs next to the Demoland demo data makes the data-access conversation concrete — and gives teams material to adapt templates to in Phase 2.
-{% endhint %}
+> **TRAINER TIP**— Ask each country team to bring one real (de-identified, aggregate-only) example of a national report or DHIS2 export on Day 1 for the SOP discussion. Seeing real SOPs next to the Demoland demo data makes the data-access conversation concrete — and gives teams material to adapt templates to in Phase 2.
+
 
 # Group Project Guidance
 
@@ -219,6 +218,5 @@ Score each criterion 0–4. 4 = exemplary, 3 = proficient, 2 = developing, 1 = b
 | 9 | Presentation delivery | Within 15 minutes; all members speak; slides support rather than duplicate speech. |
 | 10 | Response to questions | Answers accurately; admits limits of the data when appropriate. |
 
-{% hint style="info" %}
-**TRAINER TIP**— When teams present, require one slide titled 'What we cannot say from this data' — it trains the humility that separates trustworthy analysts from dangerous ones, and it previews the limitations section of IMRAD. Back home, make this slide mandatory in every cascade-training project.
-{% endhint %}
+> **TRAINER TIP**— When teams present, require one slide titled 'What we cannot say from this data' — it trains the humility that separates trustworthy analysts from dangerous ones, and it previews the limitations section of IMRAD. Back home, make this slide mandatory in every cascade-training project.
+

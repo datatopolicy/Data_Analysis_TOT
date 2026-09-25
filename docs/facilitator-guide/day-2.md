@@ -35,9 +35,8 @@ Standard debrief structure used every morning (9:00–9:30):
 
 -**Never skip the re-teach —**it is the visible proof that feedback changes the course, which keeps the forms honest all week.
 -**Timebox each unclear item to 5 minutes;**deeper confusion becomes a lunchtime clinic, not a debrief derailment.
-{% hint style="info" %}
-**TRAINER TIP**— Run the identical debrief structure in cascade trainings. Trainees who see their feedback acted on within 24 hours will give you the honest signals you need to steer.
-{% endhint %}
+> **TRAINER TIP**— Run the identical debrief structure in cascade trainings. Trainees who see their feedback acted on within 24 hours will give you the honest signals you need to steer.
+
 
 ## Day 2 (Tue 23 Mar)  |  9:30–10:30
 
@@ -81,17 +80,15 @@ Introduce the session-design template they will use Friday and at home: objectiv
 
 -**Keep the theory tight —**participants are impatient for Excel; the principles land better when anchored to sessions they have just lived through.
 -**Model the feedback standard visibly:**when a pair shares, praise one specific choice before suggesting one improvement. They will copy your tone at home.
-{% hint style="info" %}
-**TRAINER TIP**— This session is the seed of Phase 2. In cascade trainings, open day 1 with a 30-minute version of it — trainees who understand*why* you teach in demos-plus-practice will tolerate (and later copy) the format instead of demanding lectures.
-{% endhint %}
+> **TRAINER TIP**— This session is the seed of Phase 2. In cascade trainings, open day 1 with a 30-minute version of it — trainees who understand*why* you teach in demos-plus-practice will tolerate (and later copy) the format instead of demanding lectures.
+
 
 ## Day 2 (Tue 23 Mar)  |  10:30–11:00
 
 ### Tea
 
-{% hint style="info" %}
-**TRAINER TIP**— Check in with the team that struggled with merges yesterday — confirm they are unblocked before the rates session, which builds directly on merged files.
-{% endhint %}
+> **TRAINER TIP**— Check in with the team that struggled with merges yesterday — confirm they are unblocked before the rates session, which builds directly on merged files.
+
 
 ## Day 2 (Tue 23 Mar)  |  11:00–12:00
 
@@ -140,9 +137,8 @@ Worked mini-example (do this live on the flipchart, then in Excel): Suppose a di
 -**Watch for the classic error:**rates computed on the wrong year's population or on district totals mismatched to sex-stratified cases. Circulate and check one formula per table early.
 -**Do not let anyone invent census numbers —**all denominators come from DA-TOT_Demo_Census-Population.xlsx; describe Demoland patterns qualitatively, values read live from the file.
 -**If the exercise finishes early,**stretch: sex-specific rates for 2024 — it previews the equity stratification habit.
-{% hint style="info" %}
-**TRAINER TIP**— Back home, replace Demoland with your country's census and DHIS2 data — the two-district paradox works with any real numbers and instantly convinces managers why denominators matter. Teach the multiplier as 'choose it so the rate is a readable number, then always state it.'
-{% endhint %}
+> **TRAINER TIP**— Back home, replace Demoland with your country's census and DHIS2 data — the two-district paradox works with any real numbers and instantly convinces managers why denominators matter. Teach the multiplier as 'choose it so the rate is a readable number, then always state it.'
+
 
 ## Day 2 (Tue 23 Mar)  |  12:00–13:00
 
@@ -196,17 +192,15 @@ Close with intellectual honesty: descriptive statistics describe; they do not te
 -**No laptops this hour —**the concepts must live in words before they live in formulas, or participants will compute without choosing.
 -**The SD intuition ('typical distance from the mean')**matters more than the formula; save the formula for the Excel session.
 -**If energy dips before lunch,**run the paper exercise as a table-vs-table competition — small stakes, big revival.
-{% hint style="info" %}
-**TRAINER TIP**— Re-teach this session with zero technology first, exactly as done here: paper, discussion, decision rules. Trainees who can justify 'median, because Westbrook skews the mean' in words will use the right Excel function without prompting.
-{% endhint %}
+> **TRAINER TIP**— Re-teach this session with zero technology first, exactly as done here: paper, discussion, decision rules. Trainees who can justify 'median, because Westbrook skews the mean' in words will use the right Excel function without prompting.
+
 
 ## Day 2 (Tue 23 Mar)  |  13:00–14:00
 
 ### Lunch
 
-{% hint style="info" %}
-**TRAINER TIP**— Lunchtime clinic option: invite anyone still shaky on merges or rates to a 20-minute table session. Keep it voluntary and small — no stigma.
-{% endhint %}
+> **TRAINER TIP**— Lunchtime clinic option: invite anyone still shaky on merges or rates to a 20-minute table session. Keep it voluntary and small — no stigma.
+
 
 ## Day 2 (Tue 23 Mar)  |  14:00–15:00
 
@@ -255,9 +249,8 @@ Now the morning's concepts become formulas. Participants work with district-leve
 -**STDEV.S vs STDEV.P confuses everyone —**give the one-line rule (sample → .S) and move on; it rarely changes decisions at this level.
 -**The deliberate sort catastrophe**is the most-remembered 60 seconds of the week. Do it on a copy, gasp with them, Ctrl+Z, then teach 'expand the selection'.
 -**If participants race ahead,**stretch: IQR via QUARTILE.INC and a one-sentence comparison of IQR vs SD for these data.
-{% hint style="info" %}
-**TRAINER TIP**— In cascade trainings, teach this session on trainees' own district data — the mean-vs-median sentence about their own districts is the moment descriptive statistics becomes theirs. Keep the deliberate sorting catastrophe; it is unforgettable pedagogy.
-{% endhint %}
+> **TRAINER TIP**— In cascade trainings, teach this session on trainees' own district data — the mean-vs-median sentence about their own districts is the moment descriptive statistics becomes theirs. Keep the deliberate sorting catastrophe; it is unforgettable pedagogy.
+
 
 ## Day 2 (Tue 23 Mar)  |  15:00–16:00
 
@@ -302,9 +295,8 @@ Exercise: 'Answer in under 3 minutes each: (1) Which district had the highest ma
 -**Blank header cells and merged cells**break pivot tables — when a pivot misbehaves, the source table is guilty 90% of the time. Teach the diagnosis, not just the clicks.
 -**Participants will drag fields to wrong areas;**the fix is instant (drag back), so keep energy high and errors light.
 -**If the room is fast,**stretch: computed rates beside the pivot. If slow, drop slicers to team time and protect the core build.
-{% hint style="info" %}
-**TRAINER TIP**— Pivot tables are the single highest-ROI skill in a cascade training — district analysts who pivot stop fearing their own DHIS2 exports. Teach it exactly as a speed tool ('answer in under 3 minutes'), and always on clean data, so the cleaning lesson gets its payoff.
-{% endhint %}
+> **TRAINER TIP**— Pivot tables are the single highest-ROI skill in a cascade training — district analysts who pivot stop fearing their own DHIS2 exports. Teach it exactly as a speed tool ('answer in under 3 minutes'), and always on clean data, so the cleaning lesson gets its payoff.
+
 
 ## Day 2 (Tue 23 Mar)  |  16:00–17:00
 
@@ -336,6 +328,5 @@ Close: 5-minute plenary. Each team states its highest-rate district and its male
 
 -**Hand-verify the rates —**a team building Wednesday's figures on a wrong denominator wastes a full day. Ten seconds per team now saves hours later.
 -**Collect evaluation forms at the door,**not 'tomorrow morning' — overnight completion rates collapse.
-{% hint style="info" %}
-**TRAINER TIP**— End every cascade-training day the same way: teams state one finding aloud from their own data. Public findings create momentum that carries into the next morning, and the hand-verification habit keeps standards high without shaming.
-{% endhint %}
+> **TRAINER TIP**— End every cascade-training day the same way: teams state one finding aloud from their own data. Public findings create momentum that carries into the next morning, and the hand-verification habit keeps standards high without shaming.
+

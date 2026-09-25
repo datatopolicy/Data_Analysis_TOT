@@ -4,32 +4,29 @@
 
 ## 9:00–9:30 · Day 1 debrief
 
-{% hint style="success" %}
-**KEY POINTS**— Teams share one analysis objective each for facilitator feedback — clarity and measurability are the tests.
-Common Day 1 pitfalls reviewed: objectives without a time period, objectives nobody would act on, and “CHECK” values left unresolved in the XLOOKUP exercise.
-Questions from yesterday’s reflection sheets answered before new material begins.
-{% endhint %}
+> **KEY POINTS**— Teams share one analysis objective each for facilitator feedback — clarity and measurability are the tests.
+> Common Day 1 pitfalls reviewed: objectives without a time period, objectives nobody would act on, and “CHECK” values left unresolved in the XLOOKUP exercise.
+> Questions from yesterday’s reflection sheets answered before new material begins.
+
 
 ## 9:30–10:30 · Training Methodologies
 
-{% hint style="success" %}
-**KEY POINTS**— Adults learn differently: they need relevance (“why does this matter for my job?”), respect for their experience, and practice — not lectures. Every session you later deliver should be at least one-third hands-on.
-The TOT cascade: you learn it here → you teach it at home → your trainees teach others. Fidelity matters: use the same exercises, checklists, and answer keys so quality survives each cascade level.
-Facilitation beats presentation. Ask before you tell: “What would distort this chart?” produces deeper learning than listing chart rules. Use think-pair-share, live demos with mistakes left in, and frequent micro-exercises.
-Plan backwards from objectives: write the learning objectives first, then choose activities that produce them, then list materials. Worksheet 2A gives you the template — you will use it again on Day 5 for your country training plan.
-Manage energy deliberately: alternate input and activity every 20–30 minutes, use energizers after lunch, and never let one voice dominate — structured turn-taking (e.g. round-robins) protects quieter participants.
-{% endhint %}
+> **KEY POINTS**— Adults learn differently: they need relevance (“why does this matter for my job?”), respect for their experience, and practice — not lectures. Every session you later deliver should be at least one-third hands-on.
+> The TOT cascade: you learn it here → you teach it at home → your trainees teach others. Fidelity matters: use the same exercises, checklists, and answer keys so quality survives each cascade level.
+> Facilitation beats presentation. Ask before you tell: “What would distort this chart?” produces deeper learning than listing chart rules. Use think-pair-share, live demos with mistakes left in, and frequent micro-exercises.
+> Plan backwards from objectives: write the learning objectives first, then choose activities that produce them, then list materials. Worksheet 2A gives you the template — you will use it again on Day 5 for your country training plan.
+> Manage energy deliberately: alternate input and activity every 20–30 minutes, use energizers after lunch, and never let one voice dominate — structured turn-taking (e.g. round-robins) protects quieter participants.
+
 
 ## 11:00–12:00 · Accessing and using census data to calculate rates in Excel
 
-{% hint style="success" %}
-**KEY POINTS**— Counts vs rates: a district with 500 TB notifications is not necessarily worse off than one with 200 — it may simply have more people. Rates divide by the population at risk so places become comparable.
-The rate formula: Rate = (Number of events ÷ Population at risk) × Multiplier. For TB notifications the standard multiplier is 100,000: “TB notification rate per 100,000 population”.
-Match numerator to denominator exactly: same place, same period, same sex and age breakdown. A 2025 district rate needs the district’s 2025 population — not the national total, not last year’s figure.
-Census files give you denominators: the Population sheet of DA-TOT_Demo_Census-Population.xlsx holds population by district × sex × year (2021–2025); Age_Structure gives age-group shares for age-specific rates.
-Small populations produce jumpy rates: a single extra case in a tiny district swings the rate wildly — flag uncertainty rather than ranking small districts precisely.
-Rates reveal what counts hide: compute Demoland’s district rates and the Westbrook story becomes sharper — is its rise just population growth, or a true increase in risk?
-{% endhint %}
+> **KEY POINTS**— Counts vs rates: a district with 500 TB notifications is not necessarily worse off than one with 200 — it may simply have more people. Rates divide by the population at risk so places become comparable.
+> The rate formula: Rate = (Number of events ÷ Population at risk) × Multiplier. For TB notifications the standard multiplier is 100,000: “TB notification rate per 100,000 population”.
+> Match numerator to denominator exactly: same place, same period, same sex and age breakdown. A 2025 district rate needs the district’s 2025 population — not the national total, not last year’s figure.
+> Census files give you denominators: the Population sheet of DA-TOT_Demo_Census-Population.xlsx holds population by district × sex × year (2021–2025); Age_Structure gives age-group shares for age-specific rates.
+> Small populations produce jumpy rates: a single extra case in a tiny district swings the rate wildly — flag uncertainty rather than ranking small districts precisely.
+> Rates reveal what counts hide: compute Demoland’s district rates and the Westbrook story becomes sharper — is its rise just population growth, or a true increase in risk?
+
 
 ### Exercise 2.1: Calculate TB notification rates per 100,000 (Tasks 1–5)  (60 minutes)
 
@@ -56,22 +53,20 @@ Rates reveal what counts hide: compute Demoland’s district rates and the Westb
 - Riverside’s mortality registration is visibly incomplete. What does that imply for any mortality rate you calculate there?
 ## 12:00–13:00 · Descriptive statistics review
 
-{% hint style="success" %}
-**KEY POINTS**— Central tendency: the mean (average) uses every value but is dragged by outliers; the median (middle value) resists outliers; the mode (most common) suits categories. Report the median alongside the mean whenever data are skewed.
-Spread matters as much as centre: range (max−min) is quick but fragile; the standard deviation (SD) measures typical distance from the mean; percentiles (e.g. the 25th and 75th) show where the bulk of values sit.
-Shape: in right-skewed data (a few very high districts) the mean exceeds the median — a signal to investigate the high outliers rather than report the mean alone.
-Choose deliberately: summarize symmetric data with mean ± SD; skewed data with median and interquartile range; categorical data with counts and percentages (always with denominators).
-Descriptive statistics describe — they do not explain. “Westbrook’s rate is the highest” is a description; “why” needs further analysis.
-{% endhint %}
+> **KEY POINTS**— Central tendency: the mean (average) uses every value but is dragged by outliers; the median (middle value) resists outliers; the mode (most common) suits categories. Report the median alongside the mean whenever data are skewed.
+> Spread matters as much as centre: range (max−min) is quick but fragile; the standard deviation (SD) measures typical distance from the mean; percentiles (e.g. the 25th and 75th) show where the bulk of values sit.
+> Shape: in right-skewed data (a few very high districts) the mean exceeds the median — a signal to investigate the high outliers rather than report the mean alone.
+> Choose deliberately: summarize symmetric data with mean ± SD; skewed data with median and interquartile range; categorical data with counts and percentages (always with denominators).
+> Descriptive statistics describe — they do not explain. “Westbrook’s rate is the highest” is a description; “why” needs further analysis.
+
 
 ## 14:00–15:00 · Descriptive statistics using Excel
 
-{% hint style="success" %}
-**KEY POINTS**— Excel’s core functions: AVERAGE, MEDIAN, MODE.SNGL, STDEV.S (sample) vs STDEV.P (full population), MIN, MAX, QUARTILE.INC, PERCENTILE.INC, COUNT.
-Guard against text-that-looks-like-numbers and blanks: AVERAGE ignores blanks and text, which silently changes your n — check COUNT alongside every average.
-Use absolute references ($A$1) when a denominator or multiplier is reused across rows; use structured, labeled formula columns so a colleague can audit your logic.
-Document assumptions next to results (e.g. “SD computed with STDEV.S; n=12 districts”) — a number without its method is not reproducible.
-{% endhint %}
+> **KEY POINTS**— Excel’s core functions: AVERAGE, MEDIAN, MODE.SNGL, STDEV.S (sample) vs STDEV.P (full population), MIN, MAX, QUARTILE.INC, PERCENTILE.INC, COUNT.
+> Guard against text-that-looks-like-numbers and blanks: AVERAGE ignores blanks and text, which silently changes your n — check COUNT alongside every average.
+> Use absolute references ($A$1) when a denominator or multiplier is reused across rows; use structured, labeled formula columns so a colleague can audit your logic.
+> Document assumptions next to results (e.g. “SD computed with STDEV.S; n=12 districts”) — a number without its method is not reproducible.
+
 
 ### Exercise 2.2: Summarize district TB rates with descriptive statistics (Tasks 6–8)  (45 minutes)
 
@@ -96,13 +91,12 @@ Document assumptions next to results (e.g. “SD computed with STDEV.S; n=12 dis
 - A journalist asks for “the average TB rate”. What do you give them, and what do you add?
 ## 15:00–16:00 · Data analysis using pivot tables
 
-{% hint style="success" %}
-**KEY POINTS**— A pivot table is a drag-and-drop summary engine: rows, columns, values, and filters replace dozens of SUMIFS formulas — and rebuild instantly when the question changes.
-Workflow: clean data first (Day 1), then Insert → PivotTable → drag fields. Put categorical fields (district, year, sex) in Rows/Columns and numeric fields in Values (as Sum, Average, or Count — check the aggregation, Excel often defaults to Count).
-Slicers add one-click filtering by year or sex — ideal for live exploration and for presentations.
-Pivot tables don’t calculate rates across rows automatically: compute rates from pivot outputs (or add a calculated field), keeping numerator and denominator visible.
-Refresh discipline: pivot tables snapshot the data — right-click → Refresh after any data change, and rebuild before finalizing a report.
-{% endhint %}
+> **KEY POINTS**— A pivot table is a drag-and-drop summary engine: rows, columns, values, and filters replace dozens of SUMIFS formulas — and rebuild instantly when the question changes.
+> Workflow: clean data first (Day 1), then Insert → PivotTable → drag fields. Put categorical fields (district, year, sex) in Rows/Columns and numeric fields in Values (as Sum, Average, or Count — check the aggregation, Excel often defaults to Count).
+> Slicers add one-click filtering by year or sex — ideal for live exploration and for presentations.
+> Pivot tables don’t calculate rates across rows automatically: compute rates from pivot outputs (or add a calculated field), keeping numerator and denominator visible.
+> Refresh discipline: pivot tables snapshot the data — right-click → Refresh after any data change, and rebuild before finalizing a report.
+
 
 ### Exercise 2.3: Explore TB data with pivot tables (Tasks 9–10)  (45 minutes)
 
@@ -155,15 +149,14 @@ Team time. Deliverable: core results for your team’s objectives — district/y
 
 **Status of my team’s core results (what’s done, what’s stuck) …**
 
-{% hint style="success" %}
-**DAY KEY TAKEAWAYS**— Always compare with rates, not raw counts — Rate = (Events ÷ Population at risk) × 100,000, with numerator and denominator matched on place, period, sex, and age.
-Attach denominators with XLOOKUP on a composite key; a wrong year’s population silently corrupts every rate.
-Summarize with the right statistic: mean ± SD for symmetric data, median + interquartile range for skewed data, counts + denominators for categories.
-When mean and median disagree, investigate the outliers — the gap itself is often the equity story.
-Pivot tables answer new questions in minutes: check the Values aggregation (Sum vs Count), refresh after data changes, and compute rates from pivot outputs.
-Small populations make jumpy rates — flag uncertainty instead of over-ranking small districts.
-Incomplete registration (as in Riverside) corrupts mortality rates: name the limitation in the report, don’t bury it.
-{% endhint %}
+> **DAY KEY TAKEAWAYS**— Always compare with rates, not raw counts — Rate = (Events ÷ Population at risk) × 100,000, with numerator and denominator matched on place, period, sex, and age.
+> Attach denominators with XLOOKUP on a composite key; a wrong year’s population silently corrupts every rate.
+> Summarize with the right statistic: mean ± SD for symmetric data, median + interquartile range for skewed data, counts + denominators for categories.
+> When mean and median disagree, investigate the outliers — the gap itself is often the equity story.
+> Pivot tables answer new questions in minutes: check the Values aggregation (Sum vs Count), refresh after data changes, and compute rates from pivot outputs.
+> Small populations make jumpy rates — flag uncertainty instead of over-ranking small districts.
+> Incomplete registration (as in Riverside) corrupts mortality rates: name the limitation in the report, don’t bury it.
+
 
 ## Notes
 

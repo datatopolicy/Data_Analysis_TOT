@@ -4,35 +4,32 @@
 
 ## 9:00–9:30 · Day 2 debrief
 
-{% hint style="success" %}
-**KEY POINTS**— Teams share one computed rate and one interpretation each — facilitators check that denominators match numerators.
-Recurring errors reviewed: rates computed from counts without population, sex not disaggregated, and pivot Values set to Count instead of Sum.
-Preview: today’s outputs (tables, figures, maps) become the Results section your team drafts tomorrow.
-{% endhint %}
+> **KEY POINTS**— Teams share one computed rate and one interpretation each — facilitators check that denominators match numerators.
+> Recurring errors reviewed: rates computed from counts without population, sex not disaggregated, and pivot Values set to Count instead of Sum.
+> Preview: today’s outputs (tables, figures, maps) become the Results section your team drafts tomorrow.
+
 
 ## 9:30–10:30 · IMRAD Structure
 
-{% hint style="success" %}
-**KEY POINTS**— IMRAD = Introduction, Methods, Results, and Discussion — the international standard skeleton for analytical reports. Readers know exactly where to look for each kind of information.
-Introduction: why this analysis was done — background, the policy problem, and the 3–5 analysis objectives. Ends where the data begins.
-Methods: what you did, in enough detail to reproduce — data sources (file names, periods, coverage), cleaning steps (cite your Cleaning_Log approach), how rates and statistics were calculated, and limitations (e.g. Riverside’s incomplete mortality registration).
-Results: what you found — text plus tables, figures, and maps. No interpretation here, just findings in logical order (national picture first, then disaggregated). Every table/figure is numbered, titled, and referenced in the text.
-Discussion: what it means — interpret findings, compare with expectations, acknowledge limitations, and lead into recommendations. This is where the equity lens speaks loudest.
-Front matter: a one-page executive summary (objectives, key findings, recommendations — written last) and a table of contents. Back matter: annexes with detailed tables and the data dictionary.
-Your team report (4–6 pages) will follow IMRAD exactly — assign each section an owner today.
-{% endhint %}
+> **KEY POINTS**— IMRAD = Introduction, Methods, Results, and Discussion — the international standard skeleton for analytical reports. Readers know exactly where to look for each kind of information.
+> Introduction: why this analysis was done — background, the policy problem, and the 3–5 analysis objectives. Ends where the data begins.
+> Methods: what you did, in enough detail to reproduce — data sources (file names, periods, coverage), cleaning steps (cite your Cleaning_Log approach), how rates and statistics were calculated, and limitations (e.g. Riverside’s incomplete mortality registration).
+> Results: what you found — text plus tables, figures, and maps. No interpretation here, just findings in logical order (national picture first, then disaggregated). Every table/figure is numbered, titled, and referenced in the text.
+> Discussion: what it means — interpret findings, compare with expectations, acknowledge limitations, and lead into recommendations. This is where the equity lens speaks loudest.
+> Front matter: a one-page executive summary (objectives, key findings, recommendations — written last) and a table of contents. Back matter: annexes with detailed tables and the data dictionary.
+> Your team report (4–6 pages) will follow IMRAD exactly — assign each section an owner today.
+
 
 ## 11:00–12:00 · Best practices for creating tables
 
-{% hint style="success" %}
-**KEY POINTS**— One table, one message. If you need two messages, you need two tables.
-Every table needs: a number (Table 1, 2, 3…), a self-contained title stating what, where, and when (“TB notification rate per 100,000 by district, Demoland, 2025”), and units in the column headers — never buried in a footnote hunt.
-Numbers: right-align, use consistent decimal places (one decimal for rates, whole numbers for counts), and use thousands separators. Never show four decimals on a count of people.
-Structure: no vertical text, no merged header cells, minimal gridlines (header rule + bottom rule is enough), zebra shading only if it aids reading — never rainbow fills.
-Sort with intent: by magnitude (highest rate first) when ranking matters, chronologically for trends, alphabetically only when readers must find one row fast.
-Footnotes explain: definitions (e.g. “treatment success = cured + treatment completed”), data sources, and symbols. Denominators belong in the table or its notes — a percentage without its denominator is unverifiable.
-Design for the reader who photocopies in black and white: if the table only works in colour, it doesn’t work.
-{% endhint %}
+> **KEY POINTS**— One table, one message. If you need two messages, you need two tables.
+> Every table needs: a number (Table 1, 2, 3…), a self-contained title stating what, where, and when (“TB notification rate per 100,000 by district, Demoland, 2025”), and units in the column headers — never buried in a footnote hunt.
+> Numbers: right-align, use consistent decimal places (one decimal for rates, whole numbers for counts), and use thousands separators. Never show four decimals on a count of people.
+> Structure: no vertical text, no merged header cells, minimal gridlines (header rule + bottom rule is enough), zebra shading only if it aids reading — never rainbow fills.
+> Sort with intent: by magnitude (highest rate first) when ranking matters, chronologically for trends, alphabetically only when readers must find one row fast.
+> Footnotes explain: definitions (e.g. “treatment success = cured + treatment completed”), data sources, and symbols. Denominators belong in the table or its notes — a percentage without its denominator is unverifiable.
+> Design for the reader who photocopies in black and white: if the table only works in colour, it doesn’t work.
+
 
 ### Exercise 3.1: Rebuild three bad tables  (60 minutes)
 
@@ -58,15 +55,14 @@ Design for the reader who photocopies in black and white: if the table only work
 - Bad_Table_2’s 15-decimal proportions are technically precise. Why does that precision make the table worse, not better?
 ## 14:00–15:00 · Best practices for creating figures
 
-{% hint style="success" %}
-**KEY POINTS**— Choose the chart for the message: trends over time → line chart; comparisons across districts → horizontal bar chart; composition of a whole → stacked bar (use pie only for 2–3 slices, never 3D); distribution → histogram.
-Bar and column charts must start the value axis at zero — truncating the axis exaggerates differences and is the commonest form of visual dishonesty.
-Write the takeaway in the title: “TB notifications fell nationally but rose in Westbrook, 2021–2025” beats “TB notifications by district”. A reader skimming titles should get the story.
-Label directly where possible (data labels on the line/bar ends) instead of forcing readers to bounce between legend and chart. Keep legends only when direct labelling clutters.
-Colour with restraint: one accent colour for the story’s focus (e.g. Westbrook’s line), grey for context; avoid red-green pairings (colour blindness); ensure the figure survives black-and-white printing.
-Declutter ruthlessly: remove gridlines or fade them, delete chartjunk (3D effects, shadows, background images), and put the data-ink ratio to work — every pixel should carry information.
-Every figure needs: a number (Figure 1, 2…), the takeaway title, axis labels with units, and a source note. Reference each figure in the results text (“Figure 2 shows…”).
-{% endhint %}
+> **KEY POINTS**— Choose the chart for the message: trends over time → line chart; comparisons across districts → horizontal bar chart; composition of a whole → stacked bar (use pie only for 2–3 slices, never 3D); distribution → histogram.
+> Bar and column charts must start the value axis at zero — truncating the axis exaggerates differences and is the commonest form of visual dishonesty.
+> Write the takeaway in the title: “TB notifications fell nationally but rose in Westbrook, 2021–2025” beats “TB notifications by district”. A reader skimming titles should get the story.
+> Label directly where possible (data labels on the line/bar ends) instead of forcing readers to bounce between legend and chart. Keep legends only when direct labelling clutters.
+> Colour with restraint: one accent colour for the story’s focus (e.g. Westbrook’s line), grey for context; avoid red-green pairings (colour blindness); ensure the figure survives black-and-white printing.
+> Declutter ruthlessly: remove gridlines or fade them, delete chartjunk (3D effects, shadows, background images), and put the data-ink ratio to work — every pixel should carry information.
+> Every figure needs: a number (Figure 1, 2…), the takeaway title, axis labels with units, and a source note. Reference each figure in the results text (“Figure 2 shows…”).
+
 
 ### Exercise 3.2: Build correct charts and fix a misleading one (Tasks 1–4)  (60 minutes)
 
@@ -90,13 +86,12 @@ Every figure needs: a number (Figure 1, 2…), the takeaway title, axis labels w
 - Which misleads more: a bad chart, or a good chart of a bad (uncleaned, wrong-denominator) number?
 ## 16:00–17:00 · Creating maps in Excel
 
-{% hint style="success" %}
-**KEY POINTS**— Maps answer “where” at a glance: a district choropleth (areas shaded by value) makes geographic inequity instantly visible — Westbrook’s rise and Riverside’s gaps literally stand out.
-Excel’s Filled Map chart needs real geography data types, which do not exist for fictional Demoland — so the reliable method is a tile-grid map: 12 labelled cells arranged in a grid, coloured by value band with conditional formatting.
-Design rules carry over from figures: 3–5 colour bands (not 12 shades), a clear legend with the band ranges, district names on the tiles, a takeaway title, and a source note.
-Classify honestly: use equal-interval or quantile bands and state the method; never let default breaks hide the story or manufacture one. Always show the underlying rates table beside or beneath the map.
-Maps show pattern, not cause: a dark Westbrook invites investigation (transmission? better detection? migration?) — it does not diagnose.
-{% endhint %}
+> **KEY POINTS**— Maps answer “where” at a glance: a district choropleth (areas shaded by value) makes geographic inequity instantly visible — Westbrook’s rise and Riverside’s gaps literally stand out.
+> Excel’s Filled Map chart needs real geography data types, which do not exist for fictional Demoland — so the reliable method is a tile-grid map: 12 labelled cells arranged in a grid, coloured by value band with conditional formatting.
+> Design rules carry over from figures: 3–5 colour bands (not 12 shades), a clear legend with the band ranges, district names on the tiles, a takeaway title, and a source note.
+> Classify honestly: use equal-interval or quantile bands and state the method; never let default breaks hide the story or manufacture one. Always show the underlying rates table beside or beneath the map.
+> Maps show pattern, not cause: a dark Westbrook invites investigation (transmission? better detection? migration?) — it does not diagnose.
+
 
 ### Exercise 3.3: Build a district choropleth-style map in Excel  (45 minutes)
 
@@ -168,15 +163,14 @@ Maps show pattern, not cause: a dark Westbrook invites investigation (transmissi
 
 **One question about IMRAD I want answered tomorrow …**
 
-{% hint style="success" %}
-**DAY KEY TAKEAWAYS**— IMRAD (Introduction, Methods, Results, Discussion) is the skeleton of your team report — plus an executive summary written last and annexes for detail.
-One table, one message: numbered, self-contained title (what/where/when), units in headers, right-aligned numbers, consistent decimals, sorted rows, footnotes, source note.
-Percentages without visible denominators are unverifiable — always show n/N.
-Match chart to message (line = trend, bar = comparison, stacked bar = composition); bar axes start at zero; titles state the takeaway, not the topic.
-Declutter every figure: no 3D, no chartjunk, restrained colour, direct labels, black-and-white safe.
-Tile-grid maps with conditional formatting give Excel a publication-quality district map without geography data types — always pair the map with its data table.
-Run both critique checklists on every table and figure before it enters the report.
-{% endhint %}
+> **DAY KEY TAKEAWAYS**— IMRAD (Introduction, Methods, Results, Discussion) is the skeleton of your team report — plus an executive summary written last and annexes for detail.
+> One table, one message: numbered, self-contained title (what/where/when), units in headers, right-aligned numbers, consistent decimals, sorted rows, footnotes, source note.
+> Percentages without visible denominators are unverifiable — always show n/N.
+> Match chart to message (line = trend, bar = comparison, stacked bar = composition); bar axes start at zero; titles state the takeaway, not the topic.
+> Declutter every figure: no 3D, no chartjunk, restrained colour, direct labels, black-and-white safe.
+> Tile-grid maps with conditional formatting give Excel a publication-quality district map without geography data types — always pair the map with its data table.
+> Run both critique checklists on every table and figure before it enters the report.
+
 
 ## Notes
 

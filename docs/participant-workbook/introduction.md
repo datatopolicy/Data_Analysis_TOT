@@ -1,6 +1,5 @@
-{% hint style="info" %}
-**DATA FOR HEALTH (D4H) INITIATIVE**— Funded by Bloomberg Philanthropies  ·  Implemented by the CDC Foundation
-{% endhint %}
+> **DATA FOR HEALTH (D4H) INITIATIVE**— Funded by Bloomberg Philanthropies  ·  Implemented by the CDC Foundation
+
 
 **Data Analysis and Report Writing**
 
@@ -12,11 +11,10 @@ Kigali, Rwanda  ·  Monday 22 – Friday 26 March 2027
 
 *Saturday 27 March 2027: travel day*
 
-{% hint style="info" %}
-**A NOTE ON THE DATA**— Every exercise in this workbook uses 100% synthetic demonstration data for the fictional country of “Demoland”. No real patient, facility, or country data is used at any point.
-Demoland has 12 districts: Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, and Pinehurst.
-Because the data are synthetic, describe patterns qualitatively (for example, “notifications are rising in Westbrook”) and always compute exact values yourself from the files — do not copy numbers from anyone else’s screen.
-{% endhint %}
+> **A NOTE ON THE DATA**— Every exercise in this workbook uses 100% synthetic demonstration data for the fictional country of “Demoland”. No real patient, facility, or country data is used at any point.
+> Demoland has 12 districts: Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, and Pinehurst.
+> Because the data are synthetic, describe patterns qualitatively (for example, “notifications are rising in Westbrook”) and always compute exact values yourself from the files — do not copy numbers from anyone else’s screen.
+
 
 24 participants  ·  4 country teams: Bangladesh · Côte d’Ivoire · Rwanda · Tanzania
 

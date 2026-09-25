@@ -34,9 +34,8 @@
 
 -**Verify slides are actually submitted by 9:00 —**chase missing decks during the debrief, not during presentation 1.
 -**Seat teams together;**transitions between teams must take under 2 minutes.
-{% hint style="info" %}
-**TRAINER TIP**— In cascade trainings, make the audience contract explicit too — questioning is a trainable skill, and shy trainees need permission to practice it.
-{% endhint %}
+> **TRAINER TIP**— In cascade trainings, make the audience contract explicit too — questioning is a trainable skill, and shy trainees need permission to practice it.
+
 
 ## Day 5 (Fri 26 Mar)  |  9:30–10:30
 
@@ -74,17 +73,15 @@ What to listen for as an assessor: correct rate math, honest axes, the equity sl
 -**Stop overtime kindly but firmly —**overruns steal the next team's time and teach that the clock is negotiable. It is not.
 -**Score during the talk,**not after — memory of detail fades within minutes.
 -**Protect the question window:**if the audience is shy, the lead asks the first question to break the ice.
-{% hint style="info" %}
-**TRAINER TIP**— Run cascade-training final presentations with the same 15+5 discipline and the same feedback protocol. Trainees who have been assessed fairly assess fairly — the culture replicates.
-{% endhint %}
+> **TRAINER TIP**— Run cascade-training final presentations with the same 15+5 discipline and the same feedback protocol. Trainees who have been assessed fairly assess fairly — the culture replicates.
+
 
 ## Day 5 (Fri 26 Mar)  |  10:30–11:00
 
 ### Tea
 
-{% hint style="info" %}
-**TRAINER TIP**— Tally rubric scores for teams 1–2 during tea so feedback is complete before the afternoon. Check the remaining teams are ready.
-{% endhint %}
+> **TRAINER TIP**— Tally rubric scores for teams 1–2 during tea so feedback is complete before the afternoon. Check the remaining teams are ready.
+
 
 ## Day 5 (Fri 26 Mar)  |  11:00–11:30
 
@@ -116,9 +113,8 @@ After team 4, give the morning's synthesis (5 minutes): patterns across all four
 
 -**If the morning ran long,**use the lightning format for team 4 without apology — and say why aloud: 'protecting the afternoon matters more than 10 more minutes.' It models prioritization.
 -**Capture the synthesis on flipchart —**it is the course report's headline.
-{% hint style="info" %}
-**TRAINER TIP**— The cohort synthesis ('here is what we collectively found, here is what we collectively still need') is a powerful cascade-training ritual too — it turns individual presentations into shared knowledge.
-{% endhint %}
+> **TRAINER TIP**— The cohort synthesis ('here is what we collectively found, here is what we collectively still need') is a powerful cascade-training ritual too — it turns individual presentations into shared knowledge.
+
 
 ## Day 5  |  11:30–13:00
 
@@ -129,17 +125,15 @@ The source agenda schedules no formal session in this block. It is protected, un
 - Facilitators remain available at tables for questions; no plenary, no new content.
 - Teams that presented in the morning use the time to note feedback for their Phase 2 cascade decks.
 - Co-facilitator finalizes rubric tallies and prepares score summaries.
-{% hint style="info" %}
-**TRAINER TIP**— Unstructured time is a feature, not a gap — defend it against the urge to 'fill' it. In cascade trainings, protect at least one such block: it is where struggling trainees catch up without stigma.
-{% endhint %}
+> **TRAINER TIP**— Unstructured time is a feature, not a gap — defend it against the urge to 'fill' it. In cascade trainings, protect at least one such block: it is where struggling trainees catch up without stigma.
+
 
 ## Day 5 (Fri 26 Mar)  |  13:00–14:00
 
 ### Lunch
 
-{% hint style="info" %}
-**TRAINER TIP**— Final lunch together — sit with the team you have spent the least time with. Finalize rubric tallies.
-{% endhint %}
+> **TRAINER TIP**— Final lunch together — sit with the team you have spent the least time with. Finalize rubric tallies.
+
 
 ## Day 5 (Fri 26 Mar)  |  14:00–15:00
 
@@ -181,9 +175,8 @@ Close with the trainer's creed: 'Teach the skill, not the slides. Demo, deconstr
 -**Keep pitches to 5 minutes —**the evaluation session must start at 15:00.
 -**Push on risks:**vague risks ('funding') get the follow-up 'and what specifically will you do in April about it?'
 -**These plans are deliverables —**collect every copy; they anchor Phase 2 follow-up calls.
-{% hint style="info" %}
-**TRAINER TIP**— The 1-page cascade plan is the single most important take-home document: a plan that fits on one page gets executed; a 20-page plan gets filed. Require the same 1-page discipline in every training you commission.
-{% endhint %}
+> **TRAINER TIP**— The 1-page cascade plan is the single most important take-home document: a plan that fits on one page gets executed; a 20-page plan gets filed. Require the same 1-page discipline in every training you commission.
+
 
 ## Day 5 (Fri 26 Mar)  |  15:00–16:00
 
@@ -226,9 +219,8 @@ End with the handoff: 'Demoland was practice. Your country's data is the perform
 -**Guard against over-ambition:**a charter with six questions will deliver none — force the shortlist to 2–3.
 -**Name the focal point for mentoring contact**before the session ends; 'someone will follow up' evaporates.
 -**Collect the charters —**like the cascade plans, they are Phase 2/3 baseline documents.
-{% hint style="info" %}
-**TRAINER TIP**— The Country Project Charter ritual — inventory, questions, denominators, equity, team, timeline, support — is reusable for any technical-assistance kickoff. Run it at the start of every country engagement, not just trainings.
-{% endhint %}
+> **TRAINER TIP**— The Country Project Charter ritual — inventory, questions, denominators, equity, team, timeline, support — is reusable for any technical-assistance kickoff. Run it at the start of every country engagement, not just trainings.
+
 
 ## Day 5 (Fri 26 Mar)  |  16:00–17:00
 
@@ -269,6 +261,5 @@ Facilitator back-office (after 17:00): score post-tests within one week; finaliz
 -**Collect the evaluation BEFORE certificates —**say it plainly: 'Forms first, then certificates.' It works.
 -**Keep the closing words under 60 seconds —**the week should speak for itself; brevity is the final modeling of the clock discipline you preached.
 -**Do not promise post-test scores on the spot;**promise the summary by email within two weeks, and deliver it.
-{% hint style="info" %}
-**TRAINER TIP**— The evaluation-before-certificates sequence is a portable trick for any training: it routinely doubles response rates. And always close by revisiting the vision set on day 1 — it turns a course into a story with an ending, which is what trainers remember when they teach.
-{% endhint %}
+> **TRAINER TIP**— The evaluation-before-certificates sequence is a portable trick for any training: it routinely doubles response rates. And always close by revisiting the vision set on day 1 — it turns a course into a story with an ending, which is what trainers remember when they teach.
+
