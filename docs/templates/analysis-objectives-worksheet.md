@@ -1,4 +1,4 @@
->**Download the original file:**[Analysis-Objectives-Worksheet.docx](../../assets/templates/Analysis-Objectives-Worksheet.docx)
+> **Download the original file:** [Analysis-Objectives-Worksheet.docx](../../assets/templates/Analysis-Objectives-Worksheet.docx)
 
 **Analysis Objectives Worksheet
 Data Analysis and Report Writing TOT  •  Data for Health (D4H) Initiative**
@@ -7,7 +7,7 @@ Good analysis starts before any data are touched. Complete this worksheet to tur
 
 # Part A — Completed Example (Demoland TB, synthetic demo data)
 
-**Project title:**Tuberculosis notifications and treatment outcomes in Demoland (fictional), 2021–2025
+**Project title:** Tuberculosis notifications and treatment outcomes in Demoland (fictional), 2021–2025
 
 ## A1. Policy / program question
 
@@ -20,7 +20,7 @@ The Ministry of Health is developing the 2027–2030 National TB Strategic Plan 
 - M&E Unit, Ministry of Health (tracks strategic-plan targets).
 ## A3. Analysis objectives (2 objectives, each answerable)
 
-|**#**|**Objective**|**How it will be answered (indicators & disaggregation)**|
+| **#** | **Objective** | **How it will be answered (indicators & disaggregation)** |
 | --- | --- | --- |
 | 1 | Describe national and district-level trends in TB notifications, 2021–2025, and identify districts diverging from the national pattern. | Annual notification rate per 100,000 (cases ÷ mid-year population × 100,000), by district and year; line chart of trends. Illustrative synthetic finding: national decline; Westbrook district rising. |
 | 2 | Assess equity in TB burden and treatment outcomes by sex, age, and district, against the 90% treatment-success target. | Male share of cases (~62% illustrative); treatment success rate by district (national ~88%, Westbrook ~80% illustrative); bar chart by district with target line. |
@@ -32,12 +32,12 @@ The Ministry of Health is developing the 2027–2030 National TB Strategic Plan 
 - Whether mortality registration strengthening in Riverside district is funded as a priority data-system investment.
 ## A5. Stakeholders to involve (and when)
 
-|**Field**|**Your entry**|
+| **Field** | **Your entry** |
 | --- | --- |
-|**National TB Program team**| Validate findings at the Week-8 validation meeting (example); co-own recommendations. |
-|**District health teams (esp. Westbrook, Riverside)**| Confirm plausibility of district patterns; provide operational context. |
-|**Civil Registration Department**| Co-design the Riverside mortality-registration strengthening recommendation. |
-|**National Statistics Office**| Confirm district population denominators before rates are published. |
+| **National TB Program team** | Validate findings at the Week-8 validation meeting (example); co-own recommendations. |
+| **District health teams (esp. Westbrook, Riverside)** | Confirm plausibility of district patterns; provide operational context. |
+| **Civil Registration Department** | Co-design the Riverside mortality-registration strengthening recommendation. |
+| **National Statistics Office** | Confirm district population denominators before rates are published. |
 
 ## A6. Data sources & known limitations (example)
 
@@ -48,9 +48,9 @@ The Ministry of Health is developing the 2027–2030 National TB Strategic Plan 
 
 Complete one worksheet per analysis project. Be specific — vague entries produce vague analyses.
 
-**Project title:**________________________________________________________________________
+**Project title:** ________________________________________________________________________
 
-**Country team:**____________________        Date: ____________________
+**Country team:** ____________________        Date: ____________________
 
 ## B1. Policy / program question
 
@@ -73,7 +73,7 @@ Who will act on the findings? (name roles/positions, not just institutions)
 
 Write 2–4 objectives. Each must be specific, answerable with available data, and linked to a decision:
 
-|**#**|**Objective**|**How it will be answered (indicators & disaggregation)**|
+| **#** | **Objective** | **How it will be answered (indicators & disaggregation)** |
 | --- | --- | --- |
 | 1 |  |  |
 | 2 |  |  |
@@ -87,7 +87,7 @@ Write 2–4 objectives. Each must be specific, answerable with available data, a
 - ________________________________________________________________________________
 ## B5. Stakeholders to involve (and when)
 
-|**Field**|**Your entry**|
+| **Field** | **Your entry** |
 | --- | --- |
 |**** |  |
 |**** |  |

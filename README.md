@@ -22,10 +22,10 @@ The project's goal is to strengthen the analytical and reporting capacity of gov
 
 ## How to use this book
 
--**Facilitators**start with the [Course Overview](docs/overview.md), then work through the [Facilitator Guide](docs/facilitator-guide/front-matter.md) day by day. Every session has objectives, talking points, a minute-by-minute activity plan, and TRAINER TIP boxes on re-teaching each topic back home.
--**Participants**follow the [Participant Workbook](docs/participant-workbook/introduction.md): key points, exercises, and worksheets for each day.
--**Templates**(report, SOP, data dictionary, evaluations, pre/post test) live under [Templates](docs/templates/index.md), each with its original downloadable file.
--**Downloads**— all Excel demo datasets, exercise workbooks, and PowerPoint slide decks are on the [Downloads](docs/downloads.md) page and in `assets/`.
+- **Facilitators** start with the [Course Overview](docs/overview.md), then work through the [Facilitator Guide](docs/facilitator-guide/front-matter.md) day by day. Every session has objectives, talking points, a minute-by-minute activity plan, and TRAINER TIP boxes on re-teaching each topic back home.
+- **Participants** follow the [Participant Workbook](docs/participant-workbook/introduction.md): key points, exercises, and worksheets for each day.
+- **Templates** (report, SOP, data dictionary, evaluations, pre/post test) live under [Templates](docs/templates/index.md), each with its original downloadable file.
+- **Downloads** — all Excel demo datasets, exercise workbooks, and PowerPoint slide decks are on the [Downloads](docs/downloads.md) page and in `assets/`.
 
 > All datasets in this course are 100% synthetic ("Demoland", 12 fictional districts), created for training. No real records are used anywhere.
 

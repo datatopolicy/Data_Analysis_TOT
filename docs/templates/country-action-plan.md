@@ -1,15 +1,15 @@
->**Download the original file:**[Country-Action-Plan-Template.docx](../../assets/templates/Country-Action-Plan-Template.docx)
+> **Download the original file:** [Country-Action-Plan-Template.docx](../../assets/templates/Country-Action-Plan-Template.docx)
 
 **Country Action Plan Template — Post-TOT Roadmap (Phases 2–6)
 Data Analysis and Report Writing TOT  •  Data for Health (D4H) Initiative**
 
 Complete this plan as a country team before leaving Kigali. Rows shaded green are worked examples (Demoland-style illustration) — replace them with your country's real entries. Submit the final version by 30 April 2027.
 
-**Country:**____________________**     Team lead:**____________________**     Date:**26 March 2027
+**Country: ** ____________________**     Team lead: ** ____________________**     Date:** 26 March 2027
 
 # 1. Country Team
 
-|**Name**|**Title / Role**|**Responsibility in this plan**|
+| **Name** | **Title / Role** | **Responsibility in this plan** |
 | --- | --- | --- |
 | [Example] A. Uwase | HMIS Manager | Team lead; owns SOP adoption |
 | [Example] J. Habimana | TB Program Analyst | Leads mentored analysis project |
@@ -18,7 +18,7 @@ Complete this plan as a country team before leaving Kigali. Rows shaded green ar
 
 List the 2–3 priority topics your team will work on in Phases 3–5 (first two rows are examples):
 
-|**Priority topic (example rows shaded)**|**Why it matters**|**Available data**|
+| **Priority topic (example rows shaded)** | **Why it matters** | **Available data** |
 | --- | --- | --- |
 | TB notifications & treatment outcomes, 2021–2025 (example) | Feeds the 2027–2030 strategic plan; district divergence (e.g., Westbrook) needs action | TB register; district populations (synthetic demo data) |
 | Maternal mortality registration completeness (example) | Under-registration suspected in 3 districts; affects resource allocation | Civil registration records; facility reports |
@@ -27,7 +27,7 @@ List the 2–3 priority topics your team will work on in Phases 3–5 (first two
 
 Example entries show the expected rhythm; replace with your country's dates:
 
-|**Milestone**|**Target date**|**Owner**|**Deliverable / evidence**|
+| **Milestone** | **Target date** | **Owner** | **Deliverable / evidence** |
 | --- | --- | --- | --- |
 | Action plan finalized & submitted (example) | 30 Apr 2027 | Team lead | This document, approved by M&E head |
 | Cascade training delivered (example) | Jul 2027 | All team members | 4-day training; attendance list; evaluation summary |
@@ -39,18 +39,18 @@ Example entries show the expected rhythm; replace with your country's dates:
 
 Target: 10–15 trainees per country. Duration: 4 days. Suggested agenda outline (adapt to your context):
 
-|**Day**|**Theme**|**Key sessions**|
+| **Day** | **Theme** | **Key sessions** |
 | --- | --- | --- |
 | Day 1 (example) | From data to decisions | Analysis objectives; intro to the country dataset; data-quality assessment |
 | Day 2 (example) | Preparing data | Cleaning workflows; combining datasets; rates with census denominators; pivot tables |
 | Day 3 (example) | Communicating results | Tables, figures, maps; equity disaggregation; group analysis |
 | Day 4 (example) | Reporting & next steps | IMRAD writing; recommendations; group presentations; action planning |
 
-**Proposed dates:**____________________**     Venue:**____________________**     Trainee profile / number:**____________________
+**Proposed dates: ** ____________________**     Venue: ** ____________________**     Trainee profile / number:** ____________________
 
-**Facilitators (from TOT team):**________________________________________
+**Facilitators (from TOT team):** ________________________________________
 
-**Budget / funding source:**________________________________________
+**Budget / funding source:** ________________________________________
 
 # 5. SOP & Report Institutionalization Steps
 
@@ -61,7 +61,7 @@ Target: 10–15 trainees per country. Duration: 4 days. Suggested agenda outline
 - ☐  Brief senior management on the new standards (15-min presentation) — target date: __________
 # 6. Risks & Mitigations
 
-|**Risk (examples shaded)**|**Likelihood / Impact**|**Mitigation**|**Owner**|
+| **Risk (examples shaded)** | **Likelihood / Impact** | **Mitigation** | **Owner** |
 | --- | --- | --- | --- |
 | Staff turnover: trained team members reassigned (example) | Medium / High | Train 2 facilitators per module; document all materials centrally | Team lead |
 | Data access delays for the mentored project (example) | Medium / Medium | Submit data request by May 2027; escalate via M&E head if delayed | Lead analyst |
@@ -74,7 +74,7 @@ Target: 10–15 trainees per country. Duration: 4 days. Suggested agenda outline
 - ____________________________________________________________________________________
 # 8. Sign-Off
 
-|**Role**|**Name**|**Signature**|**Date**|
+| **Role** | **Name** | **Signature** | **Date** |
 | --- | --- | --- | --- |
 | Country team lead |  |  |  |
 | Head of M&E / authorizing official |  |  |  |

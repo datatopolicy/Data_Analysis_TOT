@@ -28,13 +28,13 @@ This guide is the single reference for anyone facilitating the Data Analysis and
 
 ## Conventions used in this guide
 
--**Session plans:**every session on the authoritative agenda has a full plan — time block, session title (verbatim from the agenda), 3–4 learning objectives, key content with the actual substance you will teach, a minute-by-minute activity plan, materials, facilitator notes, and a TRAINER TIP box on how participants will teach this back home.
--**Facilitator notes:**common pitfalls, pacing tips, and what to do when participants finish early or run late. Read the notes for the next session during every tea and lunch break.
--**TRAINER TIP boxes:**explain how the 24 participants — who will become in-country trainers — can adapt and re-teach each topic in Bangladesh, Côte d'Ivoire, Rwanda, and Tanzania.
--**Demo data references:**all examples use the fictional country "Demoland" and its 12 fictional districts. Patterns are described qualitatively (e.g., Westbrook's rising TB cases) — never quote exact numbers from memory; always say "as shown in the demo dataset" and read values live from the file so your numbers match the answer keys.
+- **Session plans:** every session on the authoritative agenda has a full plan — time block, session title (verbatim from the agenda), 3–4 learning objectives, key content with the actual substance you will teach, a minute-by-minute activity plan, materials, facilitator notes, and a TRAINER TIP box on how participants will teach this back home.
+- **Facilitator notes:** common pitfalls, pacing tips, and what to do when participants finish early or run late. Read the notes for the next session during every tea and lunch break.
+- **TRAINER TIP boxes:** explain how the 24 participants — who will become in-country trainers — can adapt and re-teach each topic in Bangladesh, Côte d'Ivoire, Rwanda, and Tanzania.
+- **Demo data references:** all examples use the fictional country "Demoland" and its 12 fictional districts. Patterns are described qualitatively (e.g., Westbrook's rising TB cases) — never quote exact numbers from memory; always say "as shown in the demo dataset" and read values live from the file so your numbers match the answer keys.
 ## Facilitation team roles
 
-|**Role**|**Responsibilities**|
+| **Role** | **Responsibilities** |
 | --- | --- |
 | Lead facilitator | Owns the clock; delivers plenary sessions; runs debriefs; resolves content questions; approves any agenda adjustment. |
 | Co-facilitator | Circulates during exercises and team time; troubleshoots Excel; runs the projector and demo-data files; collects daily evaluation forms; photographs flipcharts for the course record. |
@@ -65,7 +65,7 @@ Within D4H, the Data Analysis Project builds national capacity to turn raw healt
 
 The Data Analysis Project runs in seven phases. This TOT course is Phase 1 — everything else builds on the trainers it produces.
 
-|**Phase**|**Name**|**What happens**|
+| **Phase** | **Name** | **What happens** |
 | --- | --- | --- |
 | 1 | Training of Trainers (this course) | 24 mid-level government professionals (6 each from Bangladesh, Côte d'Ivoire, Rwanda, and Tanzania) master descriptive analysis in Excel, equity-focused reporting, and adult training methods. |
 | 2 | Country adaptation & cascade training | National teams adapt the curriculum, translate materials where needed, and train subnational analysts in-country. |
@@ -81,7 +81,7 @@ The Data Analysis Project runs in seven phases. This TOT course is Phase 1 — e
 
 ## Course logistics at a glance
 
-|**Item**|**Detail**|
+| **Item** | **Detail** |
 | --- | --- |
 | Dates | Monday 22 – Friday 26 March 2027 (Saturday 27 March = travel day) |
 | Venue | Kigali, Rwanda (plenary room + 4 breakout tables) |
@@ -110,11 +110,11 @@ By the end of the five days, participants will be able to:
 
 A written knowledge test is administered twice: Monday 9:00 during welcome (pre-test, 30 minutes) and Friday 16:00 during wrap-up (post-test, 30 minutes). The two forms are parallel — same blueprint, different item wording — so score gains reflect learning, not memorization.
 
--**Format:**25 multiple-choice questions (1 point each) + 2 short-answer questions (5 points each) = 35 points total.
--**Blueprint:**5 items on D4H/project concepts and equity; 5 on data cleaning and combining datasets; 5 on rates, descriptive statistics, and pivot tables; 5 on IMRAD, tables, figures, maps, and recommendations; 5 on training methodologies. Short answers: (1) compute and interpret an incidence rate from a small table; (2) critique a flawed chart and rewrite its takeaway.
--**Pass standard:**post-test score of 70% (24.5/35) plus demonstrated competence in the group project. The test measures knowledge; the group project measures applied skill.
--**Logistics:**print 30 copies of each form; participants write a 4-digit anonymous code (last 4 digits of phone number) on both forms so pre/post can be matched without names. Co-facilitator scores within one week; aggregate results feed the course report.
--**Use of results:**report mean gain and % reaching the pass standard overall and by country team. Items missed by >50% of participants flag topics needing reinforcement in Phase 2 cascade trainings.
+- **Format:** 25 multiple-choice questions (1 point each) + 2 short-answer questions (5 points each) = 35 points total.
+- **Blueprint:** 5 items on D4H/project concepts and equity; 5 on data cleaning and combining datasets; 5 on rates, descriptive statistics, and pivot tables; 5 on IMRAD, tables, figures, maps, and recommendations; 5 on training methodologies. Short answers: (1) compute and interpret an incidence rate from a small table; (2) critique a flawed chart and rewrite its takeaway.
+- **Pass standard:** post-test score of 70% (24.5/35) plus demonstrated competence in the group project. The test measures knowledge; the group project measures applied skill.
+- **Logistics:** print 30 copies of each form; participants write a 4-digit anonymous code (last 4 digits of phone number) on both forms so pre/post can be matched without names. Co-facilitator scores within one week; aggregate results feed the course report.
+- **Use of results:** report mean gain and % reaching the pass standard overall and by country team. Items missed by >50% of participants flag topics needing reinforcement in Phase 2 cascade trainings.
 ## Daily evaluation forms
 
 A one-page form is distributed at 16:45 each day and collected before participants leave. It asks: (1) the most useful thing learned today (free text); (2) one thing still unclear (free text); (3) pace rating (too slow / about right / too fast); (4) confidence to teach today's hardest topic back home (1–5 scale). The co-facilitator tallies responses each evening; the lead facilitator addresses the top 2–3 unclear items in the next morning's debrief. This is the course's early-warning system — use it.
@@ -123,7 +123,7 @@ A one-page form is distributed at 16:45 each day and collected before participan
 
 The table below maps each core competency to the day(s) on which it is taught (T), practiced in an exercise (P), and assessed (A) via the pre/post-test, daily evaluations, or the group project rubric.
 
-|**Competency**|**Day 1**|**Day 2**|**Day 3**|**Day 4**|**Day 5**|
+| **Competency** | **Day 1** | **Day 2** | **Day 3** | **Day 4** | **Day 5** |
 | --- | --- | --- | --- | --- | --- |
 | D4H project knowledge & trainer role | T, A |  |  |  | T, A |
 | Health-equity analysis (PROGRESS-Plus) | T, P |  | P | P | A |
@@ -176,7 +176,7 @@ Confirm every item no later than Friday 19 March 2027 (one full week before the 
 - Sticky notes (assorted), masking tape, scissors.
 - Printed agenda (28), venue map, emergency contacts.
 - Water, tea/coffee service aligned to the 10:30 tea break; lunch 13:00–14:00.
-> **TRAINER TIP**— Ask each country team to bring one real (de-identified, aggregate-only) example of a national report or DHIS2 export on Day 1 for the SOP discussion. Seeing real SOPs next to the Demoland demo data makes the data-access conversation concrete — and gives teams material to adapt templates to in Phase 2.
+> **TRAINER TIP** — Ask each country team to bring one real (de-identified, aggregate-only) example of a national report or DHIS2 export on Day 1 for the SOP discussion. Seeing real SOPs next to the Demoland demo data makes the data-access conversation concrete — and gives teams material to adapt templates to in Phase 2.
 
 
 # Group Project Guidance
@@ -193,7 +193,7 @@ Each 10-slide report must contain: title slide; analysis objectives (1 slide); m
 
 ## Milestones by day
 
-|**Day**|**Milestone (due end of day)**|**Facilitator check**|
+| **Day** | **Milestone (due end of day)** | **Facilitator check** |
 | --- | --- | --- |
 | Day 1 (Mon) | Topic chosen; draft analysis objectives written on flipchart. | Lead reviews objectives for precision during team time. |
 | Day 2 (Tue) | Data cleaned; denominators merged; first pivot-table stratifications produced. | Co-facilitator spot-checks one pivot per team for correct rate math. |
@@ -205,7 +205,7 @@ Each 10-slide report must contain: title slide; analysis objectives (1 slide); m
 
 Score each criterion 0–4. 4 = exemplary, 3 = proficient, 2 = developing, 1 = beginning, 0 = missing. Maximum 40 points; 28+ = proficient.
 
-|**#**|**Criterion (weight ×1 each)**|**What 'proficient (3)' looks like**|
+| **#** | **Criterion (weight ×1 each)** | **What 'proficient (3)' looks like** |
 | --- | --- | --- |
 | 1 | Analysis objectives | Objectives are specific, answerable, and linked to indicators and disaggregations. |
 | 2 | Data cleaning & methods transparency | Cleaning steps documented; messy-data issues in Demoland files identified and handled. |
@@ -218,5 +218,5 @@ Score each criterion 0–4. 4 = exemplary, 3 = proficient, 2 = developing, 1 = b
 | 9 | Presentation delivery | Within 15 minutes; all members speak; slides support rather than duplicate speech. |
 | 10 | Response to questions | Answers accurately; admits limits of the data when appropriate. |
 
-> **TRAINER TIP**— When teams present, require one slide titled 'What we cannot say from this data' — it trains the humility that separates trustworthy analysts from dangerous ones, and it previews the limitations section of IMRAD. Back home, make this slide mandatory in every cascade-training project.
+> **TRAINER TIP** — When teams present, require one slide titled 'What we cannot say from this data' — it trains the humility that separates trustworthy analysts from dangerous ones, and it previews the limitations section of IMRAD. Back home, make this slide mandatory in every cascade-training project.
 

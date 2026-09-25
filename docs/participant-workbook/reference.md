@@ -2,7 +2,7 @@
 
 *The working vocabulary of the week. Starred terms (*) appear in the Formula Quick-Reference.*
 
-|**Term**|**Definition**|
+| **Term** | **Definition** |
 | --- | --- |
 | Age group | Population band used for disaggregation (here: 0–14, 15–24, 25–44, 45–64, 65+). Never collapse into “adult” without justification. |
 | Cascade training | TOT model in which trainees become trainers, passing skills to successive cohorts. Fidelity to the original materials protects quality. |
@@ -47,7 +47,7 @@
 
 ### Summarizing data
 
-|**What you want**|**Formula**|**Example**|
+| **What you want** | **Formula** | **Example** |
 | --- | --- | --- |
 | Sum | =SUM(range) | =SUM(C2:C301) |
 | Average (mean) | =AVERAGE(range) | =AVERAGE(C2:C301) |
@@ -60,7 +60,7 @@
 
 ### Conditional sums and counts
 
-|**What you want**|**Formula**|**Example**|
+| **What you want** | **Formula** | **Example** |
 | --- | --- | --- |
 | Count matching a criterion | =COUNTIF(range,criterion) | =COUNTIF(B2:B301,“Westbrook”) |
 | Count matching several criteria | =COUNTIFS(r1,c1,r2,c2…) | =COUNTIFS(B2:B301,“Westbrook”,D2:D301,“Female”) |
@@ -69,7 +69,7 @@
 
 ### Combining datasets & cleaning text
 
-|**What you want**|**Formula / tool**|**Example**|
+| **What you want** | **Formula / tool** | **Example** |
 | --- | --- | --- |
 | Look up a value | =XLOOKUP(key, lookup_array, return_array) | =XLOOKUP(A2,Pop!$A:$A,Pop!$D:$D) |
 | Safe lookup (flag misses) | =IFERROR(XLOOKUP(…),“CHECK”) | =IFERROR(XLOOKUP(A2,Pop!$A:$A,Pop!$D:$D),“CHECK”) |
@@ -82,7 +82,7 @@
 
 ### Rates and change
 
-|**What you want**|**Formula**|**Example**|
+| **What you want** | **Formula** | **Example** |
 | --- | --- | --- |
 | Rate per 100,000 | =events/population*100000 | =B2/C2*100000 → 1 decimal |
 | Percentage share | =part/total*100 | =B2/B$14*100 → 1 decimal |
@@ -91,7 +91,7 @@
 
 ### Presenting
 
-|**Task**|**How**|**Tip**|
+| **Task** | **How** | **Tip** |
 | --- | --- | --- |
 | Pivot table | Insert → PivotTable | Check Values = Sum (not Count); Refresh after edits |
 | Slicer | PivotTable Analyze → Insert Slicer | One-click filtering for exploration & demos |

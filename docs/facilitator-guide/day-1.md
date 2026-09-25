@@ -15,14 +15,14 @@
 
 Set the tone: this is a working course, not a lecture series. Participants will be on their laptops from the first hour, and by Friday they will present a real analysis. Three messages to land in the first 30 minutes:
 
--**You are becoming trainers.**Everything this week is taught twice: once for your own mastery, once for how you will re-teach it in Phase 2 cascade trainings back home.
--**All data this week is synthetic.**Demoland is fictional; its 12 districts are fictional. This frees us to make mistakes safely — and means no real records ever leave this room.
--**Equity is the lens, not a lecture.**Every analysis this week is stratified; every report answers 'who is being left behind?'
+- **You are becoming trainers.** Everything this week is taught twice: once for your own mastery, once for how you will re-teach it in Phase 2 cascade trainings back home.
+- **All data this week is synthetic.** Demoland is fictional; its 12 districts are fictional. This frees us to make mistakes safely — and means no real records ever leave this room.
+- **Equity is the lens, not a lecture.** Every analysis this week is stratified; every report answers 'who is being left behind?'
 Run the pre-test (25 MCQs + 2 short-answer, 30 minutes, anonymous 4-digit code). Collect before introductions so the morning stays on schedule.
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:00–9:05 | 5 | Lead facilitator: welcome, course purpose in 3 sentences, housekeeping (venue, wifi, breaks, travel Saturday). |
 | 9:05–9:10 | 5 | Distribute pre-test; explain the anonymous 4-digit code (last 4 digits of phone number); stress it is diagnostic, not graded for certification. |
@@ -36,10 +36,10 @@ Run the pre-test (25 MCQs + 2 short-answer, 30 minutes, anonymous 4-digit code).
 - Timer visible on screen
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Protect the clock ruthlessly.**Introductions overrun in every course ever run; the visible timer and 20-second rule keep 24 people inside 5 minutes. Anyone who needs more airtime gets it at tea.
--**If the pre-test runs long,**collect at 9:25 regardless and let slow finishers complete it during the first tea break — never steal time from the D4H introduction.
--**Learn two names per table**during circulation; using names from hour one builds the participatory culture the week depends on.
-> **TRAINER TIP**— Back home, open your cascade training the same way: a diagnostic pre-test followed by 20-second introductions. It signals immediately that the training is about doing, and the pre-test gives you a baseline to prove impact to your ministry.
+- **Protect the clock ruthlessly.** Introductions overrun in every course ever run; the visible timer and 20-second rule keep 24 people inside 5 minutes. Anyone who needs more airtime gets it at tea.
+- **If the pre-test runs long,** collect at 9:25 regardless and let slow finishers complete it during the first tea break — never steal time from the D4H introduction.
+- **Learn two names per table** during circulation; using names from hour one builds the participatory culture the week depends on.
+> **TRAINER TIP** — Back home, open your cascade training the same way: a diagnostic pre-test followed by 20-second introductions. It signals immediately that the training is about doing, and the pre-test gives you a baseline to prove impact to your ministry.
 
 
 ## Day 1 (Mon 22 Mar)  |  9:30–10:00
@@ -55,15 +55,15 @@ Run the pre-test (25 MCQs + 2 short-answer, 30 minutes, anonymous 4-digit code).
 
 Tell the story in this order: problem → initiative → project → phases → their role.
 
--**The problem:**ministries collect more health data than ever — CRVS, DHIS2, surveys — but too little of it is cleaned, analyzed, and written up for decision-makers. Data collection has outpaced data use.
--**The Data for Health Initiative:**funded by Bloomberg Philanthropies and implemented with the CDC Foundation, D4H partners with governments to strengthen CRVS and routine health information systems so policy rests on counted, not guessed, reality.
--**The Data Analysis Project:**its goal is to institutionalize sustainable, equity-focused analysis and report-writing capacity inside ministries of health and statistics offices. Walk through the 8 objectives and 7 phases from the Course Overview — dwell on Phase 1 (this TOT) and Phase 2 (their cascade trainings), because those two are theirs to deliver.
--**Their role:**they are not here as students collecting a certificate; they are the national trainer cadre. Everything they produce this week — slides, cleaning logs, report templates — is material they will reuse at home.
+- **The problem:** ministries collect more health data than ever — CRVS, DHIS2, surveys — but too little of it is cleaned, analyzed, and written up for decision-makers. Data collection has outpaced data use.
+- **The Data for Health Initiative:** funded by Bloomberg Philanthropies and implemented with the CDC Foundation, D4H partners with governments to strengthen CRVS and routine health information systems so policy rests on counted, not guessed, reality.
+- **The Data Analysis Project:** its goal is to institutionalize sustainable, equity-focused analysis and report-writing capacity inside ministries of health and statistics offices. Walk through the 8 objectives and 7 phases from the Course Overview — dwell on Phase 1 (this TOT) and Phase 2 (their cascade trainings), because those two are theirs to deliver.
+- **Their role:** they are not here as students collecting a certificate; they are the national trainer cadre. Everything they produce this week — slides, cleaning logs, report templates — is material they will reuse at home.
 Close with the week's arc: Monday–Tuesday we build analytic muscle in Excel; Wednesday we learn to communicate (IMRAD, tables, figures, maps); Thursday–Friday teams produce and defend a real mini-report. Friday afternoon they plan the cascade.
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:30–9:40 | 10 | Lead presents: problem → D4H → project goal → 8 objectives (slides 1–6). |
 | 9:40–9:50 | 10 | Walk the 7 phases; emphasize Phase 1 → Phase 2 handoff. Show where each participating country sits. |
@@ -76,10 +76,10 @@ Close with the week's arc: Monday–Tuesday we build analytic muscle in Excel; W
 - Printed Course Overview (in workbook)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Do not read the 8 objectives off the slide.**State each in one plain sentence and give a one-line country-flavored example (e.g., objective 4 on SOPs: 'so the next analyst inherits a method, not a mystery').
--**Watch for the misconception**that D4H will analyze their data for them — correct it explicitly: the project builds their capacity; the analysis is theirs.
--**If Q&A runs hot,**promise a 5-minute parking lot at 10:25 and move on; energy is high and the schedule session needs its full 30 minutes.
-> **TRAINER TIP**— Re-teach this as a 10-minute story, not a 30-minute lecture: problem → initiative → project → 'and that is why you are in this room.' Adult learners remember narratives; they forget objective lists. Keep the printed overview as the take-home reference.
+- **Do not read the 8 objectives off the slide.** State each in one plain sentence and give a one-line country-flavored example (e.g., objective 4 on SOPs: 'so the next analyst inherits a method, not a mystery').
+- **Watch for the misconception** that D4H will analyze their data for them — correct it explicitly: the project builds their capacity; the analysis is theirs.
+- **If Q&A runs hot,** promise a 5-minute parking lot at 10:25 and move on; energy is high and the schedule session needs its full 30 minutes.
+> **TRAINER TIP** — Re-teach this as a 10-minute story, not a 30-minute lecture: problem → initiative → project → 'and that is why you are in this room.' Adult learners remember narratives; they forget objective lists. Keep the printed overview as the take-home reference.
 
 
 ## Day 1 (Mon 22 Mar)  |  10:00–10:30
@@ -99,7 +99,7 @@ Run topic selection now: each country team confers for 5 minutes and claims one 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 10:00–10:12 | 12 | Lead walks the agenda wall-chart day by day; participants follow in workbooks. Name each day's output. |
 | 10:12–10:22 | 10 | Group project briefing: deliverable, 10-slide structure, milestones, rubric (1 page in workbook). |
@@ -112,17 +112,17 @@ Run topic selection now: each country team confers for 5 minutes and claims one 
 - Flipchart for topic claims
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Get the topic claims in writing on the flipchart**before tea — disputes after the break waste time.
--**If two teams want the same topic,**let the team that speaks first keep it; the 'loser' almost always discovers their second choice was richer once they open the data.
--**End with the Friday picture:**'On Friday morning you present to this room as if we are your ministry leadership.' It focuses the week.
-> **TRAINER TIP**— In cascade trainings, do topic selection on day 1 as well — even a 3-day course benefits. Early ownership converts participants from audience to analysts, and the milestone table gives you a built-in progress check each morning.
+- **Get the topic claims in writing on the flipchart** before tea — disputes after the break waste time.
+- **If two teams want the same topic,** let the team that speaks first keep it; the 'loser' almost always discovers their second choice was richer once they open the data.
+- **End with the Friday picture:** 'On Friday morning you present to this room as if we are your ministry leadership.' It focuses the week.
+> **TRAINER TIP** — In cascade trainings, do topic selection on day 1 as well — even a 3-day course benefits. Early ownership converts participants from audience to analysts, and the milestone table gives you a built-in progress check each morning.
 
 
 ## Day 1 (Mon 22 Mar)  |  10:30–11:00
 
 ### Tea
 
-> **TRAINER TIP**— Use tea breaks to read the room: which table finished the pre-test fastest (likely your Excel-strong table), who is quiet, who needs the francophone glossary. Adjust examples accordingly.
+> **TRAINER TIP** — Use tea breaks to read the room: which table finished the pre-test fastest (likely your Excel-strong table), who is quiet, who needs the francophone glossary. Adjust examples accordingly.
 
 
 ## Day 1 (Mon 22 Mar)  |  11:00–12:00
@@ -141,7 +141,7 @@ Open with the definition. Health equity means everyone has a fair and just oppor
 
 Introduce PROGRESS-Plus as the standard checklist for asking 'who might be left behind?' in any dataset:
 
-|**Dimension**|**What it captures**|**Example in health data**|
+| **Dimension** | **What it captures** | **Example in health data** |
 | --- | --- | --- |
 | P — Place of residence | Urban/rural, district, distance to facility | Westbrook vs. national TB trend in Demoland |
 | R — Race / ethnicity | Ethnic or racial group | Often unrecorded — note the gap honestly |
@@ -163,7 +163,7 @@ Close with the week's equity rule: every table, every figure, every report this 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 11:00–11:10 | 10 | Hook: show Demoland national TB trend (declining) then overlay Westbrook (rising). 'Who does the national average hide?' Pair discussion. |
 | 11:10–11:25 | 15 | Mini-lecture: equity vs. equality (fence graphic), PROGRESS-Plus walkthrough with the table above. |
@@ -177,10 +177,10 @@ Close with the week's equity rule: every table, every figure, every report this 
 - DA-TOT_Demo_TB-Register_2021-2025.xlsx open on laptops
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The fence graphic is non-negotiable —**draw it even if the slides fail. Participants photograph it and reuse it for years.
--**Push back gently**when teams claim their data 'has no equity issues' — ask which PROGRESS-Plus dimensions are simply unmeasured.
--**If the exercise runs long,**cut the gallery walk to 1 minute per team; protect the 12:00 SOP session start.
-> **TRAINER TIP**— Teach PROGRESS-Plus as a checklist taped inside every analyst's notebook: before any analysis, run down the letters and tick what the dataset covers. In cascade trainings this 60-minute session becomes the moral compass for everything after — never compress it below 45 minutes.
+- **The fence graphic is non-negotiable —** draw it even if the slides fail. Participants photograph it and reuse it for years.
+- **Push back gently** when teams claim their data 'has no equity issues' — ask which PROGRESS-Plus dimensions are simply unmeasured.
+- **If the exercise runs long,** cut the gallery walk to 1 minute per team; protect the 12:00 SOP session start.
+> **TRAINER TIP** — Teach PROGRESS-Plus as a checklist taped inside every analyst's notebook: before any analysis, run down the letters and tick what the dataset covers. In cascade trainings this 60-minute session becomes the moral compass for everything after — never compress it below 45 minutes.
 
 
 ## Day 1 (Mon 22 Mar)  |  12:00–12:30
@@ -202,7 +202,7 @@ Facilitator synthesizes across the four countries: common barriers (unclear owne
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 12:00–12:05 | 5 | Lead frames: SOP definition, why access precedes analysis. Pose the three report questions. |
 | 12:05–12:25 | 20 | Country reports: 5 minutes each, timed. Scribe captures barriers on team flipchart. |
@@ -214,17 +214,17 @@ Facilitator synthesizes across the four countries: common barriers (unclear owne
 - Timer
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Keep each country to 5 minutes —**this session bleeds into lunch if you let war stories run. Promise a longer exchange at a later tea break.
--**Draw out the quiet country**with a direct question; otherwise the most vocal health system dominates.
--**Photograph all four flipcharts —**they become an annex in the course report and baseline material for Phase 2 SOP work.
-> **TRAINER TIP**— Back home, run this as the opening of your cascade training too: it surfaces the real constraints your trainees face and lets you tailor every later session. Collect the barriers in writing — they are your needs assessment.
+- **Keep each country to 5 minutes —** this session bleeds into lunch if you let war stories run. Promise a longer exchange at a later tea break.
+- **Draw out the quiet country** with a direct question; otherwise the most vocal health system dominates.
+- **Photograph all four flipcharts —** they become an annex in the course report and baseline material for Phase 2 SOP work.
+> **TRAINER TIP** — Back home, run this as the opening of your cascade training too: it surfaces the real constraints your trainees face and lets you tailor every later session. Collect the barriers in writing — they are your needs assessment.
 
 
 ## Day 1 (Mon 22 Mar)  |  13:00–14:00
 
 ### Lunch
 
-> **TRAINER TIP**— Sit with a different country team each day. Lunch is where you learn which participants are already Excel-strong (recruit them as table helpers) and who may need extra support.
+> **TRAINER TIP** — Sit with a different country team each day. Lunch is where you learn which participants are already Excel-strong (recruit them as table helpers) and who may need extra support.
 
 
 ## Day 1 (Mon 22 Mar)  |  14:00–15:00
@@ -240,7 +240,7 @@ Facilitator synthesizes across the four countries: common barriers (unclear owne
 
 A data-analysis objective is a precise, answerable question that links a policy or program concern to data, indicators, and disaggregations. Vague objectives produce vague analyses. Teach the anatomy of a strong objective — Population, Indicator, Disaggregation, Timeframe, Comparison:
 
-|**Weak objective**|**Strong objective**|**Why it is stronger**|
+| **Weak objective** | **Strong objective** | **Why it is stronger** |
 | --- | --- | --- |
 | Analyze TB data. | Describe TB case notification trends by district, sex, and age group in Demoland, 2021–2025, and identify districts deviating from the national trend. | Names indicator, disaggregations, timeframe, and the analytic task (identify deviating districts). |
 | Look at mortality. | Assess completeness of death registration by district in Demoland, 2021–2025, by comparing registered deaths against expected levels, to prioritize registration strengthening. | Defines the measure (completeness), method (vs. expected), and use (prioritization). |
@@ -252,7 +252,7 @@ Demonstrate live: take a participant-suggested vague objective and rewrite it on
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 14:00–14:15 | 15 | Mini-lecture: why objectives come before data; the five-part anatomy (Population, Indicator, Disaggregation, Timeframe, Comparison). |
 | 14:15–14:30 | 15 | Live rewrite demo: take 2–3 vague objectives from the room and rebuild them on flipchart. |
@@ -266,10 +266,10 @@ Demonstrate live: take a participant-suggested vague objective and rewrite it on
 - Workbook: objective-writing worksheet
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The most common flaw**is objectives without denominators ('compare TB burden across districts' using counts). Catch it now — it foreshadows Tuesday's rates session.
--**Circulate with a red pen mentality:**every objective must name its disaggregations, or the team will discover on Wednesday they never structured the data for it.
--**If teams finish early,**have them rank their objectives by policy urgency — it previews Thursday's recommendations session.
-> **TRAINER TIP**— Make objective-writing the first exercise of every cascade training, using trainees' own program questions. Analysts who can write a sharp objective rarely produce a fuzzy report — it is the highest-leverage hour you will teach.
+- **The most common flaw** is objectives without denominators ('compare TB burden across districts' using counts). Catch it now — it foreshadows Tuesday's rates session.
+- **Circulate with a red pen mentality:** every objective must name its disaggregations, or the team will discover on Wednesday they never structured the data for it.
+- **If teams finish early,** have them rank their objectives by policy urgency — it previews Thursday's recommendations session.
+> **TRAINER TIP** — Make objective-writing the first exercise of every cascade training, using trainees' own program questions. Analysts who can write a sharp objective rarely produce a fuzzy report — it is the highest-leverage hour you will teach.
 
 
 ## Day 1 (Mon 22 Mar)  |  15:00–16:00
@@ -298,7 +298,7 @@ Key cautions: always work on a copy (never the raw extract); keep the raw file u
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 15:00–15:20 | 20 | Live demo: lead cleans DA-TOT_Exercise_Messy-DHIS2-Extract.xlsx on the projector, narrating each of the 8 steps and the cautions. |
 | 15:20–15:50 | 30 | Guided practice: participants replicate on their own copy; co-facilitator troubleshoots. Fast finishers start the cleaning log. |
@@ -311,10 +311,10 @@ Key cautions: always work on a copy (never the raw extract); keep the raw file u
 - Projector
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The #1 pitfall:**participants cleaning the original instead of a copy. Say it three times; check screens during circulation.
--**Remove Duplicates on the wrong columns**deletes valid data — demo the mistake deliberately so they feel the danger before doing it live.
--**If half the room finishes early,**set the stretch task: build the Data Validation dropdowns. If the room is slow, drop the validation step to homework and protect the 16:00 start.
-> **TRAINER TIP**— Cleaning is the easiest session to re-teach because the mess is visible and the fix is satisfying. Build your own country's 'messy file' from a real de-identified extract — trainees engage twice as hard when the dirt is theirs. Always teach the cleaning log; it is what makes the work auditable.
+- **The #1 pitfall:** participants cleaning the original instead of a copy. Say it three times; check screens during circulation.
+- **Remove Duplicates on the wrong columns** deletes valid data — demo the mistake deliberately so they feel the danger before doing it live.
+- **If half the room finishes early,** set the stretch task: build the Data Validation dropdowns. If the room is slow, drop the validation step to homework and protect the 16:00 start.
+> **TRAINER TIP** — Cleaning is the easiest session to re-teach because the mess is visible and the fix is satisfying. Build your own country's 'messy file' from a real de-identified extract — trainees engage twice as hard when the dirt is theirs. Always teach the cleaning log; it is what makes the work auditable.
 
 
 ## Day 1 (Mon 22 Mar)  |  16:00–16:30
@@ -340,7 +340,7 @@ Join hygiene: confirm keys match exactly (recall the TRIM lesson — 'Westbrook 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 16:00–16:12 | 12 | Demo: merge TB cases with census population three ways (VLOOKUP, XLOOKUP, INDEX/MATCH); show the exact-match rule and the TRIM failure case. |
 | 16:12–16:27 | 15 | Paired practice: participants merge the two files; one partner reads the formula aloud while the other types (catches syntax errors). |
@@ -353,10 +353,10 @@ Join hygiene: confirm keys match exactly (recall the TRIM lesson — 'Westbrook 
 - Workbook: lookup cheat-sheet
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Check Excel versions at the start:**if XLOOKUP is missing on some laptops, teach INDEX/MATCH as the primary and XLOOKUP as 'when you upgrade'. Never leave half the room with a formula that returns #NAME?.
--**The most common error**is relative references shifting the table array — teach $ locking (F4) the moment you see #N/A cascades.
--**Keep this session tight at 30 minutes;**mastery comes from repeated use during team time, not from more demo.
-> **TRAINER TIP**— Teach lookups with your country's real files: 'bring your DHIS2 extract and your census file; leave with them merged.' The shared-key hygiene lesson (TRIM, exact spelling) is the part trainees will thank you for months later.
+- **Check Excel versions at the start:** if XLOOKUP is missing on some laptops, teach INDEX/MATCH as the primary and XLOOKUP as 'when you upgrade'. Never leave half the room with a formula that returns #NAME?.
+- **The most common error** is relative references shifting the table array — teach $ locking (F4) the moment you see #N/A cascades.
+- **Keep this session tight at 30 minutes;** mastery comes from repeated use during team time, not from more demo.
+> **TRAINER TIP** — Teach lookups with your country's real files: 'bring your DHIS2 extract and your census file; leave with them merged.' The shared-key hygiene lesson (TRIM, exact spelling) is the part trainees will thank you for months later.
 
 
 ## Day 1 (Mon 22 Mar)  |  16:30–17:00
@@ -376,7 +376,7 @@ End-of-day close (last 5 minutes): each team states its topic and reads one obje
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 16:30–16:55 | 25 | Team work at tables; facilitators circulate, coach, unblock Excel issues. |
 | 16:55–17:00 | 5 | Plenary close: topic + one objective per team; preview Tuesday. |
@@ -388,8 +388,8 @@ End-of-day close (last 5 minutes): each team states its topic and reads one obje
 - Cleaning-log template
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Resist doing it for them.**The instinct to grab the keyboard is strongest in the first team session — narrate your thinking aloud instead, so they learn the diagnostic path.
--**Note which teams are stuck on merges —**they need the first 10 minutes of Tuesday's team time protected for catch-up.
--**End on time.**Day 1 is long; a crisp 17:00 close builds trust that the week's clock can be believed.
-> **TRAINER TIP**— Protect daily team time fiercely in cascade trainings — it is where transfer happens. Circulate with questions, not answers, and always close by having teams state their deliverable aloud: public commitment drives completion.
+- **Resist doing it for them.** The instinct to grab the keyboard is strongest in the first team session — narrate your thinking aloud instead, so they learn the diagnostic path.
+- **Note which teams are stuck on merges —** they need the first 10 minutes of Tuesday's team time protected for catch-up.
+- **End on time.** Day 1 is long; a crisp 17:00 close builds trust that the week's clock can be believed.
+> **TRAINER TIP** — Protect daily team time fiercely in cascade trainings — it is where transfer happens. Circulate with questions, not answers, and always close by having teams state their deliverable aloud: public commitment drives completion.
 

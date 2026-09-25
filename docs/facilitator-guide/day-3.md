@@ -18,7 +18,7 @@
 1. Preview: 'Today your numbers become a story — structure, tables, figures, maps.'
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:00–9:12 | 12 | Re-teach unclear items with fresh demos. |
 | 9:12–9:22 | 10 | Team stand-ups + unblocking. |
@@ -29,8 +29,8 @@
 - Tallied Day 2 evaluation forms
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**If any team lacks verified rates,**assign the co-facilitator to them during the first exercise block — do not let it slide another day.
-> **TRAINER TIP**— Same debrief ritual as yesterday. Consistency is the point: trainees learn that feedback loops are daily, not end-of-course.
+- **If any team lacks verified rates,** assign the co-facilitator to them during the first exercise block — do not let it slide another day.
+> **TRAINER TIP** — Same debrief ritual as yesterday. Consistency is the point: trainees learn that feedback loops are daily, not end-of-course.
 
 
 ## Day 3 (Wed 24 Mar)  |  9:30–10:30
@@ -47,22 +47,22 @@
 
 IMRAD — Introduction, Methods, Results, and Discussion — is the international standard skeleton of a technical report. Teach it as four rooms, each with one job and a strict border policy:
 
-|**Section**|**Purpose — answers...**|**Contains**|**Never contains**|
+| **Section** | **Purpose — answers...** | **Contains** | **Never contains** |
 | --- | --- | --- | --- |
 | Introduction | Why does this analysis matter? | Background, policy context, and the analysis objectives. Ends with the objectives verbatim. | Results or methods detail. |
 | Methods | What did you do, exactly? | Data sources (Demoland files, years), cleaning steps (the cleaning log!), indicator definitions and formulas, denominators, stratifications, software (Excel version), limitations of the data. | Any finding — no numbers that belong in Results. |
 | Results | What did you find? | Text + tables + figures, ordered by the objectives. Every table/figure is introduced in text and has a takeaway sentence. No interpretation beyond describing. | Interpretation, recommendations, or new data. |
 | (and) Discussion | What does it mean, and what should we do? | Interpretation of key findings, comparison with expectations, equity implications (who is left behind?), limitations, and recommendations. | New results that were never shown in Results. |
 
--**The border policy is the lesson:**results in Methods confuse; new data in Discussion destroys credibility. Reviewers check the borders first.
--**Methods must be reproducible:**a competent analyst reading only the Methods should be able to rebuild the analysis — that is why Monday's cleaning log and the exact rate formulas live here.
--**The Discussion earns its keep with two moves:**'so what?' (interpretation for policy) and 'what now?' (recommendations). Thursday's sessions deepen both.
--**Abstract/executive summary comes last in writing,**first in reading — one paragraph per IMRAD section, written after the body is final.
+- **The border policy is the lesson:** results in Methods confuse; new data in Discussion destroys credibility. Reviewers check the borders first.
+- **Methods must be reproducible:** a competent analyst reading only the Methods should be able to rebuild the analysis — that is why Monday's cleaning log and the exact rate formulas live here.
+- **The Discussion earns its keep with two moves:** 'so what?' (interpretation for policy) and 'what now?' (recommendations). Thursday's sessions deepen both.
+- **Abstract/executive summary comes last in writing,** first in reading — one paragraph per IMRAD section, written after the body is final.
 Exercise (last 20 min): teams take yesterday's rate findings and sort pre-written finding/method/interpretation strips into the four IMRAD rooms on flipchart — fast, physical, and it exposes border violations instantly.
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:30–9:50 | 20 | Mini-lecture: the four rooms + border policy; the table above as handout. |
 | 9:50–10:10 | 20 | Sorting exercise: strips → four flipchart rooms; facilitators circulate. |
@@ -76,17 +76,17 @@ Exercise (last 20 min): teams take yesterday's rate findings and sort pre-writte
 - Workbook: IMRAD outline template
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The sorting exercise is the session —**do not let the lecture eat it. Border violations discovered by hand stick forever.
--**Common confusion:**participants put recommendations in Results. Catch it in the exercise; it foreshadows Thursday.
--**Collect the IMRAD outlines at tea —**skim them during the break so afternoon feedback is specific.
-> **TRAINER TIP**— Teach IMRAD with the 'four rooms' metaphor and the physical sorting exercise — it works even with low-literacy audiences and needs no technology. In cascade trainings, make trainees sort their own draft sentences; self-found border violations are never repeated.
+- **The sorting exercise is the session —** do not let the lecture eat it. Border violations discovered by hand stick forever.
+- **Common confusion:** participants put recommendations in Results. Catch it in the exercise; it foreshadows Thursday.
+- **Collect the IMRAD outlines at tea —** skim them during the break so afternoon feedback is specific.
+> **TRAINER TIP** — Teach IMRAD with the 'four rooms' metaphor and the physical sorting exercise — it works even with low-literacy audiences and needs no technology. In cascade trainings, make trainees sort their own draft sentences; self-found border violations are never repeated.
 
 
 ## Day 3 (Wed 24 Mar)  |  10:30–11:00
 
 ### Tea
 
-> **TRAINER TIP**— Skim the IMRAD outlines collected at 10:30. Note the two weakest for targeted coaching in the tables exercise.
+> **TRAINER TIP** — Skim the IMRAD outlines collected at 10:30. Note the two weakest for targeted coaching in the tables exercise.
 
 
 ## Day 3 (Wed 24 Mar)  |  11:00–12:00
@@ -116,7 +116,7 @@ Demonstrate live: take an ugly default Excel dump of district rates and rebuild 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 11:00–11:20 | 20 | Mini-lecture: the 10 rules with before/after examples in slides. |
 | 11:20–11:40 | 20 | Live rebuild demo: ugly district-rate dump → clean Table 1, narrating each rule applied. |
@@ -129,10 +129,10 @@ Demonstrate live: take an ugly default Excel dump of district rates and rebuild 
 - District-rate tables from Day 2
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The live rebuild is non-negotiable —**rules without the demo feel abstract; the demo makes them obvious.
--**Emphasize rule 10 (values vs. formulas)**before the exercise hour — it prevents the afternoon's most common catastrophe.
--**Keep 5 minutes spare:**the next session starts building immediately.
-> **TRAINER TIP**— The before/after rebuild is your most reusable teaching asset: record your screen while doing it once, and you have a 10-minute video for cascade trainings and for analysts who missed the session. The 1-page checklist becomes a permanent desk reference — print it on card stock.
+- **The live rebuild is non-negotiable —** rules without the demo feel abstract; the demo makes them obvious.
+- **Emphasize rule 10 (values vs. formulas)** before the exercise hour — it prevents the afternoon's most common catastrophe.
+- **Keep 5 minutes spare:** the next session starts building immediately.
+> **TRAINER TIP** — The before/after rebuild is your most reusable teaching asset: record your screen while doing it once, and you have a 10-minute video for cascade trainings and for analysts who missed the session. The 1-page checklist becomes a permanent desk reference — print it on card stock.
 
 
 ## Day 3 (Wed 24 Mar)  |  12:00–13:00
@@ -154,7 +154,7 @@ Deliverable by 13:00: two titled, formatted tables pasted into the team's draft 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 12:00–12:30 | 30 | Team build: two tables per team; facilitators circulate with checklists. |
 | 12:30–12:35 | 5 | Plenary peer critique of one in-progress table. |
@@ -168,17 +168,17 @@ Deliverable by 13:00: two titled, formatted tables pasted into the team's draft 
 - Projector for peer critique
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**One correction at a time —**listing all 10 violations crushes morale; fix the title first, then alignment, then the rest.
--**Watch for alphabetical district ordering —**the commonest leftover default; ask 'what story does this order tell?'
--**If a team has no rates yet (behind from Day 2),**the co-facilitator sits with them for 15 minutes while the lead covers the room — escalate, don't abandon.
-> **TRAINER TIP**— Peer critique of one anonymous table in plenary is the highest-leverage 15 minutes of a cascade training: everyone learns the checklist by applying it, and the presenting team gets 24 editors for free. Always ask permission before projecting a team's work.
+- **One correction at a time —** listing all 10 violations crushes morale; fix the title first, then alignment, then the rest.
+- **Watch for alphabetical district ordering —** the commonest leftover default; ask 'what story does this order tell?'
+- **If a team has no rates yet (behind from Day 2),** the co-facilitator sits with them for 15 minutes while the lead covers the room — escalate, don't abandon.
+> **TRAINER TIP** — Peer critique of one anonymous table in plenary is the highest-leverage 15 minutes of a cascade training: everyone learns the checklist by applying it, and the presenting team gets 24 editors for free. Always ask permission before projecting a team's work.
 
 
 ## Day 3 (Wed 24 Mar)  |  13:00–14:00
 
 ### Lunch
 
-> **TRAINER TIP**— Review the two weakest IMRAD outlines over lunch; prepare one targeted question for each team for the afternoon.
+> **TRAINER TIP** — Review the two weakest IMRAD outlines over lunch; prepare one targeted question for each team for the afternoon.
 
 
 ## Day 3 (Wed 24 Mar)  |  14:00–15:00
@@ -195,7 +195,7 @@ Deliverable by 13:00: two titled, formatted tables pasted into the team's draft 
 
 Figures show patterns; tables show values. Choose the chart from the message, not from habit:
 
-|**Message**|**Chart type**|**Rule**|
+| **Message** | **Chart type** | **Rule** |
 | --- | --- | --- |
 | Trend over time | Line chart | One line per group max 3–4; label lines directly (no legend hunt); y-axis labeled with units |
 | Compare categories | Bar chart (or column) | Y-axis starts at ZERO — truncated bars lie about differences; order bars meaningfully |
@@ -214,7 +214,7 @@ Accessibility is non-negotiable: sufficient color contrast, never color as the o
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 14:00–14:20 | 20 | Mini-lecture: message→chart table; the 7 rules. |
 | 14:20–14:35 | 15 | Live demo: build the Westbrook-vs-national trend line (takeaway title, direct labels, grey context) + the truncated-bar deception demo. |
@@ -227,10 +227,10 @@ Accessibility is non-negotiable: sufficient color contrast, never color as the o
 - Workbook: figure checklist (1 page)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The truncated-bar demo**produces the week's biggest gasp — do not skip it. It inoculates against the commonest visual lie.
--**Limit the demo to two charts;**the exercise hour is for building, not watching.
--**Remind: values read live from files —**describe the Westbrook rise qualitatively; never quote numbers from memory.
-> **TRAINER TIP**— The 'spot-the-violation' rapid-fire game ports directly to cascade trainings and needs no computers — collect bad charts from real national reports (anonymized) and your trainees will never make those mistakes. Keep the truncated-bar demo; it converts skeptics instantly.
+- **The truncated-bar demo** produces the week's biggest gasp — do not skip it. It inoculates against the commonest visual lie.
+- **Limit the demo to two charts;** the exercise hour is for building, not watching.
+- **Remind: values read live from files —** describe the Westbrook rise qualitatively; never quote numbers from memory.
+> **TRAINER TIP** — The 'spot-the-violation' rapid-fire game ports directly to cascade trainings and needs no computers — collect bad charts from real national reports (anonymized) and your trainees will never make those mistakes. Keep the truncated-bar demo; it converts skeptics instantly.
 
 
 ## Day 3 (Wed 24 Mar)  |  15:00–16:00
@@ -252,7 +252,7 @@ Stretch for fast teams: draft the one-sentence Results-text takeaway that will a
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 15:00–15:30 | 30 | Team build; facilitators circulate with checklists. |
 | 15:30–15:35 | 5 | Plenary peer critique of one anonymous figure. |
@@ -266,10 +266,10 @@ Stretch for fast teams: draft the one-sentence Results-text takeaway that will a
 - Projector
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Pasting as pictures**prevents the #1 slide-deck catastrophe: linked charts that reflow or vanish on another laptop. Insist on it.
--**Watch axis bounds obsessively this hour —**one truncated bar chart in Friday's presentations undermines the week's credibility.
--**Slow teams:**one excellent figure beats two mediocre ones; grant permission to drop the second.
-> **TRAINER TIP**— Insist on 'paste as picture' in cascade trainings too — it is a 10-second habit that prevents the most embarrassing presentation failures. And keep the rule: no figure enters a deck without its takeaway sentence written first.
+- **Pasting as pictures** prevents the #1 slide-deck catastrophe: linked charts that reflow or vanish on another laptop. Insist on it.
+- **Watch axis bounds obsessively this hour —** one truncated bar chart in Friday's presentations undermines the week's credibility.
+- **Slow teams:** one excellent figure beats two mediocre ones; grant permission to drop the second.
+> **TRAINER TIP** — Insist on 'paste as picture' in cascade trainings too — it is a 10-second habit that prevents the most embarrassing presentation failures. And keep the rule: no figure enters a deck without its takeaway sentence written first.
 
 
 ## Day 3 (Wed 24 Mar)  |  16:00–17:00
@@ -299,12 +299,12 @@ Maps answer 'where?' — and for district-level health data, 'where' drives reso
 1. Enter each district's rate in its cell; select the grid → Home → Conditional Formatting → Color Scales (3-color, light→dark blue).
 1. Format cells large, centered, with district name above the value (use Alt+Enter line breaks).
 1. Screenshot/paste as picture into the deck with title, legend ('darker = higher rate per 100,000'), and source footnote.
--**Map honesty rules:**same rules as figures — sequential color scale, no rainbow, legend with units, and never map raw counts when rates are the question (big pale districts mislead).
--**Equity use:**a district map of TB rates makes geographic inequity instantly visible to non-technical leaders — it is often the slide that moves a budget.
--**Riverside caution:**do not map mortality rates for Riverside without a visual 'data incomplete' annotation — mapping under-registered deaths as low mortality is exactly how bad maps kill good policy.
+- **Map honesty rules:** same rules as figures — sequential color scale, no rainbow, legend with units, and never map raw counts when rates are the question (big pale districts mislead).
+- **Equity use:** a district map of TB rates makes geographic inequity instantly visible to non-technical leaders — it is often the slide that moves a budget.
+- **Riverside caution:** do not map mortality rates for Riverside without a visual 'data incomplete' annotation — mapping under-registered deaths as low mortality is exactly how bad maps kill good policy.
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 16:00–16:20 | 20 | Demo: Route 1 Filled Map on district rates; show the geocoding check. |
 | 16:20–16:35 | 15 | Demo + practice: Route 2 conditional-formatting grid using the template. |
@@ -319,8 +319,8 @@ Maps answer 'where?' — and for district-level health data, 'where' drives reso
 - Evaluation forms (Day 3)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**TEST Filled Map with Demoland names before the course.**Fictional districts often fail Bing geocoding — know in advance whether you are teaching Route 1, Route 2, or both, and say so upfront.
--**Internet dependence:**if venue Wi-Fi is unreliable, teach Route 2 as primary without apology — it works offline forever.
--**End-of-day energy is low;**keep demos snappy and get teams building within 20 minutes.
-> **TRAINER TIP**— In countries with real district shapefiles, graduate trainees to QGIS later — but teach the Excel grid-map first. An analyst who can make an honest map in Excel this week will make an honest map in GIS next quarter; the honesty rules transfer, the software doesn't teach them.
+- **TEST Filled Map with Demoland names before the course.** Fictional districts often fail Bing geocoding — know in advance whether you are teaching Route 1, Route 2, or both, and say so upfront.
+- **Internet dependence:** if venue Wi-Fi is unreliable, teach Route 2 as primary without apology — it works offline forever.
+- **End-of-day energy is low;** keep demos snappy and get teams building within 20 minutes.
+> **TRAINER TIP** — In countries with real district shapefiles, graduate trainees to QGIS later — but teach the Excel grid-map first. An analyst who can make an honest map in Excel this week will make an honest map in GIS next quarter; the honesty rules transfer, the software doesn't teach them.
 

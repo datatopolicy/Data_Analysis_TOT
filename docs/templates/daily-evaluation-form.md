@@ -1,4 +1,4 @@
->**Download the original file:**[Daily-Evaluation-Form.docx](../../assets/templates/Daily-Evaluation-Form.docx)
+> **Download the original file:** [Daily-Evaluation-Form.docx](../../assets/templates/Daily-Evaluation-Form.docx)
 
 **Daily Evaluation Form
 Data Analysis and Report Writing TOT — Kigali, 22–26 March 2027**
@@ -9,7 +9,7 @@ Date: ________________     Day (circle):  1   2   3   4   5     Country team (op
 
 1 = Strongly disagree / Poor   2 = Disagree   3 = Neutral   4 = Agree   5 = Strongly agree / Excellent
 
-|**Statement**|**1**|**2**|**3**|**4**|**5**|**N/A**|
+| **Statement** | **1** | **2** | **3** | **4** | **5** | **N/A** |
 | --- | --- | --- | --- | --- | --- | --- |
 | The content was relevant to my work. | ○ | ○ | ○ | ○ | ○ | ○ |
 | The facilitation was clear and engaging. | ○ | ○ | ○ | ○ | ○ | ○ |

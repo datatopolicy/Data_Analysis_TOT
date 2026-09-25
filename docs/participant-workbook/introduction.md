@@ -1,4 +1,4 @@
-> **DATA FOR HEALTH (D4H) INITIATIVE**— Funded by Bloomberg Philanthropies  ·  Implemented by the CDC Foundation
+> **DATA FOR HEALTH (D4H) INITIATIVE** — Funded by Bloomberg Philanthropies  ·  Implemented by the CDC Foundation
 
 
 **Data Analysis and Report Writing**
@@ -11,7 +11,7 @@ Kigali, Rwanda  ·  Monday 22 – Friday 26 March 2027
 
 *Saturday 27 March 2027: travel day*
 
-> **A NOTE ON THE DATA**— Every exercise in this workbook uses 100% synthetic demonstration data for the fictional country of “Demoland”. No real patient, facility, or country data is used at any point.
+> **A NOTE ON THE DATA** — Every exercise in this workbook uses 100% synthetic demonstration data for the fictional country of “Demoland”. No real patient, facility, or country data is used at any point.
 > Demoland has 12 districts: Northfield, Eastvale, Westbrook, Southgate, Lakeside, Hillcrest, Riverside, Meadowlands, Stonebridge, Fairview, Oakdale, and Pinehurst.
 > Because the data are synthetic, describe patterns qualitatively (for example, “notifications are rising in Westbrook”) and always compute exact values yourself from the files — do not copy numbers from anyone else’s screen.
 
@@ -22,19 +22,19 @@ Kigali, Rwanda  ·  Monday 22 – Friday 26 March 2027
 
 This workbook is your day-by-day companion for the five-day Training of Trainers. Bring it — and your laptop — to every session.
 
--**Follow the day tabs.**Each day opens with the day’s agenda, then concise key-point summaries of every taught session, then the full hands-on exercises for that day.
--**Exercises are fully specified.**Every exercise names the exact file and worksheet to open, gives numbered steps you can follow on your own, describes the expected output, and ends with reflection questions. File and sheet names are shown in monospace, for example
--**Work in your country team.**Afternoon “teams analyze data” slots and Days 4–5 are for your team project: an analytical report and presentation on Demoland data, presented on Friday morning.
--**Worksheets are yours to keep.**Fill-in worksheets (objectives, equity lens, checklists, planning templates) are designed to be reused when you train others back home.
--**Check your work.**The Day 2 and Day 3 exercise workbooks contain an Answer_Key sheet. Attempt every task first, then compare and discuss differences with your team.
--**Use the back matter.**The glossary defines key terms; the one-page formula quick-reference is meant to live next to your keyboard all week.
+- **Follow the day tabs.** Each day opens with the day’s agenda, then concise key-point summaries of every taught session, then the full hands-on exercises for that day.
+- **Exercises are fully specified.** Every exercise names the exact file and worksheet to open, gives numbered steps you can follow on your own, describes the expected output, and ends with reflection questions. File and sheet names are shown in monospace, for example
+- **Work in your country team.** Afternoon “teams analyze data” slots and Days 4–5 are for your team project: an analytical report and presentation on Demoland data, presented on Friday morning.
+- **Worksheets are yours to keep.** Fill-in worksheets (objectives, equity lens, checklists, planning templates) are designed to be reused when you train others back home.
+- **Check your work.** The Day 2 and Day 3 exercise workbooks contain an Answer_Key sheet. Attempt every task first, then compare and discuss differences with your team.
+- **Use the back matter.** The glossary defines key terms; the one-page formula quick-reference is meant to live next to your keyboard all week.
 Example file reference: DA-TOT_Demo_TB-Register_2021-2025.xlsx  → sheet Data
 
 ## Your data and exercise files
 
 All files are provided on your USB drive / shared folder. Open the README sheet of each file first — it describes the file’s contents and conventions.
 
-|**File name**|**What it contains**|**Used on**|
+| **File name** | **What it contains** | **Used on** |
 | --- | --- | --- |
 | DA-TOT_Demo_TB-Register_2021-2025.xlsx | TB notifications by district × sex × age group × year (2021–2025), with treatment success counts. Sheets: README, Data, Data_Dictionary. | Days 1–2, team project |
 | DA-TOT_Demo_Mortality-CRVS_2021-2025.xlsx | Deaths by district × sex × age group × cause (TB, HIV, malaria, maternal, road traffic injuries, other NCDs). Sheets: README, Data, Data_Dictionary. | Team project |
@@ -68,7 +68,7 @@ By the end of this Training of Trainers, you will be able to:
 
 ### Day 1 — Mon 22 Mar
 
-|**Time**|**Session**|
+| **Time** | **Session** |
 | --- | --- |
 | 9:00–9:30 | Welcome and introductions |
 | 9:30–10:00 | Introduction to the Data for Health Initiative Data Analysis Project |
@@ -84,7 +84,7 @@ By the end of this Training of Trainers, you will be able to:
 
 ### Day 2 — Tue 23 Mar
 
-|**Time**|**Session**|
+| **Time** | **Session** |
 | --- | --- |
 | 9:00–9:30 | Day 1 debrief |
 | 9:30–10:30 | Training Methodologies |
@@ -98,7 +98,7 @@ By the end of this Training of Trainers, you will be able to:
 
 ### Day 3 — Wed 24 Mar
 
-|**Time**|**Session**|
+| **Time** | **Session** |
 | --- | --- |
 | 9:00–9:30 | Day 2 debrief |
 | 9:30–10:30 | IMRAD Structure |
@@ -112,7 +112,7 @@ By the end of this Training of Trainers, you will be able to:
 
 ### Day 4 — Thu 25 Mar
 
-|**Time**|**Session**|
+| **Time** | **Session** |
 | --- | --- |
 | 9:00–9:30 | Day 3 debrief |
 | 9:30–10:30 | Guidelines for creating report templates |
@@ -125,7 +125,7 @@ By the end of this Training of Trainers, you will be able to:
 
 ### Day 5 — Fri 26 Mar
 
-|**Time**|**Session**|
+| **Time** | **Session** |
 | --- | --- |
 | 9:00–9:30 | Day 4 debrief |
 | 9:30–10:30 | Group report presentations |

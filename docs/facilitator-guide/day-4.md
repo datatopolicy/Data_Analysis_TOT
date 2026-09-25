@@ -18,7 +18,7 @@
 1. Preview: 'This morning we build the machinery — templates and recommendations. Then the day is yours to build the report.'
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:00–9:12 | 12 | Re-teach unclear items. |
 | 9:12–9:22 | 10 | Team stand-ups + rescue triage. |
@@ -29,8 +29,8 @@
 - Tallied Day 3 evaluation forms
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Triage honestly:**a team missing both figures needs co-facilitator time today — schedule it now, publicly, without stigma.
-> **TRAINER TIP**— By day 4 the debrief runs itself — let a participant lead the stand-ups. Handing over the ritual models the trainer handover they will do at home.
+- **Triage honestly:** a team missing both figures needs co-facilitator time today — schedule it now, publicly, without stigma.
+> **TRAINER TIP** — By day 4 the debrief runs itself — let a participant lead the stand-ups. Handing over the ritual models the trainer handover they will do at home.
 
 
 ## Day 4 (Thu 25 Mar)  |  9:30–10:30
@@ -58,7 +58,7 @@ Exercise (last 15 min): teams list three adaptations their country's template wo
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 9:30–9:45 | 15 | Mini-lecture: why templates = institutional memory; the six components. |
 | 9:45–10:00 | 15 | Live walkthrough of the Demoland .docx template; governance talk (ownership, updates, storage). |
@@ -72,17 +72,17 @@ Exercise (last 15 min): teams list three adaptations their country's template wo
 - Flipcharts (4)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Do not let the walkthrough become a Word-formatting class —**stay at the governance level; formatting help happens at tables.
--**Name a template owner explicitly:**'the M&E unit', never 'someone'. Unowned templates are the reason ministries reformat from scratch every year.
--**Photograph the adaptation flipcharts —**they are Phase 2 planning inputs.
-> **TRAINER TIP**— Give every cascade trainee the .docx file on day 1 of their training and make them build inside it all week. Templates learned by filling beat templates learned by lecture — and trainees leave with a file, not just notes.
+- **Do not let the walkthrough become a Word-formatting class —** stay at the governance level; formatting help happens at tables.
+- **Name a template owner explicitly:** 'the M&E unit', never 'someone'. Unowned templates are the reason ministries reformat from scratch every year.
+- **Photograph the adaptation flipcharts —** they are Phase 2 planning inputs.
+> **TRAINER TIP** — Give every cascade trainee the .docx file on day 1 of their training and make them build inside it all week. Templates learned by filling beat templates learned by lecture — and trainees leave with a file, not just notes.
 
 
 ## Day 4 (Thu 25 Mar)  |  10:30–11:00
 
 ### Tea
 
-> **TRAINER TIP**— Confirm the 11:30 team-work logistics: which tables need the co-facilitator first, and that projectors are free for rehearsals later.
+> **TRAINER TIP** — Confirm the 11:30 team-work logistics: which tables need the co-facilitator first, and that projectors are free for rehearsals later.
 
 
 ## Day 4 (Thu 25 Mar)  |  11:00–11:30
@@ -98,22 +98,22 @@ Exercise (last 15 min): teams list three adaptations their country's template wo
 
 Recommendations are the Discussion section's payoff — and the most abused part of technical reports. Teach the four tests every recommendation must pass:
 
-|**Test**|**Question to ask**|**Fail example → Pass example**|
+| **Test** | **Question to ask** | **Fail example → Pass example** |
 | --- | --- | --- |
 | Linked | Does it follow directly from a finding in Results? | Fail: 'Improve TB services.' (linked to nothing) → Pass: 'Intensify case finding in Westbrook, where notifications rose against the national decline (Fig. 1).' |
 | Specific | Who does what, where, by when? | Fail: 'Strengthen registration.' → Pass: 'Deploy two mobile registration teams to Riverside in Q3 2027; target: reduce unregistered deaths, re-measured in Q1 2028.' |
 | Feasible | Can the audience actually do it with available resources and authority? | Fail: recommending a new national survey to a district manager → Pass: actions within the reader's mandate. |
 | Honest | Does it stay inside what the data can support? | Fail: 'Screening caused the decline' (no causal data) → Pass: 'The decline coincided with X; evaluate X's contribution before scaling.' |
 
--**Write for the reader's desk:**a minister needs 3 prioritized actions with costs; a program manager needs operational detail. One report can carry both — executive summary for the former, Discussion for the latter.
--**Prioritize ruthlessly:**no more than 3–5 recommendations; rank by impact × feasibility. Twelve recommendations = zero recommendations.
--**Name the evidence gap:**'We cannot recommend Y until Z is measured' is itself a valuable recommendation — it commissions the next analysis.
--**Equity test:**each recommendation should state who benefits — '...reducing the male–female gap in case detection' — or it risks widening inequity by helping the already-reached.
+- **Write for the reader's desk:** a minister needs 3 prioritized actions with costs; a program manager needs operational detail. One report can carry both — executive summary for the former, Discussion for the latter.
+- **Prioritize ruthlessly:** no more than 3–5 recommendations; rank by impact × feasibility. Twelve recommendations = zero recommendations.
+- **Name the evidence gap:** 'We cannot recommend Y until Z is measured' is itself a valuable recommendation — it commissions the next analysis.
+- **Equity test:** each recommendation should state who benefits — '...reducing the male–female gap in case detection' — or it risks widening inequity by helping the already-reached.
 Exercise (last 10 min): teams take one of their findings and draft one recommendation passing all four tests; read aloud; room applies the tests rapid-fire.
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 11:00–11:15 | 15 | Mini-lecture: the four tests with fail→pass examples; writing for the reader's desk. |
 | 11:15–11:25 | 10 | Team exercise: draft one recommendation from a real project finding. |
@@ -125,10 +125,10 @@ Exercise (last 10 min): teams take one of their findings and draft one recommend
 - Workbook: recommendation worksheet
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**The fail→pass examples do the teaching —**linger on them; participants will quote them on Friday.
--**Kill 'improve/strengthen/enhance' on sight:**make teams replace every vague verb with who-does-what-where-by-when before they sit down.
--**This session must end at 11:30 sharp —**teams need the full build block.
-> **TRAINER TIP**— The four-tests table is a permanent job aid — print it as a laminated card for cascade trainings. Trainees who test recommendations aloud in plenary ('linked? specific? feasible? honest?') internalize the standard in a single session.
+- **The fail→pass examples do the teaching —** linger on them; participants will quote them on Friday.
+- **Kill 'improve/strengthen/enhance' on sight:** make teams replace every vague verb with who-does-what-where-by-when before they sit down.
+- **This session must end at 11:30 sharp —** teams need the full build block.
+> **TRAINER TIP** — The four-tests table is a permanent job aid — print it as a laminated card for cascade trainings. Trainees who test recommendations aloud in plenary ('linked? specific? feasible? honest?') internalize the standard in a single session.
 
 
 ## Day 4 (Thu 25 Mar)  |  11:30–12:30
@@ -148,7 +148,7 @@ Insist on the 'what we cannot say' slide (see Group Project Guidance) — check 
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 11:30–12:25 | 55 | Team build; facilitators coach in rounds per the triage list. |
 | 11:55–12:00 | 5 | Mid-block pulse: lead calls 'slide count?' — each team reports slides drafted (public accountability). |
@@ -161,17 +161,17 @@ Insist on the 'what we cannot say' slide (see Group Project Guidance) — check 
 - Recommendation worksheet
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Protect the builders from perfectionism:**'Friday-ready, not journal-ready' — a finished honest deck beats a half-polished one.
--**Do not let one team monopolize a facilitator;**set a 10-minute timer per coaching visit and move on.
--**Note rehearsal order for tomorrow —**draw lots at lunch to keep it fair.
-> **TRAINER TIP**— In cascade trainings, this build-block rhythm (55 min build → public pulse → 5 min reset) sustains energy across long project days. The public slide-count pulse is gentle pressure that works.
+- **Protect the builders from perfectionism:** 'Friday-ready, not journal-ready' — a finished honest deck beats a half-polished one.
+- **Do not let one team monopolize a facilitator;** set a 10-minute timer per coaching visit and move on.
+- **Note rehearsal order for tomorrow —** draw lots at lunch to keep it fair.
+> **TRAINER TIP** — In cascade trainings, this build-block rhythm (55 min build → public pulse → 5 min reset) sustains energy across long project days. The public slide-count pulse is gentle pressure that works.
 
 
 ## Day 4 (Thu 25 Mar)  |  13:00–14:00
 
 ### Lunch
 
-> **TRAINER TIP**— Draw lots for Friday's presentation order over lunch; post the order on the wall. Confirm the projector and timer setup for tomorrow.
+> **TRAINER TIP** — Draw lots for Friday's presentation order over lunch; post the order on the wall. Confirm the projector and timer setup for tomorrow.
 
 
 ## Day 4 (Thu 25 Mar)  |  14:00–14:30
@@ -191,7 +191,7 @@ Facilitator records reds and assigns rescue: co-facilitator takes reds during th
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 14:00–14:05 | 5 | Lead frames: traffic lights, 5 min per team, rehearsal requirement. |
 | 14:05–14:25 | 20 | 4 × 5 min team check-ins. |
@@ -204,10 +204,10 @@ Facilitator records reds and assigns rescue: co-facilitator takes reds during th
 - Presentation order (posted)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**Keep check-ins brutally on time —**this session exists to create focus, not to become another work block.
--**Name reds without shame:**'Red means you get help first — it's the best color to be today.'
--**Write rescue assignments visibly;**accountability survives the afternoon only if it is written down.
-> **TRAINER TIP**— The traffic-light check-in ports directly to cascade trainings and to managing real ministry analysis projects: 5 minutes per team, status against milestones, help assigned in writing. It is project management in its simplest honest form.
+- **Keep check-ins brutally on time —** this session exists to create focus, not to become another work block.
+- **Name reds without shame:** 'Red means you get help first — it's the best color to be today.'
+- **Write rescue assignments visibly;** accountability survives the afternoon only if it is written down.
+> **TRAINER TIP** — The traffic-light check-in ports directly to cascade trainings and to managing real ministry analysis projects: 5 minutes per team, status against milestones, help assigned in writing. It is project management in its simplest honest form.
 
 
 ## Day 4 (Thu 25 Mar)  |  14:30–15:30
@@ -227,7 +227,7 @@ Close the day at 15:30 sharp with the Friday briefing: submit final slides by 9:
 
 ### Activity plan (minute-by-minute)
 
-|**Clock**|**Min**|**What happens**|
+| **Clock** | **Min** | **What happens** |
 | --- | --- | --- |
 | 14:30–15:15 | 45 | Build + rehearsals; facilitators coach and audit. |
 | 15:15–15:25 | 10 | Final rehearsal window; evaluation forms distributed. |
@@ -241,8 +241,8 @@ Close the day at 15:30 sharp with the Friday briefing: submit final slides by 9:
 - Rubric (1 page)
 ### Facilitator notes — pitfalls, pacing, contingencies
 
--**A rehearsal audit of 3 minutes per team**catches 90% of delivery problems (racing, reading slides, uneven parts) at trivial cost.
--**Collect evaluation forms before anyone leaves —**Day 4 feedback sets up the final morning.
--**End at 15:30 even if a team begs for more time —**fatigue compounds; Friday morning has buffer built in.
-> **TRAINER TIP**— Never let a cascade-training team present without an aloud rehearsal — make it a rule, not a suggestion. The 3-minute audit ('I'll listen to your opening, one note, back to work') scales to any class size.
+- **A rehearsal audit of 3 minutes per team** catches 90% of delivery problems (racing, reading slides, uneven parts) at trivial cost.
+- **Collect evaluation forms before anyone leaves —** Day 4 feedback sets up the final morning.
+- **End at 15:30 even if a team begs for more time —** fatigue compounds; Friday morning has buffer built in.
+> **TRAINER TIP** — Never let a cascade-training team present without an aloud rehearsal — make it a rule, not a suggestion. The 3-minute audit ('I'll listen to your opening, one note, back to work') scales to any class size.
 

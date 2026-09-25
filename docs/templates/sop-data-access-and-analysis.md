@@ -1,11 +1,11 @@
->**Download the original file:**[SOP-Template_Data-Access-and-Analysis.docx](../../assets/templates/SOP-Template_Data-Access-and-Analysis.docx)
+> **Download the original file:** [SOP-Template_Data-Access-and-Analysis.docx](../../assets/templates/SOP-Template_Data-Access-and-Analysis.docx)
 
 **Standard Operating Procedure
 Requesting, Analyzing, and Reporting Surveillance Data**
 
 # Document Control
 
-|**Item**|**Detail**|
+| **Item** | **Detail** |
 | --- | --- |
 | SOP number | SOP-DATA-001 (example — assign your institutional numbering) |
 | Version | 1.0 (example) |
@@ -14,7 +14,7 @@ Requesting, Analyzing, and Reporting Surveillance Data**
 | Owner | Head of M&E Unit, Ministry of Health (example) |
 | Classification | Internal — contains no patient-identifiable data handling beyond aggregate records |
 
-***NOTE (template guidance):****Replace all example names, dates, and titles in [brackets] with your institution's real ones before adoption.*
+* **NOTE (template guidance):** **Replace all example names, dates, and titles in [brackets] with your institution's real ones before adoption.*
 
 # 1. Purpose
 
@@ -26,7 +26,7 @@ Applies to all staff who request, handle, analyze, or approve surveillance and p
 
 # 3. Roles and Responsibilities
 
-|**Role (example title)**|**Responsibilities**|**Example holder**|
+| **Role (example title)** | **Responsibilities** | **Example holder** |
 | --- | --- | --- |
 | Data Requester (Program Analyst) | Completes the Data Request Form; defines analysis objectives; conducts analysis per §6. | J. Habimana, TB Program Analyst (example) |
 | Data Custodian (HMIS Manager) | Approves/releases datasets within 10 working days; logs all releases; maintains the master data dictionary. | A. Uwase, HMIS Manager (example) |
@@ -45,7 +45,7 @@ Step-by-step (example timeline in working days):
 1. Step 5 — Confirm receipt. The Requester verifies record counts against the release note and signs the receipt log within 2 working days.
 ## Example Data Request Form — required fields:
 
-|**Field**|**Example entry**|
+| **Field** | **Example entry** |
 | --- | --- |
 | Requester name / title / unit | J. Habimana, TB Program Analyst, National TB Program (example) |
 | Date of request | 12 January 2027 (example) |
@@ -78,7 +78,7 @@ Run every check below and log results in the Data-Quality Log. Resolve all flags
 - Save versions as v0.1, v0.2 …; v1.0 is the version that goes to review (see §8).
 # 7. Report Production Timeline (example: annual TB report)
 
-|**Week (example)**|**Activity**|**Owner (example)**|
+| **Week (example)** | **Activity** | **Owner (example)** |
 | --- | --- | --- |
 | Week 1–2 (Jan) | Data request approved; extract received; quality checks completed | Analyst + HMIS Manager |
 | Week 3–5 (Jan–Feb) | Analysis; second-analyst verification | Analyst; peer reviewer |
@@ -87,7 +87,7 @@ Run every check below and log results in the Data-Quality Log. Resolve all flags
 | Week 9 (Mar) | Revisions; senior review and sign-off (§9) | Analyst; Senior Reviewer |
 | Week 10 (Mar) | Final approval; publication/dissemination | Approving Authority |
 
-***NOTE (template guidance):****Adapt the weeks to your reporting cycle; keep the sequence: quality check → analysis → verification → draft → validation → sign-off.*
+* **NOTE (template guidance):** **Adapt the weeks to your reporting cycle; keep the sequence: quality check → analysis → verification → draft → validation → sign-off.*
 
 # 8. Version Control
 
@@ -99,14 +99,14 @@ Run every check below and log results in the Data-Quality Log. Resolve all flags
 
 No report leaves the institution without the signatures below (example holders — replace with real names/titles):
 
-|**Role**|**Name (example)**|**Title (example)**|**Signature**|**Date**|
+| **Role** | **Name (example)** | **Title (example)** | **Signature** | **Date** |
 | --- | --- | --- | --- | --- |
 | Prepared by | J. Habimana | TB Program Analyst |  |  |
 | Verified by (2nd analyst) | S. Mukamana | M&E Officer |  |  |
 | Reviewed by | Dr. P. Nkurunziza | Head of M&E Unit |  |  |
 | Approved by | [Name] | Director General of Health Services |  |  |
 
-***NOTE (template guidance):****Electronic signatures are acceptable where institutional policy allows; record the approval email in the file.*
+* **NOTE (template guidance):** **Electronic signatures are acceptable where institutional policy allows; record the approval email in the file.*
 
 # 10. Related Documents
 

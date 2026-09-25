@@ -2,7 +2,7 @@
 
 Key terms used in this course, in alphabetical order. Facilitators: point participants here rather than defining terms from memory — consistent definitions across the four country teams matter.
 
-|**Term**|**Definition**|
+| **Term** | **Definition** |
 | --- | --- |
 | Bloomberg Philanthropies | Funder of the Data for Health Initiative; supports government partnerships to strengthen public-health data systems. |
 | Case notification rate | Number of notified cases (e.g., TB) divided by the population, multiplied by 100,000. Reflects what surveillance captures, not necessarily true incidence. |
@@ -66,7 +66,7 @@ Key terms used in this course, in alphabetical order. Facilitators: point partic
 
 One-page-per-topic reference for participants' desks. All syntax verified for Excel 2016 and later; XLOOKUP notes where it requires Excel 2021 / Microsoft 365 (use INDEX/MATCH on older versions). Absolute references ($A$2) lock ranges when filling down — press F4 to toggle.
 
-|**Formula / feature**|**Syntax**|**Example**|**Use case**|
+| **Formula / feature** | **Syntax** | **Example** | **Use case** |
 | --- | --- | --- | --- |
 | SUM | =SUM(B2:B13) | =SUM(Jan:Dec!B2) across sheets | Total cases, deaths, or any additive measure. |
 | AVERAGE | =AVERAGE(B2:B13) | =AVERAGE(rate_range) | Mean of symmetric continuous data. |
@@ -105,5 +105,5 @@ One-page-per-topic reference for participants' desks. All syntax verified for Ex
 | Remove Duplicates | Data → Remove Duplicates | Tick key columns only | Deduplicate on district+year+sex+age-group, not all columns. |
 | Data Validation | Data → Data Validation → List | — | Lock categorical columns to allowed values at entry. |
 
-> **TRAINER TIP**— Print Annex B on card stock and hand it out on Monday morning — participants reach for it all week, and it becomes the most-used page of their cascade-training workbook back home.
+> **TRAINER TIP** — Print Annex B on card stock and hand it out on Monday morning — participants reach for it all week, and it becomes the most-used page of their cascade-training workbook back home.
 

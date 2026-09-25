@@ -1,4 +1,4 @@
->**Download the original file:**[Report-Template_IMRAD.docx](../../assets/templates/Report-Template_IMRAD.docx)
+> **Download the original file:** [Report-Template_IMRAD.docx](../../assets/templates/Report-Template_IMRAD.docx)
 
 **Report Template — IMRAD Structure
 Data Analysis and Report Writing TOT  •  Data for Health (D4H) Initiative**
@@ -7,7 +7,7 @@ How to use this template: read the Purpose and Guidance for each section, check 
 
 # 1. Title
 
-**Purpose:**Tell the reader exactly what the report is about: the topic, the place, and the time period — in one line.
+**Purpose:** Tell the reader exactly what the report is about: the topic, the place, and the time period — in one line.
 
 ### Guidance:
 
@@ -16,11 +16,11 @@ How to use this template: read the Purpose and Guidance for each section, check 
 - Make it specific enough that a policymaker can file and retrieve it later.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | "Tuberculosis Notifications and Treatment Outcomes in Demoland, 2021–2025" Name the country/area and the exact years. | "TB Report" (too vague — which country? which years?) "An In-Depth Comprehensive Analysis of Various Health Indicators" (says nothing) |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 **Tuberculosis Notifications and Treatment Outcomes in Demoland, 2021–2025**
 
@@ -28,7 +28,7 @@ National Tuberculosis Program, Ministry of Health, Demoland (fictional)  •  Ma
 
 # 2. Abstract
 
-**Purpose:**Give a busy decision-maker the whole story in one page: why the analysis was done, how, what was found, and what should happen next.
+**Purpose:** Give a busy decision-maker the whole story in one page: why the analysis was done, how, what was found, and what should happen next.
 
 ### Guidance:
 
@@ -38,11 +38,11 @@ National Tuberculosis Program, Ministry of Health, Demoland (fictional)  •  Ma
 - Keep it to 200–300 words; no citations, no new information not in the main text.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | State the main finding and its implication in plain language. Include the time period, data source, and population covered. | Copy-pasting the introduction as the abstract. Introducing findings or recommendations that do not appear in the main report. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 Background: Tuberculosis remains a leading cause of illness in Demoland. This report analyzes national TB surveillance data for 2021–2025 to describe notification trends, equity patterns, and treatment outcomes, and to identify districts needing intensified support.
 
@@ -54,7 +54,7 @@ Conclusions and recommendations: The national decline is encouraging but masks d
 
 # 3. Introduction
 
-**Purpose:**Explain why this analysis matters: the health problem, what is already known, the policy question, and the objectives.
+**Purpose:** Explain why this analysis matters: the health problem, what is already known, the policy question, and the objectives.
 
 ### Guidance:
 
@@ -64,11 +64,11 @@ Conclusions and recommendations: The national decline is encouraging but masks d
 - End with clear, numbered analysis objectives.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | Link every objective to a decision someone needs to make. Keep background concise — this is a program report, not a thesis literature review. | Writing objectives like "to analyze TB data" (not answerable, not decision-linked). Saving the actual question for the results section. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 Tuberculosis is among the top causes of adult illness in Demoland, and the National TB Program has invested heavily in expanded diagnostic capacity since 2020. Program reports suggested notifications were falling nationally, but district managers reported rising caseloads in some areas, and treatment outcomes had not been reviewed nationally since 2021. The Ministry of Health therefore requested an updated analysis to guide the 2027–2030 National TB Strategic Plan.
 
@@ -79,7 +79,7 @@ Analysis objectives:
 1. Estimate treatment success rates nationally and by district, and identify districts below the 90% national target.
 # 4. Methods
 
-**Purpose:**Describe what data were used, where they came from, and exactly what was done — in enough detail that another analyst could reproduce the work.
+**Purpose:** Describe what data were used, where they came from, and exactly what was done — in enough detail that another analyst could reproduce the work.
 
 ### Guidance:
 
@@ -90,11 +90,11 @@ Analysis objectives:
 - Ethics/confidentiality: note how small numbers and personal identifiers were handled.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | Give the exact formula for each rate (e.g., notification rate = notified cases ÷ mid-year population × 100,000). Report data limitations honestly — they belong in Methods, not hidden. | "Data were analyzed using appropriate statistical methods" (says nothing reproducible). Presenting results or interpretations in the Methods section. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 Data sources. TB case data came from the national electronic TB register maintained by the National TB Program (all notified cases, 1 January 2021–31 December 2025; synthetic demo data for the fictional country Demoland). District mid-year population estimates came from the National Statistics Office. Treatment outcomes were extracted for annual treatment cohorts 2021–2024 (2025 cohort outcomes pending).
 
@@ -106,7 +106,7 @@ Confidentiality. District-level cells with fewer than 5 cases are suppressed in 
 
 # 5. Results
 
-**Purpose:**Present what the data show — clearly and objectively, with well-designed tables and figures. No interpretation or recommendations here.
+**Purpose:** Present what the data show — clearly and objectively, with well-designed tables and figures. No interpretation or recommendations here.
 
 ### Guidance:
 
@@ -117,17 +117,17 @@ Confidentiality. District-level cells with fewer than 5 cases are suppressed in 
 - Keep interpretation ("this means...") for the Discussion.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | Start each subsection with the headline finding, then the supporting numbers. Round consistently and label all illustrative/synthetic figures as such when applicable. | Dumping raw output tables straight from the software. Writing "as can be seen from the table" without saying what is seen. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 ### 5.1 Notification trends, 2021–2025
 
 National TB notifications declined steadily each year from 2021 to 2025 (illustrative synthetic example: roughly 9,500 notified cases in 2021 falling to roughly 7,200 in 2025). The national notification rate fell in parallel. Eleven of the twelve districts followed the national declining pattern; Westbrook district was the clear exception, with notifications rising year-on-year across the period (Table 1, Figure 1).
 
-|**District**|**Notified cases, 2021***|**Notified cases, 2025***|**Trend 2021–2025**|
+| **District** | **Notified cases, 2021** *| **Notified cases, 2025** *| **Trend 2021–2025** |
 | --- | --- | --- | --- |
 | Northfield | ≈ 820 | ≈ 610 | Declining |
 | Eastvale | ≈ 760 | ≈ 580 | Declining |
@@ -141,7 +141,7 @@ National TB notifications declined steadily each year from 2021 to 2025 (illustr
 | Fairview | ≈ 540 | ≈ 410 | Declining |
 | Oakdale | ≈ 500 | ≈ 380 | Declining |
 | Pinehurst | ≈ 470 | ≈ 360 | Declining |
-|**NATIONAL TOTAL**|**≈ 9,500**|**≈ 7,200**|**Declining**|
+| **NATIONAL TOTAL** | **≈ 9,500** | **≈ 7,200** | **Declining** |
 
 **Table 1. Notified TB cases by district, Demoland (fictional), 2021 and 2025.**
 
@@ -163,7 +163,7 @@ Mortality registration in Riverside district was incomplete throughout 2021–20
 
 # 6. Discussion
 
-**Purpose:**Interpret what the results mean for policy and programs: compare with expectations or targets, explain plausible reasons, and acknowledge limitations.
+**Purpose:** Interpret what the results mean for policy and programs: compare with expectations or targets, explain plausible reasons, and acknowledge limitations.
 
 ### Guidance:
 
@@ -173,11 +173,11 @@ Mortality registration in Riverside district was incomplete throughout 2021–20
 - Discuss limitations honestly: what the data cannot tell us, and how that affects conclusions.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | Distinguish what the data show from what you think explains it ("a plausible explanation is..."). Connect each key finding to its program implication. | Repeating the Results section paragraph by paragraph. Claiming causality ("X caused the decline") from descriptive trend data. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 The steady national decline in TB notifications from 2021 to 2025 is consistent with the expanded diagnostic capacity and community screening introduced since 2020, and moves Demoland toward its strategic-plan targets. However, the national average conceals an important divergence: Westbrook district's rising notifications, combined with its treatment success rate of only about 80% (against a national average of about 88% and a 90% target), point to a localized programmatic gap rather than a data artifact — reporting completeness in Westbrook was comparable to other districts.
 
@@ -187,7 +187,7 @@ Limitations: (1) notification data reflect both true incidence and case-detectio
 
 # 7. Recommendations
 
-**Purpose:**Tell specific audiences exactly what to do, by when — so the analysis changes decisions, not just documents them.
+**Purpose:** Tell specific audiences exactly what to do, by when — so the analysis changes decisions, not just documents them.
 
 ### Guidance:
 
@@ -198,25 +198,25 @@ Limitations: (1) notification data reflect both true incidence and case-detectio
 - State the expected benefit or the risk of inaction briefly.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | "The National TB Program should deploy a mobile X-ray screening team to Westbrook district by Q3 2027, aiming to screen 5,000 high-risk adults." Assign one owner and one deadline per recommendation. | "More efforts should be made to improve TB control" (no actor, no action, no deadline). Listing 20 recommendations of equal weight — nothing gets done. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 The following recommendations are ordered by priority. Each names a responsible owner and a deadline.
 
-**1. Intensified case-finding and treatment support in Westbrook district.**Owner: National TB Program Manager. Deadline: Q3 2027. Deploy a mobile digital X-ray screening team to Westbrook and assign two additional treatment supporters to the district clinic, aiming to screen 5,000 high-risk adults and raise treatment success from ~80% toward the 90% target within 12 months. Addresses Findings 5.1 and 5.3.
+**1. Intensified case-finding and treatment support in Westbrook district.** Owner: National TB Program Manager. Deadline: Q3 2027. Deploy a mobile digital X-ray screening team to Westbrook and assign two additional treatment supporters to the district clinic, aiming to screen 5,000 high-risk adults and raise treatment success from ~80% toward the 90% target within 12 months. Addresses Findings 5.1 and 5.3.
 
-**2. Gender-responsive outreach to men.**Owner: District Health Management Teams (all 12 districts). Deadline: Q4 2027. Pilot evening and workplace-based TB screening in at least 4 districts, targeting the ~62% male share of cases; evaluate uptake after 6 months and scale up if screening yield among men rises. Addresses Finding 5.2.
+**2. Gender-responsive outreach to men.** Owner: District Health Management Teams (all 12 districts). Deadline: Q4 2027. Pilot evening and workplace-based TB screening in at least 4 districts, targeting the ~62% male share of cases; evaluate uptake after 6 months and scale up if screening yield among men rises. Addresses Finding 5.2.
 
-**3. Strengthen mortality registration in Riverside district.**Owner: Civil Registration Department, with the Health Information Unit. Deadline: Q2 2028. Conduct a data-quality audit of death registration in Riverside, train facility registrars, and institute monthly completeness reporting until registration completeness reaches the national average. Addresses Finding 5.4.
+**3. Strengthen mortality registration in Riverside district.** Owner: Civil Registration Department, with the Health Information Unit. Deadline: Q2 2028. Conduct a data-quality audit of death registration in Riverside, train facility registrars, and institute monthly completeness reporting until registration completeness reaches the national average. Addresses Finding 5.4.
 
-**4. Annual district scorecard.**Owner: M&E Unit, Ministry of Health. Deadline: Q1 2028. Publish an annual district TB scorecard (notifications, treatment success, disaggregation by sex) to sustain attention on district divergence. Addresses Findings 5.1–5.3.
+**4. Annual district scorecard.** Owner: M&E Unit, Ministry of Health. Deadline: Q1 2028. Publish an annual district TB scorecard (notifications, treatment success, disaggregation by sex) to sustain attention on district divergence. Addresses Findings 5.1–5.3.
 
 # 8. References
 
-**Purpose:**Give credit and let readers verify: list every external source cited, in a consistent format.
+**Purpose:** Give credit and let readers verify: list every external source cited, in a consistent format.
 
 ### Guidance:
 
@@ -225,18 +225,18 @@ The following recommendations are ordered by priority. Each names a responsible 
 - Include the data sources themselves if they are published (e.g., statistical abstracts).
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | List only sources actually cited in the text. Include full publication details so the source can be found. | Padding the list with uncited documents. Citing "personal communication" for figures that should come from the dataset. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 - Ministry of Health, Demoland (fictional). National TB Strategic Plan 2027–2030. Demoland: MoH; 2026.
 - National TB Program, Demoland (fictional). Annual TB surveillance report 2024 (synthetic demo data). Demoland: MoH; 2025.
 - National Statistics Office, Demoland (fictional). District mid-year population estimates 2021–2025. Demoland: NSO; 2026.
 # 9. Annexes
 
-**Purpose:**Keep the main report readable by moving supporting detail here: full tables, indicator definitions, and data-quality notes.
+**Purpose:** Keep the main report readable by moving supporting detail here: full tables, indicator definitions, and data-quality notes.
 
 ### Guidance:
 
@@ -246,11 +246,11 @@ The following recommendations are ordered by priority. Each names a responsible 
 - Number annex tables/figures separately (Table A1, Figure B1) and reference them from the main text.
 ### DO / DON'T:
 
-|**✓ DO**|**✗ DON'T**|
+| **✓ DO** | **✗ DON'T** |
 | --- | --- |
 | Reference each annex at least once in the main text ("see Annex B"). Keep annexes self-contained with their own titles and footnotes. | Hiding key findings in annexes that never get referenced. Duplicating the entire dataset as an annex — summarize instead. |
 
-***Completed example — Demoland TB report (synthetic data)***
+* **Completed example — Demoland TB report (synthetic data)** *
 
 ### Annex A — Indicator definitions
 

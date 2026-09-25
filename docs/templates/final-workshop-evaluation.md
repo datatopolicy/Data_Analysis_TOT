@@ -1,4 +1,4 @@
->**Download the original file:**[Final-Workshop-Evaluation.docx](../../assets/templates/Final-Workshop-Evaluation.docx)
+> **Download the original file:** [Final-Workshop-Evaluation.docx](../../assets/templates/Final-Workshop-Evaluation.docx)
 
 **Final Workshop Evaluation
 Data Analysis and Report Writing TOT — Kigali, 22–26 March 2027**
@@ -11,7 +11,7 @@ Your honest feedback improves future trainings. This form is confidential.
 
 1 = Strongly disagree / Poor   2 = Disagree   3 = Neutral   4 = Agree   5 = Strongly agree / Excellent
 
-|**Statement**|**1**|**2**|**3**|**4**|**5**|**N/A**|
+| **Statement** | **1** | **2** | **3** | **4** | **5** | **N/A** |
 | --- | --- | --- | --- | --- | --- | --- |
 | The workshop met its stated objectives. | ○ | ○ | ○ | ○ | ○ | ○ |
 | The content was relevant to my role and country context. | ○ | ○ | ○ | ○ | ○ | ○ |
@@ -28,7 +28,7 @@ Your honest feedback improves future trainings. This form is confidential.
 
 Rate your confidence BEFORE the workshop and NOW (1 = Low … 5 = High):
 
-|**Competency**|**Before (1–5)**|**Now (1–5)**|
+| **Competency** | **Before (1–5)** | **Now (1–5)** |
 | --- | --- | --- |
 | Writing clear, decision-linked analysis objectives | _____ | _____ |
 | Assessing data quality and documenting limitations | _____ | _____ |
